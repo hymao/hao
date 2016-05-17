@@ -2175,15 +2175,15 @@
      xmlns:figure827="&figure;12715.">
     <owl:Ontology rdf:about="&obo;hao.owl">
         <obo:IAO_namespace-id-rule rdf:datatype="&xsd;string">* HAO:$sequence(7,0,9999999)$</obo:IAO_namespace-id-rule>
-        <obo:IAO_format-version rdf:datatype="&xsd;string">1.2 </obo:IAO_format-version>
-        <obo:IAO_date rdf:datatype="&xsd;string">18:05:2011 12:3</obo:IAO_date>
+        <obo:IAO_format-version rdf:datatype="&xsd;string">1.2</obo:IAO_format-version>
+        <obo:IAO_date rdf:datatype="&xsd;string">16:06:2011 12:3</obo:IAO_date>
         <obo:IAO_default-namespace rdf:datatype="&xsd;string">HAO</obo:IAO_default-namespace>
         <obo:IAO_default-relationship-id-prefix rdf:datatype="&xsd;string">OBO_REL</obo:IAO_default-relationship-id-prefix>
         <obo:IAO_remark rdf:datatype="&xsd;string">This is the Hymenoptera (urn:lsid:zoobank.org:act:71162A75-173B-42AA-9FB9-E976361CED5C) Anatomy Ontology. More information available at http://hymao.org.</obo:IAO_remark>
         <obo:IAO_saved-by rdf:datatype="&xsd;string">balhoff</obo:IAO_saved-by>
         <obo:IAO_auto-generated-by rdf:datatype="&xsd;string">mx, see http://purl.oclc.org/NET/mx-database</obo:IAO_auto-generated-by>
-        <owl:versionIRI rdf:resource="&obo;hao/2011-05-18/hao.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-05-18</owl:versionInfo>
+        <owl:versionIRI rdf:resource="&obo;hao/2011-06-16/hao.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-16</owl:versionInfo>
     </owl:Ontology>
     
 
