@@ -1,0 +1,2353 @@
+format-version: 1.2
+data-version: 2012-07-18
+
+[Term]
+id: HAO:0000534 ! mentum
+xref: TGMA:0000889 ! mentum
+xref: FBbt:00004544 ! mentum
+
+[Term]
+id: HAO:0000921 ! second axillary sclerite
+xref: FBbt:00004739 ! 2nd axillary sclerite
+xref: TGMA:0000190 ! second axillary sclerite
+
+[Term]
+id: HAO:0000042 ! extraembryonic structure
+xref: TADS:0000606 ! extraembryonic structure
+xref: TGMA:0001843 ! extraembryonic structure
+
+[Term]
+id: HAO:0000434 ! intersegmental membrane
+xref: TGMA:0000583 ! adult intersegmental membrane
+
+[Term]
+id: HAO:0000584 ! mesotrochantin
+xref: TGMA:0000320 ! mesotrochantin
+
+[Term]
+id: HAO:0001193 ! ventral metatibio-metabasitarsal muscle
+xref: FBbt:00003439 ! metathoracic tarsal depressor muscle 95
+
+[Term]
+id: HAO:0001146 ! joint
+xref: FBbt:00004645 ! joint
+
+[Term]
+id: HAO:0000726 ! pleural wing process
+xref: FBbt:00004595 ! pleural wing process
+xref: TGMA:0000432 ! pleural wing process
+
+[Term]
+id: HAO:0001015 ! thorax
+xref: FBbt:00000015 ! thorax
+
+[Term]
+id: HAO:0001654 ! mediosternite
+xref: SPD:0000358 ! abdominal sternite
+
+[Term]
+id: HAO:0001197 ! unguitractor plate of the metatarsus
+xref: TGMA:0001533 ! metathoracic unguitractor plate
+xref: FBbt:00004724 ! metathoracic unguitractor plate
+
+[Term]
+id: HAO:0000862 ! propleuron
+xref: FBbt:00004565 ! prothoracic pleurum
+xref: TGMA:0000290 ! prothoracic pleuron
+
+[Term]
+id: HAO:0000897 ! retractor of the mouth angle
+xref: FBbt:00003272 ! cibarial muscle 9
+
+[Term]
+id: HAO:0000037 ! abdominal sternum 4
+xref: TGMA:0000653 ! sternum IV
+
+[Term]
+id: HAO:0000094 ! anepisternum
+xref: FBbt:00004597 ! anepisternum
+
+[Term]
+id: HAO:0001009 ! third axillary
+xref: TGMA:0000189 ! third axillary sclerite
+xref: FBbt:00004740 ! 3rd axillary sclerite
+
+[Term]
+id: HAO:0001139 ! metatrochanter
+xref: TGMA:0000150 ! hindtrochanter
+xref: FBbt:00004710 ! metathoracic trochanter
+
+[Term]
+id: HAO:0001750 ! lateral mesofurco-metafurcal muscle
+xref: FBbt:00003397 ! mesothoracic ventral longitudinal muscle 62
+
+[Term]
+id: HAO:0000347 ! occipital foramen
+xref: TGMA:0000039 ! adult occipital foramen
+xref: FBbt:00004499 ! occipital foramen
+
+[Term]
+id: HAO:0000366 ! furcal pit
+xref: TGMA:0000517 ! sternal apophyseal pit
+
+[Term]
+id: HAO:0001261 ! mesotrochantero-mesofemoral muscle
+xref: FBbt:00003416 ! mesothoracic femoral reductor muscle 69
+
+[Term]
+id: HAO:0001319 ! pretarsus of protarsus
+xref: TGMA:0000162 ! prothoracic posttarsus
+xref: FBbt:00004675 ! prothoracic pretarsus
+
+[Term]
+id: HAO:0001536 ! 4th abdominal spiracle
+xref: TGMA:0001511 ! abdominal spiracle IV
+xref: FBbt:00004816 ! adult abdominal spiracle 4
+
+[Term]
+id: HAO:0000918 ! scutoscutellar ridge
+xref: TGMA:0000463 ! anterior scutellar ridge
+
+[Term]
+id: HAO:0000769 ! posterior thoracic spiracle
+xref: FBbt:00004631 ! adult metathoracic spiracle
+xref: TGMA:0000438 ! metathoracic spiracle
+
+[Term]
+id: HAO:0000212 ! clypeus
+xref: SPD:0000040 ! clypeus
+xref: FBbt:00004521 ! clypeus
+xref: TGMA:0000097 ! adult clypeus
+
+[Term]
+id: HAO:0000462 ! larval tagma
+xref: FBbt:00001728 ! larval tagma
+
+[Term]
+id: HAO:0000034 ! abdominal segment 9
+xref: TGMA:0000638 ! adult abdominal segment IX
+xref: FBbt:00000030 ! abdominal segment 9
+
+[Term]
+id: HAO:0000450 ! labial palp
+xref: TGMA:0000886 ! labial palpus
+
+[Term]
+id: HAO:0001126 ! second tarsomere of fore leg
+xref: FBbt:00004671 ! prothoracic tarsal segment 2
+
+[Term]
+id: HAO:0001359 ! mesopleural apodeme
+xref: TGMA:0001515 ! mesothoracic pleural apophysis
+
+[Term]
+id: HAO:0000933 ! sensillum
+xref: TGMA:0000540 ! sensillum
+xref: FBbt:00007152 ! sensillum
+
+[Term]
+id: HAO:0001019 ! tooth
+xref: TGMA:0000095 ! mandibular tooth
+
+[Term]
+id: HAO:0001091 ! wing cell
+xref: TGMA:0000218 ! cell
+xref: FBbt:00004769 ! wing cell
+
+[Term]
+id: HAO:0000800 ! preaxilla
+xref: TGMA:0000265 ! paratergite
+
+[Term]
+id: HAO:0000578 ! mesosterno-mesocoxal muscle
+xref: FBbt:00003400 ! mesothoracic sternal promotor muscle 64
+
+[Term]
+id: HAO:0001827 ! proctiger
+xref: TGMA:0000599 ! adult proctiger
+
+[Term]
+id: HAO:0000061 ! abdominal tergum 8
+xref: FBbt:00004797 ! abdominal tergite 8
+
+[Term]
+id: HAO:0000885 ! puncture
+xref: TGMA:0001426 ! puncture
+
+[Term]
+id: HAO:0000182 ! body
+xref: TADS:0000001 ! adult body
+
+[Term]
+id: HAO:0000062 ! cell space
+xref: TADS:0000615 ! cell space
+
+[Term]
+id: HAO:0000602 ! metanoto-metatrochanteral muscle
+xref: FBbt:00003433 ! metathoracic ternal extracoxal depressor muscle 86
+
+[Term]
+id: HAO:0001492 ! anterolateral metacoxo-metatrochanteral muscle
+xref: FBbt:00003442 ! metathoracic intracoxal levator muscle 89
+
+[Term]
+id: HAO:0001321 ! pretarsus of mesotarsus
+xref: TGMA:0000146 ! mesothoracic posttarsus
+xref: FBbt:00004697 ! mesothoracic pretarsus
+
+[Term]
+id: HAO:0000723 ! pleural pit
+xref: TGMA:0001522 ! pleural apophyseal pit
+
+[Term]
+id: HAO:0000234 ! cranium
+xref: TGMA:0000003 ! adult cranium
+
+[Term]
+id: HAO:0001003 ! tentorium
+xref: TGMA:0000006 ! adult tentorium
+xref: FBbt:00004500 ! adult tentorium
+
+[Term]
+id: HAO:0000421 ! integument
+xref: TADS:0000108 ! adult integument
+
+[Term]
+id: HAO:0000187 ! cardo
+xref: TGMA:0000073 ! adult cardo
+
+[Term]
+id: HAO:0000519 ! medial vein
+xref: TGMA:0000214 ! media
+
+[Term]
+id: HAO:0000333 ! first phragmo-postoccipital muscle
+xref: FBbt:00003297 ! dorsal cervical muscle 22
+
+[Term]
+id: HAO:0000621 ! metapleuron
+xref: FBbt:00004625 ! metathoracic pleurum
+xref: TGMA:0000299 ! metathoracic pleuron
+
+[Term]
+id: HAO:0000024 ! compound organ
+xref: TADS:0000598 ! compound organ
+xref: TGMA:0001837 ! compound organ
+
+[Term]
+id: HAO:0000992 ! tarsus
+xref: SPD:0000379 ! tarsus
+xref: TADS:0000283 ! adult tarsus
+xref: TGMA:0000169 ! tarsus
+
+[Term]
+id: HAO:0001282 ! posterior mesotibio-mesobasitarsal muscle
+xref: FBbt:00003414 ! mesothoracic tarsal levator muscle 73
+
+[Term]
+id: HAO:0000639 ! mouthparts
+xref: TGMA:0000004 ! adult gnathal appendages
+xref: FBbt:00004520 ! mouthpart
+
+[Term]
+id: HAO:0000077 ! epithelial cell
+xref: TGMA:0001860 ! epithelial cell
+xref: TADS:0000628 ! epithelial cell
+xref: FBbt:00000124 ! epithelial cell
+
+[Term]
+id: HAO:0000065 ! basal lamina
+xref: TGMA:0001850 ! basal lamina
+xref: TADS:0000618 ! basal lamina
+
+[Term]
+id: HAO:0000427 ! internal male genitalia
+xref: TADS:0000460 ! adult male reproductive system
+
+[Term]
+id: HAO:0000589 ! metacoxo-metasubalar muscle
+xref: FBbt:00003427 ! metathoracic pleural remotor muscle 83
+
+[Term]
+id: HAO:0001238 ! protrochantero-profemoral muscle
+xref: FBbt:00003358 ! prothoracic femoral reductor muscle 38
+
+[Term]
+id: HAO:0000493 ! laterotergite
+xref: TGMA:0000708 ! laterotergite
+
+[Term]
+id: HAO:0000282 ! duct
+xref: FBbt:00100314 ! duct
+xref: TGMA:0000823 ! duct
+
+[Term]
+id: HAO:0001286 ! occlusor of the propodeal spiracle muscle
+xref: FBbt:00003457 ! abdominal 1 spiracular occlusor muscle 105
+
+[Term]
+id: HAO:0001552 ! knee
+xref: TGMA:0000480 ! knee
+
+[Term]
+id: HAO:0000389 ! gonostyle
+xref: TGMA:0000528 ! gonostylus
+
+[Term]
+id: HAO:0000906 ! salivarium
+xref: TADS:0000030 ! adult salivarium
+
+[Term]
+id: HAO:0000399 ! hind leg
+xref: TGMA:0000148 ! adult metathoracic leg
+xref: FBbt:00004707 ! metathoracic leg
+
+[Term]
+id: HAO:0001410 ! lateral mesofemoro-mesotibial muscle
+xref: FBbt:00003413 ! mesothoracic tibial levator muscle 70
+
+[Term]
+id: HAO:0000049 ! protandrous hermaphroditic organism
+xref: TADS:0000611 ! protandrous hermaphroditic organism
+
+[Term]
+id: HAO:0000059 ! abdominal tergum 6
+xref: FBbt:00004795 ! abdominal tergite 6
+
+[Term]
+id: HAO:0000025 ! abdominal segment 5
+xref: FBbt:00000026 ! abdominal segment 5
+xref: SPD:0000426 ! abdominal segment 5
+xref: TGMA:0000643 ! adult abdominal segment V
+
+[Term]
+id: HAO:0000008 ! anatomical line
+xref: TADS:0000589 ! anatomical line
+xref: TGMA:0001828 ! anatomical line
+
+[Term]
+id: HAO:0000682 ! palpifer
+xref: TGMA:0000081 ! palpifer
+
+[Term]
+id: HAO:0000324 ! female genitalia
+xref: FBbt:00004827 ! female genitalia
+xref: SPD:0000044 ! female genitalia
+xref: TGMA:0000635 ! female genitalia
+xref: TADS:0000352 ! adult female reproductive system
+
+[Term]
+id: HAO:0000305 ! epistomal ridge
+xref: TGMA:0000029 ! adult epistomal ridge
+
+[Term]
+id: HAO:0001546 ! alary muscle
+xref: FBbt:00003545 ! adult alary muscle
+xref: TADS:0000155 ! adult dorsolateral suspensory muscles of the heart
+
+[Term]
+id: HAO:0000014 ! cell component
+xref: TADS:0000595 ! cell component
+xref: TGMA:0001834 ! cell component
+xref: FBbt:00007012 ! cell component
+
+[Term]
+id: HAO:0000729 ! pleuron
+xref: FBbt:00004553 ! pleurum
+xref: TGMA:0000429 ! pleuron
+
+[Term]
+id: HAO:0001017 ! tibia
+xref: TADS:0000281 ! adult tibia
+xref: TGMA:0000168 ! tibia
+xref: FBbt:00004642 ! tibia
+xref: SPD:0000377 ! tibia
+
+[Term]
+id: HAO:0001131 ! mesofemur
+xref: FBbt:00004689 ! mesothoracic femur
+xref: TGMA:0000143 ! midfemur
+
+[Term]
+id: HAO:0000191 ! cercus
+xref: TGMA:0000601 ! adult cercus
+
+[Term]
+id: HAO:0000721 ! pleural apophysis
+xref: TGMA:0001523 ! pleural apophysis
+
+[Term]
+id: HAO:0000463 ! larval thorax
+xref: TGMA:0001080 ! larval thorax
+xref: FBbt:00001741 ! larval thorax
+
+[Term]
+id: HAO:0001137 ! fourth tarsomere of mid leg
+xref: FBbt:00004695 ! mesothoracic tarsal segment 4
+
+[Term]
+id: HAO:0001118 ! abdominal muscle
+xref: FBbt:00003447 ! skeletal muscle of abdomen
+
+[Term]
+id: HAO:0001043 ! unguitractor plate
+xref: FBbt:00004658 ! unguitractor plate
+xref: TGMA:0000173 ! unguitractor plate
+
+[Term]
+id: HAO:0000343 ! flagellum
+xref: TGMA:0000012 ! adult flagellum
+
+[Term]
+id: HAO:0000490 ! laterocervico-procoxal muscle
+xref: FBbt:00003338 ! prothoracic pleural promotor muscle 30
+
+[Term]
+id: HAO:0000283 ! ductus ejaculatorius
+xref: TADS:0000489 ! adult ejaculatory duct
+xref: FBbt:00004965 ! ejaculatory duct
+
+[Term]
+id: HAO:0000505 ! male genitalia
+xref: FBbt:00004828 ! male genitalia
+xref: TGMA:0000634 ! male genitalia
+
+[Term]
+id: HAO:0001042 ! unguifer
+xref: TGMA:0000522 ! unguifer
+
+[Term]
+id: HAO:0001108 ! pharyngeal muscle
+xref: TADS:0000049 ! adult pharyngeal lateral dilator muscle
+xref: TADS:0000047 ! adult pharyngeal ventral dilator muscle
+xref: TADS:0000046 ! adult pharyngeal constrictor muscle
+xref: TADS:0000048 ! adult pharyngeal dorsal dilator muscle
+
+[Term]
+id: HAO:0001437 ! anterior mesocoxo-mesotrochanteral muscle
+xref: FBbt:00003405 ! mesothoracic intracoxal depressor muscle 67
+
+[Term]
+id: HAO:0000930 ! sense organ
+xref: FBbt:00005155 ! sense organ
+
+[Term]
+id: HAO:0001089 ! wing
+xref: FBbt:00004729 ! wing
+
+[Term]
+id: HAO:0001419 ! 5th abdominal spiracle
+xref: TGMA:0001512 ! abdominal spiracle V
+xref: FBbt:00004817 ! adult abdominal spiracle 5
+
+[Term]
+id: HAO:0000244 ! discrimen
+xref: TGMA:0000455 ! furcasternal suture
+
+[Term]
+id: HAO:0001066 ! ventral profurco-postoccipital muscle
+xref: FBbt:00003303 ! ventral cervical muscle 26
+xref: FBbt:00003302 ! ventral cervical muscle 25
+
+[Term]
+id: HAO:0000031 ! abdominal segment 7
+xref: TGMA:0000642 ! adult abdominal segment VII
+xref: FBbt:00000028 ! abdominal segment 7
+
+[Term]
+id: HAO:0000936 ! setiferous patch
+xref: SPD:0000490 ! field of setae
+
+[Term]
+id: HAO:0000980 ! epiproct
+xref: FBbt:00004833 ! epiproct
+xref: TGMA:0000602 ! cercal sclerite
+
+[Term]
+id: HAO:0000563 ! mesopleuro-mesobasalar muscle
+xref: FBbt:00003385 ! basalar muscle 51
+
+[Term]
+id: HAO:0001644 ! mesonoto-mesocoxal muscle
+xref: FBbt:00003377 ! coxal tergal remotor muscle 48a
+xref: FBbt:00003378 ! coxal tergal remotor muscle 48b
+
+[Term]
+id: HAO:0001174 ! anepimeron
+xref: FBbt:00004593 ! anepimeron
+
+[Term]
+id: HAO:0000057 ! abdominal tergum 4
+xref: FBbt:00004793 ! abdominal tergite 4
+
+[Term]
+id: HAO:0000400 ! hind wing
+xref: FBbt:00004783 ! haltere
+xref: TGMA:0000197 ! adult metathoracic wing
+
+[Term]
+id: HAO:0000398 ! head capsule
+xref: FBbt:00004482 ! head capsule
+
+[Term]
+id: HAO:0001099 ! head muscle
+xref: FBbt:00003260 ! skeletal muscle of head
+
+[Term]
+id: HAO:0000650 ! notum
+xref: TGMA:0000426 ! notum
+
+[Term]
+id: HAO:0001313 ! procuticle
+xref: FBbt:00004975 ! procuticle
+xref: TADS:0000112 ! adult procuticle
+
+[Term]
+id: HAO:0000524 ! median metapleuro-metacoxal muscle
+xref: FBbt:00003426 ! metathoracic sternal promotor muscle 84
+
+[Term]
+id: HAO:0000377 ! glossal flexor
+xref: FBbt:00003268 ! haustellum muscle 6
+
+[Term]
+id: HAO:0000290 ! endocuticle
+xref: TADS:0000121 ! adult Endocuticle
+
+[Term]
+id: HAO:0001630 ! torma
+xref: TGMA:0001171 ! torma
+
+[Term]
+id: HAO:0000067 ! simple cuboidal epithelium
+xref: TADS:0000620 ! simple cuboidal epithelium
+
+[Term]
+id: HAO:0000896 ! retractor of the epipharynx
+xref: FBbt:00003264 ! proboscis muscle 3
+
+[Term]
+id: HAO:0000952 ! sternacostal suture
+xref: TGMA:0000365 ! sternacostal suture
+
+[Term]
+id: HAO:0001584 ! circulatory system
+xref: TADS:0000146 ! adult circulatory system
+xref: FBbt:00005057 ! circulatory system
+
+[Term]
+id: HAO:0001255 ! mesotibio-pretarsus of mesotarsus muscle
+xref: FBbt:00003410 ! mesothoracic pretarsal depressor muscle 75
+
+[Term]
+id: HAO:0001140 ! metafemur
+xref: TGMA:0000151 ! hindfemur
+xref: FBbt:00004711 ! metathoracic femur
+
+[Term]
+id: HAO:0001141 ! metatarsus
+xref: TGMA:0000153 ! hindtarsus
+
+[Term]
+id: HAO:0000408 ! hypopharyngeal rod
+xref: FBbt:00003522 ! hypopharyngeal apodeme
+
+[Term]
+id: HAO:0000070 ! simple squamous epithelium
+xref: TADS:0000623 ! simple squamous epithelium
+
+[Term]
+id: HAO:0000143 ! apophysis
+xref: FBbt:00005813 ! apophysis
+
+[Term]
+id: HAO:0000587 ! metacoxa
+xref: FBbt:00004708 ! metathoracic coxa
+xref: TGMA:0000149 ! hindcoxa
+
+[Term]
+id: HAO:0000991 ! tarsomere
+xref: TGMA:0000170 ! tarsomere
+xref: FBbt:00004646 ! tarsal segment
+
+[Term]
+id: HAO:0001138 ! fifth tarsomere of the mid leg
+xref: FBbt:00004696 ! mesothoracic tarsal segment 5
+
+[Term]
+id: HAO:0000019 ! compound organ component
+xref: TADS:0000596 ! compound organ component
+xref: TGMA:0001835 ! compound organ component
+
+[Term]
+id: HAO:0000724 ! pleural ridge
+xref: TGMA:0000430 ! pleural ridge
+
+[Term]
+id: HAO:0000515 ! maxillary palp
+xref: FBbt:00004546 ! maxillary palpus
+xref: TGMA:0000068 ! adult maxillary palpus
+
+[Term]
+id: HAO:0001145 ! fifth tarsomere of hind leg
+xref: FBbt:00004718 ! metathoracic tarsal segment 5
+
+[Term]
+id: HAO:0000374 ! genitalia
+xref: FBbt:00004826 ! genitalia
+xref: TGMA:0000591 ! genitalia
+
+[Term]
+id: HAO:0001022 ! torulus
+xref: TGMA:0000008 ! adult antennal socket
+xref: FBbt:00004487 ! antennal foramen
+
+[Term]
+id: HAO:0001317 ! probasisternum
+xref: TGMA:0000363 ! probasisternum
+
+[Term]
+id: HAO:0000192 ! cervical apodeme
+xref: TGMA:0000104 ! cervical condyle
+xref: TGMA:0000105 ! cervical sclerite
+
+[Term]
+id: HAO:0000330 ! first axillary sclerite
+xref: FBbt:00004738 ! 1st axillary sclerite
+xref: TGMA:0000191 ! first axillary sclerite
+
+[Term]
+id: HAO:0001123 ! protrochanter
+xref: TGMA:0000161 ! foretrochanter
+xref: FBbt:00004666 ! prothoracic trochanter
+
+[Term]
+id: HAO:0001782 ! median scapo-pedicellar muscle
+xref: FBbt:00003280 ! second antennal segment muscle 15
+
+[Term]
+id: HAO:0000506 ! mandible
+xref: TGMA:0000094 ! adult mandible
+
+[Term]
+id: HAO:0001301 ! posterior mesocoxo-mesotrochanteral muscle
+xref: FBbt:00003412 ! mesothoracic intracoxal levator muscle 68
+
+[Term]
+id: HAO:0000785 ! postmentum
+xref: TGMA:0000724 ! submentum
+
+[Term]
+id: HAO:0000026 ! abdominal segment 6
+xref: FBbt:00000027 ! abdominal segment 6
+xref: TGMA:0000641 ! adult abdominal segment VI
+
+[Term]
+id: HAO:0000051 ! abdominal tergum 1
+xref: FBbt:00004790 ! abdominal tergite 1
+
+[Term]
+id: HAO:0001196 ! unguitractor plate of the protarsus
+xref: FBbt:00004680 ! prothoracic unguitractor plate
+xref: TGMA:0001532 ! prothoracic unguitractor plate
+
+[Term]
+id: HAO:0000004 ! portion of organism substance
+xref: FBbt:00007019 ! portion of organism substance
+xref: TGMA:0001824 ! portion of organism substance
+xref: TADS:0000585 ! portion of organism substance
+xref: SPD:0000008 ! portion of organism substance
+
+[Term]
+id: HAO:0000664 ! ocular suture
+xref: TGMA:0000049 ! ocular suture
+
+[Term]
+id: HAO:0001134 ! second tarsomere of mid leg
+xref: FBbt:00004693 ! mesothoracic tarsal segment 2
+
+[Term]
+id: HAO:0001440 ! anterior mesonoto-mesotrochanteral muscle
+xref: FBbt:00003404 ! mesothoracic extracoxal depressor muscle 66
+
+[Term]
+id: HAO:0000176 ! basisternum
+xref: TGMA:0000453 ! basisternum
+
+[Term]
+id: HAO:0001127 ! third tarsomere of fore leg
+xref: FBbt:00004672 ! prothoracic tarsal segment 3
+
+[Term]
+id: HAO:0000011 ! anatomical system
+xref: TGMA:0001831 ! anatomical system
+xref: TADS:0000592 ! anatomical system
+
+[Term]
+id: HAO:0000824 ! prodiscrimenal lamella
+xref: TGMA:0000367 ! propleurosternal ridge
+
+[Term]
+id: HAO:0000828 ! profurco-laterocervical muscle
+xref: FBbt:00003303 ! ventral cervical muscle 26
+xref: FBbt:00003304 ! ventral cervical muscle 27
+
+[Term]
+id: HAO:0000821 ! primary gonopore
+xref: TGMA:0000606 ! gonopore
+
+[Term]
+id: HAO:0000528 ! median profurco-procoxal muscle
+xref: FBbt:00003342 ! prothoracic sternal adductor muscle 33
+
+[Term]
+id: HAO:0000558 ! mesophragma
+xref: TGMA:0000398 ! second phragma
+xref: FBbt:00004608 ! mesothoracic phragma
+
+[Term]
+id: HAO:0001583 ! central nervous system
+xref: FBbt:00005094 ! central nervous system
+
+[Term]
+id: HAO:0001740 ! pharynx
+xref: FBbt:00005380 ! pharynx
+xref: TADS:0000045 ! adult pharyngeal lumen
+xref: TGMA:0000133 ! pharyngeal pump
+xref: TGMA:0000132 ! adult pharynx
+
+[Term]
+id: HAO:0000045 ! sequential hermaphroditic organism
+xref: TADS:0000608 ! sequential hermaphroditic organism
+
+[Term]
+id: HAO:0000855 ! prophragma
+xref: TGMA:0000400 ! first phragma
+
+[Term]
+id: HAO:0000789 ! postoccipital suture
+xref: TGMA:0000056 ! adult postoccipital suture
+
+[Term]
+id: HAO:0001742 ! second mesopleuro-third axillary sclerite of fore wing muscle
+xref: FBbt:00003389 ! muscle of third axillary 54
+
+[Term]
+id: HAO:0000844 ! pronoto-laterocervical muscle
+xref: FBbt:00003298 ! dorsal cervical muscle 23
+
+[Term]
+id: HAO:0001676 ! scutum
+xref: FBbt:00004583 ! scutum
+xref: TGMA:0000246 ! adult scutum
+
+[Term]
+id: HAO:0001374 ! median metacoxo-metatrochanteral muscle
+xref: FBbt:00003435 ! metathoracic intracoxal depressor muscle 88
+
+[Term]
+id: HAO:0000349 ! fore leg
+xref: TGMA:0000156 ! adult prothoracic leg
+xref: FBbt:00004663 ! prothoracic leg
+
+[Term]
+id: HAO:0001775 ! lateral scapo-pedicellar muscle
+xref: FBbt:00003279 ! second antennal segment muscle 14
+xref: FBbt:00003281 ! frontal pulsatile organ muscle 16
+
+[Term]
+id: HAO:0000649 ! notopleural suture
+xref: FBbt:00004604 ! notopleural suture
+
+[Term]
+id: HAO:0000056 ! abdominal tergum 3
+xref: FBbt:00004792 ! abdominal tergite 3
+
+[Term]
+id: HAO:0001093 ! wing membrane
+xref: TGMA:0000473 ! wing membrane
+
+[Term]
+id: HAO:0000178 ! basitarsus
+xref: TGMA:0000482 ! first tarsomere
+xref: SPD:0000378 ! metatarsus
+xref: FBbt:00004648 ! metatarsus
+
+[Term]
+id: HAO:0001743 ! mesopleuro-mesosubalar muscle
+xref: FBbt:00003392 ! subalar muscle 57
+
+[Term]
+id: HAO:0000895 ! reproductive system
+xref: FBbt:00004857 ! reproductive system
+
+[Term]
+id: HAO:0001418 ! 3rd abdominal spiracle
+xref: FBbt:00004815 ! adult abdominal spiracle 3
+xref: TGMA:0001510 ! abdominal spiracle III
+
+[Term]
+id: HAO:0000997 ! tentorial arm
+xref: TGMA:0000017 ! adult tentorial bar
+
+[Term]
+id: HAO:0001334 ! posterior metatibio-metabasitarsal muscle
+xref: FBbt:00003444 ! metathoracic tarsal levator muscle 94
+
+[Term]
+id: HAO:0000661 ! ocellus
+xref: FBbt:00004505 ! ocellus
+xref: TGMA:0000042 ! ocellus
+
+[Term]
+id: HAO:0000495 ! leg segment
+xref: SPD:0000451 ! leg article
+xref: FBbt:00007150 ! segment of leg
+
+[Term]
+id: HAO:0000072 ! cavitated compound organ
+xref: TADS:0000625 ! cavitated compound organ
+xref: TGMA:0001857 ! cavitated compound organ
+
+[Term]
+id: HAO:0001064 ! ventral premental adductor
+xref: FBbt:00003262 ! proboscis muscle 1
+
+[Term]
+id: HAO:0001783 ! mediotergite
+xref: TGMA:0000269 ! mediotergite
+xref: SPD:0000357 ! abdominal tergite
+
+[Term]
+id: HAO:0000018 ! abdominal segment 10
+xref: TGMA:0000645 ! adult abdominal segment X
+xref: FBbt:00000031 ! abdominal segment 10
+
+[Term]
+id: HAO:0000814 ! prescutal sulcus
+xref: TGMA:0000280 ! prescutal suture
+
+[Term]
+id: HAO:0000151 ! articulation
+xref: FBbt:00005811 ! articulation
+
+[Term]
+id: HAO:0000478 ! lateral metapleuro-metacoxal muscle
+xref: FBbt:00003425 ! metathoracic pleural promotor muscle 82
+
+[Term]
+id: HAO:0001785 ! mesocoxal foramen
+xref: FBbt:00004613 ! mesothoracic leg foramen
+xref: TGMA:0000448 ! mesocoxal cavity
+
+[Term]
+id: HAO:0001464 ! lateral coxal articular process of the mesopleuron
+xref: TGMA:0001516 ! mesothoracic pleural coxal process
+
+[Term]
+id: HAO:0001119 ! leg muscle
+xref: FBbt:00003318 ! skeletal muscle of leg
+
+[Term]
+id: HAO:0000860 ! propleuro-procoxal muscle
+xref: FBbt:00003337 ! prothoracic pleural promotor and abductor muscle 29
+
+[Term]
+id: HAO:0000202 ! circumocular ridge
+xref: TGMA:0000050 ! ocular ridge
+
+[Term]
+id: HAO:0000007 ! immaterial anatomical entity
+xref: TADS:0000588 ! immaterial anatomical entity
+xref: TGMA:0001827 ! immaterial anatomical entity
+
+[Term]
+id: HAO:0001450 ! anterior protibio-probasitarsal muscle
+xref: FBbt:00003356 ! prothoracic tarsal levator muscle 42
+
+[Term]
+id: HAO:0000050 ! protogynous hermaphroditic organism
+xref: TADS:0000612 ! protogynous hermaphroditic organism
+
+[Term]
+id: HAO:0000993 ! tegula
+xref: FBbt:00004730 ! tegula
+xref: TGMA:0000193 ! tegula
+
+[Term]
+id: HAO:0000297 ! epicranial suture
+xref: TGMA:0000714 ! larval epicranial ecdysial line
+
+[Term]
+id: HAO:0000229 ! coxal foramen
+xref: TGMA:0000470 ! coxal cavity
+
+[Term]
+id: HAO:0000684 ! paracoxal ridge
+xref: TGMA:0000345 ! paracoxal ridge
+xref: TGMA:0000451 ! postcoxal apodeme
+
+[Term]
+id: HAO:0000098 ! antecosta
+xref: TGMA:0000420 ! antecosta
+
+[Term]
+id: HAO:0000314 ! extrinsic palpal muscle
+xref: FBbt:00003269 ! haustellum muscle 7
+
+[Term]
+id: HAO:0001411 ! lateral mesocoxo-mesotrochanteral muscle
+xref: FBbt:00003412 ! mesothoracic intracoxal levator muscle 68
+
+[Term]
+id: HAO:0000634 ! metepisternum
+xref: FBbt:00004627 ! metathoracic episternum
+xref: TGMA:0000300 ! metepisternum
+
+[Term]
+id: HAO:0000547 ! mesofurca
+xref: FBbt:00004619 ! mesofurca
+xref: TGMA:0000371 ! mesofurca
+
+[Term]
+id: HAO:0001144 ! fourth tarsomere of hind leg
+xref: FBbt:00004717 ! metathoracic tarsal segment 4
+
+[Term]
+id: HAO:0001829 ! mediosternite 2
+xref: FBbt:00004800 ! abdominal sternite 2
+
+[Term]
+id: HAO:0000022 ! abdominal segment 3
+xref: FBbt:00000024 ! abdominal segment 3
+xref: SPD:0000424 ! abdominal segment 3
+xref: TGMA:0000644 ! adult abdominal segment III
+
+[Term]
+id: HAO:0001135 ! third tarsomere of hind leg
+xref: FBbt:00004716 ! metathoracic tarsal segment 3
+
+[Term]
+id: HAO:0001643 ! mesonoto-mesolaterophragmal muscle
+xref: FBbt:00003370 ! lateral oblique dorsal muscle 46a
+xref: FBbt:00003371 ! lateral oblique dorsal muscle 46b
+
+[Term]
+id: HAO:0000619 ! metapleuro-metatrochanteral muscle
+xref: FBbt:00003427 ! metathoracic pleural remotor muscle 83
+
+[Term]
+id: HAO:0000332 ! first mesopleuro-mesonotal muscle
+xref: FBbt:00003377 ! coxal tergal remotor muscle 48a
+xref: FBbt:00003378 ! coxal tergal remotor muscle 48b
+xref: FBbt:00003374 ! tergosternal muscle 47b
+xref: FBbt:00003373 ! tergosternal muscle 47a
+xref: FBbt:00003375 ! tergosternal muscle 47c
+
+[Term]
+id: HAO:0000104 ! antennal segment
+xref: FBbt:00007149 ! segment of antenna
+
+[Term]
+id: HAO:0001011 ! third phragmo-second abdominal tergal muscle
+xref: FBbt:00003450 ! abdominal 1 medial dorsal longitudinal muscle 98
+
+[Term]
+id: HAO:0000481 ! lateral ocellus
+xref: FBbt:00004506 ! lateral ocellus
+
+[Term]
+id: HAO:0001098 ! capitate peg sensillum
+xref: FBbt:00005196 ! peg sensillum
+
+[Term]
+id: HAO:0000414 ! hypostomal sulcus
+xref: TGMA:0001198 ! hypostomal suture
+
+[Term]
+id: HAO:0001745 ! posterior metapleuro-metafurcal muscle
+xref: FBbt:00003422 ! metathoracic pleurosternal muscle 79
+
+[Term]
+id: HAO:0000101 ! antenna
+xref: TGMA:0000007 ! adult antenna
+xref: FBbt:00004511 ! antenna
+
+[Term]
+id: HAO:0000758 ! posterior notal wing process
+xref: FBbt:00004586 ! posterior notal wing process
+
+[Term]
+id: HAO:0000335 ! first phragmo-second phragmal muscle
+xref: FBbt:00003365 ! dorsal medial muscle 45c
+xref: FBbt:00003363 ! dorsal medial muscle 45a
+xref: FBbt:00003366 ! dorsal medial muscle 45d
+xref: FBbt:00003368 ! dorsal medial muscle 45f
+xref: FBbt:00003367 ! dorsal medial muscle 45e
+xref: FBbt:00003364 ! dorsal medial muscle 45b
+
+[Term]
+id: HAO:0000784 ! postmedian notal wing process
+xref: TGMA:0000195 ! postmedian notal wing process
+
+[Term]
+id: HAO:0000872 ! prosterno-procoxal muscle
+xref: FBbt:00003340 ! prothoracic sternal anterior rotator muscle 31
+
+[Term]
+id: HAO:0001198 ! unguitractor plate of the mesotarsus
+xref: FBbt:00004702 ! mesothoracic unguitractor plate
+xref: TGMA:0001530 ! mesothoracic unguitractor plate
+
+[Term]
+id: HAO:0000005 ! anatomical space
+xref: TADS:0000586 ! anatomical space
+xref: FBbt:00007017 ! anatomical space
+xref: TGMA:0001825 ! anatomical space
+
+[Term]
+id: HAO:0000687 ! paraglossal flexor
+xref: FBbt:00003269 ! haustellum muscle 7
+
+[Term]
+id: HAO:0000301 ! epipharynx
+xref: FBbt:00005750 ! epipharynx
+
+[Term]
+id: HAO:0000028 ! female organism
+xref: TADS:0000600 ! female organism
+xref: TGMA:0001839 ! female organism
+
+[Term]
+id: HAO:0001382 ! medial metafemoro-metatibial muscle
+xref: FBbt:00003437 ! metathoracic tibial depressor muscle 92
+
+[Term]
+id: HAO:0000118 ! anterior mesopleuro-mesofurcal muscle
+xref: FBbt:00003394 ! mesothoracic pleurosternal muscle 59
+
+[Term]
+id: HAO:0000044 ! abdominal sternum 7
+xref: TGMA:0000660 ! sternum VII
+
+[Term]
+id: HAO:0000513 ! maxilla
+xref: TGMA:0000065 ! adult maxilla
+
+[Term]
+id: HAO:0001371 ! median procoxo-protrochanteral muscle
+xref: FBbt:00003346 ! prothoracic intracoxal depressor muscle 35
+
+[Term]
+id: HAO:0000856 ! propleural arm
+xref: TGMA:0000433 ! prothoracic pleural apophysis
+
+[Term]
+id: HAO:0000722 ! pleural area
+xref: SPD:0000300 ! pleural area
+
+[Term]
+id: HAO:0000090 ! adult thorax
+xref: TGMA:0000136 ! adult thorax
+
+[Term]
+id: HAO:0001156 ! acrotergite
+xref: TGMA:0000245 ! acrotergite
+
+[Term]
+id: HAO:0000009 ! anatomical point
+xref: TGMA:0001829 ! anatomical point
+xref: TADS:0000590 ! anatomical point
+
+[Term]
+id: HAO:0000603 ! metanotum
+xref: FBbt:00004622 ! metathoracic tergum
+xref: TGMA:0000416 ! adult metanotum
+
+[Term]
+id: HAO:0001129 ! fifth tarsomere of the fore leg
+xref: FBbt:00004674 ! prothoracic tarsal segment 5
+
+[Term]
+id: HAO:0000582 ! mesothoracic spiracle
+xref: FBbt:00004609 ! adult mesothoracic spiracle
+xref: TGMA:0000384 ! mesothoracic spiracle
+
+[Term]
+id: HAO:0000958 ! stipes
+xref: TGMA:0000074 ! adult stipes
+
+[Term]
+id: HAO:0000460 ! larval abdomen
+xref: FBbt:00001746 ! larval abdomen
+xref: TGMA:0001231 ! larval abdomen
+
+[Term]
+id: HAO:0000040 ! acellular anatomical structure
+xref: SPD:0000456 ! acellular anatomical structure
+xref: FBbt:00007013 ! acellular anatomical structure
+xref: TGMA:0001841 ! acellular anatomical structure
+xref: TADS:0000604 ! acellular anatomical structure
+
+[Term]
+id: HAO:0000545 ! mesodiscrimen
+xref: TGMA:0000406 ! mesosternal suture
+xref: TGMA:0000390 ! mesepisternal suture
+
+[Term]
+id: HAO:0001225 ! spiracular muscle
+xref: TADS:0000343 ! adult spiracular muscle
+
+[Term]
+id: HAO:0001421 ! 7th abdominal spiracle
+xref: FBbt:00004819 ! adult abdominal spiracle 7
+xref: TGMA:0000582 ! abdominal spiracle VII
+
+[Term]
+id: HAO:0000564 ! mesopleuro-mesocoxal muscle
+xref: FBbt:00003398 ! mesothoracic pleural remotor muscle 63
+
+[Term]
+id: HAO:0000614 ! metapleural sulcus
+xref: TGMA:0000303 ! metathoracic pleural suture
+
+[Term]
+id: HAO:0000806 ! preoccipital furrow
+xref: TGMA:0000026 ! coronal suture
+
+[Term]
+id: HAO:0000955 ! sternite
+xref: FBbt:00004477 ! sternite
+
+[Term]
+id: HAO:0001192 ! ventral protibio-probasitarsal muscle
+xref: FBbt:00003356 ! prothoracic tarsal levator muscle 42
+
+[Term]
+id: HAO:0000030 ! asexual organism
+xref: TADS:0000602 ! asexual organism
+
+[Term]
+id: HAO:0001072 ! ventral salivarial dilatator
+xref: FBbt:00003277 ! salivary pump muscle 13
+xref: FBbt:00003270 ! haustellum muscle 8
+
+[Term]
+id: HAO:0000628 ! metasternum
+xref: TGMA:0000408 ! metasternum
+
+[Term]
+id: HAO:0000069 ! multilaminar epithelium
+xref: TADS:0000622 ! multilaminar epithelium
+
+[Term]
+id: HAO:0000371 ! gena
+xref: FBbt:00004491 ! gena
+xref: TGMA:0000031 ! adult gena
+
+[Term]
+id: HAO:0000055 ! multi-tissue structure
+xref: TADS:0000614 ! multi-tissue structure
+xref: FBbt:00007010 ! multi-tissue structure
+xref: TGMA:0001847 ! multi-tissue structure
+
+[Term]
+id: HAO:0001416 ! lateral coxal articular process of the metapleuron
+xref: TGMA:0001520 ! metathoracic pleural coxal process
+
+[Term]
+id: HAO:0000058 ! abdominal tergum 5
+xref: FBbt:00004794 ! abdominal tergite 5
+
+[Term]
+id: HAO:0000375 ! gland
+xref: FBbt:00100317 ! gland
+
+[Term]
+id: HAO:0001246 ! protibio-pretarsus of the protarsus muscle
+xref: FBbt:00003351 ! prothoracic pretarsal depressor muscle 44
+
+[Term]
+id: HAO:0000350 ! fore tibia
+xref: FBbt:00004665 ! prothoracic tibia
+xref: SPD:0000086 ! tibia 1
+xref: TGMA:0000160 ! foretibia
+
+[Term]
+id: HAO:0000041 ! anatomical cluster
+xref: TADS:0000605 ! anatomical cluster
+xref: TGMA:0001842 ! anatomical cluster
+xref: FBbt:00007277 ! anatomical cluster
+
+[Term]
+id: HAO:0000635 ! mid coxa
+xref: FBbt:00004686 ! mesothoracic coxa
+xref: TGMA:0000141 ! midcoxa
+
+[Term]
+id: HAO:0000596 ! metafurco-metacoxal muscle
+xref: FBbt:00003428 ! metathoracic sternal remotor muscle 85
+
+[Term]
+id: HAO:0000613 ! metapleural ridge
+xref: TGMA:0000304 ! metathoracic pleural ridge
+
+[Term]
+id: HAO:0000583 ! mesothorax
+xref: TGMA:0000138 ! adult mesothorax
+xref: FBbt:00000018 ! mesothoracic segment
+
+[Term]
+id: HAO:0001133 ! mesobasitarsus
+xref: FBbt:00004691 ! mesothoracic tarsal segment 1
+xref: FBbt:00004692 ! mesothoracic metatarsus
+
+[Term]
+id: HAO:0001354 ! mesopleuron
+xref: TGMA:0000305 ! mesothoracic pleuron
+
+[Term]
+id: HAO:0000224 ! coronal suture
+xref: TGMA:0000716 ! coronal ecdysial line
+
+[Term]
+id: HAO:0001337 ! posterior protibio-probasitarsal muscle
+xref: FBbt:00003350 ! prothoracic tarsal depressor muscle 43
+
+[Term]
+id: HAO:0000967 ! subcosta
+xref: TGMA:0000206 ! subcosta
+
+[Term]
+id: HAO:0000226 ! costal cell
+xref: TGMA:0000220 ! cell C
+xref: FBbt:00004770 ! costal cell
+
+[Term]
+id: HAO:0000924 ! second mesopleuro-mesonotal muscle
+xref: FBbt:00003386 ! basalar muscle 52
+
+[Term]
+id: HAO:0000063 ! portion of cell substance
+xref: TADS:0000616 ! portion of cell substance
+
+[Term]
+id: HAO:0001142 ! metabasitarsus
+xref: FBbt:00004714 ! metathoracic metatarsus
+xref: FBbt:00004713 ! metathoracic tarsal segment 1
+
+[Term]
+id: HAO:0001645 ! mesonoto-mesobasalar muscle
+xref: FBbt:00003381 ! direct flight muscle 50
+xref: FBbt:00003380 ! direct flight muscle 49
+
+[Term]
+id: HAO:0000496 ! ligula
+xref: TGMA:0000080 ! adult ligula
+
+[Term]
+id: HAO:0001280 ! metatrochantero-metafemoral muscle
+xref: FBbt:00003446 ! metathoracic femoral reductor muscle 90
+
+[Term]
+id: HAO:0000035 ! abdominal sternum 2
+xref: TGMA:0000649 ! sternum II
+
+[Term]
+id: HAO:0000409 ! hypopharynx
+xref: FBbt:00005751 ! hypopharynx
+xref: TGMA:0000090 ! adult hypopharynx
+
+[Term]
+id: HAO:0001214 ! third mesopleuro-third axillary sclerite of fore wing muscle
+xref: FBbt:00003390 ! muscle of third axillary 55
+
+[Term]
+id: HAO:0000907 ! scale
+xref: SPD:0000402 ! scale
+xref: TGMA:0001414 ! scale
+
+[Term]
+id: HAO:0000159 ! axillary sclerite
+xref: FBbt:00004737 ! axillary sclerite
+xref: TGMA:0000466 ! axillary sclerite
+
+[Term]
+id: HAO:0000755 ! posterior mesopleuro-mesofurcal muscle
+xref: FBbt:00003395 ! mesothoracic pleurosternal muscle 60
+
+[Term]
+id: HAO:0001335 ! posterior procoxo-protrochanteral muscle
+xref: FBbt:00003354 ! prothoracic intracoxal mesal levator muscle 37
+
+[Term]
+id: HAO:0000071 ! atypical epithelium
+xref: TADS:0000624 ! atypical epithelium
+
+[Term]
+id: HAO:0000920 ! scutoscutellar suture
+xref: TGMA:0000261 ! scutoscutellar suture
+xref: FBbt:00004601 ! scutoscutellar suture
+
+[Term]
+id: HAO:0000939 ! sitophore
+xref: TGMA:0000125 ! ventral plate
+xref: FBbt:00004529 ! posterior plate of cibarium
+
+[Term]
+id: HAO:0001398 ! lateral profemoro-protibial muscle
+xref: FBbt:00003355 ! prothoracic tibial levator muscle 39
+
+[Term]
+id: HAO:0000264 ! dorsal premental adductor
+xref: FBbt:00003262 ! proboscis muscle 1
+
+[Term]
+id: HAO:0000087 ! adult
+xref: FBbt:00003004 ! adult
+
+[Term]
+id: HAO:0000225 ! costa
+xref: TGMA:0000236 ! costa
+xref: FBbt:00004755 ! costal vein
+
+[Term]
+id: HAO:0000303 ! episternum
+xref: FBbt:00004554 ! episternum
+
+[Term]
+id: HAO:0000046 ! synchronous hermaphroditic organism
+xref: TADS:0000609 ! synchronous hermaphroditic organism
+
+[Term]
+id: HAO:0001764 ! epicuticle
+xref: TADS:0000111 ! adult epicuticle
+
+[Term]
+id: HAO:0001545 ! adipose system
+xref: FBbt:00005065 ! adipose system
+
+[Term]
+id: HAO:0000888 ! radial vein
+xref: TGMA:0000200 ! radius
+
+[Term]
+id: HAO:0000010 ! anatomical surface
+xref: TADS:0000591 ! anatomical surface
+xref: TGMA:0001830 ! anatomical surface
+
+[Term]
+id: HAO:0001744 ! anterior metapleuro-metafurcal muscle
+xref: FBbt:00003422 ! metathoracic pleurosternal muscle 79
+
+[Term]
+id: HAO:0000457 ! lacinia
+xref: TGMA:0000066 ! adult lacinia
+xref: FBbt:00004536 ! lacinia
+
+[Term]
+id: HAO:0000640 ! multiporous plate sensillum
+xref: TADS:0000032 ! adult placoid sensillum
+
+[Term]
+id: HAO:0000029 ! hermaphroditic organism
+xref: TADS:0000601 ! hermaphroditic organism
+
+[Term]
+id: HAO:0000074 ! solid compound organ
+xref: TADS:0000627 ! solid compound organ
+xref: TGMA:0001859 ! solid compound organ
+
+[Term]
+id: HAO:0001531 ! abdominal sternum 8
+xref: TGMA:0000597 ! sternum VIII
+
+[Term]
+id: HAO:0000142 ! apodeme
+xref: SPD:0000504 ! apodeme
+xref: FBbt:00005091 ! apodeme
+
+[Term]
+id: HAO:0000053 ! abdominal tergum 2
+xref: FBbt:00004791 ! abdominal tergite 2
+
+[Term]
+id: HAO:0000435 ! intersegmental membrane-mesobasalar muscle
+xref: FBbt:00003385 ! basalar muscle 51
+
+[Term]
+id: HAO:0000630 ! metathorax
+xref: FBbt:00000019 ! metathoracic segment
+xref: TGMA:0000139 ! adult metathorax
+
+[Term]
+id: HAO:0001053 ! velum
+xref: TGMA:0001430 ! velum
+
+[Term]
+id: HAO:0000085 ! acrosternite
+xref: TGMA:0000401 ! acrosternite
+
+[Term]
+id: HAO:0000556 ! mesonotum
+xref: FBbt:00004580 ! mesothoracic tergum
+xref: TGMA:0000244 ! adult mesonotum
+
+[Term]
+id: HAO:0001358 ! mesopleural pit
+xref: TGMA:0001514 ! mesothoracic pleural apophyseal pit
+
+[Term]
+id: HAO:0000006 ! material anatomical entity
+xref: TGMA:0001826 ! material anatomical entity
+xref: TADS:0000587 ! material anatomical entity
+
+[Term]
+id: HAO:0000146 ! area
+xref: FBbt:00007284 ! region of integument
+
+[Term]
+id: HAO:0000361 ! functional mouth
+xref: TADS:0000040 ! adult mouth
+xref: FBbt:00003126 ! adult mouth
+xref: TGMA:0000131 ! adult mouth
+
+[Term]
+id: HAO:0000411 ! hypostoma
+xref: TGMA:0000087 ! hypostoma
+
+[Term]
+id: HAO:0000908 ! scape
+xref: TGMA:0000010 ! adult scape
+xref: FBbt:00004513 ! first segment of antenna
+
+[Term]
+id: HAO:0000951 ! spur
+xref: TGMA:0001388 ! spur
+
+[Term]
+id: HAO:0000027 ! male organism
+xref: TGMA:0001838 ! male organism
+xref: FBbt:00007004 ! male organism
+xref: TADS:0000599 ! male organism
+
+[Term]
+id: HAO:0000804 ! prementum
+xref: FBbt:00004534 ! prementum
+xref: TGMA:0000078 ! adult prementum
+
+[Term]
+id: HAO:0000825 ! profurca
+xref: FBbt:00004574 ! prothoracic furca
+xref: TGMA:0000457 ! profurca
+
+[Term]
+id: HAO:0001116 ! laterocervical muscle
+xref: FBbt:00003293 ! skeletal muscle of neck
+
+[Term]
+id: HAO:0000012 ! multi-cellular organism
+xref: SPD:0000001 ! whole organism
+xref: TADS:0000593 ! multi-cellular organism
+xref: TGMA:0001832 ! multi-cellular organism
+
+[Term]
+id: HAO:0000489 ! lateral suspensor of the mouth
+xref: FBbt:00003272 ! cibarial muscle 9
+
+[Term]
+id: HAO:0000658 ! occiput
+xref: TGMA:0000041 ! occiput
+xref: FBbt:00004492 ! occiput
+
+[Term]
+id: HAO:0001315 ! procoxal foramen
+xref: FBbt:00004572 ! prothoracic leg foramen
+xref: TGMA:0000360 ! procoxal cavity
+
+[Term]
+id: HAO:0000306 ! epistomal sulcus
+xref: TGMA:0000028 ! adult epistomal suture
+
+[Term]
+id: HAO:0001013 ! thoracic segment
+xref: FBbt:00000016 ! thoracic segment
+
+[Term]
+id: HAO:0000236 ! crossvein
+xref: FBbt:00004765 ! crossvein
+xref: TGMA:0000472 ! crossvein
+
+[Term]
+id: HAO:0000539 ! mesepimeron
+xref: FBbt:00004592 ! mesothoracic epimeron
+xref: TGMA:0000306 ! mesepimeron
+
+[Term]
+id: HAO:0000445 ! jugal region
+xref: TGMA:0000479 ! jugum
+
+[Term]
+id: HAO:0000286 ! egg
+xref: TGMA:0000664 ! egg
+xref: SPD:0000327 ! egg
+xref: FBbt:00000034 ! egg
+
+[Term]
+id: HAO:0000950 ! spiracle
+xref: FBbt:00005054 ! spiracle
+xref: TADS:0000059 ! adult spiracle
+xref: TGMA:0000578 ! spiracle
+
+[Term]
+id: HAO:0000590 ! metadiscrimen
+xref: TGMA:0000450 ! metasternal suture
+
+[Term]
+id: HAO:0000093 ! anal vein
+xref: TGMA:0000237 ! anal vein
+
+[Term]
+id: HAO:0001081 ! vesicula seminalis
+xref: FBbt:00004958 ! seminal vesicle
+
+[Term]
+id: HAO:0000949 ! spine
+xref: TGMA:0001386 ! spine
+
+[Term]
+id: HAO:0000654 ! occipital condyle
+xref: TGMA:0000038 ! occipital condyle
+
+[Term]
+id: HAO:0000607 ! metapleural apodeme
+xref: TGMA:0001519 ! metathoracic pleural apophysis
+
+[Term]
+id: HAO:0000274 ! dorsal salivarial dilatator
+xref: FBbt:00003277 ! salivary pump muscle 13
+
+[Term]
+id: HAO:0001384 ! medial mesofemoro-mesotibial muscle
+xref: FBbt:00003407 ! mesothoracic tibial depressor muscle 71
+
+[Term]
+id: HAO:0000869 ! propodeo-second abdominal tergal muscle
+xref: FBbt:00003453 ! abdominal 1 oblique lateral dorsal longitudinal muscle 101
+xref: FBbt:00003454 ! abdominal 1 oblique lateral dorsal longitudinal muscle 102
+xref: FBbt:00003451 ! abdominal 1 lateral dorsal longitudinal muscle 99
+xref: FBbt:00003452 ! abdominal 1 lateral dorsal longitudinal muscle 100
+
+[Term]
+id: HAO:0001117 ! thoracic muscle
+xref: FBbt:00003305 ! skeletal muscle of thorax
+
+[Term]
+id: HAO:0000566 ! mesopleuron
+xref: FBbt:00004591 ! mesothoracic pleurum
+
+[Term]
+id: HAO:0000666 ! ommatidium
+xref: FBbt:00004510 ! ommatidium
+
+[Term]
+id: HAO:0000715 ! pharate adult
+xref: FBbt:00006011 ! pharate adult
+
+[Term]
+id: HAO:0000546 ! mesodiscrimenal lamella
+xref: TGMA:0000407 ! mesosternal ridge
+
+[Term]
+id: HAO:0000036 ! abdominal sternum 3
+xref: TGMA:0000651 ! sternum III
+
+[Term]
+id: HAO:0000453 ! labium
+xref: SPD:0000289 ! labium
+xref: TGMA:0000076 ! adult labium
+
+[Term]
+id: HAO:0000886 ! pupa
+xref: FBbt:00002953 ! pupa
+
+[Term]
+id: HAO:0001095 ! wing vein
+xref: FBbt:00004751 ! wing vein
+xref: TGMA:0000523 ! vein
+
+[Term]
+id: HAO:0000727 ! pleurite
+xref: SPD:0000302 ! pleural bar
+xref: FBbt:00004733 ! pleural sclerite
+
+[Term]
+id: HAO:0000299 ! epimeron
+xref: FBbt:00004556 ! epimeron
+
+[Term]
+id: HAO:0001420 ! 6th abdominal spiracle
+xref: FBbt:00004818 ! adult abdominal spiracle 6
+xref: TGMA:0001513 ! abdominal spiracle VI
+
+[Term]
+id: HAO:0000068 ! simple columnar epithelium
+xref: TADS:0000621 ! simple columnar epithlium
+
+[Term]
+id: HAO:0000000 ! anatomical entity
+xref: SPD:0000000 ! anatomical entity
+xref: FBbt_root:00000000 ! anatomical entity
+xref: TADS:0000583 ! anatomical entity
+xref: TGMA:0001822 ! anatomical entity
+
+[Term]
+id: HAO:0000193 ! cervical prominence
+xref: TGMA:0000105 ! cervical sclerite
+xref: TGMA:0000009 ! cephaliger
+
+[Term]
+id: HAO:0001850 ! frontofacial sulcus
+xref: TGMA:0000051 ! postfrontal suture
+
+[Term]
+id: HAO:0001310 ! profurcasternum
+xref: TGMA:0000364 ! profurcasternum
+
+[Term]
+id: HAO:0001328 ! posterolateral metacoxo-metatrochanteral muscle
+xref: FBbt:00003442 ! metathoracic intracoxal levator muscle 89
+
+[Term]
+id: HAO:0000706 ! pedicel
+xref: TGMA:0000011 ! adult antennal pedicel
+xref: FBbt:00004514 ! second segment of antenna
+
+[Term]
+id: HAO:0000686 ! paraglossa
+xref: TGMA:0000079 ! labellum
+
+[Term]
+id: HAO:0000217 ! compound eye
+xref: TGMA:0000024 ! adult compound eye
+xref: FBbt:00004508 ! eye
+
+[Term]
+id: HAO:0000033 ! abdominal segment 8
+xref: FBbt:00000029 ! abdominal segment 8
+xref: TGMA:0000640 ! adult abdominal segment VIII
+
+[Term]
+id: HAO:0001407 ! lateral metafemoro-metatibial muscle
+xref: FBbt:00003443 ! metathoracic tibial levator muscle 91
+
+[Term]
+id: HAO:0001593 ! occipito-lacinial muscle
+xref: FBbt:00003263 ! proboscis muscle 2
+
+[Term]
+id: HAO:0000494 ! leg
+xref: TGMA:0000164 ! adult leg
+xref: FBbt:00004640 ! leg
+xref: SPD:0000372 ! leg
+xref: TADS:0000002 ! adult leg
+
+[Term]
+id: HAO:0000776 ! postgena
+xref: FBbt:00004496 ! postgena
+xref: TGMA:0000053 ! adult postgena
+
+[Term]
+id: HAO:0000598 ! metafurco-second abdominal sternal muscle
+xref: FBbt:00003424 ! metathoracic ventral longitudinal muscle 81
+xref: FBbt:00003423 ! metathoracic lateral intersegmental muscle 80
+
+[Term]
+id: HAO:0000861 ! propleuro-protrochanteral muscle
+xref: FBbt:00003345 ! prothoracic extracoxal depressor muscle 34
+
+[Term]
+id: HAO:0000240 ! cuticle
+xref: SPD:0000004 ! cuticle
+xref: FBbt:00004970 ! cuticle
+xref: TADS:0000110 ! adult cuticle
+
+[Term]
+id: HAO:0001831 ! mediosternite 4
+xref: FBbt:00004802 ! abdominal sternite 4
+
+[Term]
+id: HAO:0000929 ! segment
+xref: FBbt:00000003 ! segment
+
+[Term]
+id: HAO:0000786 ! postnotum
+xref: FBbt:00004588 ! postnotum
+xref: TGMA:0000505 ! postnotum
+
+[Term]
+id: HAO:0000020 ! abdominal segment 2
+xref: SPD:0000423 ! abdominal segment 2
+xref: TGMA:0000637 ! adult abdominal segment II
+xref: FBbt:00000023 ! abdominal segment 2
+
+[Term]
+id: HAO:0000461 ! larval head
+xref: FBbt:00001730 ! larval head
+xref: TGMA:0000712 ! larval head
+
+[Term]
+id: HAO:0000329 ! first abdominal spiracle
+xref: TGMA:0001508 ! abdominal spiracle I
+
+[Term]
+id: HAO:0000351 ! fore wing
+xref: TGMA:0000196 ! adult mesothoracic wing
+
+[Term]
+id: HAO:0001710 ! mesothoracic venter
+xref: TGMA:0000368 ! mesosternum
+
+[Term]
+id: HAO:0000073 ! unilaminar epithelium
+xref: TADS:0000626 ! unilaminar epithelium
+
+[Term]
+id: HAO:0000632 ! metepimeron
+xref: TGMA:0000302 ! metepimeron
+xref: FBbt:00004626 ! metathoracic epimeron
+
+[Term]
+id: HAO:0000909 ! sclerite
+xref: FBbt:00004475 ! sclerite
+
+[Term]
+id: HAO:0001136 ! third tarsomere of mid leg
+xref: FBbt:00004694 ! mesothoracic tarsal segment 3
+
+[Term]
+id: HAO:0001077 ! vertex
+xref: TGMA:0000060 ! adult vertex
+
+[Term]
+id: HAO:0000829 ! projection
+xref: TGMA:0001409 ! cuticular projection
+
+[Term]
+id: HAO:0000364 ! furca
+xref: TGMA:0000456 ! furca
+
+[Term]
+id: HAO:0000088 ! adult abdomen
+xref: TGMA:0000524 ! adult abdomen
+xref: FBbt:00003023 ! adult abdomen
+
+[Term]
+id: HAO:0001351 ! mesotibia
+xref: FBbt:00004687 ! mesothoracic tibia
+xref: TGMA:0000144 ! midtibia
+
+[Term]
+id: HAO:0001580 ! digestive system
+xref: TGMA:0001819 ! adult alimentary canal
+xref: FBbt:00005055 ! digestive system
+xref: TADS:0000170 ! adult alimentary system
+
+[Term]
+id: HAO:0000106 ! antennal suture
+xref: TGMA:0000023 ! antennal suture
+
+[Term]
+id: HAO:0000853 ! pronotum
+xref: TGMA:0000289 ! adult pronotum
+xref: FBbt:00004561 ! pronotum
+xref: FBbt:00004560 ! prothoracic tergum
+
+[Term]
+id: HAO:0000023 ! abdominal segment 4
+xref: FBbt:00000025 ! abdominal segment 4
+xref: SPD:0000425 ! abdominal segment 4
+xref: TGMA:0000639 ! adult abdominal segment IV
+
+[Term]
+id: HAO:0000597 ! metafurco-metatrochanteral muscle
+xref: FBbt:00003434 ! metathoracic sternal extracoxal depressor muscle 87
+
+[Term]
+id: HAO:0000144 ! appendage
+xref: FBbt:00007000 ! appendage
+
+[Term]
+id: HAO:0000456 ! labrum
+xref: TGMA:0000091 ! adult labrum
+xref: FBbt:00004522 ! labrum
+xref: SPD:0000288 ! labrum
+
+[Term]
+id: HAO:0000551 ! mesofurco-mesolaterophragmal muscle
+xref: FBbt:00003396 ! mesothoracic lateral intrasegmental muscle 61
+
+[Term]
+id: HAO:0001132 ! mesotarsus
+xref: TGMA:0000145 ! midtarsus
+
+[Term]
+id: HAO:0000412 ! hypostomal bridge
+xref: TGMA:0000032 ! hypostomal bridge
+
+[Term]
+id: HAO:0001758 ! dorsal profurco-procoxal muscle
+xref: FBbt:00003341 ! prothoracic sternal posterior rotator muscle 32
+
+[Term]
+id: HAO:0000535 ! meron
+xref: TGMA:0000493 ! meron
+
+[Term]
+id: HAO:0000015 ! abdomen
+xref: SPD:0000003 ! abdomen
+xref: FBbt:00000020 ! abdomen
+
+[Term]
+id: HAO:0000820 ! pretarsus
+xref: TGMA:0000171 ! posttarsus
+xref: FBbt:00004653 ! pretarsus
+xref: SPD:0000450 ! pretarsus
+xref: TADS:0000284 ! adult apotele
+
+[Term]
+id: HAO:0001732 ! nervous system
+xref: FBbt:00005093 ! nervous system
+
+[Term]
+id: HAO:0001832 ! mediosternite 5
+xref: FBbt:00004803 ! abdominal sternite 5
+
+[Term]
+id: HAO:0001320 ! pretarsus of metatarsus
+xref: FBbt:00004719 ! metathoracic pretarsus
+xref: TGMA:0000154 ! metathoracic posttarsus
+
+[Term]
+id: HAO:0000091 ! aedeagus
+xref: FBbt:00004850 ! aedeagus
+xref: TGMA:0000585 ! aedeagus
+
+[Term]
+id: HAO:0000386 ! gonostipes
+xref: TGMA:0000527 ! gonocoxite
+
+[Term]
+id: HAO:0000360 ! frontal suture
+xref: TGMA:0000715 ! larval frontal ecdysial line
+
+[Term]
+id: HAO:0000550 ! mesofurco-mesocoxal muscle
+xref: FBbt:00003399 ! mesothoracic sternal remotor muscle 65
+
+[Term]
+id: HAO:0001448 ! anterior procoxo-protrochanteral muscle
+xref: FBbt:00003353 ! prothoracic intracoxal lateral levator muscle 36
+
+[Term]
+id: HAO:0000454 ! labral compressor
+xref: FBbt:00003266 ! labral muscle 5
+
+[Term]
+id: HAO:0001454 ! anterior tentorial arm
+xref: TGMA:0000018 ! adult anterior tentorial arm
+
+[Term]
+id: HAO:0001834 ! mediosternite 7
+xref: FBbt:00004805 ! abdominal sternite 7
+
+[Term]
+id: HAO:0001128 ! fourth tarsomere of the fore leg
+xref: FBbt:00004673 ! prothoracic tarsal segment 4
+
+[Term]
+id: HAO:0001264 ! metacoxal foramen
+xref: TGMA:0000412 ! metacoxal cavity
+xref: FBbt:00004634 ! metathoracic leg foramen
+
+[Term]
+id: HAO:0000403 ! humeral plate
+xref: TGMA:0000192 ! humeral plate
+
+[Term]
+id: HAO:0000716 ! phragma
+xref: FBbt:00004480 ! phragma
+
+[Term]
+id: HAO:0001343 ! posterior tentorial arm
+xref: FBbt:00004504 ! posterior tentorial bar
+xref: TGMA:0000019 ! adult posterior tentorial arm
+
+[Term]
+id: HAO:0000541 ! mesepisternum
+xref: TGMA:0000319 ! mesepisternum
+xref: FBbt:00004596 ! mesothoracic episternum
+
+[Term]
+id: HAO:0000038 ! abdominal sternum 5
+xref: TGMA:0000656 ! sternum V
+
+[Term]
+id: HAO:0000345 ! foramen
+xref: FBbt:00004478 ! foramen
+
+[Term]
+id: HAO:0000988 ! tagma
+xref: FBbt:00000002 ! tagma
+xref: SPD:0000013 ! tagma
+
+[Term]
+id: HAO:0000526 ! median ocellus
+xref: FBbt:00004507 ! medial ocellus
+
+[Term]
+id: HAO:0000873 ! prosternum
+xref: FBbt:00004569 ! prothoracic sternum
+xref: TGMA:0000362 ! prosternum
+
+[Term]
+id: HAO:0000962 ! subalare
+xref: TGMA:0000317 ! subalare
+
+[Term]
+id: HAO:0000631 ! metatibia
+xref: TGMA:0000152 ! hindtibia
+xref: FBbt:00004709 ! metathoracic tibia
+
+[Term]
+id: HAO:0001336 ! posterior profemoro-protibial articulation
+xref: FBbt:00003348 ! prothoracic tibial depressor muscle 40
+
+[Term]
+id: HAO:0001833 ! mediosternite 6
+xref: FBbt:00004804 ! abdominal sternite 6
+
+[Term]
+id: HAO:0000449 ! labial gland
+xref: TGMA:0001804 ! adult salivary gland
+xref: FBbt:00005382 ! salivary gland
+
+[Term]
+id: HAO:0000016 ! abdominal segment
+xref: SPD:0000055 ! abdominal segment
+xref: TGMA:0000525 ! adult abdominal segment
+xref: FBbt:00000021 ! abdominal segment
+
+[Term]
+id: HAO:0000099 ! antecostal sulcus
+xref: TGMA:0000399 ! antecostal suture
+
+[Term]
+id: HAO:0000048 ! gonochoristic organism
+xref: TADS:0000610 ! gonochoristic organism
+xref: TGMA:0001845 ! gonochoristic organism
+
+[Term]
+id: HAO:0000606 ! metaphragma
+xref: FBbt:00004639 ! metathoracic phragma
+xref: TGMA:0000478 ! intersegmental apodeme
+
+[Term]
+id: HAO:0000367 ! furcasternum
+xref: TGMA:0000454 ! furcasternum
+xref: FBbt:00004570 ! furcasternum
+
+[Term]
+id: HAO:0000237 ! cubital vein
+xref: TGMA:0000215 ! cubitus
+
+[Term]
+id: HAO:0000021 ! simple organ
+xref: TADS:0000597 ! simple organ
+xref: TGMA:0001836 ! simple organ
+
+[Term]
+id: HAO:0001195 ! ventral mesotibio-mesobasitarsal muscle
+xref: FBbt:00003409 ! mesothoracic tarsal depressor muscle 74
+
+[Term]
+id: HAO:0000636 ! mid leg
+xref: TGMA:0000140 ! adult mesothoracic leg
+xref: FBbt:00004685 ! mesothoracic leg
+
+[Term]
+id: HAO:0000982 ! suture
+xref: FBbt:00004479 ! suture
+
+[Term]
+id: HAO:0000157 ! axillary cord
+xref: TGMA:0000185 ! axillary cord
+xref: FBbt:00004744 ! axillary cord
+
+[Term]
+id: HAO:0000032 ! organism subdivision
+xref: TADS:0000603 ! organism subdivision
+xref: TGMA:0001840 ! organism subdivision
+xref: FBbt:00007009 ! organism subdivision
+
+[Term]
+id: HAO:0000901 ! row
+xref: FBbt:00100152 ! row
+
+[Term]
+id: HAO:0001523 ! frons
+xref: FBbt:00004488 ! frons
+xref: TGMA:0000030 ! adult frons
+
+[Term]
+id: HAO:0000060 ! abdominal tergum 7
+xref: FBbt:00004796 ! abdominal tergite 7
+
+[Term]
+id: HAO:0001125 ! protarsus
+xref: TGMA:0000159 ! foretarsus
+
+[Term]
+id: HAO:0001106 ! probasitarsus
+xref: FBbt:00004670 ! prothoracic metatarsus
+xref: FBbt:00004669 ! prothoracic tarsal segment 1
+
+[Term]
+id: HAO:0001007 ! testis
+xref: FBbt:00004928 ! testis
+xref: TADS:0000461 ! adult testis
+
+[Term]
+id: HAO:0000397 ! head
+xref: TGMA:0000002 ! adult head
+xref: FBbt:00000004 ! head
+
+[Term]
+id: HAO:0001005 ! tergite
+xref: FBbt:00004476 ! tergite
+
+[Term]
+id: HAO:0000467 ! lateral articular process
+xref: TGMA:0000439 ! prothoracic pleural coxal process
+
+[Term]
+id: HAO:0001547 ! chorion
+xref: SPD:0000317 ! chorion
+xref: TGMA:0000681 ! chorion
+xref: FBbt:00000038 ! chorion
+
+[Term]
+id: HAO:0000823 ! prodiscrimen
+xref: TGMA:0000366 ! propleurosternal suture
+
+[Term]
+id: HAO:0000521 ! median mesofurco-mesotrochanteral muscle
+xref: FBbt:00003404 ! mesothoracic extracoxal depressor muscle 66
+
+[Term]
+id: HAO:0000878 ! proximolateral apodeme of cupula
+xref: TGMA:0000557 ! apodeme of gonocoxite
+
+[Term]
+id: HAO:0000342 ! flagellomere
+xref: TGMA:0000013 ! flagellomere
+
+[Term]
+id: HAO:0001357 ! mesopleural ridge
+xref: TGMA:0000343 ! mesothoracic pleural ridge
+
+[Term]
+id: HAO:0001424 ! abdominal spiracle
+xref: FBbt:00004814 ! adult abdominal spiracle
+
+[Term]
+id: HAO:0001538 ! 2nd abdominal spiracle
+xref: TGMA:0001509 ! abdominal spiracle II
+
+[Term]
+id: HAO:0000120 ! anterior notal wing process
+xref: FBbt:00004585 ! anterior notal wing process
+xref: TGMA:0000194 ! anterior notal wing process
+
+[Term]
+id: HAO:0000580 ! mesosternum
+xref: TGMA:0000368 ! mesosternum
+
+[Term]
+id: HAO:0000591 ! metadiscrimenal lamella
+xref: TGMA:0000449 ! metasternal ridge
+
+[Term]
+id: HAO:0000592 ! metafurca
+xref: FBbt:00004638 ! metafurca
+xref: TGMA:0000411 ! metafurca
+
+[Term]
+id: HAO:0001087 ! vulva
+xref: FBbt:00004926 ! vulva
+xref: SPD:0000029 ! vulva
+
+[Term]
+id: HAO:0000612 ! metapleural pit
+xref: TGMA:0001518 ! metathoracic pleural apophyseal pit
+
+[Term]
+id: HAO:0000171 ! basalare
+xref: TGMA:0000318 ! basalare
+
+[Term]
+id: HAO:0001599 ! organ system
+xref: FBbt:00004856 ! organ system
+xref: SPD:0000014 ! organ system
+
+[Term]
+id: HAO:0000410 ! hypopygium
+xref: TGMA:0000598 ! adult sternum IX
+
+[Term]
+id: HAO:0001034 ! trochanter
+xref: TGMA:0000166 ! trochanter
+xref: SPD:0000374 ! trochanter
+xref: FBbt:00004643 ! trochanter
+xref: TADS:0000279 ! adult trochanter
+
+[Term]
+id: HAO:0000963 ! hypoproct
+xref: TGMA:0000625 ! postgenital lobe
+xref: FBbt:00004834 ! hypoproct
+
+[Term]
+id: HAO:0000768 ! posterior tentorial pit
+xref: FBbt:00004503 ! posterior tentorial pit
+xref: TGMA:0000020 ! adult posterior tentorial pit
+
+[Term]
+id: HAO:0001006 ! tergum
+xref: FBbt:00004552 ! tergum
+
+[Term]
+id: HAO:0000989 ! tarsal claw
+xref: FBbt:00004660 ! unguis
+xref: SPD:0000381 ! claw
+xref: TADS:0000285 ! adult claw
+xref: TGMA:0000172 ! unguis
+
+[Term]
+id: HAO:0000874 ! prothorax
+xref: TGMA:0000137 ! adult prothorax
+xref: FBbt:00003020 ! adult prothoracic segment
+
+[Term]
+id: HAO:0000298 ! epidermis
+xref: FBbt:00004993 ! epidermis
+xref: TADS:0000109 ! adult epidermis
+
+[Term]
+id: HAO:0001010 ! third mesopleuro-mesonotal muscle
+xref: FBbt:00003386 ! basalar muscle 52
+
+[Term]
+id: HAO:0001706 ! mesopleural suture
+xref: TGMA:0000342 ! mesothoracic pleural suture
+
+[Term]
+id: HAO:0001052 ! vas deferens
+xref: TADS:0000486 ! adult vasa deferentia
+xref: FBbt:00004968 ! vas deferens
+
+[Term]
+id: HAO:0000228 ! coxa
+xref: TGMA:0000165 ! coxa
+xref: TADS:0000278 ! adult coxa
+xref: FBbt:00004641 ! coxa
+xref: SPD:0000373 ! coxa
+
+[Term]
+id: HAO:0001122 ! procoxa
+xref: FBbt:00004664 ! prothoracic coxa
+xref: TGMA:0000157 ! forecoxa
+
+[Term]
+id: HAO:0001830 ! mediosternite 3
+xref: FBbt:00004801 ! abdominal sternite 3
+
+[Term]
+id: HAO:0000311 ! exocuticle
+xref: TADS:0000120 ! adult exocuticle
+xref: FBbt:00004973 ! exocuticle
+
+[Term]
+id: HAO:0000809 ! preoral cavity
+xref: TADS:0000014 ! adult preoral canal
+
+[Term]
+id: HAO:0000894 ! remigial region
+xref: TGMA:0000184 ! remigium
+
+[Term]
+id: HAO:0000017 ! abdominal segment 1
+xref: TGMA:0000636 ! adult abdominal segment I
+xref: SPD:0000422 ! abdominal segment 1
+xref: FBbt:00000022 ! abdominal segment 1
+
+[Term]
+id: HAO:0000790 ! postocciput
+xref: FBbt:00004494 ! postocciput
+xref: TGMA:0000055 ! adult postocciput
+
+[Term]
+id: HAO:0001376 ! median mesofurco-metafurcal muscle
+xref: FBbt:00003397 ! mesothoracic ventral longitudinal muscle 62
+
+[Term]
+id: HAO:0000126 ! anterior tentorial pit
+xref: TGMA:0000016 ! adult anterior tentorial pit
+xref: FBbt:00004502 ! anterior tentorial pit
+
+[Term]
+id: HAO:0001191 ! wing blade
+xref: FBbt:00006015 ! wing blade
+
+[Term]
+id: HAO:0000262 ! dorsal pharyngeal dilatator
+xref: FBbt:00003275 ! cibarial dilator muscle 11
+xref: FBbt:00003273 ! cibarial muscle 10
+xref: FBbt:00003292 ! fronto-pharyngeal muscle
+xref: FBbt:00003276 ! cibarial dilator muscle 12
+
+[Term]
+id: HAO:0001229 ! scutellum
+xref: FBbt:00004587 ! scutellum
+xref: TGMA:0000256 ! adult scutellum
+
+[Term]
+id: HAO:0000039 ! abdominal sternum 6
+xref: TGMA:0000658 ! sternum VI
+
+[Term]
+id: HAO:0001130 ! mesotrochanter
+xref: TGMA:0000142 ! midtrochanter
+xref: FBbt:00004688 ! mesothoracic trochanter
+
+[Term]
+id: HAO:0000365 ! furcal arm
+xref: TGMA:0000361 ! sternal apophysis
+
+[Term]
+id: HAO:0000043 ! portion of tissue
+xref: FBbt:00007003 ! portion of tissue
+xref: TADS:0000607 ! portion of tissue
+xref: TGMA:0001844 ! portion of tissue
+
+[Term]
+id: HAO:0000935 ! seta
+xref: TADS:0000301 ! adult seta
+xref: SPD:0000359 ! seta
+xref: TGMA:0001363 ! seta
+
+[Term]
+id: HAO:0000567 ! mesopostnotum
+xref: TGMA:0000268 ! adult mesopostnotum
+
+[Term]
+id: HAO:0001143 ! second tarsomere of hind leg
+xref: FBbt:00004715 ! metathoracic tarsal segment 2
+
+[Term]
+id: HAO:0000368 ! galea
+xref: TGMA:0000905 ! galea
+
+[Term]
+id: HAO:0000968 ! subgenal carina
+xref: TGMA:0000058 ! subgenal suture
+
+[Term]
+id: HAO:0000066 ! epithelium
+xref: TADS:0000619 ! epithelium
+xref: FBbt:00007005 ! epithelium
+
+[Term]
+id: HAO:0000013 ! cell
+xref: TADS:0000594 ! cell
+xref: FBbt:00007002 ! cell
+xref: TGMA:0001833 ! cells
+
+[Term]
+id: HAO:0000201 ! cibarium
+xref: TGMA:0000102 ! adult cibarium
+xref: TADS:0000042 ! adult pharynx
+xref: FBbt:00004526 ! adult cibarium
+
+[Term]
+id: HAO:0000432 ! interorbital space
+xref: TGMA:0000035 ! interocular space
+
+[Term]
+id: HAO:0000725 ! pleural suture
+xref: FBbt:00004603 ! pleural suture
+xref: TGMA:0000431 ! pleural suture
+
+[Term]
+id: HAO:0001520 ! flexor of the pretarsal claws of the hind leg
+xref: FBbt:00003440 ! metathoracic pretarsal depressor muscle 96
+
+[Term]
+id: HAO:0001124 ! profemur
+xref: FBbt:00004667 ! prothoracic femur
+xref: TGMA:0000158 ! forefemur
+
+[Term]
+id: HAO:0000260 ! dorsal metafurcal lamella
+xref: TGMA:0000424 ! apophyseal cup
+
+[Term]
+id: HAO:0000154 ! auxiliar sclerite
+xref: FBbt:00004654 ! auxilia
+
+[Term]
+id: HAO:0000956 ! sternum
+xref: SPD:0000291 ! sternum
+xref: FBbt:00004557 ! sternum
+xref: TGMA:0000596 ! adult sternum
+
+[Term]
+id: HAO:0000999 ! tentorial pit
+xref: FBbt:00004501 ! tentorial pit
+
+[Term]
+id: HAO:0000054 ! anatomical group
+xref: TADS:0000613 ! anatomical group
+xref: FBbt:00007276 ! anatomical group
+xref: TGMA:0001846 ! anatomical group
+
+[Term]
+id: HAO:0000003 ! anatomical structure
+xref: TADS:0000584 ! anatomical structure
+xref: FBbt:00007001 ! anatomical structure
+xref: TGMA:0001823 ! anatomical structure
+
+[Term]
+id: HAO:0000848 ! pronoto-procoxal muscle
+xref: FBbt:00003336 ! prothoracic tergopleural promotor muscle 28
+
+[Term]
+id: HAO:0001377 ! median mesocoxo-mesotrochanteral muscle
+xref: FBbt:00003405 ! mesothoracic intracoxal depressor muscle 67
+
+[Term]
+id: HAO:0000327 ! femur
+xref: SPD:0000375 ! femur
+xref: TADS:0000280 ! adult femur
+xref: TGMA:0000167 ! femur
+xref: FBbt:00004644 ! femur
+
+[Term]
+id: HAO:0000275 ! dorsal tentorial arm
+xref: TGMA:0000022 ! dorsal tentorial arm
+
+[Term]
+id: HAO:0000945 ! spermatheca
+xref: SPD:0000138 ! primary spermatheca
+xref: TGMA:0000560 ! spermatheca
+xref: FBbt:00004921 ! spermathecum
+xref: SPD:0000544 ! spermatheca
