@@ -1,7 +1,6 @@
 format-version: 1.2
 ontology: hao
-date: 14:07:2011 13:51
-data-version: http://purl.obolibrary.org/obo/hao/2011-07-14/hao.obo
+date: 05:08:2011 10:25
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -413,6 +412,7 @@ id: HAO:0000056
 name: abdominal tergum 3
 def: "The tergum that is located on abdominal segment 3." [http://api.hymao.org/api/ref/67791]
 synonym: "2nd tergite" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/68338]
+synonym: "third abdominal tergum" [http://api.hymao.org/api/ref/96313]
 is_a: HAO:0001006 ! tergum
 relationship: OBO_REL:part_of HAO:0000022 ! abdominal segment 3
 
@@ -1358,7 +1358,7 @@ relationship: OBO_REL:part_of HAO:0000339 ! first valvula
 [Term]
 id: HAO:0000181
 name: blade
-def: "The area of the mandible that is distal contains the teeth." [http://api.hymao.org/api/ref/67841]
+def: "The area that is located distally on the mandible." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0000506 ! mandible
 
@@ -1560,6 +1560,7 @@ synonym: "anteclypeus" [http://api.hymao.org/api/ref/68154, http://api.hymao.org
 synonym: "clypeal apron" [ http://projects.biodiversity.be/ants/    ]
 synonym: "clypeal lamella" [ http://projects.biodiversity.be/ants/    ]
 synonym: "clypeal ledge" [http://api.hymao.org/api/ref/43471, http://api.hymao.org/api/ref/67791]
+synonym: "distal rim of clypeus" [http://api.hymao.org/api/ref/96313]
 is_a: HAO:0000900 ! rim
 relationship: OBO_REL:part_of HAO:0000212 ! clypeus
 
@@ -2008,7 +2009,7 @@ name: dorsal profurco-postoccipital muscle
 def: "The postoccipital muscle that arises from the dorsal part of the lateral area of the dorsal profurcal lamella and inserts on the postocciput." [http://api.hymao.org/api/ref/67791]
 synonym: "dorsal profurco-postoccipital" [http://api.hymao.org/api/ref/67864]
 synonym: "fu1d-poc" [http://api.hymao.org/api/ref/67864]
-is_a: HAO:0001109 ! postoccipital muscle
+is_a: HAO:0001892 ! profurco-postoccipital muscle
 relationship: HAO:attached_to HAO:0000825 ! profurca
 relationship: HAO:attached_to HAO:0000790 ! postocciput
 
@@ -2465,8 +2466,9 @@ comment: Concept miss-interpreted based on label only, interpretation doesn't ex
 [Term]
 id: HAO:0000326
 name: femoral groove
-def: "The scrobe that is located on the mesopleuron into which the mid leg fits when pressed against the mesosoma." [http://api.hymao.org/api/ref/67841]
+def: "The scrobe that is located on the mesopleuron into which the mesofemur fits when pressed against the mesosoma." [http://api.hymao.org/api/ref/67791]
 synonym: "femoral depression" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+synonym: "mesofemoral depression" [DOI:10.1071/IS06012]
 synonym: "scrobal groove" [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000912 ! scrobe
 relationship: OBO_REL:part_of HAO:0000566 ! mesopleuron
@@ -3304,6 +3306,7 @@ relationship: OBO_REL:part_of HAO:0001077 ! vertex
 id: HAO:0000430
 name: interocellar space
 def: "The area that is limited posteriorly by the posterior ocellar line and laterally by the lateral ocellar line." [http://api.hymao.org/api/ref/67791]
+synonym: "interocellar area" [http://api.hymao.org/api/ref/96313]
 synonym: "ocellar triangle" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791, http://www.amentinst.org/GIN/]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0001077 ! vertex
@@ -3493,6 +3496,7 @@ relationship: HAO:attached_to HAO:0000456 ! labrum
 id: HAO:0000455
 name: labral seta
 def: "The seta that is located on the labrum." [http://api.hymao.org/api/ref/67841]
+synonym: "anterior labral seta" [http://api.hymao.org/api/ref/43471]
 is_a: HAO:0000935 ! seta
 relationship: OBO_REL:part_of HAO:0000456 ! labrum
 
@@ -4137,7 +4141,7 @@ relationship: OBO_REL:part_of HAO:0000453 ! labium
 [Term]
 id: HAO:0000535
 name: meron
-def: "The area that is located laterally and proximally on the coxa, proximal to the basicostal suture." [http://api.hymao.org/api/ref/67841]
+def: "The area that is located posterolaterally and proximally on the coxa, proximal to the basicostal suture." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0000228 ! coxa
 
@@ -5842,12 +5846,12 @@ relationship: HAO:attached_to HAO:0000547 ! mesofurca
 [Term]
 id: HAO:0000754
 name: posterior mesonoto-mesotrochanteral muscle
-def: "The mesotrochanteral muscle that arises from the dorsal axillar area, posteriorly of the site of origin of the anterior mesonoto-mesotrochanteral muscle (if present) and inserts on the mesotrochanteral apodeme." [http://api.hymao.org/api/ref/67791]
+def: "The mesonoto-mesotrochanteral muscle that arises from the dorsal axillar area, posteriorly of the site of origin of the anterior mesonoto-mesotrochanteral muscle (if present) and inserts on the mesotrochanteral apodeme." [http://api.hymao.org/api/ref/67791]
 synonym: "posterior mesonoto-mesotrochanteral" [http://api.hymao.org/api/ref/67864]
 synonym: "t2p-tr2" [http://api.hymao.org/api/ref/67864]
-is_a: HAO:0001111 ! mesotrochanteral muscle
-relationship: HAO:attached_to HAO:0000556 ! mesonotum
+is_a: HAO:0001894 ! mesonoto-mesotrochanteral muscle
 relationship: HAO:attached_to HAO:0001130 ! mesotrochanter
+relationship: HAO:attached_to HAO:0000556 ! mesonotum
 
 [Term]
 id: HAO:0000755
@@ -6272,7 +6276,7 @@ relationship: OBO_REL:part_of HAO:0001044 ! upper face
 [Term]
 id: HAO:0000811
 name: prepectus
-def: "The intersegmentalia that is located between the mesopectus and the pronotum and serves as the site of origin of the anterior thoracic spiracle occlusor muscle." [http://api.hymao.org/api/ref/67791]
+def: "The intersegmentalia that is located on the mesopectus-pronotum intersegmental membrane and serves as the site of origin of the anterior thoracic spiracle occlusor muscle." [http://api.hymao.org/api/ref/67791]
 synonym: "epicnemium" [http://api.hymao.org/api/ref/68158]
 synonym: "postspiracular sclerite" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000436 ! intersegmentalia
@@ -6634,7 +6638,7 @@ relationship: OBO_REL:part_of HAO:0000862 ! propleuron
 [Term]
 id: HAO:0000859
 name: propleuro-postoccipital muscle
-def: "The postoccipital muscle that arises from the propleuron extends laterally of the cervical prominence and inserts on the postocciput." [http://api.hymao.org/api/ref/67791]
+def: "The postoccipital muscle that arises from the propleuron and inserts on the postocciput." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001109 ! postoccipital muscle
 relationship: HAO:attached_to HAO:0000790 ! postocciput
 relationship: HAO:attached_to HAO:0000862 ! propleuron
@@ -6758,7 +6762,7 @@ relationship: OBO_REL:part_of HAO:0000854 ! propectus
 [Term]
 id: HAO:0000874
 name: prothorax
-def: "The thoracic segment that is located between the head and the mesothorax and is delimited by the pronotum and the propectus." [http://api.hymao.org/api/ref/67791]
+def: "The thoracic segment that is located between the head and the mesothorax is composed of the pronotum, the propectus and the fore leg." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001013 ! thoracic segment
 relationship: OBO_REL:part_of HAO:0001015 ! thorax
 
@@ -7058,6 +7062,7 @@ relationship: OBO_REL:part_of HAO:0000574 ! mesoscutellum
 id: HAO:0000915
 name: scutellar disc
 def: "The area that is delimited anteriorly by the scutoscutellar sulcus, laterally by the axillar depression and posteriorly by the posterior scutellar sulcus." [http://api.hymao.org/api/ref/67791]
+synonym: "disc of mesoscutellum" [http://api.hymao.org/api/ref/96313]
 synonym: "mesoscutellar disc" [http://api.hymao.org/api/ref/78457]
 is_a: HAO:0000146 ! area
 
@@ -8238,7 +8243,7 @@ name: ventral profurco-postoccipital muscle
 def: "The postoccipital muscle that arises partly from the anterior surface of the dorsal profurcal lamella ventral to the site of origin of the dorsal profurco-postoccipital muscle and partly from the median area of the dorsal profurcal lamella." [http://api.hymao.org/api/ref/78236]
 synonym: "fu1v-poc" [http://api.hymao.org/api/ref/78236]
 synonym: "ventral profurco-postoccipital" [http://api.hymao.org/api/ref/67864]
-is_a: HAO:0001109 ! postoccipital muscle
+is_a: HAO:0001892 ! profurco-postoccipital muscle
 relationship: HAO:attached_to HAO:0000825 ! profurca
 relationship: HAO:attached_to HAO:0000790 ! postocciput
 
@@ -11096,12 +11101,12 @@ relationship: OBO_REL:part_of HAO:0000547 ! mesofurca
 [Term]
 id: HAO:0001440
 name: anterior mesonoto-mesotrochanteral muscle
-def: "The mesotrochanteral muscle that arises from the mesonotum anterior to the site of origin of the posterior mesonoto-mesotrochanteral muscle when present and inserts on the mesotrochanteral apodeme." [http://api.hymao.org/api/ref/67791]
+def: "The mesonoto-mesotrochanteral muscle that arises from the mesonotum anterior to the site of origin of the posterior mesonoto-mesotrochanteral muscle when present and inserts on the mesotrochanteral apodeme." [http://api.hymao.org/api/ref/67791]
 synonym: "anterior mesonoto-mesotrochanteral" [http://api.hymao.org/api/ref/67864]
 synonym: "t2a-tr2" [http://api.hymao.org/api/ref/67864]
-is_a: HAO:0001111 ! mesotrochanteral muscle
-relationship: HAO:attached_to HAO:0000556 ! mesonotum
+is_a: HAO:0001894 ! mesonoto-mesotrochanteral muscle
 relationship: HAO:attached_to HAO:0001130 ! mesotrochanter
+relationship: HAO:attached_to HAO:0000556 ! mesonotum
 
 [Term]
 id: HAO:0001441
@@ -12415,7 +12420,7 @@ relationship: OBO_REL:part_of HAO:0000047 ! abdominal sternum 9
 [Term]
 id: HAO:0001615
 name: ventral pronoto-procoxal muscle
-def: "The pronoto-procoxal muscle that originates posteroventrally from the pronotum." [http://api.hymao.org/api/ref/78236]
+def: "The pronoto-procoxal muscle that originates anteroventrally from the pronotum and inserts posterolaterally on the procoxa." [http://api.hymao.org/api/ref/78236]
 synonym: "t1v-cx1" [http://api.hymao.org/api/ref/67864]
 synonym: "ventral pronoto-procoxal" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0000848 ! pronoto-procoxal muscle
@@ -12645,7 +12650,7 @@ relationship: HAO:attached_to HAO:0000556 ! mesonotum
 [Term]
 id: HAO:0001644
 name: mesonoto-mesocoxal muscle
-def: "The mesocoxal muscle that arises from the mesonotum." [http://api.hymao.org/api/ref/67791]
+def: "The mesocoxal muscle that arises from the mesonotum and inserts on the posterior margin of the mesocoxa." [http://api.hymao.org/api/ref/67791]
 synonym: "mesonoto-mesocoxal" [http://api.hymao.org/api/ref/67864]
 synonym: "t2-cx2" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0001786 ! mesocoxal muscle
@@ -12843,8 +12848,9 @@ relationship: OBO_REL:part_of HAO:0001681 ! sawtooth
 
 [Term]
 id: HAO:0001671
-name: sensillar patch
+name: sensillar patch of the second valvifer
 def: "The sensillar patch that is located anteriorly on the lateral wall of the second valvifer." [http://api.hymao.org/api/ref/78248]
+synonym: "sensillar patch" [http://api.hymao.org/api/ref/78248, http://api.hymao.org/api/ref/67869]
 is_a: HAO:0000931 ! sensillar patch
 relationship: OBO_REL:part_of HAO:0000927 ! second valvifer
 
@@ -13505,6 +13511,7 @@ relationship: OBO_REL:part_of HAO:0000928 ! second valvula
 id: HAO:0001760
 name: hairy ring of the metasoma
 def: "The setiferous patch that is extending along the second metasomal tergum." [http://api.hymao.org/api/ref/67791]
+synonym: "felt-like ring" [http://api.hymao.org/api/ref/96313]
 is_a: HAO:0000936 ! setiferous patch
 relationship: OBO_REL:part_of HAO:0000056 ! abdominal tergum 3
 
@@ -14420,14 +14427,14 @@ relationship: OBO_REL:part_of HAO:0000343 ! flagellum
 [Term]
 id: HAO:0001884
 name: tenth flagellomere
-def: "The flagellomere that is connected proximally to the 9th flagellomere." [http://api.hymao.org/api/ref/67791]
+def: "The flagellomere that is located immediately distal to the ninth flagellomere." [http://api.hymao.org/api/ref/96311]
 is_a: HAO:0000342 ! flagellomere
 relationship: OBO_REL:part_of HAO:0000343 ! flagellum
 
 [Term]
 id: HAO:0001885
 name: fifth flagellomere
-def: "The flagellomere that is located between the fourth and sixth flagellomeres." [http://api.hymao.org/api/ref/67791]
+def: "The flagellomere that is located immediately distal to the fourth flagellomere." [http://api.hymao.org/api/ref/96311]
 is_a: HAO:0000342 ! flagellomere
 relationship: OBO_REL:part_of HAO:0000343 ! flagellum
 
@@ -14465,6 +14472,79 @@ name: abdominal sternum 10
 def: "The abdominal sternum that is located on abdominal segment 10." [http://api.hymao.org/api/ref/68082]
 is_a: HAO:0001425 ! abdominal sternum
 relationship: OBO_REL:part_of HAO:0000018 ! abdominal segment 10
+
+[Term]
+id: HAO:0001891
+name: profurco-procoxal muscle
+def: "The muscle that arises from the profurca and inserts on the procoxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0000825 ! profurca
+relationship: HAO:attached_to HAO:0001122 ! procoxa
+
+[Term]
+id: HAO:0001892
+name: profurco-postoccipital muscle
+def: "The muscle that arises from the profurca and inserts on the postocciput." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0000234 ! cranium
+relationship: HAO:attached_to HAO:0000825 ! profurca
+
+[Term]
+id: HAO:0001893
+name: release and spread structure
+def: "The evaporatorium that is located on the sex segment." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000310 ! evaporatorium
+relationship: OBO_REL:part_of HAO:0000937 ! sex flagellomere
+
+[Term]
+id: HAO:0001894
+name: mesonoto-mesotrochanteral muscle
+def: "The muscle that arises from the mesonotum and inserts on the mesotrochanter." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001111 ! mesotrochanteral muscle
+relationship: HAO:attached_to HAO:0000556 ! mesonotum
+relationship: HAO:attached_to HAO:0001130 ! mesotrochanter
+
+[Term]
+id: HAO:0001895
+name: third flagellomere
+def: "The flagellomere that is located immediately distal to the second flagellomere." [http://api.hymao.org/api/ref/96311]
+is_a: HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0001896
+name: fourth flagellomere
+def: "The flagellomere that is located immediately distal to the third flagellomere." [http://api.hymao.org/api/ref/96311]
+is_a: HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0001897
+name: sixth flagellomere
+def: "The flagellomere that is located immediately distal to the fifth flagellomere." [http://api.hymao.org/api/ref/96311]
+is_a: HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0001898
+name: seventh flagellomere
+def: "The flagellomere that is located immediately distal to the sixth flagellomere." [http://api.hymao.org/api/ref/96311]
+is_a: HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0001899
+name: eighth flagellomere
+def: "The flagellomere that is located immediately distal to the seventh flagellomere." [http://api.hymao.org/api/ref/96311]
+is_a: HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0001900
+name: ninth flagellomere
+def: "The flagellomere that is located immediately distal to the eighth flagellomere." [http://api.hymao.org/api/ref/96311]
+is_a: HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0001901
+name: eleventh flagellomere
+def: "The flagellomere that is located immediately distal to the tenth flagellomere." [http://api.hymao.org/api/ref/96311]
+is_a: HAO:0000342 ! flagellomere
 
 [Typedef]
 id: HAO:attached_to
