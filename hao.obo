@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: hao
-date: 17:05:2016 12:32
+date: 17:05:2016 14:51
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -250,8 +250,8 @@ is_a: HAO:0000016 ! abdominal segment
 id: HAO:0000034
 name: abdominal segment 9
 def: "The abdominal segment that is located between abdominal segment 8 and abdominal segment 10." [http://api.hymao.org/api/ref/67791]
-synonym: "genital segment" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "tubular abdominal segment 9" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "genital segment" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "tubular abdominal segment 9" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000016 ! abdominal segment
 
 [Term]
@@ -598,7 +598,7 @@ is_a: HAO:0000013 ! cell
 id: HAO:0000078
 name: accessory gland
 def: "The gland that empties into one of the reproductive ducts." [http://api.hymao.org/api/ref/67791]
-synonym: "glandula mucosa" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "glandula mucosa" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000375 ! gland
 
 [Term]
@@ -687,10 +687,10 @@ relationship: BFO:0000050 HAO:0000182 ! body
 id: HAO:0000091
 name: aedeagus
 def: "The anatomical cluster that is composed of sclerites that are adjacent to the distal end of the ejaculatory duct." [http://api.hymao.org/api/ref/67791]
-synonym: "forcipes intermediae" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67839]
-synonym: "gonapophysis IX male" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67780]
-synonym: "internal paramera" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67828]
-synonym: "lamina aedeagales" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67838]
+synonym: "forcipes intermediae" [http://api.hymao.org/api/ref/67839, http://api.hymao.org/api/ref/68619]
+synonym: "gonapophysis IX male" [http://api.hymao.org/api/ref/67780, http://api.hymao.org/api/ref/68619]
+synonym: "internal paramera" [http://api.hymao.org/api/ref/67828, http://api.hymao.org/api/ref/68619]
+synonym: "lamina aedeagales" [http://api.hymao.org/api/ref/67838, http://api.hymao.org/api/ref/68619]
 synonym: "penis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000312 ! external male genitalia
@@ -713,7 +713,7 @@ relationship: BFO:0000050 HAO:0001534 ! fore wing blade
 id: HAO:0000094
 name: anepisternum
 def: "The area of the episternum delimited by the paracoxal suture, basalar cleft and anapleural cleft." [http://api.hymao.org/api/ref/68619]
-synonym: "supraepisternum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "supraepisternum" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000303 ! episternum
 
@@ -774,7 +774,7 @@ relationship: BFO:0000050 HAO:0000397 ! head
 id: HAO:0000102
 name: antenna cleaner
 def: "The anatomical cluster that is composed of the probasitarsus and calcar." [http://api.hymao.org/api/ref/67791]
-synonym: "antennal cleaning organ" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791]
+synonym: "antennal cleaning organ" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "strigil" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/78442, http://api.hymao.org/api/ref/78603]
 synonym: "strigilis" [http://api.hymao.org/api/ref/43518, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000041 ! anatomical cluster
@@ -879,7 +879,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 id: HAO:0000115
 name: anterior mesofurco-mesolaterophragmal muscle
 def: "The mesofurco-mesolaterophragmal muscle that originates from the mesofurca and inserts anteriorly on the mesolaterophragma." [http://api.hymao.org/api/ref/67791]
-synonym: "anterior furcal-laterophragmal muscle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36878]
+synonym: "anterior furcal-laterophragmal muscle" [http://api.hymao.org/api/ref/36878, http://api.hymao.org/api/ref/68619]
 synonym: "anterior mesofurco-mesolaterophragmal" [http://api.hymao.org/api/ref/67864]
 synonym: "fu2a-ph2" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0000551 ! mesofurco-mesolaterophragmal muscle
@@ -919,7 +919,7 @@ is_obsolete: true
 id: HAO:0000120
 name: anterior notal wing process
 def: "The fossa that is located posterolaterally on the preaxilla and articulates with the anterior condyle of the first axillary sclerite of the fore wing." [http://api.hymao.org/api/ref/67791]
-synonym: "vorderer Tergalhebel" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "vorderer Tergalhebel" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000353 ! fossa
 relationship: BFO:0000050 HAO:0000800 ! preaxilla
 
@@ -981,8 +981,8 @@ name: anteroadmedian line
 def: "The signum that is submedian and located on the anterior margin of the mesoscutum and corresponds to the site of origin of the longitudinal flight muscle." [http://api.hymao.org/api/ref/67791]
 synonym: "admedian line" [http://api.hymao.org/api/ref/68619]
 synonym: "anterior admedial line" [http://api.hymao.org/api/ref/96437]
-synonym: "anterior parallel line" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
-synonym: "antero-admedian line" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36895]
+synonym: "anterior parallel line" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
+synonym: "antero-admedian line" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/68619]
 synonym: "anteroadmedian signum" [http://api.hymao.org/api/ref/96436]
 synonym: "anteromedian line" [http://api.hymao.org/api/ref/43471]
 is_a: HAO:0000938 ! signum
@@ -1013,7 +1013,7 @@ relationship: BFO:0000050 HAO:0000853 ! pronotum
 id: HAO:0000132
 name: anteroventral pronotal inflection
 def: "The inflection that is located on the anteroventral margin of the pronotum." [http://api.hymao.org/api/ref/67791]
-synonym: "anterior pronotal inflection" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
+synonym: "anterior pronotal inflection" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000418 ! inflection
 relationship: BFO:0000050 HAO:0000853 ! pronotum
 
@@ -1028,7 +1028,7 @@ relationship: BFO:0000050 HAO:0000853 ! pronotum
 id: HAO:0000134
 name: apex gonostipitis
 def: "The apodeme that is located medially on the proximoventral margin of the gonostipes and is the site of origin of the ventral gonostyle/volsella complex-penisvalval muscles." [http://api.hymao.org/api/ref/67791]
-synonym: "apophyse principal" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67784]
+synonym: "apophyse principal" [http://api.hymao.org/api/ref/67784, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000387 ! gonostipital arm
 
@@ -1056,7 +1056,7 @@ is_a: HAO:0000342 ! flagellomere
 id: HAO:0000138
 name: apical parossiculal seta
 def: "The seta that is located close to the distoventral margin of the gonostyle/volsella complex just laterally of the gonostyle/volsella complex-gonossiculus articulation." [http://api.hymao.org/api/ref/67766]
-synonym: "soie subapicale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
+synonym: "soie subapicale" [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
 synonym: "volsellar seta" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0002299 ! sensillum trichodeum
 relationship: BFO:0000050 HAO:0002033 ! gonostyle/volsella complex
@@ -1079,7 +1079,7 @@ relationship: BFO:0000050 HAO:0000135 ! apex of the calcar
 id: HAO:0000141
 name: apiceps
 def: "The area that is the distal part of the gonossiculus and is connected to the parossiculus via membranous conjunctiva." [http://api.hymao.org/api/ref/67791]
-synonym: "digiceps" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "digiceps" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000385 ! gonossiculus
 
@@ -1217,7 +1217,7 @@ relationship: BFO:0000050 HAO:0000158 ! axillary region
 id: HAO:0000160
 name: axillula
 def: "The area that is located laterally on the mesoscutellum and is limited anteriorly by the scutoscutellar suture and medially by the axillular line." [http://api.hymao.org/api/ref/67791]
-synonym: "axillar pit" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "axillar pit" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 synonym: "parascutellum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000574 ! mesoscutellum
@@ -1254,7 +1254,7 @@ relationship: BFO:0000050 HAO:0000909 ! sclerite
 id: HAO:0000165
 name: basal bridge
 def: "The area that connects the parosicculi." [http://api.hymao.org/api/ref/67791]
-synonym: "basivolsellar bridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67845]
+synonym: "basivolsellar bridge" [http://api.hymao.org/api/ref/67845, http://api.hymao.org/api/ref/68619]
 synonym: "sclerotic bridge uniting bases of volsellae" [http://api.hymao.org/api/ref/67670]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000703 ! parossiculus
@@ -1263,7 +1263,7 @@ relationship: BFO:0000050 HAO:0000703 ! parossiculus
 id: HAO:0000166
 name: basal grooves
 def: "The row of impressions that extends along the anterior margin of an abdominal tergum or a sternum." [http://api.hymao.org/api/ref/67766]
-synonym: "cannelure basalare" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
+synonym: "cannelure basalare" [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000902 ! row of impressions
 relationship: BFO:0000050 HAO:0000987 ! syntergum
 
@@ -1286,7 +1286,7 @@ relationship: BFO:0000050 HAO:0000312 ! external male genitalia
 id: HAO:0000169
 name: basal transverse carina of third abdominal tergite
 def: "The carina that extends along the proximal margin of the third abdominal tergite." [http://api.hymao.org/api/ref/67791]
-synonym: "basal ridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "basal ridge" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0001008 ! third abdominal tergite
 
@@ -1327,7 +1327,7 @@ relationship: BFO:0000050 HAO:0000228 ! coxa
 id: HAO:0000175
 name: basicoxite
 def: "The area that is located on the coxa proximal to the basicostal suture." [http://api.hymao.org/api/ref/67841]
-synonym: "coxomarginale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "coxomarginale" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000228 ! coxa
 
@@ -1357,7 +1357,7 @@ relationship: BFO:0000050 HAO:0000992 ! tarsus
 id: HAO:0000179
 name: basiura
 def: "The area that is the proximal part of the gonossiculus and corresponds to the site of insertion of median parossiculo-gonossiculal muscle." [http://api.hymao.org/api/ref/67791]
-synonym: "digiura" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "digiura" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000385 ! gonossiculus
 
@@ -1387,7 +1387,7 @@ relationship: BFO:0000050 HAO:0000012 ! multi-cellular organism
 id: HAO:0000183
 name: body segment
 def: "The segment that is the part of the body." [http://api.hymao.org/api/ref/67791]
-synonym: "somite" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43470]
+synonym: "somite" [http://api.hymao.org/api/ref/43470, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000929 ! segment
 relationship: BFO:0000050 HAO:0000182 ! body
 
@@ -1442,8 +1442,8 @@ relationship: BFO:0000050 HAO:0000603 ! metanotum
 id: HAO:0000191
 name: cercus
 def: "The sense organ that located apicolaterally on one of the apicalmost abdominal terga and attaches to a large nerve cord." [http://api.hymao.org/api/ref/78427]
-synonym: "larval pygopod" [http://api.hymao.org/api/ref/67781, http://api.hymao.org/api/ref/36875]
-synonym: "penicillus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67828]
+synonym: "larval pygopod" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/67781]
+synonym: "penicillus" [http://api.hymao.org/api/ref/67828, http://api.hymao.org/api/ref/68619]
 synonym: "pygostyle" [http://api.hymao.org/api/ref/67781]
 synonym: "pygostylus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "socius" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/36875]
@@ -1454,7 +1454,7 @@ relationship: BFO:0000050 HAO:0000015 ! abdomen
 id: HAO:0000192
 name: cervical apodeme
 def: "The apodeme that is located posteriorly of and continuous with the cervical prominence and corresponds to the site of insertion of laterocervical muscles." [http://api.hymao.org/api/ref/67791]
-synonym: "posterior ramus of occipital process" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
+synonym: "posterior ramus of occipital process" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000142 ! apodeme
 relationship: BFO:0000050 HAO:0000193 ! cervical prominence
 
@@ -1462,7 +1462,7 @@ relationship: BFO:0000050 HAO:0000193 ! cervical prominence
 id: HAO:0000193
 name: cervical prominence
 def: "The articular process that is located on the anterior margin of the propleuron and bears the cranial condyle of the propleuron." [http://api.hymao.org/api/ref/67841]
-synonym: "occipital process of propleuron" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
+synonym: "occipital process of propleuron" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68619]
 synonym: "occipital process of the propleuron" [http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000150 ! articular process
 relationship: BFO:0000050 HAO:0000862 ! propleuron
@@ -1531,7 +1531,7 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 id: HAO:0000203
 name: clava
 def: "The anatomical cluster that is composed of apical flagellomeres bearing multiporous plates in female organism." [http://api.hymao.org/api/ref/67791]
-synonym: "antennal clava" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "antennal clava" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 synonym: "club" [http://api.hymao.org/api/ref/37495]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000343 ! flagellum
@@ -1620,7 +1620,7 @@ relationship: BFO:0000050 HAO:0000324 ! female genitalia
 id: HAO:0000215
 name: protibial comb
 def: "The row of setae that extends along the apical margin of the fore tibia inbetween the articulations of the basitarsus and the calcar." [http://api.hymao.org/api/ref/67791]
-synonym: "fine comb" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36889]
+synonym: "fine comb" [http://api.hymao.org/api/ref/36889, http://api.hymao.org/api/ref/68619]
 synonym: "secondary comb" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "tibial comb" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000903 ! row of setae
@@ -1646,7 +1646,7 @@ relationship: BFO:0000050 HAO:0000397 ! head
 id: HAO:0000218
 name: condylar carina of the mandible
 def: "The carina that is longitudinal and extends posteriorly on the lateral surface of the mandible from the mandibular condyle." [http://api.hymao.org/api/ref/67791]
-synonym: "condylar ridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
+synonym: "condylar ridge" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000506 ! mandible
 
@@ -1670,7 +1670,7 @@ id: HAO:0000221
 name: conjunctiva
 def: "The area of the cuticle that is weakly sclerotized, with thin exocuticle." [http://api.hymao.org/api/ref/67791]
 synonym: "arthrodial membrane" [http://api.hymao.org/api/ref/67791, ISBN:0521578906]
-synonym: "corium" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "corium" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000240 ! cuticle
 
@@ -1692,7 +1692,7 @@ relationship: BFO:0000050 HAO:0000909 ! sclerite
 id: HAO:0000224
 name: coronal suture
 def: "The suture that is located medially and is part of the epicranial suture." [http://api.hymao.org/api/ref/67841]
-synonym: "metopic suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "metopic suture" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000982 ! suture
 relationship: BFO:0000050 HAO:0000297 ! epicranial suture
 
@@ -1776,7 +1776,7 @@ comment: Synonymous concept.
 [Term]
 id: HAO:0000236
 name: crossvein
-synonym: "cross vein" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36876]
+synonym: "cross vein" [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
 is_obsolete: true
 comment: There are no crossveins in Hymenoptera.
 
@@ -1784,7 +1784,7 @@ comment: There are no crossveins in Hymenoptera.
 id: HAO:0000237
 name: cubital vein
 def: "The longitudinal vein that is posterior to the marginal vein." [http://api.hymao.org/api/ref/67841]
-synonym: "cubitus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "cubitus" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001095 ! wing vein
 relationship: BFO:0000050 HAO:0000351 ! fore wing
 
@@ -1793,28 +1793,28 @@ id: HAO:0000238
 name: cupula
 def: "The sclerite that is connected via conjunctiva and attached via muscles to abdominal tergum 9 and the gonostyle/volsella complex." [http://api.hymao.org/api/ref/67791]
 synonym: "Kapsel" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67808]
-synonym: "annular lamina" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67828]
+synonym: "annular lamina" [http://api.hymao.org/api/ref/67828, http://api.hymao.org/api/ref/68619]
 synonym: "annulus" [http://api.hymao.org/api/ref/67798]
 synonym: "basal ring" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/67794, http://api.hymao.org/api/ref/67798, http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/36907, http://api.hymao.org/api/ref/67820, http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/78428]
 synonym: "basalstück" [http://api.hymao.org/api/ref/67781, http://api.hymao.org/api/ref/67800]
 synonym: "cardo" [http://api.hymao.org/api/ref/67801, http://api.hymao.org/api/ref/67818, http://api.hymao.org/api/ref/67819]
-synonym: "cupule" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67799]
-synonym: "dernier anneau" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67802]
+synonym: "cupule" [http://api.hymao.org/api/ref/67799, http://api.hymao.org/api/ref/68619]
+synonym: "dernier anneau" [http://api.hymao.org/api/ref/67802, http://api.hymao.org/api/ref/68619]
 synonym: "gonobase" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/67792, http://api.hymao.org/api/ref/67876, http://api.hymao.org/api/ref/67788, http://api.hymao.org/api/ref/67781, http://api.hymao.org/api/ref/67832, http://api.hymao.org/api/ref/67786]
 synonym: "gonocardo" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36901, http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/67785]
 synonym: "hornringe" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67804]
 synonym: "horny ring" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67805]
 synonym: "lame basialire" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/67809]
 synonym: "lamina annularis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/67797]
-synonym: "pièce annulaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67817]
-synonym: "pièce basilaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67810]
-synonym: "plaque basilaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67812]
-synonym: "praeputium" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67813]
-synonym: "ringstück" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67797]
-synonym: "sclerite accessorio" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67815]
-synonym: "sclérite accessoire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67817]
+synonym: "pièce annulaire" [http://api.hymao.org/api/ref/67817, http://api.hymao.org/api/ref/68619]
+synonym: "pièce basilaire" [http://api.hymao.org/api/ref/67810, http://api.hymao.org/api/ref/68619]
+synonym: "plaque basilaire" [http://api.hymao.org/api/ref/67812, http://api.hymao.org/api/ref/68619]
+synonym: "praeputium" [http://api.hymao.org/api/ref/67813, http://api.hymao.org/api/ref/68619]
+synonym: "ringstück" [http://api.hymao.org/api/ref/67797, http://api.hymao.org/api/ref/68619]
+synonym: "sclerite accessorio" [http://api.hymao.org/api/ref/67815, http://api.hymao.org/api/ref/68619]
+synonym: "sclérite accessoire" [http://api.hymao.org/api/ref/67817, http://api.hymao.org/api/ref/68619]
 synonym: "sections 1" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67780]
-synonym: "écailles" [http://api.hymao.org/api/ref/68619, http://www.biodiversitylibrary.org/bibliography/10281 ]
+synonym: "écailles" [http://www.biodiversitylibrary.org/bibliography/10281 , http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000713 ! phallobase
 
@@ -1822,7 +1822,7 @@ relationship: BFO:0000050 HAO:0000713 ! phallobase
 id: HAO:0000239
 name: cuspis
 def: "The projection that is located apicolaterally on the parossiculus and is adjacent to the digitus." [http://api.hymao.org/api/ref/96550]
-synonym: "cuspis volsellaris" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
+synonym: "cuspis volsellaris" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "distivolsella" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/67787]
 is_a: HAO:0000829 ! projection
 relationship: BFO:0000050 HAO:0000703 ! parossiculus
@@ -1831,7 +1831,7 @@ relationship: BFO:0000050 HAO:0000703 ! parossiculus
 id: HAO:0000240
 name: cuticle
 def: "The acellular anatomical structure that is the external layer of the integument (covers the entire body surface as well as lines ectodermal invaginations such as the stomodeum, proctodeum and tracheae) and produced by the epidermal cells." [http://api.hymao.org/api/ref/67791]
-synonym: "cuticula" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "cuticula" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "exoskeleton" [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000040 ! acellular anatomical structure
 relationship: BFO:0000050 HAO:0000421 ! integument
@@ -1929,7 +1929,7 @@ relationship: HAO:attached_to HAO:0000386 ! gonostipes
 id: HAO:0000252
 name: dorsal axillar area
 def: "The area that is located medially on the axilla and is delimited laterally by the axillar carina and posteromedially by scutoscutellar sulcus." [http://api.hymao.org/api/ref/67791]
-synonym: "dorsal axillar surface" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36885]
+synonym: "dorsal axillar surface" [http://api.hymao.org/api/ref/36885, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000155 ! axilla
 
@@ -2042,7 +2042,7 @@ relationship: HAO:attached_to HAO:0000790 ! postocciput
 id: HAO:0000267
 name: dorsal pronotal area
 def: "The area that is delimited ventrally by the pronotal suprahumeral sulcus and corresponds to the site of origin of the pronoto-procoxal, pronoto-postoccipital, pronoto-laterocervical and the pronoto-propleural muscles." [http://api.hymao.org/api/ref/67791]
-synonym: "dorsal pronotum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "dorsal pronotum" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000853 ! pronotum
 
@@ -2071,9 +2071,9 @@ relationship: BFO:0000050 HAO:0000862 ! propleuron
 id: HAO:0000271
 name: dorsal propleural ridge
 def: "The ridge that is marginal or submarginal, extends along the dorsal margin of the propleuron and corresponds to the site of origin of the lateral propleuro-postoccipital muscle." [http://api.hymao.org/api/ref/67791]
-synonym: "dorsal incision of the propleuron" [http://api.hymao.org/api/ref/68619, ISBN:978-1-86977-13]
-synonym: "horizontal apodeme of episternum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36927]
-synonym: "marginal apodeme" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
+synonym: "dorsal incision of the propleuron" [ISBN:978-1-86977-13, http://api.hymao.org/api/ref/68619]
+synonym: "horizontal apodeme of episternum" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/68619]
+synonym: "marginal apodeme" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000899 ! ridge
 relationship: BFO:0000050 HAO:0000862 ! propleuron
 
@@ -2166,7 +2166,7 @@ relationship: BFO:0000050 HAO:0000182 ! body
 id: HAO:0000283
 name: ductus ejaculatorius
 def: "The duct(s) that is(are) connect vasa deferentia with endophallus and is(are) ectodermal in origin." [http://api.hymao.org/api/ref/67791]
-synonym: "ejaculatory duct" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "ejaculatory duct" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000282 ! duct
 relationship: BFO:0000050 HAO:0000427 ! internal male genitalia
 
@@ -2214,7 +2214,7 @@ is_a: HAO:0000005 ! anatomical space
 id: HAO:0000290
 name: endocuticle
 def: "The procuticle that is not tanned (sclerotised, proteins scarcely crosslinked) and located between the Schmidt's layer and the exocuticle." [http://api.hymao.org/api/ref/67791]
-synonym: "endocuticula" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "endocuticula" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001313 ! procuticle
 is_a: HAO:0000040 ! acellular anatomical structure
 relationship: BFO:0000050 HAO:0000421 ! integument
@@ -2335,10 +2335,10 @@ relationship: BFO:0000050 HAO:0000502 ! lower face
 id: HAO:0000306
 name: epistomal sulcus
 def: "The sulcus that extends along the epistomal line." [http://api.hymao.org/api/ref/67791]
-synonym: "epistomal groove" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36874]
-synonym: "epistomal suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "epistomal groove" [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/68619]
+synonym: "epistomal suture" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "fronto-clypeal sulcus" [ http://projects.biodiversity.be/ants/    ]
-synonym: "fronto-clypeal suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36876]
+synonym: "fronto-clypeal suture" [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000316 ! face
 
@@ -2375,7 +2375,7 @@ is_a: HAO:0000146 ! area
 id: HAO:0000311
 name: exocuticle
 def: "The procuticle that is tanned (sclerotised, proteins are highly crosslinked) and located between the endocuticle and epicuticle." [http://api.hymao.org/api/ref/67791]
-synonym: "exocuticula" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "exocuticula" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001313 ! procuticle
 relationship: BFO:0000050 HAO:0000421 ! integument
 
@@ -2383,19 +2383,19 @@ relationship: BFO:0000050 HAO:0000421 ! integument
 id: HAO:0000312
 name: external male genitalia
 def: "The appendage that is connected to the body by the cupulo-S9 muscles." [http://api.hymao.org/api/ref/67791]
-synonym: "armatura genitalis" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
-synonym: "copulatoria" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
-synonym: "copulatory apparatus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
-synonym: "genital apparatus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
-synonym: "genital appendage" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
-synonym: "genital armature" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67828]
+synonym: "armatura genitalis" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
+synonym: "copulatoria" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
+synonym: "copulatory apparatus" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
+synonym: "genital apparatus" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
+synonym: "genital appendage" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
+synonym: "genital armature" [http://api.hymao.org/api/ref/67828, http://api.hymao.org/api/ref/68619]
 synonym: "genital capsule" [http://www.schulmeister.us/malereproductivesystem.html, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "genital organ" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "genital organ" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 synonym: "genitalia" [http://api.hymao.org/api/ref/67785]
-synonym: "male copulatory organ" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "male copulatory organ" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 synonym: "paramere" [http://api.hymao.org/api/ref/67828]
-synonym: "parameres" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67829]
-synonym: "phallic apparatus" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "parameres" [http://api.hymao.org/api/ref/67829, http://api.hymao.org/api/ref/68619]
+synonym: "phallic apparatus" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 synonym: "phallus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/68130, http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/78442]
 is_a: HAO:0000144 ! appendage
 relationship: BFO:0000050 HAO:0000505 ! male genitalia
@@ -2450,9 +2450,9 @@ relationship: BFO:0000050 HAO:0000672 ! orbit
 id: HAO:0000319
 name: facial pit
 def: "The pit that overlaps with the facial apodeme." [http://api.hymao.org/api/ref/67791]
-synonym: "fosette scrobale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
-synonym: "fossette frontale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67768]
-synonym: "pore facial" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67769]
+synonym: "fosette scrobale" [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
+synonym: "fossette frontale" [http://api.hymao.org/api/ref/67768, http://api.hymao.org/api/ref/68619]
+synonym: "pore facial" [http://api.hymao.org/api/ref/67769, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000718 ! pit
 relationship: BFO:0000050 HAO:0001044 ! upper face
 
@@ -2460,7 +2460,7 @@ relationship: BFO:0000050 HAO:0001044 ! upper face
 id: HAO:0000320
 name: facial sulcus
 def: "The sulcus that arises medially from the ventral margin of the median ocellus and extends towards the intertorular carina." [http://api.hymao.org/api/ref/67766]
-synonym: "subocellar sulcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791]
+synonym: "subocellar sulcus" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0001044 ! upper face
 
@@ -2534,7 +2534,7 @@ relationship: BFO:0000050 HAO:0000017 ! abdominal segment 1
 id: HAO:0000330
 name: first axillary sclerite
 def: "The axillary sclerite that articulates with the mesonotum." [http://api.hymao.org/api/ref/67791]
-synonym: "first axillary" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/36975]
+synonym: "first axillary" [http://api.hymao.org/api/ref/36975, http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000159 ! axillary sclerite
 relationship: BFO:0000050 HAO:0000158 ! axillary region
 
@@ -2609,7 +2609,7 @@ synonym: "coin" [http://api.hymao.org/api/ref/67823]
 synonym: "crosse" [http://api.hymao.org/api/ref/67823]
 synonym: "fulcral plate" [http://api.hymao.org/api/ref/67823]
 synonym: "furcal plate" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "gonangulum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/41396]
+synonym: "gonangulum" [http://api.hymao.org/api/ref/41396, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "stilett-trager" [http://api.hymao.org/api/ref/67823]
 synonym: "supporting plate" [http://api.hymao.org/api/ref/67823]
 synonym: "treibbein" [http://api.hymao.org/api/ref/67823, http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=]
@@ -2628,7 +2628,7 @@ def: "The area of the first valvifer-first valvula complex that is delimited dis
 synonym: "bohrborste" [http://api.hymao.org/api/ref/67823]
 synonym: "first gonapophysis" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "gräte" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68574]
-synonym: "lame de l'aiguillon" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/67810]
+synonym: "lame de l'aiguillon" [http://api.hymao.org/api/ref/67810, http://api.hymao.org/api/ref/67823]
 synonym: "lancet" [http://api.hymao.org/api/ref/68619]
 synonym: "saw" [http://api.hymao.org/api/ref/67823]
 synonym: "schieber" [http://api.hymao.org/api/ref/67823, http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=]
@@ -2638,7 +2638,7 @@ synonym: "stachelgrate" [http://api.hymao.org/api/ref/67823]
 synonym: "stechborste" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68582, http://api.hymao.org/api/ref/29835]
 synonym: "stilet" [http://api.hymao.org/api/ref/67823]
 synonym: "stylet" [http://api.hymao.org/api/ref/67823]
-synonym: "sägeblatt" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/67800]
+synonym: "sägeblatt" [http://api.hymao.org/api/ref/67800, http://api.hymao.org/api/ref/67823]
 synonym: "sägeplatte" [http://api.hymao.org/api/ref/67823]
 synonym: "vordere gonapophyse" [http://api.hymao.org/api/ref/67823]
 is_a: HAO:0000146 ! area
@@ -2800,7 +2800,7 @@ relationship: BFO:0000050 HAO:0000297 ! epicranial suture
 id: HAO:0000361
 name: functional mouth
 def: "The anatomical space that is delimited posteriorly by the distal part of the sitophore and anteriorly by the tormae." [http://api.hymao.org/api/ref/78244]
-synonym: "mouth" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "mouth" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000005 ! anatomical space
 relationship: BFO:0000050 HAO:0000809 ! preoral cavity
 
@@ -2874,7 +2874,7 @@ relationship: BFO:0000050 HAO:0000056 ! abdominal tergum 3
 id: HAO:0000371
 name: gena
 def: "The area that is delimited by the intersection of the interorbital plane, the margin of the compound eye, the margin of the oral foramen, the occipital carina and the malar sulcus." [http://api.hymao.org/api/ref/67862]
-synonym: "genal area" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
+synonym: "genal area" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/68619]
 synonym: "temple" [http://api.hymao.org/api/ref/78518]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000234 ! cranium
@@ -2957,8 +2957,8 @@ relationship: BFO:0000050 HAO:0000312 ! external male genitalia
 id: HAO:0000382
 name: gonomacula
 def: "The conjunctiva that is located at the distal apex of the harpe." [http://api.hymao.org/api/ref/67791]
-synonym: "cupping disk" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
-synonym: "ventouse" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67825]
+synonym: "cupping disk" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
+synonym: "ventouse" [http://api.hymao.org/api/ref/67825, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000221 ! conjunctiva
 relationship: BFO:0000050 HAO:0000395 ! harpe
 
@@ -2982,18 +2982,18 @@ id: HAO:0000385
 name: gonossiculus
 def: "The sclerite that is located on the distoventral part of the gonostyle/volsella complex, and is articulated with the more proximal sclerites of the gononstyle/volsella complex." [http://api.hymao.org/api/ref/67791]
 synonym: "chelate structure" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "copulatory ossicle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
+synonym: "copulatory ossicle" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
 synonym: "digitus" [http://api.hymao.org/api/ref/68619, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/78442, http://api.hymao.org/api/ref/96781]
-synonym: "digitus volsellaris" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
-synonym: "forcipes exteriores" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67839]
-synonym: "gonolacinia" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67787]
-synonym: "inner paramere" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67840]
+synonym: "digitus volsellaris" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
+synonym: "forcipes exteriores" [http://api.hymao.org/api/ref/67839, http://api.hymao.org/api/ref/68619]
+synonym: "gonolacinia" [http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/68619]
+synonym: "inner paramere" [http://api.hymao.org/api/ref/67840, http://api.hymao.org/api/ref/68619]
 synonym: "lacinia" [http://api.hymao.org/api/ref/67828]
-synonym: "parameres interiores" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67835]
-synonym: "pièce en trèbuchet" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67784]
+synonym: "parameres interiores" [http://api.hymao.org/api/ref/67835, http://api.hymao.org/api/ref/68619]
+synonym: "pièce en trèbuchet" [http://api.hymao.org/api/ref/67784, http://api.hymao.org/api/ref/68619]
 synonym: "sagitta" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36901, http://api.hymao.org/api/ref/67785]
 synonym: "squama" [http://api.hymao.org/api/ref/67801, http://api.hymao.org/api/ref/68619]
-synonym: "valva interna" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67818]
+synonym: "valva interna" [http://api.hymao.org/api/ref/67818, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0001084 ! volsella
 
@@ -3001,17 +3001,17 @@ relationship: BFO:0000050 HAO:0001084 ! volsella
 id: HAO:0000386
 name: gonostipes
 def: "The sclerite that is located dorsolaterally on the gonostyle/volsella complex, is connected to the distal margin of the cupula, to the proximal margin of the harpe, and to the lateral margin of the volsella." [http://api.hymao.org/api/ref/96550]
-synonym: "basal part of forceps" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
-synonym: "basal part of stipes" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67779]
-synonym: "basimere" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67794]
-synonym: "basiparamere" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
-synonym: "basistyle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43498]
-synonym: "coxopodite" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67798]
+synonym: "basal part of forceps" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
+synonym: "basal part of stipes" [http://api.hymao.org/api/ref/67779, http://api.hymao.org/api/ref/68619]
+synonym: "basimere" [http://api.hymao.org/api/ref/67794, http://api.hymao.org/api/ref/68619]
+synonym: "basiparamere" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
+synonym: "basistyle" [http://api.hymao.org/api/ref/43498, http://api.hymao.org/api/ref/68619]
+synonym: "coxopodite" [http://api.hymao.org/api/ref/67798, http://api.hymao.org/api/ref/68619]
 synonym: "gonocoxite" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67786, http://api.hymao.org/api/ref/67788, http://api.hymao.org/api/ref/67832, http://api.hymao.org/api/ref/67876]
 synonym: "lamina parameralis" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67670]
-synonym: "parameral plate" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
-synonym: "pièce principale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67784]
-synonym: "section 2" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67780]
+synonym: "parameral plate" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
+synonym: "pièce principale" [http://api.hymao.org/api/ref/67784, http://api.hymao.org/api/ref/68619]
+synonym: "section 2" [http://api.hymao.org/api/ref/67780, http://api.hymao.org/api/ref/68619]
 synonym: "stipes" [http://api.hymao.org/api/ref/67801, http://api.hymao.org/api/ref/67818, http://api.hymao.org/api/ref/67828]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000713 ! phallobase
@@ -3035,11 +3035,11 @@ relationship: HAO:attached_to HAO:0001084 ! volsella
 id: HAO:0000389
 name: gonostyle
 def: "The anatomical cluster that is composed of sclerites located distally of the cupula dorsolaterally of the volsella, and that surround the aedeagus." [http://api.hymao.org/api/ref/96550]
-synonym: "Gonopoden des 9 Segmentes" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67839]
-synonym: "latimere" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "Gonopoden des 9 Segmentes" [http://api.hymao.org/api/ref/67839, http://api.hymao.org/api/ref/68619]
+synonym: "latimere" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 synonym: "outer or central arm of stipes" [http://api.hymao.org/api/ref/67840, http://api.hymao.org/api/ref/68619]
 synonym: "paramere" [http://api.hymao.org/api/ref/67794, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "parameres exteriores" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67835]
+synonym: "parameres exteriores" [http://api.hymao.org/api/ref/67835, http://api.hymao.org/api/ref/68619]
 synonym: "stipes" [http://api.hymao.org/api/ref/67779]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000312 ! external male genitalia
@@ -3080,18 +3080,18 @@ relationship: BFO:0000050 HAO:0000400 ! hind wing
 id: HAO:0000395
 name: harpe
 def: "The sclerite that is located distally on the gonostyle/volsella complex and does not connected to the cupula and to the volsella by conjunctiva or muscles." [http://api.hymao.org/api/ref/96550]
-synonym: "distal segment of gonopod" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
-synonym: "dististyle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43498]
+synonym: "distal segment of gonopod" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
+synonym: "dististyle" [http://api.hymao.org/api/ref/43498, http://api.hymao.org/api/ref/68619]
 synonym: "gonoharpe" [http://api.hymao.org/api/ref/78429]
-synonym: "gonosquama" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67787]
+synonym: "gonosquama" [http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/68619]
 synonym: "gonostylus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67781, http://api.hymao.org/api/ref/67832]
-synonym: "harpago" [http://api.hymao.org/api/ref/78779, http://api.hymao.org/api/ref/67794]
+synonym: "harpago" [http://api.hymao.org/api/ref/67794, http://api.hymao.org/api/ref/78779]
 synonym: "harpes" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36910, http://api.hymao.org/api/ref/67789]
-synonym: "harpide" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67779]
-synonym: "palette" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67784]
+synonym: "harpide" [http://api.hymao.org/api/ref/67779, http://api.hymao.org/api/ref/68619]
+synonym: "palette" [http://api.hymao.org/api/ref/67784, http://api.hymao.org/api/ref/68619]
 synonym: "paramere" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/67826]
 synonym: "squama" [http://api.hymao.org/api/ref/67837]
-synonym: "telomere" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67794]
+synonym: "telomere" [http://api.hymao.org/api/ref/67794, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000312 ! external male genitalia
 
@@ -3142,7 +3142,7 @@ id: HAO:0000402
 name: median complex
 def: "The anatomical cluster that is composed of median plates." [http://api.hymao.org/api/ref/67791]
 synonym: "humeral complex" [http://api.hymao.org/api/ref/67791]
-synonym: "subcostal scale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
+synonym: "subcostal scale" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0001090 ! wing base
 
@@ -3157,7 +3157,7 @@ relationship: BFO:0000050 HAO:0000882 ! pteralia
 id: HAO:0000404
 name: humeral sclerite of the metanotum
 def: "The sclerite that is connected to the lateral margin of the metanotum and bears the anterior metanotal wing process." [http://api.hymao.org/api/ref/67791]
-synonym: "anterior supraalar area" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36895]
+synonym: "anterior supraalar area" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000603 ! metanotum
 
@@ -3225,7 +3225,7 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 id: HAO:0000413
 name: hypostomal carina
 def: "The carina that delimits the hypostoma from the cranium." [http://api.hymao.org/api/ref/67791]
-synonym: "oral carina" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "oral carina" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000411 ! hypostoma
 
@@ -3282,7 +3282,7 @@ is_a: HAO:0000990 ! tarsal plantula
 id: HAO:0000421
 name: integument
 def: "The anatomical system that forms the covering layer of the animal, ectodermal in origin and composed of epidermal cells producing the cuticle." [http://api.hymao.org/api/ref/67791]
-synonym: "body wall" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "body wall" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000011 ! anatomical system
 
 [Term]
@@ -3311,7 +3311,7 @@ comment: Synonymous with HAO:0000422.
 id: HAO:0000425
 name: interaxillar sulcus
 def: "The median sulcus of the mesonotum between the anterior margin of the mesoscutellar-axillar complex and the anterior margin of the mesoscutellum." [http://api.hymao.org/api/ref/67766]
-synonym: "trait axillaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
+synonym: "trait axillaire" [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
 
@@ -3325,7 +3325,7 @@ is_a: HAO:0000146 ! area
 id: HAO:0000427
 name: internal male genitalia
 def: "The compound organ that functions as producer and transporter of sperm, spermatophore and semen, composed of the testes, vas deferens, accessory glands and ductus ejaculatorius. Ecto- and mesodermal in origin." [http://api.hymao.org/api/ref/67791]
-synonym: "inner male genitalia" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "inner male genitalia" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000024 ! compound organ
 relationship: BFO:0000050 HAO:0000505 ! male genitalia
 
@@ -3340,7 +3340,7 @@ relationship: BFO:0000050 HAO:0000603 ! metanotum
 id: HAO:0000429
 name: interocellar pit
 def: "The pit that is located on the upper face between lateral ocelli and corresponds internally with a conical apodeme and not the tentorium." [http://api.hymao.org/api/ref/67766]
-synonym: "pore interocellaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67769]
+synonym: "pore interocellaire" [http://api.hymao.org/api/ref/67769, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000718 ! pit
 relationship: BFO:0000050 HAO:0001077 ! vertex
 
@@ -3366,7 +3366,7 @@ id: HAO:0000432
 name: interorbital space
 def: "The interocular distance that is the shortest between the inner margin of compound eyes." [http://api.hymao.org/api/ref/67791]
 synonym: "IOS" [http://api.hymao.org/api/ref/96326]
-synonym: "faciale interoculaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
+synonym: "faciale interoculaire" [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
 synonym: "interocular space" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/96407]
 synonym: "interorbital distance" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "least interocular distance" [http://api.hymao.org/api/ref/68187, http://api.hymao.org/api/ref/96408]
@@ -3514,7 +3514,7 @@ comment: The concept is misunderstood in this definition. For labial suture see 
 id: HAO:0000452
 name: labiomaxillary complex
 def: "The anatomical cluster that is composed of the labium and maxillae." [http://api.hymao.org/api/ref/67841]
-synonym: "labio-maxillary complex" [http://api.hymao.org/api/ref/68560, http://api.hymao.org/api/ref/36926]
+synonym: "labio-maxillary complex" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68560]
 synonym: "maxillo-labial apparatus" [ http://projects.biodiversity.be/ants/    ]
 synonym: "maxillo-labial complex" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67766, http://api.hymao.org/api/ref/68103, http://api.hymao.org/api/ref/78436]
 synonym: "proboscis" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/36975, http://api.hymao.org/api/ref/78461]
@@ -3549,7 +3549,7 @@ relationship: BFO:0000050 HAO:0000456 ! labrum
 id: HAO:0000456
 name: labrum
 def: "The sclerite that is situated along the distal margin of the clypeus and is connected along its proximal margin with the distal margin of the epipharyngeal wall." [http://api.hymao.org/api/ref/78244]
-synonym: "labral sclerite" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43406]
+synonym: "labral sclerite" [http://api.hymao.org/api/ref/43406, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000639 ! mouthparts
 
@@ -3659,7 +3659,7 @@ relationship: BFO:0000050 HAO:0000155 ! axilla
 id: HAO:0000469
 name: lateral bar of the mesoscutellum
 def: "The bar that extends from the dorsal axillar area to the mesoscutellum." [http://api.hymao.org/api/ref/67841]
-synonym: "lateral bar" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/36895]
+synonym: "lateral bar" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000164 ! bar
 relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
 
@@ -3674,7 +3674,7 @@ relationship: BFO:0000050 HAO:0000176 ! basisternum
 id: HAO:0000471
 name: lateral carina of abdominal tergite 3
 def: "The carina that extends along the lateral margin of abdominal tergite 3." [http://api.hymao.org/api/ref/67791]
-synonym: "lateral ridges on T2" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "lateral ridges on T2" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000060 ! abdominal tergum 7
 
@@ -3753,7 +3753,7 @@ name: lateral ocellar line
 def: "The anatomical line that is the shortest between the margins of the  median and lateral ocelli." [http://api.hymao.org/api/ref/67791]
 synonym: "LOL" [http://api.hymao.org/api/ref/97912]
 synonym: "lateral ocellar distance" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "lateral ocellar length" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "lateral ocellar length" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 synonym: "least ocellar length" [http://api.hymao.org/api/ref/96588]
 synonym: "medio-lateral ocellar distance" [http://api.hymao.org/api/ref/96735]
 is_a: HAO:0000008 ! anatomical line
@@ -3791,7 +3791,7 @@ relationship: BFO:0000050 HAO:0000862 ! propleuron
 id: HAO:0000485
 name: lateral propodeal area
 def: "The area that is located laterally on the propodeum, is delimited posteromedially by the lateral propodeal carina and is delimited laterally by the plica." [http://api.hymao.org/api/ref/67791]
-synonym: "submedian area" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791]
+synonym: "submedian area" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001248 ! propodeum
 
@@ -3846,11 +3846,11 @@ name: laterophragma
 def: "The apodeme that is located laterally on the postnotum." [http://api.hymao.org/api/ref/67791]
 synonym: "accessory sclerite of 4th axillary sclerite" [http://api.hymao.org/api/ref/68619]
 synonym: "lateral lobe of secondary phragma" [http://api.hymao.org/api/ref/68619]
-synonym: "lateropostnotum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "lateropostnotum" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "mesopostnotal apodeme" [http://api.hymao.org/api/ref/68619]
 synonym: "muscle bearing process of mesopostphragma" [http://api.hymao.org/api/ref/68619]
-synonym: "postalar bridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "postalare" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "postalar bridge" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "postalare" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000142 ! apodeme
 relationship: BFO:0000050 HAO:0000786 ! postnotum
 
@@ -3890,7 +3890,7 @@ id: HAO:0000497
 name: longitudinal carina of the propleuron
 def: "The carina that extends along the lateral margin of the ventral propleural area." [http://api.hymao.org/api/ref/67791]
 synonym: "longitudinal carina of propleuron" [http://api.hymao.org/api/ref/78465]
-synonym: "propleural carina" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36876]
+synonym: "propleural carina" [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000862 ! propleuron
 
@@ -3948,7 +3948,7 @@ def: "The sulcus that extends between the ventral margin of the compound eye and
 synonym: "frontogenal suture" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "genal sulcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "malar groove" [http://api.hymao.org/api/ref/78427]
-synonym: "subocular groove" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36874]
+synonym: "subocular groove" [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/68619]
 synonym: "subocular sulcus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36913, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/68178]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000234 ! cranium
@@ -4038,7 +4038,7 @@ relationship: BFO:0000050 HAO:0000513 ! maxilla
 id: HAO:0000516
 name: medial 9th sterno-cupulal muscle
 def: "The male genitalia muscle that arises from the spiculum and inserts on the gonocondyle." [http://api.hymao.org/api/ref/67791]
-synonym: "muscle 1" [http://api.hymao.org/api/ref/67784, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "muscle 1" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/67784]
 synonym: "muscle a" [http://api.hymao.org/api/ref/67670]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000047 ! abdominal sternum 9
@@ -4065,7 +4065,7 @@ relationship: BFO:0000050 HAO:0001994 ! propodeum
 id: HAO:0000519
 name: medial vein
 def: "The wing vein that is posterior to the radial vein and is connected to the anterior margin of the anterior median plate." [http://api.hymao.org/api/ref/67841]
-synonym: "media" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "media" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "medius" [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001095 ! wing vein
 
@@ -4078,7 +4078,7 @@ synonym: "median mesonotal lobe" [http://api.hymao.org/api/ref/68619, http://api
 synonym: "median mesoscutal lobe" [http://api.hymao.org/api/ref/78442]
 synonym: "mesopraescutum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "mesoscutal midlobe" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "midlobe" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67863]
+synonym: "midlobe" [http://api.hymao.org/api/ref/67863, http://api.hymao.org/api/ref/68619]
 synonym: "midlobe of mesoscutum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "prescutum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/36913]
 is_a: HAO:0000146 ! area
@@ -4129,7 +4129,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 id: HAO:0000526
 name: median ocellus
 def: "The ocellus that is located medially on the cranium." [http://api.hymao.org/api/ref/67791]
-synonym: "anterior ocellus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67791]
+synonym: "anterior ocellus" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/68619]
 synonym: "medial ocellus" [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000661 ! ocellus
 
@@ -4154,8 +4154,8 @@ relationship: BFO:0000050 HAO:0000874 ! prothorax
 id: HAO:0000529
 name: median propodeal carina
 def: "The carina that is oriented anteroposteriorly and is located medially on the propodeum." [http://api.hymao.org/api/ref/67791]
-synonym: "median carina" [http://api.hymao.org/api/ref/68619, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "median longitudinal keel" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36928]
+synonym: "median carina" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/68619]
+synonym: "median longitudinal keel" [http://api.hymao.org/api/ref/36928, http://api.hymao.org/api/ref/68619]
 synonym: "median propodeal keel" [http://api.hymao.org/api/ref/43472]
 is_a: HAO:0000864 ! propodeal carina
 
@@ -4215,7 +4215,7 @@ id: HAO:0000537
 name: mesepimeral ridge
 def: "The ridge that extends along the posterior margin of the mesopectus." [http://api.hymao.org/api/ref/67791]
 synonym: "mesopleural ridge" [http://api.hymao.org/api/ref/67876, http://api.hymao.org/api/ref/68619]
-synonym: "posterior mesepimeral apodeme" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
+synonym: "posterior mesepimeral apodeme" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000899 ! ridge
 relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 
@@ -4336,7 +4336,7 @@ id: HAO:0000552
 name: mesofurco-metabasalar muscle
 def: "The metabasalar muscle that originates from the mesofurca and inserts on the metabasalare." [http://api.hymao.org/api/ref/67791]
 synonym: "fu2-ba3" [http://api.hymao.org/api/ref/67864]
-synonym: "furcal-basalare muscle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36878]
+synonym: "furcal-basalare muscle" [http://api.hymao.org/api/ref/36878, http://api.hymao.org/api/ref/68619]
 synonym: "mesofurco-metabasalar" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0001712 ! metabasalar muscle
 relationship: HAO:attached_to HAO:0000586 ! metabasalare
@@ -4381,7 +4381,7 @@ relationship: BFO:0000050 HAO:0000583 ! mesothorax
 id: HAO:0000558
 name: mesophragma
 def: "The phragma that extends along the ventral (posterior) margin of the ventral mesopostnotal flange and corresponds to the site of origin of the prophragmo-mesophragmal and the mesophragmo-metaphragmal muscles." [http://api.hymao.org/api/ref/67791]
-synonym: "second phragma" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36895]
+synonym: "second phragma" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000716 ! phragma
 relationship: BFO:0000050 HAO:0000583 ! mesothorax
 
@@ -4410,8 +4410,8 @@ is_obsolete: true
 id: HAO:0000562
 name: mesopleural triangle
 def: "The area that is limited dorsally by the subalar ridge, posteroventrally by the speculum and ends posteriorly in the subalar pit." [http://api.hymao.org/api/ref/67791]
-synonym: "anterior upper area of mesopleuron" [http://api.hymao.org/api/ref/36928, http://api.hymao.org/api/ref/36895]
-synonym: "subalar triangle" [http://api.hymao.org/api/ref/36929, http://api.hymao.org/api/ref/36895]
+synonym: "anterior upper area of mesopleuron" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/36928]
+synonym: "subalar triangle" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/36929]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 
@@ -4473,8 +4473,8 @@ relationship: BFO:0000050 HAO:0000574 ! mesoscutellum
 id: HAO:0000569
 name: mesoscutal humeral sulcus
 def: "The sulcus that extends medially along the parascutal carina and corresponds to a shallow ridge." [http://api.hymao.org/api/ref/67791]
-synonym: "humeral sulcus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
-synonym: "parascutal impression" [DOI:10.108/00222930701579732, http://api.hymao.org/api/ref/67791]
+synonym: "humeral sulcus" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
+synonym: "parascutal impression" [http://api.hymao.org/api/ref/67791, DOI:10.108/00222930701579732]
 synonym: "parascutal sulcus" [http://api.hymao.org/api/ref/78442]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000575 ! mesoscutum
@@ -4483,7 +4483,7 @@ relationship: BFO:0000050 HAO:0000575 ! mesoscutum
 id: HAO:0000570
 name: mesoscutal suprahumeral sulcus
 def: "The sulcus that extends along the anterior margin of the mesoscutum between the anterior-most point of the preaxilla and the anteroadmedian line and corresponds to the vertical lobe of the mesoscutum." [http://api.hymao.org/api/ref/67791]
-synonym: "suprahumeral sulcus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "suprahumeral sulcus" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000575 ! mesoscutum
 
@@ -4585,7 +4585,7 @@ relationship: BFO:0000050 HAO:0000583 ! mesothorax
 id: HAO:0000582
 name: anterior thoracic spiracle
 def: "The spiracle that is located on the border of the pronotum and mesopleuron." [http://api.hymao.org/api/ref/68619]
-synonym: "first thoracic spiracle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "first thoracic spiracle" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "mesothoracic spiracle" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "prothoracic spiracle" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000950 ! spiracle
@@ -4623,7 +4623,7 @@ relationship: BFO:0000050 HAO:0000630 ! metathorax
 id: HAO:0000587
 name: metacoxa
 def: "The coxa that is located on the hind leg." [http://api.hymao.org/api/ref/67791]
-synonym: "hind coxa" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "hind coxa" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 synonym: "hindcoxa" [http://api.hymao.org/api/ref/68082]
 is_a: HAO:0000228 ! coxa
 relationship: BFO:0000050 HAO:0000399 ! hind leg
@@ -4724,7 +4724,7 @@ relationship: BFO:0000050 HAO:0000625 ! metascutellum
 id: HAO:0000600
 name: metanotal trough
 def: "The area that is concave, and is delimited medially by the metascutellum, laterally by the supraalar area and posteriorly by the metascutellar arm." [http://api.hymao.org/api/ref/67791]
-synonym: "axillary trough" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36934]
+synonym: "axillary trough" [http://api.hymao.org/api/ref/36934, http://api.hymao.org/api/ref/68619]
 synonym: "lateral panel of metanotum" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "lateral wing of metanotum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "metascutellar trough" [http://api.hymao.org/api/ref/78442]
@@ -4735,8 +4735,8 @@ relationship: BFO:0000050 HAO:0000603 ! metanotum
 id: HAO:0000601
 name: metanotal-propodeal sulcus
 def: "The sulcus that extends along the anterior margin of the fused metanotum and abdominal tergum 1 and delimit an anterior narrow, usually differently sculptured area." [http://api.hymao.org/api/ref/67766]
-synonym: "foveole métanotale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67771]
-synonym: "sillon metanotal" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67772]
+synonym: "foveole métanotale" [http://api.hymao.org/api/ref/67771, http://api.hymao.org/api/ref/68619]
+synonym: "sillon metanotal" [http://api.hymao.org/api/ref/67772, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000576 ! mesosoma
 
@@ -4775,7 +4775,7 @@ relationship: BFO:0000050 HAO:0000604 ! metapectal-propodeal complex
 id: HAO:0000606
 name: metaphragma
 def: "The phragma that corresponds to the site of origin of the mesophragmo-metaphragmal and metaphragmo-second abdominal tergal muscles." [http://api.hymao.org/api/ref/67791]
-synonym: "third phragma" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36895]
+synonym: "third phragma" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000716 ! phragma
 relationship: BFO:0000050 HAO:0000182 ! body
 
@@ -4921,7 +4921,7 @@ id: HAO:0000625
 name: metascutellum
 def: "The area that is located posteromedially on the metanotum, is delimited laterally by the metanotal trough and corresponds to the reservoir of the dorsal vessel." [http://api.hymao.org/api/ref/67791]
 synonym: "dorsellum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36933, http://api.hymao.org/api/ref/43471]
-synonym: "metanotal plate" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36935]
+synonym: "metanotal plate" [http://api.hymao.org/api/ref/36935, http://api.hymao.org/api/ref/68619]
 synonym: "metascutellar disc" [http://api.hymao.org/api/ref/78442]
 synonym: "postscutellum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000146 ! area
@@ -5037,7 +5037,7 @@ is_a: HAO:0000041 ! anatomical cluster
 id: HAO:0000640
 name: multiporous plate sensillum
 def: "The sensillum that corresponds to a multiporous plate." [http://api.hymao.org/api/ref/67791]
-synonym: "pore plates" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36919]
+synonym: "pore plates" [http://api.hymao.org/api/ref/36919, http://api.hymao.org/api/ref/68619]
 synonym: "rhinaria" [http://api.hymao.org/api/ref/36916]
 synonym: "sensillum placoideum" [http://api.hymao.org/api/ref/97741]
 is_a: HAO:0000933 ! sensillum
@@ -5061,7 +5061,7 @@ relationship: BFO:0000050 HAO:0000603 ! metanotum
 id: HAO:0000643
 name: musculus retractor unguis
 def: "The intrinsic leg muscle that originates within the tibia and femur and has a long tendon that inserts through the terminal tarsomere onto the unguitractor." [http://api.hymao.org/api/ref/67841]
-synonym: "flexor of the pretarsal claws" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/36927]
+synonym: "flexor of the pretarsal claws" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001466 ! intrinsic leg muscle
 relationship: HAO:attached_to HAO:0000327 ! femur
 relationship: HAO:attached_to HAO:0001043 ! unguitractor plate
@@ -5095,7 +5095,7 @@ name: notaulus
 def: "The line that extends submedially along the mesoscutum and corresponds to the median border of the site of origin of the first mesopleuro-mesonotal muscle." [http://api.hymao.org/api/ref/67791]
 synonym: "notaular line" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "notauli" [http://api.hymao.org/api/ref/78442]
-synonym: "notaulix" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "notaulix" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001586 ! line
 relationship: BFO:0000050 HAO:0000575 ! mesoscutum
 
@@ -5143,7 +5143,7 @@ synonym: "nuchal carina" [ http://projects.biodiversity.be/ants/    , http://api
 synonym: "nuchal collar" [ http://projects.biodiversity.be/ants/    ]
 synonym: "occipital keel" [http://api.hymao.org/api/ref/78438]
 synonym: "preoccipital carina" [http://api.hymao.org/api/ref/43275]
-synonym: "preoccipital ridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
+synonym: "preoccipital ridge" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -5195,7 +5195,7 @@ relationship: BFO:0000050 HAO:0001015 ! thorax
 id: HAO:0000660
 name: ocellar fovea
 def: "The depression that extends along the lateral margin of a lateral ocellus or along anterior margin of the anterior ocellus." [http://api.hymao.org/api/ref/67766]
-synonym: "petite fossette triangulaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67774]
+synonym: "petite fossette triangulaire" [http://api.hymao.org/api/ref/67774, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000241 ! depression
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -5214,7 +5214,7 @@ def: "The anatomical line that is shortest and connects the compound eye and the
 synonym: "OOL" [http://api.hymao.org/api/ref/96588]
 synonym: "ocellar ocular line" [http://api.hymao.org/api/ref/68619]
 synonym: "ocellocular line" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "ocular ocellar length" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "ocular ocellar length" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000008 ! anatomical line
 relationship: BFO:0000050 HAO:0001077 ! vertex
 
@@ -5268,7 +5268,7 @@ name: oral foramen
 def: "The foramen that is located anteriorly/ventrally on the cranium in which the mouthparts are positioned." [http://api.hymao.org/api/ref/68619]
 synonym: "buccal cavity" [http://api.hymao.org/api/ref/36913, http://api.hymao.org/api/ref/67791]
 synonym: "fossa of the proboscis" [http://api.hymao.org/api/ref/36975]
-synonym: "mouth cavity" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791]
+synonym: "mouth cavity" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "oral fossa" [http://api.hymao.org/api/ref/36913, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "proboscidial fossa" [http://api.hymao.org/api/ref/36916]
 is_a: HAO:0000345 ! foramen
@@ -5305,7 +5305,7 @@ is_obsolete: true
 id: HAO:0000675
 name: outer carina of the mandible
 def: "The carina that is longitudinal and extends anteriorly on the lateral surface of the mandible." [http://api.hymao.org/api/ref/67791]
-synonym: "outer ridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
+synonym: "outer ridge" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000506 ! mandible
 
@@ -5352,7 +5352,7 @@ relationship: BFO:0000050 HAO:0000679 ! ovipositor
 id: HAO:0000681
 name: paddle shaped seta
 def: "The sensillum with a paddle-shaped cuticular componenet on the probasitarsus." [http://api.hymao.org/api/ref/67791]
-synonym: "Putzhaar" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43518]
+synonym: "Putzhaar" [http://api.hymao.org/api/ref/43518, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000933 ! sensillum
 
 [Term]
@@ -5395,7 +5395,7 @@ relationship: BFO:0000050 HAO:0000453 ! labium
 id: HAO:0000687
 name: premento-paraglossal muscle
 def: "The labial muscle that arises from the ventral part of the prementum, anterior to the origin of the premento-glossal muscle and ventral premento-salivarial muscle and inserts just distally of the distal margin of the prementum." [http://api.hymao.org/api/ref/78244]
-synonym: "glossal retractor" [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/36927]
+synonym: "glossal retractor" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/78461]
 synonym: "paraglossal flexor" [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/78243]
 synonym: "posterior flexor of the ligula" [http://api.hymao.org/api/ref/36926]
 synonym: "prelabial flexor muscle" [http://api.hymao.org/api/ref/96767]
@@ -5439,9 +5439,9 @@ name: parapenis
 def: "The area that is the dorsomedian part of the gonostipes and is the site of origin of the distodorsal and proximodorsal gonostyle/volsella complex-penisvalval muscles." [http://api.hymao.org/api/ref/67791]
 synonym: "dorsal expansion of gonobase" [http://api.hymao.org/api/ref/68619]
 synonym: "dorsal lamina" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "lobi parapenialis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67835]
+synonym: "lobi parapenialis" [http://api.hymao.org/api/ref/67835, http://api.hymao.org/api/ref/68619]
 synonym: "manubrium" [http://api.hymao.org/api/ref/67785]
-synonym: "parapenial lobe" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67829]
+synonym: "parapenial lobe" [http://api.hymao.org/api/ref/67829, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000386 ! gonostipes
 
@@ -5524,9 +5524,9 @@ relationship: HAO:attached_to HAO:0000291 ! endophallus
 id: HAO:0000703
 name: parossiculus
 def: "The sclerite that is connected via conjunctiva distomedially to the gonostipes, and articulates with the gonossiculus." [http://api.hymao.org/api/ref/96550]
-synonym: "copulatory sclerite" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
-synonym: "pièce complèmentaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67784]
-synonym: "plaques volsellaires" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
+synonym: "copulatory sclerite" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
+synonym: "pièce complèmentaire" [http://api.hymao.org/api/ref/67784, http://api.hymao.org/api/ref/68619]
+synonym: "plaques volsellaires" [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
 synonym: "volsella" [http://api.hymao.org/api/ref/36901, http://api.hymao.org/api/ref/67779, http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/67828]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0001084 ! volsella
@@ -5557,20 +5557,20 @@ is_a: HAO:0000104 ! antennal segment
 id: HAO:0000707
 name: penisvalva
 def: "The sclerite that is in the middle of the external male genitalia, surrounds the distal part of the ductus ejaculatorius and the endophallus." [http://api.hymao.org/api/ref/67791]
-synonym: "aedeagal rod" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67794]
-synonym: "aedeagal sclerite" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
-synonym: "baguettes du fourreau" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67810]
-synonym: "crochet" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67812]
-synonym: "inner or dorsal arm of the stipes" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67840]
-synonym: "lamina aedeagalis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
+synonym: "aedeagal rod" [http://api.hymao.org/api/ref/67794, http://api.hymao.org/api/ref/68619]
+synonym: "aedeagal sclerite" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
+synonym: "baguettes du fourreau" [http://api.hymao.org/api/ref/67810, http://api.hymao.org/api/ref/68619]
+synonym: "crochet" [http://api.hymao.org/api/ref/67812, http://api.hymao.org/api/ref/68619]
+synonym: "inner or dorsal arm of the stipes" [http://api.hymao.org/api/ref/67840, http://api.hymao.org/api/ref/68619]
+synonym: "lamina aedeagalis" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "paramere" [http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/67798]
-synonym: "penis rod" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
+synonym: "penis rod" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
 synonym: "penis valve" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/67785]
 synonym: "sagitta" [http://api.hymao.org/api/ref/67801]
 synonym: "thyrses" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67799]
-synonym: "thyrsos" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67779]
-synonym: "valve du pénis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67816]
-synonym: "valves composing penis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
+synonym: "thyrsos" [http://api.hymao.org/api/ref/67779, http://api.hymao.org/api/ref/68619]
+synonym: "valve du pénis" [http://api.hymao.org/api/ref/67816, http://api.hymao.org/api/ref/68619]
+synonym: "valves composing penis" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000091 ! aedeagus
 
@@ -5616,7 +5616,7 @@ relationship: BFO:0000050 HAO:0000421 ! integument
 id: HAO:0000713
 name: phallobase
 def: "The anatomical cluster that is composed of the cupulae, gonostipites and volsellae." [http://api.hymao.org/api/ref/67791]
-synonym: "gonocoxite IX" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67781]
+synonym: "gonocoxite IX" [http://api.hymao.org/api/ref/67781, http://api.hymao.org/api/ref/68619]
 synonym: "paramere" [http://api.hymao.org/api/ref/67797]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000312 ! external male genitalia
@@ -5625,9 +5625,9 @@ relationship: BFO:0000050 HAO:0000312 ! external male genitalia
 id: HAO:0000714
 name: phallotrema
 def: "The anatomical space that is the distal opening of the endophallus." [http://api.hymao.org/api/ref/67791]
-synonym: "gonotrema" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
-synonym: "phallotreme" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "secondary gonopore" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43470]
+synonym: "gonotrema" [http://www.schulmeister.us/malereproductivesystem.html, http://api.hymao.org/api/ref/68619]
+synonym: "phallotreme" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "secondary gonopore" [http://api.hymao.org/api/ref/43470, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000005 ! anatomical space
 
 [Term]
@@ -5792,9 +5792,9 @@ relationship: BFO:0000050 HAO:0001089 ! wing
 id: HAO:0000737
 name: plica vannalis
 def: "The wing fold that is located between the cubital field and the first vannal vein." [http://api.hymao.org/api/ref/67841]
-synonym: "anal fold" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "anal furrow" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "plica analis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "anal fold" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "anal furrow" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "plica analis" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "vannal fold" [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001092 ! wing crease
 relationship: BFO:0000050 HAO:0001089 ! wing
@@ -5817,7 +5817,7 @@ relationship: BFO:0000050 HAO:0000506 ! mandible
 id: HAO:0000740
 name: postacetabular patch
 def: "The setiferous patch that is located ventrally on the mesopleuron posterior to the epicnemial carina." [http://api.hymao.org/api/ref/67791]
-synonym: "acetabular field" [ISBN:978-1-86977-13, http://api.hymao.org/api/ref/39245]
+synonym: "acetabular field" [http://api.hymao.org/api/ref/39245, ISBN:978-1-86977-13]
 is_a: HAO:0000936 ! setiferous patch
 relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 
@@ -5832,8 +5832,8 @@ relationship: BFO:0000050 HAO:0000557 ! mesopectus
 id: HAO:0000742
 name: postalar process
 def: "The process that is located anterolaterally on the mesoscutellar-axillar complex and separates the site of origin of the fore wing from the site of origin of the hind wing." [http://api.hymao.org/api/ref/67791]
-synonym: "metategula" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36928]
-synonym: "scutellar crest" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
+synonym: "metategula" [http://api.hymao.org/api/ref/36928, http://api.hymao.org/api/ref/68619]
+synonym: "scutellar crest" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000822 ! process
 relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
 
@@ -5873,7 +5873,7 @@ relationship: BFO:0000050 HAO:0000800 ! preaxilla
 id: HAO:0000747
 name: posterior glossal plate
 def: "The area that is delimited laterally distally and proximally by the sclerites that are connected to the distal margin of the prementum and receive the site of insertion of the premento-paraglossal muscle." [http://api.hymao.org/api/ref/96306]
-synonym: "posterior lingual plate" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/36874]
+synonym: "posterior lingual plate" [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/36926]
 synonym: "subligular plate" [http://api.hymao.org/api/ref/36927]
 synonym: "subligular sclerite" [http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000909 ! sclerite
@@ -5957,7 +5957,7 @@ is_obsolete: true
 id: HAO:0000757
 name: posterior mesoscutellar sulcus
 def: "The line that extends along the posterior margin of the mesoscutellum and corresponds to the posterior mesoscutellar ridge." [http://api.hymao.org/api/ref/67791]
-synonym: "posterior scutellar pits" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "posterior scutellar pits" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000574 ! mesoscutellum
 
@@ -5974,7 +5974,7 @@ name: posterior ocellar line
 def: "The anatomical line that is the shortest between the margin of the lateral ocelli." [http://api.hymao.org/api/ref/67791]
 synonym: "POL" [http://api.hymao.org/api/ref/97912]
 synonym: "interocellar distance" [http://api.hymao.org/api/ref/67791]
-synonym: "posterior ocellar length" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "posterior ocellar length" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 synonym: "postocellar length" [http://api.hymao.org/api/ref/96588]
 synonym: "postocellar line" [http://api.hymao.org/api/ref/67820, http://api.hymao.org/api/ref/96382]
 is_a: HAO:0000008 ! anatomical line
@@ -6050,8 +6050,8 @@ relationship: BFO:0000050 HAO:0000790 ! postocciput
 id: HAO:0000769
 name: posterior thoracic spiracle
 def: "The spiracle that is located dorsally on the border between the mesopectus and the metapectus." [http://api.hymao.org/api/ref/67791]
-synonym: "metathoracic spiracle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "second spiracle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "metathoracic spiracle" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "second spiracle" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000950 ! spiracle
 relationship: BFO:0000050 HAO:0001015 ! thorax
 relationship: BFO:0000050 HAO:0000576 ! mesosoma
@@ -6075,7 +6075,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 id: HAO:0000772
 name: posterolateral pronotal area
 def: "The area that is limited anteriorly by the posterolateral pronotal sulcus." [http://api.hymao.org/api/ref/67766]
-synonym: "prépectus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67771]
+synonym: "prépectus" [http://api.hymao.org/api/ref/67771, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000853 ! pronotum
 
@@ -6178,7 +6178,7 @@ is_a: HAO:0000041 ! anatomical cluster
 id: HAO:0000786
 name: postnotum
 def: "The sclerite that bears the phragma and is located posterior to a notum." [http://api.hymao.org/api/ref/67791]
-synonym: "phragmanotum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "phragmanotum" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000281 ! dorsum
 
@@ -6214,7 +6214,7 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 id: HAO:0000791
 name: postocellar furrow
 def: "The sulcus that extends between the posterior margin of the lateral ocelli." [http://api.hymao.org/api/ref/67766]
-synonym: "sillon postocellaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67775]
+synonym: "sillon postocellaire" [http://api.hymao.org/api/ref/67775, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -6237,10 +6237,10 @@ id: HAO:0000794
 name: postpectal carina
 def: "The carina that delimits anterolaterally the mesocoxal depression." [http://api.hymao.org/api/ref/67791]
 synonym: "posterior transverse carina of the mesosternum" [http://api.hymao.org/api/ref/68178]
-synonym: "postpectal flange" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791]
+synonym: "postpectal flange" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "precoxal carina" [http://api.hymao.org/api/ref/37511]
-synonym: "precoxal carina of mesopleuron" [http://api.hymao.org/api/ref/67791, ISBN:978-1-86977-13]
-synonym: "ventral mesopleural carina" [http://api.hymao.org/api/ref/68619, ISBN:978-1-86977-13]
+synonym: "precoxal carina of mesopleuron" [ISBN:978-1-86977-13, http://api.hymao.org/api/ref/67791]
+synonym: "ventral mesopleural carina" [ISBN:978-1-86977-13, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 
@@ -6325,7 +6325,7 @@ relationship: BFO:0000050 HAO:0000453 ! labium
 id: HAO:0000805
 name: preoccipital carina
 def: "The carina that is transverse and extends posteriorly of the lateral ocelli and compound eye and delimits anteriorly the preoccipital lunula." [http://api.hymao.org/api/ref/67766]
-synonym: "carene préoccipitale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67776]
+synonym: "carene préoccipitale" [http://api.hymao.org/api/ref/67776, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -6333,7 +6333,7 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 id: HAO:0000806
 name: preoccipital furrow
 def: "The sulcus that arises medially from the anterior margin of the occipital carina and extends towards the anterior ocellus." [http://api.hymao.org/api/ref/67766]
-synonym: "sillon préoccipita" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67774]
+synonym: "sillon préoccipita" [http://api.hymao.org/api/ref/67774, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -6341,7 +6341,7 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 id: HAO:0000807
 name: preoccipital lunula
 def: "The area that is concave, is located on the vertex and is limited anteriorly by the preoccipital carina and posteriorly by the occipital carina." [http://api.hymao.org/api/ref/67766]
-synonym: "lunule préoccipitale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67774]
+synonym: "lunule préoccipitale" [http://api.hymao.org/api/ref/67774, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -6349,8 +6349,8 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 id: HAO:0000808
 name: preocellar pit
 def: "The pit that is located on upper face adjacent the anterior margin of the median ocellus and corresponds internally to a conical apodeme and not the tentorium." [http://api.hymao.org/api/ref/67766]
-synonym: "frontal pit" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/39245]
-synonym: "pore preocellaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67769]
+synonym: "frontal pit" [http://api.hymao.org/api/ref/39245, http://api.hymao.org/api/ref/68619]
+synonym: "pore preocellaire" [http://api.hymao.org/api/ref/67769, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000718 ! pit
 relationship: BFO:0000050 HAO:0001044 ! upper face
 
@@ -6396,7 +6396,7 @@ relationship: BFO:0000050 HAO:0001676 ! scutum
 id: HAO:0000814
 name: prescutal sulcus
 def: "The sulcus that sets off the prescutum from the scutum and corresponds to the prescutal ridge." [http://api.hymao.org/api/ref/67791]
-synonym: "prescutal suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "prescutal suture" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000650 ! notum
 
@@ -6446,7 +6446,7 @@ relationship: BFO:0000050 HAO:0000992 ! tarsus
 id: HAO:0000821
 name: primary gonopore
 def: "The anatomical space that is the transition from the ductus ejaculatorius to the endophallus and therefore the transition from the internal to the external male genitalia." [http://api.hymao.org/api/ref/67791]
-synonym: "ejaculatory opening" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67781]
+synonym: "ejaculatory opening" [http://api.hymao.org/api/ref/67781, http://api.hymao.org/api/ref/68619]
 synonym: "gonopore" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0000005 ! anatomical space
 relationship: BFO:0000050 HAO:0000895 ! reproductive system
@@ -6527,7 +6527,7 @@ comment: The class is equivalent with the transverse pronotal sulcus.
 id: HAO:0000832
 name: pronotal collar
 def: "The area of the pronotum that is subhorizontal and located posteriorly of the pronotal neck." [http://api.hymao.org/api/ref/67791]
-synonym: "collar" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67863]
+synonym: "collar" [http://api.hymao.org/api/ref/67863, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000853 ! pronotum
 
@@ -7172,7 +7172,7 @@ id: HAO:0000915
 name: scutellar disc
 def: "The area that is median, convex and is delimited anteriorly by the scutoscutellar sulcus and laterally by the axillar depression." [http://api.hymao.org/api/ref/67791]
 synonym: "disc of mesoscutellum" [http://api.hymao.org/api/ref/96313]
-synonym: "mesoscutellar disc" [http://api.hymao.org/api/ref/78457, http://api.hymao.org/api/ref/78442]
+synonym: "mesoscutellar disc" [http://api.hymao.org/api/ref/78442, http://api.hymao.org/api/ref/78457]
 is_a: HAO:0000146 ! area
 
 [Term]
@@ -7194,7 +7194,7 @@ is_obsolete: true
 id: HAO:0000918
 name: scutoscutellar ridge
 def: "The ridge that extends along the anterior margin of the mesoscutellum and corresponds to the scutoscutellar suture." [http://api.hymao.org/api/ref/67791]
-synonym: "V-shaped notal ridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "V-shaped notal ridge" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000899 ! ridge
 relationship: BFO:0000050 HAO:0000556 ! mesonotum
 
@@ -7212,7 +7212,7 @@ name: scutoscutellar suture
 def: "The line that traverses the mesonotum between the postmedian notal wing processes." [http://api.hymao.org/api/ref/67791]
 synonym: "para-axillary suture" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "scutellar suture" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "scuto-scutellar suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36913]
+synonym: "scuto-scutellar suture" [http://api.hymao.org/api/ref/36913, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001586 ! line
 relationship: BFO:0000050 HAO:0000556 ! mesonotum
 
@@ -7338,7 +7338,7 @@ is_a: HAO:0000704 ! patch
 id: HAO:0000932
 name: sensillar patch of the male flagellomere
 def: "The sensillar patch that is located on the ventral surface of the male flagellomere." [http://api.hymao.org/api/ref/67791]
-synonym: "specialized brushes" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "specialized brushes" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000931 ! sensillar patch
 relationship: BFO:0000050 HAO:0000342 ! flagellomere
 
@@ -7366,14 +7366,14 @@ comment: This class, based on its primary definition, is equivalent with HAO:000
 id: HAO:0000936
 name: setiferous patch
 def: "The patch that differs from the surrounding region by having denser setae." [http://api.hymao.org/api/ref/67791]
-synonym: "hair patch" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36895]
+synonym: "hair patch" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000704 ! patch
 
 [Term]
 id: HAO:0000937
 name: sex flagellomere
 def: "The flagellomere that is modified and located on a male organism." [http://api.hymao.org/api/ref/67791]
-synonym: "sex segment" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43472]
+synonym: "sex segment" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000342 ! flagellomere
 
 [Term]
@@ -7410,7 +7410,7 @@ relationship: BFO:0000050 HAO:0000575 ! mesoscutum
 id: HAO:0000942
 name: spatha
 def: "The sclerite that is unpaired and located just dorsally of the basal part of the aedeagus in some Aculeata." [http://api.hymao.org/api/ref/67791]
-synonym: "median lobe" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
+synonym: "median lobe" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "uncus" [http://api.hymao.org/api/ref/67830]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000312 ! external male genitalia
@@ -7434,7 +7434,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 id: HAO:0000945
 name: spermatheca
 def: "The pouch that accommodates the sperm." [http://api.hymao.org/api/ref/67791]
-synonym: "receptaculum seminis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "receptaculum seminis" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001808 ! pouch
 relationship: BFO:0000050 HAO:0000324 ! female genitalia
 
@@ -7582,7 +7582,7 @@ name: subantennal groove
 def: "The impression that is located on the face ventrally of the antennal foramen and dorsally of the clypeus." [http://api.hymao.org/api/ref/67841]
 synonym: "dorsoventral groove of face" [http://api.hymao.org/api/ref/96437]
 synonym: "subantennal sulcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "subantennal suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
+synonym: "subantennal suture" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000417 ! impression
 relationship: BFO:0000050 HAO:0000502 ! lower face
 
@@ -7597,7 +7597,7 @@ relationship: BFO:0000050 HAO:0000556 ! mesonotum
 id: HAO:0000967
 name: subcosta
 def: "The wing vein that is connected to the first axillary sclerite and extends posterior to the costa." [http://api.hymao.org/api/ref/67841]
-synonym: "subcostal vein" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
+synonym: "subcostal vein" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001095 ! wing vein
 
 [Term]
@@ -7618,7 +7618,7 @@ relationship: BFO:0000050 HAO:0000688 ! paramandibular process
 id: HAO:0000970
 name: submarginal carina of abdominal tergite
 def: "The carina that extends laterally on the abdominal tergite." [http://api.hymao.org/api/ref/67791]
-synonym: "submarginal ridge" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67859]
+synonym: "submarginal ridge" [http://api.hymao.org/api/ref/67859, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0001005 ! tergite
 
@@ -7673,7 +7673,7 @@ comment: synonym of cibarium
 id: HAO:0000978
 name: sulcus
 def: "The groove that corresponds to a ridge." [http://api.hymao.org/api/ref/67791]
-synonym: "furrow" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67791]
+synonym: "furrow" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/68619]
 synonym: "suture" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0001525 ! groove
 relationship: BFO:0000050 HAO:0000909 ! sclerite
@@ -7753,8 +7753,8 @@ is_a: HAO:0000032 ! organism subdivision
 id: HAO:0000989
 name: tarsal claw
 def: "The spur that is curved and projects from the apex of the last tarsal segment on either side of the arolium of the pretarsus." [http://api.hymao.org/api/ref/67791]
-synonym: "pretarsal claw" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "unguis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "pretarsal claw" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "unguis" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000951 ! spur
 relationship: BFO:0000050 HAO:0000820 ! pretarsus
 
@@ -7762,11 +7762,11 @@ relationship: BFO:0000050 HAO:0000820 ! pretarsus
 id: HAO:0000990
 name: tarsal plantula
 def: "The projection that is median, membraneous and is located distally on the ventral margin of the tarsomere." [http://api.hymao.org/api/ref/67791]
-synonym: "Sohlenbläschen" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36886]
-synonym: "euplantula" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36903]
-synonym: "plantar lobe" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36874]
+synonym: "Sohlenbläschen" [http://api.hymao.org/api/ref/36886, http://api.hymao.org/api/ref/68619]
+synonym: "euplantula" [http://api.hymao.org/api/ref/36903, http://api.hymao.org/api/ref/68619]
+synonym: "plantar lobe" [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/68619]
 synonym: "plantula" [http://api.hymao.org/api/ref/36896, http://api.hymao.org/api/ref/78602]
-synonym: "tarsal pulvillum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36896]
+synonym: "tarsal pulvillum" [http://api.hymao.org/api/ref/36896, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000829 ! projection
 relationship: BFO:0000050 HAO:0000992 ! tarsus
 
@@ -7775,7 +7775,7 @@ id: HAO:0000991
 name: tarsomere
 def: "The annulus that is the part of the tarsus." [http://api.hymao.org/api/ref/67791]
 synonym: "tarsal segment" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "tarsomer" [http://api.hymao.org/api/ref/68619, DOI:10.1016/j.asd.2007.04.002]
+synonym: "tarsomer" [DOI:10.1016/j.asd.2007.04.002, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000096 ! annulus
 relationship: BFO:0000050 HAO:0000992 ! tarsus
 
@@ -7940,10 +7940,10 @@ synonym: "beborstete distale enden der scheidenplatten" [http://api.hymao.org/ap
 synonym: "besser: legescheiden" [http://api.hymao.org/api/ref/67823]
 synonym: "fourreau" [http://api.hymao.org/api/ref/67823]
 synonym: "gaines de l'aiguillon" [http://api.hymao.org/api/ref/67823]
-synonym: "gonoplac" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/41396]
+synonym: "gonoplac" [http://api.hymao.org/api/ref/41396, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "hintere gonapophysen" [http://api.hymao.org/api/ref/67823]
 synonym: "hüllschuppen" [http://api.hymao.org/api/ref/67823, http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=]
-synonym: "klappen" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/29835]
+synonym: "klappen" [http://api.hymao.org/api/ref/29835, http://api.hymao.org/api/ref/67823]
 synonym: "outer sheaths" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68151]
 synonym: "ovipositor sheath" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "portion évaginale" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/67825]
@@ -8029,7 +8029,7 @@ relationship: BFO:0000050 HAO:0001044 ! upper face
 id: HAO:0001022
 name: torulus
 def: "The foramen that is located on the head in which the radicle is positioned." [http://api.hymao.org/api/ref/67791]
-synonym: "alveolus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
+synonym: "alveolus" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/68619]
 synonym: "antennal foramen" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/78427, http://api.hymao.org/api/ref/78442]
 synonym: "antennal insertion" [http://api.hymao.org/api/ref/68619]
 synonym: "antennal socket" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/36909]
@@ -8116,8 +8116,8 @@ id: HAO:0001033
 name: trochantellus
 def: "The area that is located proximally on the femur and is delimited by a groove." [http://api.hymao.org/api/ref/67841]
 synonym: "basal ring of femur" [http://api.hymao.org/api/ref/36895]
-synonym: "prefemur" [http://api.hymao.org/api/ref/96545, http://api.hymao.org/api/ref/78599]
-synonym: "second trochanter" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36934]
+synonym: "prefemur" [http://api.hymao.org/api/ref/78599, http://api.hymao.org/api/ref/96545]
+synonym: "second trochanter" [http://api.hymao.org/api/ref/36934, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000327 ! femur
 
@@ -8197,7 +8197,7 @@ name: upper face
 def: "The area that is located dorsally of the ventral margin of the antennal rim and ventrally of the anterior ocellus medial to the inner margins of the eye and malar line." [http://api.hymao.org/api/ref/67791]
 synonym: "frons" [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
 synonym: "frontal area" [ http://projects.biodiversity.be/ants/    ]
-synonym: "supra-antennal area" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
+synonym: "supra-antennal area" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000316 ! face
 
@@ -8212,7 +8212,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 id: HAO:0001046
 name: valvar ridge
 def: "The ridge that is vertical and extends along the valviceps." [http://api.hymao.org/api/ref/67791]
-synonym: "valvar strut" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67789]
+synonym: "valvar strut" [http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000899 ! ridge
 relationship: BFO:0000050 HAO:0001047 ! valviceps
 
@@ -8240,10 +8240,10 @@ comment: The concept is unclear.
 id: HAO:0001050
 name: valvura
 def: "The area that is located proximally of the ergot on the penisvalva." [http://api.hymao.org/api/ref/67791]
-synonym: "aedeagal apodeme" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
-synonym: "apodema thyrsou" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67779]
-synonym: "apodeme of penis valve" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67832]
-synonym: "apophyse péniale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67784]
+synonym: "aedeagal apodeme" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
+synonym: "apodema thyrsou" [http://api.hymao.org/api/ref/67779, http://api.hymao.org/api/ref/68619]
+synonym: "apodeme of penis valve" [http://api.hymao.org/api/ref/67832, http://api.hymao.org/api/ref/68619]
+synonym: "apophyse péniale" [http://api.hymao.org/api/ref/67784, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000707 ! penisvalva
 
@@ -8252,8 +8252,8 @@ id: HAO:0001051
 name: vannal region
 def: "The area that is delimited by the vannal veins, or veins that articulates with the third axillary sclerite." [http://api.hymao.org/api/ref/67791]
 synonym: "clavus" [http://api.hymao.org/api/ref/78629]
-synonym: "vannal lobe" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36876]
-synonym: "vannus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "vannal lobe" [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
+synonym: "vannus" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001191 ! wing blade
 
@@ -8261,7 +8261,7 @@ relationship: BFO:0000050 HAO:0001191 ! wing blade
 id: HAO:0001052
 name: vas deferens
 def: "The duct that connect the testis with the vas ejaculatory duct." [http://api.hymao.org/api/ref/67791]
-synonym: "deferent duct" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67828]
+synonym: "deferent duct" [http://api.hymao.org/api/ref/67828, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000282 ! duct
 relationship: BFO:0000050 HAO:0000427 ! internal male genitalia
 
@@ -8313,7 +8313,7 @@ relationship: BFO:0000050 HAO:0000862 ! propleuron
 id: HAO:0001059
 name: ventral lamella of the tentorium
 def: "The ridge that extends ventrally on the posterior part of the tentorial arm." [http://api.hymao.org/api/ref/67791]
-synonym: "ventral lamella" [http://api.hymao.org/api/ref/68619, ISBN:978-1-86977-13]
+synonym: "ventral lamella" [ISBN:978-1-86977-13, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000899 ! ridge
 relationship: BFO:0000050 HAO:0000997 ! tentorial arm
 
@@ -8490,9 +8490,9 @@ relationship: BFO:0000050 HAO:0001489 ! anteroventral mesoscutal inflection
 id: HAO:0001081
 name: vesicula seminalis
 def: "The anatomical space that functions as storage of spermatozoa." [http://api.hymao.org/api/ref/67791]
-synonym: "Nebenhode" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "epididymis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
-synonym: "seminal vesicle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67828]
+synonym: "Nebenhode" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "epididymis" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "seminal vesicle" [http://api.hymao.org/api/ref/67828, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000005 ! anatomical space
 relationship: BFO:0000050 HAO:0001052 ! vas deferens
 
@@ -8515,10 +8515,10 @@ id: HAO:0001084
 name: volsella
 def: "The anatomical cluster that is composed of the sclerites on the ventral part of the male genitalia that are not connected to the cupula via muscles." [http://api.hymao.org/api/ref/96550]
 synonym: "innere Haltezange" [http://api.hymao.org/api/ref/67800]
-synonym: "ossicle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67789]
-synonym: "section 3" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67780]
+synonym: "ossicle" [http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/68619]
+synonym: "section 3" [http://api.hymao.org/api/ref/67780, http://api.hymao.org/api/ref/68619]
 synonym: "section 3 of gonocoxite IX" [http://www.schulmeister.us/malereproductivesystem.html]
-synonym: "tenette" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
+synonym: "tenette" [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "volselle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67836, http://api.hymao.org/api/ref/67810]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000713 ! phallobase
@@ -8611,7 +8611,7 @@ relationship: BFO:0000050 HAO:0001191 ! wing blade
 id: HAO:0001095
 name: wing vein
 def: "The area that is linear and sclerotised and acts as support for the wing membrane." [http://api.hymao.org/api/ref/68082]
-synonym: "vein" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43470]
+synonym: "vein" [http://api.hymao.org/api/ref/43470, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001096 ! wing venation
 
@@ -8652,7 +8652,7 @@ name: gaine
 def: "The anatomical cluster composed of the second valvifer and the third valvula." [http://api.hymao.org/api/ref/68116]
 synonym: "Legescheide" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68563]
 synonym: "Scheide" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68574]
-synonym: "Sägescheide" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/67800]
+synonym: "Sägescheide" [http://api.hymao.org/api/ref/67800, http://api.hymao.org/api/ref/67823]
 synonym: "oblonge platte" [http://api.hymao.org/api/ref/67823]
 synonym: "sawsheath" [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68584]
 is_a: HAO:0000041 ! anatomical cluster
@@ -8807,7 +8807,7 @@ id: HAO:0001122
 name: procoxa
 def: "The coxa that is located on the fore leg." [http://api.hymao.org/api/ref/67791]
 synonym: "fore coxa" [http://api.hymao.org/api/ref/67791]
-synonym: "forecoxa" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/43472]
+synonym: "forecoxa" [http://api.hymao.org/api/ref/43472, http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000228 ! coxa
 relationship: BFO:0000050 HAO:0000349 ! fore leg
 
@@ -9201,7 +9201,7 @@ relationship: BFO:0000050 HAO:0000376 ! glossa
 id: HAO:0001171
 name: anterior flange of abdominal tergum nine
 def: "The flange that extends along the anterolateral margin of female T9." [http://api.hymao.org/api/ref/78248]
-synonym: "anterior flange" [http://api.hymao.org/api/ref/68116, http://api.hymao.org/api/ref/67869]
+synonym: "anterior flange" [http://api.hymao.org/api/ref/67869, http://api.hymao.org/api/ref/68116]
 synonym: "anterior flange of abdominal tergum 9" [http://api.hymao.org/api/ref/68116]
 is_a: HAO:0000344 ! flange
 relationship: BFO:0000050 HAO:0000075 ! T9
@@ -10286,7 +10286,7 @@ synonym: "hypostomal cavity" [http://api.hymao.org/api/ref/78461, http://api.hym
 synonym: "maxacava" [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/96364]
 synonym: "oral chamber" [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/96365]
 synonym: "oral fossa" [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/96365]
-synonym: "trophicava" [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/68164]
+synonym: "trophicava" [http://api.hymao.org/api/ref/68164, http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000912 ! scrobe
 relationship: BFO:0000050 HAO:0000411 ! hypostoma
 
@@ -10572,7 +10572,7 @@ relationship: BFO:0000050 HAO:0001132 ! mesotarsus
 id: HAO:0001353
 name: mesopostnotal apodeme
 def: "The apodeme that is located lateroventrally on the mesolaterophragma and corresponds to the site of insertion of the mesofurco-mesolaterophragmal muscles." [http://api.hymao.org/api/ref/67791]
-synonym: "axillary lever" [ISBN:978-1-86977-13, http://api.hymao.org/api/ref/36878]
+synonym: "axillary lever" [http://api.hymao.org/api/ref/36878, ISBN:978-1-86977-13]
 synonym: "mesolaterophragmal apodeme" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0000142 ! apodeme
 relationship: BFO:0000050 HAO:0001788 ! mesolaterophragma
@@ -12428,7 +12428,7 @@ id: HAO:0001592
 name: occipito-cardinal muscle
 def: "The maxillar muscle that arises medially from the occiput dorsally of the occipital foramen and inserts on the proximolateral part of the cardo." [http://api.hymao.org/api/ref/78244]
 synonym: "M. craniocardinalis externus" [DOI:10.1016/j.ode.2006.06.003]
-synonym: "cardinal protractor of the proboscis" [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/36927]
+synonym: "cardinal protractor of the proboscis" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/78461]
 synonym: "first protractor of the maxilla" [http://api.hymao.org/api/ref/43519]
 synonym: "muscle 15" [DOI:10.1016/j.ode.2006.06.003]
 synonym: "productor of the cardo" [http://api.hymao.org/api/ref/36926]
@@ -12939,7 +12939,7 @@ relationship: BFO:0000050 HAO:0001012 ! third valvula
 id: HAO:0001658
 name: dorsal valve
 def: "The area that is articulated with the right and left second valvifers at the basal articulation and bears the rhachises." [http://api.hymao.org/api/ref/68116]
-synonym: "stylet sheath" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791]
+synonym: "stylet sheath" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "upper valve" [http://api.hymao.org/api/ref/67966]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000679 ! ovipositor
@@ -13828,7 +13828,7 @@ id: HAO:0001775
 name: lateral scapo-pedicellar muscle
 def: "The antennal muscle that arises posteromedially on the proximal part of the scape and inserts laterally on the proximal part of the pedicel." [http://api.hymao.org/api/ref/78244]
 synonym: "M. scapopedicellaris lateralis" [DOI:10.1016/j.ode.2006.06.003]
-synonym: "levator of the antennal flagellum" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/36875]
+synonym: "levator of the antennal flagellum" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/36927]
 synonym: "muscle 6" [http://api.hymao.org/api/ref/36927]
 synonym: "musculus scapo-pedicularis I" [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0001172 ! antennal muscle
@@ -14582,7 +14582,7 @@ name: postspiracular furrow
 def: "The groove that is longitudinal and is immediately posterior or postero-medial to the first abdominal spiracle." [http://api.hymao.org/api/ref/78813]
 synonym: "paraspiracular sulcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, DOI:10.1071/IS06012]
 synonym: "postspiracular sulcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "spiracular sulcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/36933]
+synonym: "spiracular sulcus" [http://api.hymao.org/api/ref/36933, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "spiracular sulcus of propodeum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0001525 ! groove
 relationship: BFO:0000050 HAO:0001994 ! propodeum
@@ -15074,7 +15074,7 @@ relationship: BFO:0000050 HAO:0000915 ! scutellar disc
 [Term]
 id: HAO:0001944
 name: facial impression
-def: "The area that is concave and is located between and ventral of the antennal formamina." [http://api.hymao.org/api/ref/67791]
+def: "The area that is concave and is located between and ventral of the antennal foramina." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001523 ! frons
 
@@ -16639,7 +16639,7 @@ relationship: BFO:0000050 HAO:0000804 ! prementum
 id: HAO:0002155
 name: premental arm
 def: "The area of the lateral premental face that receives the site of origin of the dorsal premento-salivarial muscle." [http://api.hymao.org/api/ref/96306]
-synonym: "spatulate process of the prementum" [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/36926]
+synonym: "spatulate process of the prementum" [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000804 ! prementum
 
@@ -17586,7 +17586,7 @@ relationship: BFO:0000050 HAO:0000853 ! pronotum
 id: HAO:0002288
 name: median septum of scutellum
 def: "The area that is median and separates the scutellar foveae." [http://api.hymao.org/api/ref/97708]
-synonym: "foveal septum" [http://api.hymao.org/api/ref/98019, http://api.hymao.org/api/ref/78616]
+synonym: "foveal septum" [http://api.hymao.org/api/ref/78616, http://api.hymao.org/api/ref/98019]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
 
@@ -17667,8 +17667,8 @@ def: "The sensillum with a hair-like cuticular component." [http://api.hymao.org
 synonym: "bristle" [http://api.hymao.org/api/ref/37495, http://api.hymao.org/api/ref/97743]
 synonym: "hair sensillum" [http://api.hymao.org/api/ref/97739]
 synonym: "hairlike sensillum" [http://api.hymao.org/api/ref/67791]
-synonym: "seta" [http://api.hymao.org/api/ref/67874, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "trichoid sensillum" [http://api.hymao.org/api/ref/97741, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+synonym: "seta" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67874]
+synonym: "trichoid sensillum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/97741]
 is_a: HAO:0000933 ! sensillum
 relationship: BFO:0000050 HAO:0000421 ! integument
 
