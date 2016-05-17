@@ -1,0 +1,17 @@
+id	hymenoptera_anatomy
+title	Hymenoptera Anatomy Ontology
+namespace	HAO
+foundry	Yes
+status	Production and review
+download	http://purl.obolibrary.org/obo/hao.owl
+source	http://purl.obolibrary.org/obo/hao.owl
+home	Hymenoptera Anatomy Ontology|http://hymao.org
+documentation	
+contact	Matt Yoder at diapriid @ gmail dot com
+format	owl
+description	A structured controlled vocabulary of the anatomy of the Hymenoptera (bees, wasps, and ants).
+domain	anatomy
+subtypes_of	CARO:0000000
+patho_type	canonical
+granularity	organismal
+relevant_organism	NCBITaxon:7399|Hymenoptera
