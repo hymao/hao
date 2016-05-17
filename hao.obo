@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: hao
-date: 26:03:2015 11:39
+date: 17:05:2016 12:32
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -793,7 +793,8 @@ relationship: BFO:0000050 HAO:0000397 ! head
 [Term]
 id: HAO:0000104
 name: antennal segment
-def: "The antennomere that is musculated." [http://api.hymao.org/api/ref/67791]
+def: "The antennomere that is an appendage segment." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002307 ! appendage segment
 is_a: HAO:0000107 ! antennomere
 relationship: BFO:0000050 HAO:0000101 ! antenna
 
@@ -807,7 +808,7 @@ relationship: BFO:0000050 HAO:0000316 ! face
 [Term]
 id: HAO:0000106
 name: antennal suture
-def: "The sulcus that surrounds the torulus." [http://api.hymao.org/api/ref/67791]
+def: "The sulcus that surrounds the antennal rim." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000316 ! face
 
@@ -1087,6 +1088,7 @@ id: HAO:0000142
 name: apodeme
 def: "The process that is internal." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000822 ! process
+is_a: HAO:0002021 ! cuticular invagination
 
 [Term]
 id: HAO:0000143
@@ -1111,7 +1113,7 @@ comment: We are using segment for both leg, antenna and body divisions
 [Term]
 id: HAO:0000146
 name: area
-def: "The anatomical structure that is delimited by material or immaterial anatomical entities." [http://api.hymao.org/api/ref/67791]
+def: "The anatomical structure of the cuticle that is delimited by material or immaterial anatomical entities." [http://api.hymao.org/api/ref/67791]
 synonym: "portion of cuticle" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000003 ! anatomical structure
 relationship: BFO:0000050 HAO:0000240 ! cuticle
@@ -1119,7 +1121,7 @@ relationship: BFO:0000050 HAO:0000240 ! cuticle
 [Term]
 id: HAO:0000147
 name: areolet
-def: "Small cell in fore wing of ichneumonid wasps delimited by the radio-medial cross veins." [http://api.hymao.org/api/ref/36934]
+def: "The wing cell of the fore wing that is minute, round and is delimited by the radio-medial cross veins." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001091 ! wing cell
 relationship: BFO:0000050 HAO:0000351 ! fore wing
 
@@ -1276,6 +1278,7 @@ name: gonostipes/volsella complex
 def: "The anatomical cluster that is part of the gonostyle/volsella complex and is composed of the sclerites that are proximal to the harpe." [http://api.hymao.org/api/ref/96550]
 synonym: "basal segment of forceps" [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/67791]
 synonym: "gonostipes" [http://api.hymao.org/api/ref/67785]
+synonym: "gonostipes-volsella complex" [http://api.hymao.org/api/ref/97939]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000312 ! external male genitalia
 
@@ -1665,11 +1668,11 @@ relationship: BFO:0000050 HAO:0000909 ! sclerite
 [Term]
 id: HAO:0000221
 name: conjunctiva
-def: "The area of the integument that is weakly sclerotized, with thin exocuticle." [http://api.hymao.org/api/ref/67791]
+def: "The area of the cuticle that is weakly sclerotized, with thin exocuticle." [http://api.hymao.org/api/ref/67791]
 synonym: "arthrodial membrane" [http://api.hymao.org/api/ref/67791, ISBN:0521578906]
 synonym: "corium" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
 is_a: HAO:0000146 ! area
-relationship: BFO:0000050 HAO:0000421 ! integument
+relationship: BFO:0000050 HAO:0000240 ! cuticle
 
 [Term]
 id: HAO:0000222
@@ -2379,7 +2382,7 @@ relationship: BFO:0000050 HAO:0000421 ! integument
 [Term]
 id: HAO:0000312
 name: external male genitalia
-def: "The anatomical cluster that is composed of the cupula, gonostyle, volsella and the aedeagus." [http://api.hymao.org/api/ref/67791]
+def: "The appendage that is connected to the body by the cupulo-S9 muscles." [http://api.hymao.org/api/ref/67791]
 synonym: "armatura genitalis" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "copulatoria" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
 synonym: "copulatory apparatus" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
@@ -2394,7 +2397,7 @@ synonym: "paramere" [http://api.hymao.org/api/ref/67828]
 synonym: "parameres" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67829]
 synonym: "phallic apparatus" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "phallus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/68130, http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/78442]
-is_a: HAO:0000041 ! anatomical cluster
+is_a: HAO:0000144 ! appendage
 relationship: BFO:0000050 HAO:0000505 ! male genitalia
 
 [Term]
@@ -2446,7 +2449,7 @@ relationship: BFO:0000050 HAO:0000672 ! orbit
 [Term]
 id: HAO:0000319
 name: facial pit
-def: "The pit that is located on the upper face dorsal to the intertorular carina and corresponds internally to a conical apodeme and not the tentorium." [http://api.hymao.org/api/ref/67766]
+def: "The pit that overlaps with the facial apodeme." [http://api.hymao.org/api/ref/67791]
 synonym: "fosette scrobale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
 synonym: "fossette frontale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67768]
 synonym: "pore facial" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67769]
@@ -3285,7 +3288,7 @@ is_a: HAO:0000011 ! anatomical system
 [Term]
 id: HAO:0000422
 name: interantennal process
-def: "The area that is elevated and extends between the toruli." [http://api.hymao.org/api/ref/67791]
+def: "The area that is elevated and extends between the antennal rims." [http://api.hymao.org/api/ref/67791]
 synonym: "interantennal crest" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "interantennal flange" [http://api.hymao.org/api/ref/67791]
 synonym: "interantennal prominence" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
@@ -3362,6 +3365,7 @@ relationship: BFO:0000050 HAO:0000217 ! compound eye
 id: HAO:0000432
 name: interorbital space
 def: "The interocular distance that is the shortest between the inner margin of compound eyes." [http://api.hymao.org/api/ref/67791]
+synonym: "IOS" [http://api.hymao.org/api/ref/96326]
 synonym: "faciale interoculaire" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
 synonym: "interocular space" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/96407]
 synonym: "interorbital distance" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
@@ -3415,7 +3419,7 @@ relationship: BFO:0000050 HAO:0000909 ! sclerite
 [Term]
 id: HAO:0000439
 name: intertorular carina
-def: "The carina that extends between the dorsal margin of toruli." [http://api.hymao.org/api/ref/67766]
+def: "The carina that extends between the dorsal margin of the antennal rims." [http://api.hymao.org/api/ref/67766]
 synonym: "carène intertorulaire" [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000316 ! face
@@ -3747,6 +3751,7 @@ comment: There is no cervical sclerite and hence no cervix in Hymenoptera.
 id: HAO:0000480
 name: lateral ocellar line
 def: "The anatomical line that is the shortest between the margins of the  median and lateral ocelli." [http://api.hymao.org/api/ref/67791]
+synonym: "LOL" [http://api.hymao.org/api/ref/97912]
 synonym: "lateral ocellar distance" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "lateral ocellar length" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
 synonym: "least ocellar length" [http://api.hymao.org/api/ref/96588]
@@ -3923,7 +3928,7 @@ relationship: BFO:0000050 HAO:0001096 ! wing venation
 [Term]
 id: HAO:0000502
 name: lower face
-def: "The area that is limited dorsally by the ventral margin of the torulus laterally by the malar sulcus and ventrally by the oral foramen." [http://api.hymao.org/api/ref/67791]
+def: "The area that is limited dorsally by the ventral margin of the antennal foramen laterally by the malar sulcus and ventrally by the oral foramen." [http://api.hymao.org/api/ref/67791]
 synonym: "face" [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000316 ! face
@@ -4099,7 +4104,7 @@ relationship: BFO:0000050 HAO:0000575 ! mesoscutum
 [Term]
 id: HAO:0000523
 name: median mesoscutal sulcus
-def: "The sulcus that is located in the anteroposterior midline of the mesoscutum and corresponds with the median mesoscutal ridge." [http://api.hymao.org/api/ref/67791]
+def: "The sulcus that is a median mesoscutal line and that is adjacent to the (internal) median mesoscutal ridge." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000575 ! mesoscutum
 
@@ -4710,7 +4715,8 @@ relationship: HAO:attached_to HAO:0000592 ! metafurca
 [Term]
 id: HAO:0000599
 name: metanotal spine
-def: "The process that is located on the metascutellum." [http://api.hymao.org/api/ref/67791]
+def: "The median process on the metascutellum." [http://api.hymao.org/api/ref/67791]
+synonym: "metascutellar spine" [http://api.hymao.org/api/ref/97972]
 is_a: HAO:0000822 ! process
 relationship: BFO:0000050 HAO:0000625 ! metascutellum
 
@@ -5966,6 +5972,7 @@ relationship: BFO:0000050 HAO:0000092 ! alinotum
 id: HAO:0000759
 name: posterior ocellar line
 def: "The anatomical line that is the shortest between the margin of the lateral ocelli." [http://api.hymao.org/api/ref/67791]
+synonym: "POL" [http://api.hymao.org/api/ref/97912]
 synonym: "interocellar distance" [http://api.hymao.org/api/ref/67791]
 synonym: "posterior ocellar length" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/41396]
 synonym: "postocellar length" [http://api.hymao.org/api/ref/96588]
@@ -6104,7 +6111,7 @@ relationship: BFO:0000050 HAO:0000658 ! occiput
 [Term]
 id: HAO:0000777
 name: postgenal bridge
-def: "The subforaminal bridge that is sclerotised and limited anteriorly (ventrally) by the hypostomal carina and is subdivided medially by the postgenal sulcus." [http://api.hymao.org/api/ref/67791]
+def: "The subforaminal bridge that is sclerotised and limited anteriorly (ventrally) by the hypostomal carina and is subdivided medially by the median sulcus of the postgenal bridge." [http://api.hymao.org/api/ref/67791]
 synonym: "genal bridge" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0001218 ! subforaminal bridge
 relationship: BFO:0000050 HAO:0000776 ! postgena
@@ -7110,16 +7117,17 @@ def: "The antennal segment that is proximal to the pedicel and is connected to t
 synonym: "A1" [http://api.hymao.org/api/ref/96759]
 synonym: "Schaft" [http://api.hymao.org/api/ref/78598]
 synonym: "antennal scape" [http://api.hymao.org/api/ref/96373]
+synonym: "first antennomere" [http://api.hymao.org/api/ref/97947]
 is_a: HAO:0000104 ! antennal segment
 
 [Term]
 id: HAO:0000909
 name: sclerite
-def: "The area of the integument that is strongly sclerotised, with thick exocuticle and is surrounded by conjunctivae." [http://api.hymao.org/api/ref/67791]
+def: "The area of the cuticle that is strongly sclerotised, with thick exocuticle and is surrounded by conjunctivae." [http://api.hymao.org/api/ref/67791]
 synonym: "plate" [http://api.hymao.org/api/ref/68619]
 synonym: "sclerome" [http://api.hymao.org/api/ref/78428]
 is_a: HAO:0000146 ! area
-relationship: BFO:0000050 HAO:0000421 ! integument
+relationship: BFO:0000050 HAO:0000240 ! cuticle
 
 [Term]
 id: HAO:0000910
@@ -7308,7 +7316,7 @@ relationship: BFO:0000050 HAO:0002175 ! second valvifer-second valvula-third val
 [Term]
 id: HAO:0000929
 name: segment
-def: "An anatomical structure that is metameric along the anterior-posterior axis, and which is connected to other metameric subdivisions by muscles and which is delimited by its sclerites." [http://api.hymao.org/api/ref/97009]
+def: "An anatomical structure that is metameric and is connected to other metameric subdivisions by muscles and is delimited by its sclerites." [http://api.hymao.org/api/ref/97009]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000012 ! multi-cellular organism
 
@@ -7379,6 +7387,8 @@ relationship: BFO:0000050 HAO:0000909 ! sclerite
 id: HAO:0000939
 name: sitophore
 def: "The sclerite that is located in the proximal part of the hypopharygeal wall delimited distally by the functional mouth and proximally by the proximal boundary of the cibarium. The tentorio-hypopharyngeal muscle inserts on the proximal margin of the sitophore." [http://api.hymao.org/api/ref/78243]
+synonym: "hypopharyngeal plate" [http://api.hymao.org/api/ref/36975]
+synonym: "pharyngeal plate" [http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/36922]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000409 ! hypopharynx
 
@@ -7415,7 +7425,7 @@ relationship: BFO:0000050 HAO:0001017 ! tibia
 [Term]
 id: HAO:0000944
 name: speculum
-def: "The area that is located dorsally on the mesopleuron, is delimited posteriorly by the mesepimeral ridge and corresponds to the site of origin of the dorsal mesopleuro-mesofurcal muscle." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located dorsally on the mesopleuron, is delimited posteriorly by the mesepimeral ridge and corresponds to the site of origin of the anterior mesopleuro-mesofurcal muscle." [http://api.hymao.org/api/ref/67791]
 synonym: "upper mesepimeron" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/67872]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000566 ! mesopleuron
@@ -7562,14 +7572,14 @@ relationship: BFO:0000050 HAO:0000626 ! metasoma
 [Term]
 id: HAO:0000964
 name: subantennal area
-def: "The area that is located ventrally of the toruli and is delimited by the subantennal grooves and the epistomal sulcus." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located ventrally of the antennal rim and is delimited by the subantennal grooves and the epistomal sulcus." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000502 ! lower face
 
 [Term]
 id: HAO:0000965
 name: subantennal groove
-def: "The impression that is located on the face ventrally of the torulus and dorsally of the clypeus." [http://api.hymao.org/api/ref/67841]
+def: "The impression that is located on the face ventrally of the antennal foramen and dorsally of the clypeus." [http://api.hymao.org/api/ref/67841]
 synonym: "dorsoventral groove of face" [http://api.hymao.org/api/ref/96437]
 synonym: "subantennal sulcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "subantennal suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
@@ -7687,7 +7697,7 @@ relationship: BFO:0000050 HAO:0000626 ! metasoma
 [Term]
 id: HAO:0000981
 name: supraclypeal area
-def: "The area that is located medially on the lower face." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located medially on the lower face between the dorsal margin of the clypeus and the anatomical line that connects the dorsalmost points of the left and right antennal rims." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000502 ! lower face
 
@@ -8004,7 +8014,7 @@ relationship: BFO:0000050 HAO:0000506 ! mandible
 [Term]
 id: HAO:0001020
 name: torular space
-def: "The area that is located between the toruli." [http://api.hymao.org/api/ref/67862]
+def: "The area that is located between the antennal rims." [http://api.hymao.org/api/ref/67862]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -8184,7 +8194,7 @@ relationship: BFO:0000050 HAO:0000820 ! pretarsus
 [Term]
 id: HAO:0001044
 name: upper face
-def: "The area that is located dorsally of the ventral margin of the toruli and ventrally of the anterior ocellus medial to the inner margins of the eye and malar line." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located dorsally of the ventral margin of the antennal rim and ventrally of the anterior ocellus medial to the inner margins of the eye and malar line." [http://api.hymao.org/api/ref/67791]
 synonym: "frons" [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
 synonym: "frontal area" [ http://projects.biodiversity.be/ants/    ]
 synonym: "supra-antennal area" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43275]
@@ -8552,7 +8562,7 @@ relationship: BFO:0000050 HAO:0000626 ! metasoma
 [Term]
 id: HAO:0001089
 name: wing
-def: "The area that is located in between the notum and the pleuron and is composed of the wing base and wing blade." [http://api.hymao.org/api/ref/67791]
+def: "The appendage that is between the notum and the pectus and is connected to the body by the axillary sclerite muscles." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 is_a: HAO:0000144 ! appendage
 relationship: BFO:0000050 HAO:0000883 ! pterothorax
@@ -8673,8 +8683,8 @@ relationship: BFO:0000050 HAO:0000679 ! ovipositor
 [Term]
 id: HAO:0001104
 name: postgenal ridge
-def: "The ridge that extends ventrally of the posterior tentorial pit and continuous with the tentorium." [http://api.hymao.org/api/ref/67791]
-synonym: "gular ridge" [http://api.hymao.org/api/ref/67875]
+def: "The ridge that extends ventrally of the posterior tentorial pit and that is continuous with the tentorium." [http://api.hymao.org/api/ref/67791]
+synonym: "gular ridge" [http://api.hymao.org/api/ref/36895]
 is_a: HAO:0000899 ! ridge
 relationship: BFO:0000050 HAO:0000776 ! postgena
 
@@ -9559,7 +9569,7 @@ relationship: BFO:0000050 HAO:0000989 ! tarsal claw
 [Term]
 id: HAO:0001220
 name: subantennal groove
-def: "The scrobe that is located ventrally of the torulus and accommodates the proximal part of the antenna." [http://api.hymao.org/api/ref/67791]
+def: "The scrobe that is located ventrally of the antennal foramen and accommodates the proximal part of the antenna." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000912 ! scrobe
 relationship: BFO:0000050 HAO:0000234 ! cranium
 
@@ -9878,7 +9888,7 @@ relationship: BFO:0000050 HAO:0000587 ! metacoxa
 [Term]
 id: HAO:0001264
 name: metacoxal foramen
-def: "The coxal foramen that is located in on the metapectus." [http://api.hymao.org/api/ref/67791]
+def: "The coxal foramen that is on the metapectus." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000229 ! coxal foramen
 
 [Term]
@@ -10595,6 +10605,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 id: HAO:0001357
 name: mesopleural ridge
 def: "The pleural ridge that marks the ventral margin of the site of origin of the second mesopleuro-mesonotal and the dorsal margin of the mesopleuro-mesocoxal muscles and is located anteroventrally of the speculum." [http://api.hymao.org/api/ref/67791]
+synonym: "pleural ridge" [http://api.hymao.org/api/ref/68103]
 is_a: HAO:0000724 ! pleural ridge
 relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 
@@ -11177,7 +11188,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 [Term]
 id: HAO:0001429
 name: antennal condyle of the cranium
-def: "The condyle that is located on the antennafer and inserts into the basal knob." [http://api.hymao.org/api/ref/67791]
+def: "The condyle that is located on the antennifer and inserts into the basal knob." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000220 ! condyle
 relationship: BFO:0000050 HAO:0000103 ! antennal rim
 
@@ -13899,7 +13910,7 @@ is_a: HAO:0001117 ! thoracic muscle
 [Term]
 id: HAO:0001785
 name: mesocoxal foramen
-def: "The coxal foramen that is located in on the mesopectus." [http://api.hymao.org/api/ref/67791]
+def: "The coxal foramen that is on the mesopectus." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000229 ! coxal foramen
 
 [Term]
@@ -14154,7 +14165,7 @@ relationship: HAO:attached_to HAO:0000853 ! pronotum
 [Term]
 id: HAO:0001818
 name: posterior projection of mesoscutellum
-def: "The process that is located posteriorly on the dorsal surface of the mesoscutellum." [http://api.hymao.org/api/ref/67791]
+def: "The paired process that is located posteriorly on the dorsal surface of the mesoscutellum." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000822 ! process
 relationship: BFO:0000050 HAO:0000574 ! mesoscutellum
 
@@ -14199,7 +14210,7 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 [Term]
 id: HAO:0001824
 name: transverse trabecula
-def: "The bar that extends between each eye anterior to the anterior ocellus and posterior to the toruli and laterally terminates at the juncture of the supraorbital trabecula and preorbital trabecula." [http://api.hymao.org/api/ref/67791]
+def: "The bar that extends between each eye ventral (anterior) to the anterior ocellus and dorsal (posterior) to the antennal formamina and laterally terminates at the juncture of the supraorbital trabecula and preorbital trabecula." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000164 ! bar
 
 [Term]
@@ -14741,6 +14752,7 @@ is_a: HAO:0000342 ! flagellomere
 id: HAO:0001900
 name: ninth flagellomere
 def: "The flagellomere that is located immediately distal to the eighth flagellomere." [http://api.hymao.org/api/ref/96311]
+synonym: "F9" [http://api.hymao.org/api/ref/97939]
 is_a: HAO:0000342 ! flagellomere
 
 [Term]
@@ -15019,7 +15031,7 @@ relationship: BFO:0000050 HAO:0001089 ! wing
 [Term]
 id: HAO:0001938
 name: interocular distance
-def: "The anatomical line that is perpendicular to the anteroposterior body axis and extends between the margins of the compound eyes." [http://api.hymao.org/api/ref/67791]
+def: "The anatomical line that is perpendicular to the anteroposterior body axis and extends between the medial margins of the compound eyes." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000008 ! anatomical line
 
 [Term]
@@ -15062,7 +15074,7 @@ relationship: BFO:0000050 HAO:0000915 ! scutellar disc
 [Term]
 id: HAO:0001944
 name: facial impression
-def: "The area that is concave and is located between and ventral of the toruli." [http://api.hymao.org/api/ref/67791]
+def: "The area that is concave and is located between and ventral of the antennal formamina." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001523 ! frons
 
@@ -15155,14 +15167,14 @@ relationship: BFO:0000050 HAO:0000853 ! pronotum
 [Term]
 id: HAO:0001957
 name: facial triangle
-def: "The area that is raised and  extends from between the toruli to the posterior margin of the clypeus." [http://api.hymao.org/api/ref/96437]
+def: "The area that is raised and  extends from between the antennal foramina to the posterior margin of the clypeus." [http://api.hymao.org/api/ref/96437]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000502 ! lower face
 
 [Term]
 id: HAO:0001958
 name: setal pit
-def: "The impression with a centered sensillum trichodeum." [http://api.hymao.org/api/ref/96437]
+def: "The impression with a centered seta." [http://api.hymao.org/api/ref/96437]
 is_a: HAO:0000417 ! impression
 relationship: BFO:0000050 HAO:0000240 ! cuticle
 
@@ -15254,7 +15266,7 @@ is_a: HAO:0000041 ! anatomical cluster
 [Term]
 id: HAO:0001971
 name: subantennal carina
-def: "The carina that is located on the lower face ventrally of the torulus and dorsally of the clypeus." [http://api.hymao.org/api/ref/78754]
+def: "The carina that is located on the lower face ventrally of the antennal foramen and dorsally of the clypeus." [http://api.hymao.org/api/ref/78754]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000502 ! lower face
 
@@ -15407,6 +15419,7 @@ relationship: BFO:0000050 HAO:0000036 ! abdominal sternum 3
 id: HAO:0001993
 name: S3 felt field
 def: "The felt field that is located on the abdominal sternum 4." [http://api.hymao.org/api/ref/96540]
+synonym: "posterior felt field" [http://api.hymao.org/api/ref/96326]
 is_a: HAO:0000322 ! felt field
 relationship: BFO:0000050 HAO:0000037 ! abdominal sternum 4
 
@@ -15698,6 +15711,7 @@ relationship: BFO:0000050 HAO:0000015 ! abdomen
 id: HAO:0002033
 name: gonostyle/volsella complex
 def: "The anatomical cluster that is composed of the sclerites that are located distally of the cupula and surround the aedeagus." [http://api.hymao.org/api/ref/96550]
+synonym: "gonostyle-volsella complex" [http://api.hymao.org/api/ref/97939]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000312 ! external male genitalia
 
@@ -15733,6 +15747,7 @@ relationship: BFO:0000050 HAO:0000238 ! cupula
 id: HAO:0002038
 name: cupulo-gonostyle/volsella complex muscle
 def: "The male genitalia muscle that arises from the cupula and inserts on the gonostyle/volsella complex." [http://api.hymao.org/api/ref/67791]
+synonym: "cupulo-gonostyle-volsella complex" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000238 ! cupula
 relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
@@ -15748,6 +15763,7 @@ relationship: BFO:0000050 HAO:0000091 ! aedeagus
 id: HAO:0002040
 name: dorsomedian conjunctiva of the gonostyle/volsella complex
 def: "The conjunctiva that is linear and extends medially on the dorsal region of the gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
+synonym: "dorsomedian conjunctiva of the gonostyle-volsella complex" [http://api.hymao.org/api/ref/97939]
 is_a: HAO:0000221 ! conjunctiva
 relationship: BFO:0000050 HAO:0002033 ! gonostyle/volsella complex
 
@@ -15771,6 +15787,7 @@ relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
 id: HAO:0002043
 name: gonostyle/volsella complex-harpal muscle
 def: "The male genitalia muscle that arises from the gonostyle/volsella complex and inserts on the harpe." [http://api.hymao.org/api/ref/96550]
+synonym: "gonostyle-volsella complex-harpal muscle" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000395 ! harpe
 relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
@@ -16403,7 +16420,7 @@ relationship: BFO:0000050 HAO:0000958 ! stipes
 [Term]
 id: HAO:0002127
 name: distolateral galeal sclerite
-def: "The sclerite that is located distolaterally on the lateral wall of the galeo-lacinial complex and bears the distolateral galeal setiferous patch." [http://api.hymao.org/api/ref/96306]
+def: "The sclerite that is located on the lateral wall of the galeo-lacinial complex distaly of the lateral galeal crease and bears the distolateral galeal setiferous patch." [http://api.hymao.org/api/ref/96306]
 synonym: "apical transverse sclerotized part of galea" [http://api.hymao.org/api/ref/36895]
 synonym: "apicolateral galeal plate" [http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000909 ! sclerite
@@ -16827,7 +16844,7 @@ relationship: BFO:0000050 HAO:0000515 ! maxillary palp
 [Term]
 id: HAO:0002184
 name: muscle attachment site
-def: "The are of muscle attachment." [http://api.hymao.org/api/ref/67791]
+def: "The area of muscle attachment." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000421 ! integument
 
@@ -17569,6 +17586,7 @@ relationship: BFO:0000050 HAO:0000853 ! pronotum
 id: HAO:0002288
 name: median septum of scutellum
 def: "The area that is median and separates the scutellar foveae." [http://api.hymao.org/api/ref/97708]
+synonym: "foveal septum" [http://api.hymao.org/api/ref/98019, http://api.hymao.org/api/ref/78616]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
 
@@ -17658,6 +17676,7 @@ relationship: BFO:0000050 HAO:0000421 ! integument
 id: HAO:0002300
 name: sensillum basiconicum
 def: "The trichoid sensillum that is apically rounded." [http://api.hymao.org/api/ref/67791]
+synonym: "basiconic sensillum" [http://api.hymao.org/api/ref/97972]
 is_a: HAO:0002299 ! sensillum trichodeum
 relationship: BFO:0000050 HAO:0000421 ! integument
 
@@ -17702,7 +17721,7 @@ relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
 [Term]
 id: HAO:0002307
 name: appendage segment
-def: "The anatomical structure that is metameric along the proximal-distal axis and which is connected to other metameric subdivisions by muscles, is delimited by its sclerites and is part of an appendage." [http://api.hymao.org/api/ref/67841]
+def: "The segment that is metameric along the proximal-distal axis and is part of an appendage." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000032 ! organism subdivision
 relationship: BFO:0000050 HAO:0000144 ! appendage
 
@@ -17980,6 +17999,684 @@ name: spine length
 def: "The anatomical line between the center of the propodeal spiracle and the distal end of the propodeal spine." [http://api.hymao.org/api/ref/97831]
 synonym: "SPST" [http://api.hymao.org/api/ref/97859]
 is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002349
+name: arithmetic mean
+def: "A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data." [http://api.hymao.org/api/ref/97881]
+
+[Term]
+id: HAO:0002350
+name: absolute cephalic size
+def: "The arithmetic mean of the maximum cephalic length in median line and the dorsal head width." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0002349 ! arithmetic mean
+
+[Term]
+id: HAO:0002351
+name: anterodorsal rim of petiole
+def: "The rim that is transverse and is at the posterior margin of the anterior profile of petiolar node." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000900 ! rim
+relationship: BFO:0000050 HAO:0000020 ! abdominal segment 2
+
+[Term]
+id: HAO:0002352
+name: circumantennal carinae
+def: "The anatomical cluster that is composed of concentric carinae that encircle the antennal foramen." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0000234 ! cranium
+
+[Term]
+id: HAO:0002353
+name: anterior profile of petiolar node
+def: "The anteriodorsal area of the petiolar node that is oriented anterodorsally and is delimited posteriorly by a dorsally or posterodorsally orineted area." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000020 ! abdominal segment 2
+
+[Term]
+id: HAO:0002354
+name: dorsal petiolar profile
+def: "The area of the petiolar node that is dorsomedial, and oriented dorsally and is delimited anteriorly by the anterior petiolar profile and posteriorly by the caudal petiolar profile." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000020 ! abdominal segment 2
+
+[Term]
+id: HAO:0002355
+name: caudal petiolar profile
+def: "The area of the petiolar node that is posterodorsal, oriented posterodorsally and is delimited anteriorly by a dorsally or anterodorsally oriented area." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000020 ! abdominal segment 2
+
+[Term]
+id: HAO:0002356
+name: portion of epithelium
+def: "The anatomical structure of the epithelium that is delimited by material or immaterial anatomical entities." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000003 ! anatomical structure
+relationship: BFO:0000050 HAO:0000066 ! epithelium
+
+[Term]
+id: HAO:0002357
+name: postocular area
+def: "The area of the cranium between the dorsal margin of the compound eye and the posterolateral cranial corner." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000234 ! cranium
+
+[Term]
+id: HAO:0002358
+name: postocular contour line
+def: "The contour line of the postocular area in frontal view." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000510 ! margin
+relationship: BFO:0000050 HAO:0002357 ! postocular area
+
+[Term]
+id: HAO:0002359
+name: postocular head width
+def: "The anatomical line between the posteriormost points of the postocular contour lines." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002360
+name: metapleural area of the mesonoto-metanoto-mesopecto-metapecto-propodeal complex
+def: "The lateral (vertical) area that is posterior to the mesometapleural sulcus and anterior to the metapleural carina." [http://api.hymao.org/api/ref/97831]
+synonym: "metapleuron" [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002361 ! mesonoto-metanoto-mesopecto-metapecto-propodeal complex
+
+[Term]
+id: HAO:0002361
+name: mesonoto-metanoto-mesopecto-metapecto-propodeal complex
+def: "The sclerite that is connected to the pronotum, propleura, fore, middle and hind legs and the petiole via conjunctiva." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000909 ! sclerite
+
+[Term]
+id: HAO:0002362
+name: metanotal depression
+def: "The transverse, dorsal groove on the mesonoto-metanoto-mesopecto-metapecto-propodeal complex posterior to the pronotal spiracle and anterior to the propodeal spiracle." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0001525 ! groove
+relationship: BFO:0000050 HAO:0001921 ! Metanoto-propodeo-metapecto-mesopectal complex
+
+[Term]
+id: HAO:0002363
+name: mesopleural area of the mesonoto-metanoto-mesopecto-metapecto-propodeal complex
+def: "The lateral (vertical) area that is anterior to the mesometapleural sulcus and posterior to the pronotum." [http://api.hymao.org/api/ref/97831]
+synonym: "mesopleuron" [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002361 ! mesonoto-metanoto-mesopecto-metapecto-propodeal complex
+
+[Term]
+id: HAO:0002364
+name: median carina of clypeus
+def: "The clypeal carina that is median." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0000212 ! clypeus
+
+[Term]
+id: HAO:0002365
+name: submedian area of clypeus
+def: "The area between the median carina of clypeus and the lateral carina of clypeus." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000212 ! clypeus
+
+[Term]
+id: HAO:0002366
+name: ventral head line
+def: "The anatomical line between the anteriormost (ventralmost) points of compound eyes in frontal view." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002367
+name: torular head width
+def: "The anatomical line between the intersections of the cranium contour and transverse torular line line in frontal view. dorsal head width" [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002368
+name: ventral head width
+def: "The anatomical line between the intersections of the cranium contour and ventral head line in frontal view. dorsal head width" [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002369
+name: contour line
+def: "The boundary of the orthographic projection of a defined side of the anatomical structure." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002370
+name: gena contour line
+def: "The contour line of the gena area in frontal view." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0002369 ! contour line
+
+[Term]
+id: HAO:0002371
+name: anterior profile of petiolar node contour line
+def: "The contour line of the anterior profile of petiolar node in lateral view." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0002369 ! contour line
+
+[Term]
+id: HAO:0002372
+name: dorsal petiolar profile contour line
+def: "The contour line of the dorsal petiolar profile in lateral view." [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0002369 ! contour line
+
+[Term]
+id: HAO:0002373
+name: malar striae
+def: "The anatomical cluster posterior to the malar sulcus that is composed of carinae radiating from the pleurostomal condyle." [http://api.hymao.org/api/ref/97909]
+
+[Term]
+id: HAO:0002374
+name: pleural pit line
+def: "The anatomical line between the mesopleural and metapleural pits." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002375
+name: width
+def: "The anatomical line that is perpendicular to the longitudinal axis of the anatomical structure and between one side of an object to the opposite side." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002376
+name: facial striae
+def: "The anatomical cluster anterior to the malar sulcus that is composed of carinae radiating from the pleurostomal condyle." [http://api.hymao.org/api/ref/97909]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0000234 ! cranium
+
+[Term]
+id: HAO:0002377
+name: maximum width
+def: "The width that is the longest." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0002375 ! width
+
+[Term]
+id: HAO:0002378
+name: minimum width
+def: "The width that is the shortest." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0002375 ! width
+
+[Term]
+id: HAO:0002379
+name: reticulate
+def: "The sculpture with sculptural elements corresponding to the limits of epidermal cells." [http://api.hymao.org/api/ref/67791]
+synonym: "alutaceous" [http://api.hymao.org/api/ref/78631]
+synonym: "coriaceous" [http://api.hymao.org/api/ref/36877]
+synonym: "microreticulate" [http://api.hymao.org/api/ref/97914]
+is_a: HAO:0000913 ! sculpture
+
+[Term]
+id: HAO:0002380
+name: supraclypeal depression
+def: "The median impression on the frons that is dorsal to the intertorular carina and is not a scrobe for receiving the scape." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000417 ! impression
+relationship: BFO:0000050 HAO:0001044 ! upper face
+
+[Term]
+id: HAO:0002381
+name: ventromedian setiferous patch
+def: "The median setiferous patch that is on the frons between the intertorular carina and the facial pit." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000936 ! setiferous patch
+relationship: BFO:0000050 HAO:0001044 ! upper face
+
+[Term]
+id: HAO:0002382
+name: ventrolateral setiferous patch
+def: "The sublateral setiferous patch that is on the frons between the intertorular carina and the facial pit, and is separated from the median setiferous patch by the supraclypeal depression." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000936 ! setiferous patch
+relationship: BFO:0000050 HAO:0001044 ! upper face
+
+[Term]
+id: HAO:0002383
+name: intertorular area
+def: "The median area of the face between the dorsal (posterior) margin of the clypeus and the intertolural carina." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001523 ! frons
+
+[Term]
+id: HAO:0002384
+name: facial process
+def: "The process that is located on the upper face dorsal to the intertorular carina and corresponds internally to a conical apodeme and not the tentorium." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000822 ! process
+relationship: BFO:0000050 HAO:0001523 ! frons
+
+[Term]
+id: HAO:0002385
+name: postocellar carina
+def: "The carina that connects the posterior margins of the left and right lateral ocellar fovea." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0001077 ! vertex
+
+[Term]
+id: HAO:0002386
+name: distal projection of the parossiculus
+def: "The distal projection of the volsella that corresponds to the apical parossiculal seta." [http://api.hymao.org/api/ref/97915]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0001084 ! volsella
+
+[Term]
+id: HAO:0002387
+name: facial apodeme
+def: "The apodeme that is dorsal to the intertorular line and ventral to the anterior ocellus." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000142 ! apodeme
+relationship: BFO:0000050 HAO:0001523 ! frons
+
+[Term]
+id: HAO:0002388
+name: median facial keel
+def: "The carina whose dorsal (posterior) region overlaps the facial pit." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0001929 ! central keel
+relationship: BFO:0000050 HAO:0001523 ! frons
+
+[Term]
+id: HAO:0002389
+name: median flange of occipital carina
+def: "The flange that is median and on the occipital carina." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0000653 ! occipital carina
+
+[Term]
+id: HAO:0002390
+name: submedial flange of occipital carina
+def: "The flange that is submedial and is on the occipital carina." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0000653 ! occipital carina
+
+[Term]
+id: HAO:0002391
+name: distal projection of the penisvalva
+def: "The projection that is at the distal end of the penisvalva." [http://api.hymao.org/api/ref/97915]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0000707 ! penisvalva
+
+[Term]
+id: HAO:0002392
+name: sensillar ring of harpe
+def: "The row of setae on the distomedial harpal wall that is parallel to the harpal margin." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0000395 ! harpe
+
+[Term]
+id: HAO:0002393
+name: anterior discrimenal pit
+def: "The pit at the anteriormost point of the mesodiscrimen." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000718 ! pit
+relationship: BFO:0000050 HAO:0000545 ! mesodiscrimen
+
+[Term]
+id: HAO:0002394
+name: proximolateral projection of the cupula
+def: "The projection that is between the proximodorsal notch of cupula and the proximoventral notch of the cupula." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0000238 ! cupula
+
+[Term]
+id: HAO:0002395
+name: proximoventral notch of cupula
+def: "The notch on the proximoventral margin of the cupula just lateral to the gonocondyle." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0000238 ! cupula
+
+[Term]
+id: HAO:0002396
+name: transverse line of the metanotum/propodeum
+def: "The line of the metanoto-propodeo-metapecto-mesopectal complex that connects the humeral sclerite to the third phragma." [http://api.hymao.org/api/ref/97915]
+synonym: "transverse line of the metanotum-propodeum" [http://api.hymao.org/api/ref/97939]
+is_a: HAO:0001586 ! line
+relationship: BFO:0000050 HAO:0001921 ! Metanoto-propodeo-metapecto-mesopectal complex
+
+[Term]
+id: HAO:0002397
+name: anteromedian projection of the metanoto-propodeo-metapecto-mesopectal complex
+def: "The median projection on the anterior region of the metanoto-propodeo-metapecto-mesopectal complex." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0001921 ! Metanoto-propodeo-metapecto-mesopectal complex
+
+[Term]
+id: HAO:0002398
+name: transverse frontal carina
+def: "The transverse carina that is dorsal to the facial pit and ventral to the anterior ocellus." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0001044 ! upper face
+
+[Term]
+id: HAO:0002399
+name: torulo-clypeal carina
+def: "The carina that is connects the clypeus with the antennal rim." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0001523 ! frons
+
+[Term]
+id: HAO:0002400
+name: subtorular carina
+def: "The carina that extends ventrally from the lateral margin of the antennal rim." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0000371 ! gena
+
+[Term]
+id: HAO:0002401
+name: ventrolateral invagination of the pronotum
+def: "The invagination that at the ventrolateral edge of the pronotum." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0000853 ! pronotum
+
+[Term]
+id: HAO:0002402
+name: sternaulus length
+def: "The straight anatomical line between the anterior and posterior ends of the sternaulus." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002403
+name: mesopleuron length
+def: "The anatomical line that extends between the lateral end of the epicnemial carina and the postpectal carina and is parallel to the lateroventral mesopleural carina." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002404
+name: anterior mesoscutal width
+def: "The anatomical line that is between the anterior ends of the left and right notauli." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002405
+name: posterior mesoscutal width
+def: "The anatomical line that is between the anterior margins of the left and right preaxillae." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002406
+name: harpe width
+def: "The width of the harpe in lateral view." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002407
+name: head height
+def: "The median anatomical line of the head in anterior view." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002408
+name: head length
+def: "The median anatomical line of the head in dorsal view." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002409
+name: harpe length
+def: "The anatomical line between the distalmost point of the gonostyle volsella complex and the distalmost point of the harpe in lateral view." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002410
+name: axillary muscle
+def: "The muscle that is attached to the axillary sclerite." [http://api.hymao.org/api/ref/36875]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0000159 ! axillary sclerite
+relationship: HAO:attached_to HAO:0001015 ! thorax
+
+[Term]
+id: HAO:0002411
+name: petiole neck
+def: "The anterior area of the petiole that is narrower than the posterior region in dorsal view." [http://api.hymao.org/api/ref/97912]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000020 ! abdominal segment 2
+
+[Term]
+id: HAO:0002412
+name: buccal lobe
+def: "The area of the epipharyngeal wall that is posterior to the epipharyngeal lobe, is thicker than surrounding regions of the epipharyngeal wall and is covered with dorsally oriented acanthae." [DOI:10.1016/j.ode.2006.06.003]
+is_a: HAO:0002119 ! acantha
+relationship: BFO:0000050 HAO:0000300 ! epipharyngeal wall
+
+[Term]
+id: HAO:0002413
+name: body length
+def: "The anatomical line between the anteriormost pont of the cranium and the posteriormost point of the metasoma." [http://api.hymao.org/api/ref/97939]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002414
+name: distoventral submedian corner of the cupula
+def: "The submedial corner at the distoventral margin of the cupula." [http://api.hymao.org/api/ref/97939]
+is_a: HAO:0000223 ! corner
+relationship: BFO:0000050 HAO:0000238 ! cupula
+
+[Term]
+id: HAO:0002415
+name: trachea
+def: "The cuticular invagination that is tubular, branched into tracheoles and bears the taenidia." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0000066 ! epithelium
+
+[Term]
+id: HAO:0002416
+name: atrium
+def: "The cuticular invagination that is sclerotized and is between the external aperture of the spiracle and the distal end of the trachea." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0000950 ! spiracle
+
+[Term]
+id: HAO:0002417
+name: resilin rich articulation of the ramus
+def: "The resilin rich area that is ringlike and connects the ramus with the rest of the flagellomere." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0002418
+name: posteromedian process of the mesoscutellum
+def: "The median spine that is on the posterodorsal region of the mesoscutellum." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0000949 ! spine
+relationship: BFO:0000050 HAO:0000574 ! mesoscutellum
+
+[Term]
+id: HAO:0002419
+name: sensillar plate of the aedeagus
+def: "The distal region of the aedeagus that is flat (delimited by an edge from the rest of the aedeagus) and bears four sensillum basiconicum." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000091 ! aedeagus
+
+[Term]
+id: HAO:0002420
+name: metapecto-propodeal conjunctiva
+def: "The conjunctiva that connects the lateral end of the antecostal sulcus of the first abdominal tergum with the anterior margin of the metanoto-propodeo-metapecto-mesopectal complex." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0001921 ! Metanoto-propodeo-metapecto-mesopectal complex
+
+[Term]
+id: HAO:0002421
+name: posterodorsal metapleural area
+def: "The area that is anterior to the metapecto-propodeal conjunctiva, posterior to the metapleural pit and dorsal to the metapleural sulcus." [http://api.hymao.org/api/ref/97913]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001921 ! Metanoto-propodeo-metapecto-mesopectal complex
+
+[Term]
+id: HAO:0002422
+name: odontoid process
+def: "The flange that is located on the ventral edge of the mandible and not continuous with the mandibular condyle." [http://api.hymao.org/api/ref/97964]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0000506 ! mandible
+
+[Term]
+id: HAO:0002423
+name: specillum
+def: "The median, smooth area that is smooth, is surrounded by sculptured areas and is on the abdominal mediotergite 4." [http://api.hymao.org/api/ref/97965]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001151 ! abdominal mediotergite 4
+
+[Term]
+id: HAO:0002424
+name: twelfth flagellomere
+def: "The flagellomere that is located immediately distal to the eleventh flagellomere." [http://api.hymao.org/api/ref/97972]
+is_a: HAO:0000342 ! flagellomere
+relationship: BFO:0000050 HAO:0000101 ! antenna
+
+[Term]
+id: HAO:0002425
+name: axillular spine
+def: "The spine on the distal margin of the axillula." [http://api.hymao.org/api/ref/97972]
+is_a: HAO:0000949 ! spine
+relationship: BFO:0000050 HAO:0000160 ! axillula
+
+[Term]
+id: HAO:0002426
+name: anterior ocellar-orbital line
+def: "The anatomical line that is the shortest among the lines that connect the internal margin of the compound eyes and are tangential to the anteriormost point on the median ocellus." [http://api.hymao.org/api/ref/68082]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002427
+name: apical setae of T3
+def: "The row of setae that is transverse and located distally on the third metasomal mediotergite and is composed of setae at least 2 times as long as other setae on the metasoma." [http://api.hymao.org/api/ref/97972]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0001151 ! abdominal mediotergite 4
+
+[Term]
+id: HAO:0002428
+name: stigmal vein
+def: "The vein that is adjacent proximally to the pterostigma." [http://api.hymao.org/api/ref/97972]
+is_a: HAO:0001095 ! wing vein
+relationship: BFO:0000050 HAO:0000351 ! fore wing
+
+[Term]
+id: HAO:0002429
+name: postpetiole height
+def: "The maximum distance between the dorsal and ventral margin of the postpetiole in lateral view." [http://api.hymao.org/api/ref/97831]
+synonym: "PPH" [http://api.hymao.org/api/ref/97831]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002430
+name: scute
+def: "The area that is 5–35 µm wide, polygonal, repetitive, is delimited by lines and is the element of the reticulate sculpture." [http://api.hymao.org/api/ref/97939]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000240 ! cuticle
+
+[Term]
+id: HAO:0002431
+name: lateral mesosoma length
+def: "The anatomical line between the anteriormost point of the anterior rim of pronotum and the posterodorsal edge of the nucha in lateral view." [http://api.hymao.org/api/ref/97992]
+synonym: "mesosoma length" [http://api.hymao.org/api/ref/97992]
+is_a: HAO:0000008 ! anatomical line
+relationship: BFO:0000050 HAO:0000576 ! mesosoma
+
+[Term]
+id: HAO:0002432
+name: transverse carina of the metasomal depression
+def: "The carina that is transverse and dorsal to the nucha." [http://api.hymao.org/api/ref/97992]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0000627 ! metasomal depression
+
+[Term]
+id: HAO:0002433
+name: coriaceous
+def: "The reticulate that is composed of convex sculpture elements." [http://api.hymao.org/api/ref/97992]
+is_a: HAO:0002379 ! reticulate
+
+[Term]
+id: HAO:0002434
+name: alutaceous
+def: "The reticulate that is composed of flat sculpture elements." [http://api.hymao.org/api/ref/97992]
+is_a: HAO:0002379 ! reticulate
+
+[Term]
+id: HAO:0002435
+name: dorsomedian area of the mesoscutellar-axillar complex
+def: "The dorsomedian area of the mesoscutellar axillar complex including the scutellar fovea and the mesoscutellar disc." [http://api.hymao.org/api/ref/97992]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
+
+[Term]
+id: HAO:0002436
+name: prepalpal ventral premental area
+def: "The area that is anterior to the anatomical line connecting the left and right labial palpal excisions." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000804 ! prementum
+
+[Term]
+id: HAO:0002437
+name: postpalpal ventral premental area
+def: "The area that is posterior to the anatomical line connecting the left and right labial palpal excisions." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000804 ! prementum
+
+[Term]
+id: HAO:0002438
+name: latero-proximal stipital process
+def: "The projection that is on the proximolateral margin of the posterior stipital sclerite." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0002098 ! posterior stipital sclerite
+
+[Term]
+id: HAO:0002439
+name: cranial condyle of cardo
+def: "The condyle of the cardo that inserts into the cardinal condyle of the cranium and is adjacent to the cranial fossa of the cardo." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000220 ! condyle
+relationship: BFO:0000050 HAO:0000187 ! cardo
+
+[Term]
+id: HAO:0002440
+name: Distal lateral projection of cardo
+def: "The corner that is located laterally on the distal margin of the cardo." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000223 ! corner
+relationship: BFO:0000050 HAO:0000187 ! cardo
+
+[Term]
+id: HAO:0002441
+name: Distal mesal projection of cardo
+def: "The corner that is located medially on the distal margin of the cardo." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000223 ! corner
+relationship: BFO:0000050 HAO:0000187 ! cardo
+
+[Term]
+id: HAO:0002442
+name: lateral flange of the principal carina of the stipes
+def: "The flange on the lateral part of the prinicipal carina of the stipes." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0002099 ! principal carina of stipes
+
+[Term]
+id: HAO:0002443
+name: distal lobe of the lateral flange of the principal carina of the stipes
+def: "The area of the lateral flange of the principal carina of the stipes distal to the notch of the principal carina of the stipes." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002442 ! lateral flange of the principal carina of the stipes
+
+[Term]
+id: HAO:0002444
+name: proximal lobe of lateral flange of the principal carina of the stipes
+def: "The area of the lateral flange of the principal carina of the stipes proximal to the notch of the principal carina of the stipes." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002442 ! lateral flange of the principal carina of the stipes
+
+[Term]
+id: HAO:0002445
+name: lateral galeal sclerite
+def: "The sclerite that is located laterally on the lateral wall of the galeo-lacinial complex." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000368 ! galea
+
+[Term]
+id: HAO:0002446
+name: trichoid sensillum of the glossa
+def: "The trichoid sensillum that is on the posterior surface of the glossa." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0002299 ! sensillum trichodeum
+relationship: BFO:0000050 HAO:0002207 ! posterior surface of the glossa
+
+[Term]
+id: HAO:0002447
+name: campaniform stipital sensillum
+def: "The campaniform sensillum on the stipes." [http://api.hymao.org/api/ref/98002]
+is_a: HAO:0001973 ! campaniform sensillum
+relationship: BFO:0000050 HAO:0000958 ! stipes
+
+[Term]
+id: HAO:0002448
+name: triangular mesopleural furrow
+def: "The ventrolateral, triangular impression adjacent posteriorly to the acetabular carina." [http://api.hymao.org/api/ref/97992]
+synonym: "rudimentary mesopleural furrow" [http://api.hymao.org/api/ref/98019]
+is_a: HAO:0000417 ! impression
+relationship: BFO:0000050 HAO:0000557 ! mesopectus
 
 [Typedef]
 id: HAO:attached_to
