@@ -1,6 +1,7 @@
 format-version: 1.2
 ontology: hao
-date: 05:08:2011 10:25
+date: 22:09:2011 15:0
+data-version: http://purl.obolibrary.org/obo/hao/2011-09-22/hao.obo
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -552,7 +553,7 @@ is_a: HAO:0000024 ! compound organ
 [Term]
 id: HAO:0000075
 name: abdominal tergum 9
-def: "The tergum that is located on abdominal segment 9. In females, accomodates the origins of the muscles that are the primary protractors and retractors of the first valvulae." [http://api.hymao.org/api/ref/78248]
+def: "The tergum that is located on abdominal segment 9. In females, accommodates the origins of the muscles that are the primary protractors and retractors of the first valvulae." [http://api.hymao.org/api/ref/78248]
 synonym: "afterplatten" [http://api.hymao.org/api/ref/67823]
 synonym: "ecaile anale" [http://api.hymao.org/api/ref/67823]
 synonym: "hintere platten" [http://api.hymao.org/api/ref/67823]
@@ -730,7 +731,7 @@ relationship: OBO_REL:part_of HAO:0000212 ! clypeus
 [Term]
 id: HAO:0000098
 name: antecosta
-def: "The ridge that extends along the anterior margin of the tergum and sternum and serves as the site of origin of intersegmental muscles." [http://api.hymao.org/api/ref/67791]
+def: "The ridge that extends along the anterior margin of the tergum and sternum and serves as the site of origin of the median longitudinal intersegmental muscles." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000899 ! ridge
 relationship: OBO_REL:part_of HAO:0000183 ! body segment
 
@@ -754,6 +755,7 @@ id: HAO:0000101
 name: antenna
 def: "The anatomical cluster that is composed of the scape, pedicel and flagellum." [http://api.hymao.org/api/ref/67791]
 synonym: "Fühler" [http://api.hymao.org/api/ref/78598]
+is_a: HAO:0000144 ! appendage
 is_a: HAO:0000041 ! anatomical cluster
 relationship: OBO_REL:part_of HAO:0000397 ! head
 
@@ -787,7 +789,7 @@ relationship: OBO_REL:part_of HAO:0000101 ! antenna
 [Term]
 id: HAO:0000105
 name: antennal shelf
-def: "The area that is delimited anteriorly by an anatomical line that connects the anterior margins of the antennal rims, laterally by the lateral margins of tha antennal rims, and posteriorly by an anatomical line that connects the posterior margins of the antennal rims." [http://api.hymao.org/api/ref/67841]
+def: "The area that is delimited by two transverse edges extending just ventrally and dorsally of the antennal foramina." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0000316 ! face
 
@@ -811,8 +813,7 @@ name: anterior cranio-mandibular muscle
 def: "The mandibular muscle that arises posterolaterally from the cranium and inserts on the tendon attached posteroproximal part of the mandible." [http://api.hymao.org/api/ref/78258]
 synonym: "M. craniomandibularis externus" [DOI:10.1016/j.ode.2006.06.003]
 synonym: "abductor of the mandible" [http://api.hymao.org/api/ref/36927]
-synonym: "cran-extramand I" [http://api.hymao.org/api/ref/68089]
-synonym: "cranio-extramandibularis" [http://api.hymao.org/api/ref/68089]
+synonym: "musculus cranio-extramandibularis" [http://api.hymao.org/api/ref/68089]
 synonym: "posterior cranio-mandibular muscle" [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001779 ! mandibular muscle
 relationship: HAO:attached_to HAO:0000234 ! cranium
@@ -983,7 +984,7 @@ relationship: OBO_REL:part_of HAO:0000575 ! mesoscutum
 [Term]
 id: HAO:0000129
 name: anterolateral depression of the petiole
-def: "The depression that is located anterolaterally on the abdominal tergum 2 and serves as the site of articulation for the propodeal tooth." [http://api.hymao.org/api/ref/67791]
+def: "The depression that is located anterolaterally on the abdominal tergum 2 and accommodates the propodeal tooth." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000241 ! depression
 
 [Term]
@@ -1165,7 +1166,7 @@ relationship: OBO_REL:part_of HAO:0000820 ! pretarsus
 [Term]
 id: HAO:0000155
 name: axilla
-def: "The area that is located anterolaterally on the mesoscutellar-axillar complex and is delimited posteriorly by the scutoscutellar suture and bears anteriorly the postmedian notal wing process." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located posterior to the transscutal articulation and anterior to the scutoscutellar suture." [http://api.hymao.org/api/ref/96325]
 synonym: "parascutellum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "postscutum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "praescutellum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
@@ -2210,7 +2211,7 @@ relationship: OBO_REL:part_of HAO:0000566 ! mesopleuron
 [Term]
 id: HAO:0000293
 name: epicnemial pit
-def: "The patch that is impressed and located on the anteroventral corner of the mesopleuron." [http://api.hymao.org/api/ref/67841]
+def: "The invagination that is located at the lateral end of the epicnemial carina." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000704 ! patch
 relationship: OBO_REL:part_of HAO:0000566 ! mesopleuron
 
@@ -2510,7 +2511,7 @@ id: HAO:0000331
 name: first median plate
 def: "The sclerite that is located between the second axillary and the distal arm of the third axillary at the base of the mediocubital field." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0000909 ! sclerite
-relationship: OBO_REL:part_of HAO:0000402 ! humeral complex
+relationship: OBO_REL:part_of HAO:0000402 ! median complex
 
 [Term]
 id: HAO:0000332
@@ -2547,7 +2548,8 @@ def: "The mesophragmal muscle that extends between the prophragma and mesophragm
 synonym: "mesothoracic dorsal indirect muscle" [http://api.hymao.org/api/ref/68619]
 synonym: "prophragmo-mesophragmal muscle" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0001792 ! mesophragmal muscle
-relationship: OBO_REL:part_of HAO:0001015 ! thorax
+relationship: HAO:attached_to HAO:0000855 ! prophragma
+relationship: HAO:attached_to HAO:0000558 ! mesophragma
 
 [Term]
 id: HAO:0000336
@@ -2885,7 +2887,7 @@ relationship: HAO:attached_to HAO:0000804 ! prementum
 [Term]
 id: HAO:0000378
 name: glymma
-def: "The sulcus that is located between the spiracle and the anterior margin of abdominal tergum 2 and abdominal sternum 2." [http://api.hymao.org/api/ref/67791]
+def: "The groove that is located between the spiracle and the anterior margin of abdominal tergum 2." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000978 ! sulcus
 relationship: OBO_REL:part_of HAO:0000020 ! abdominal segment 2
 
@@ -3097,9 +3099,9 @@ is_obsolete: true
 
 [Term]
 id: HAO:0000402
-name: humeral complex
+name: median complex
 def: "The anatomical cluster that is composed of median plates." [http://api.hymao.org/api/ref/67791]
-synonym: "median complex" [http://api.hymao.org/api/ref/78427]
+synonym: "humeral complex" [http://api.hymao.org/api/ref/67791]
 synonym: "subcostal scale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36926]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: OBO_REL:part_of HAO:0001090 ! wing base
@@ -3472,7 +3474,7 @@ def: "The anatomical cluster that is composed of the labium and maxillae." [http
 synonym: "labio-maxillary complex" [http://api.hymao.org/api/ref/68560]
 synonym: "maxillo-labial apparatus" [ http://projects.biodiversity.be/ants/    ]
 synonym: "maxillo-labial complex" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67766]
-synonym: "proboscis" [http://api.hymao.org/api/ref/36927]
+synonym: "proboscis" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/36975]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: OBO_REL:part_of HAO:0000639 ! mouthparts
 
@@ -3811,6 +3813,7 @@ relationship: OBO_REL:part_of HAO:0001426 ! abdominal tergum
 id: HAO:0000494
 name: leg
 def: "The anatomical cluster that is composed of the coxa and all distal leg segments and is connected to the pectus." [http://api.hymao.org/api/ref/68082]
+is_a: HAO:0000144 ! appendage
 is_a: HAO:0000041 ! anatomical cluster
 relationship: OBO_REL:part_of HAO:0001015 ! thorax
 
@@ -3878,11 +3881,11 @@ relationship: OBO_REL:part_of HAO:0000316 ! face
 
 [Term]
 id: HAO:0000503
-name: malar space
+name: malar line
 def: "The anatomical line that is the shortest between the lower orbit and the ventrolateral margin of the cranium." [http://api.hymao.org/api/ref/67791]
 synonym: "malar distance" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "malar line" [http://api.hymao.org/api/ref/78427]
-is_a: HAO:0000008 ! anatomical line
+synonym: "malar space" [http://api.hymao.org/api/ref/43471, http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+is_a: HAO:0001586 ! line
 
 [Term]
 id: HAO:0000504
@@ -3957,6 +3960,7 @@ relationship: OBO_REL:part_of HAO:0000351 ! fore wing
 id: HAO:0000513
 name: maxilla
 def: "The anatomical cluster that consists of cardo, stipes, galea, lacinia and maxillary palps. The maxilla is situated lateral to the labium." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000144 ! appendage
 is_a: HAO:0000041 ! anatomical cluster
 relationship: OBO_REL:part_of HAO:0000452 ! labiomaxillary complex
 
@@ -4077,7 +4081,7 @@ id: HAO:0000527
 name: median plate
 def: "The sclerite that is located in the humeral complex." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000909 ! sclerite
-relationship: OBO_REL:part_of HAO:0000402 ! humeral complex
+relationship: OBO_REL:part_of HAO:0000402 ! median complex
 
 [Term]
 id: HAO:0000528
@@ -4102,9 +4106,8 @@ is_a: HAO:0000864 ! propodeal carina
 [Term]
 id: HAO:0000530
 name: median propodeal keel
-def: "The carina that is median and located on the propodeum." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000188 ! carina
-relationship: OBO_REL:part_of HAO:0000051 ! abdominal tergum 1
+is_obsolete: true
+comment: duplum
 
 [Term]
 id: HAO:0000531
@@ -4137,6 +4140,7 @@ name: mentum
 def: "The sclerite that articulates basally with the submentum and apically with the prementum." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000909 ! sclerite
 relationship: OBO_REL:part_of HAO:0000453 ! labium
+relationship: OBO_REL:part_of HAO:0000785 ! postmentum
 
 [Term]
 id: HAO:0000535
@@ -4201,7 +4205,7 @@ id: HAO:0000543
 name: mesocoxal depression
 def: "The acetabulum that is located posteroventrally on the mesopectus, accommodates the mesocoxa and is delimited anterolaterally by the postpectal carina." [http://api.hymao.org/api/ref/67791]
 synonym: "epimeral sclerite" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-synonym: "mesotrochantinal plate" [http://api.hymao.org/api/ref/67791]
+synonym: "mesotrochantinal plate" [http://api.hymao.org/api/ref/67791, DOI:10.1071/IS06012]
 is_a: HAO:0000082 ! acetabulum
 relationship: OBO_REL:part_of HAO:0000557 ! mesopectus
 
@@ -4259,7 +4263,7 @@ relationship: OBO_REL:part_of HAO:0000557 ! mesopectus
 [Term]
 id: HAO:0000550
 name: mesofurco-mesocoxal muscle
-def: "The mesocoxal muscle that originates form the mesofurca and inserts on the mesocoxa." [http://api.hymao.org/api/ref/78236]
+def: "The mesocoxal muscle that originates from the mesofurca and inserts on the mesocoxa." [http://api.hymao.org/api/ref/78236]
 synonym: "fu2-cx2" [http://api.hymao.org/api/ref/67864]
 synonym: "mesofurco-mesocoxal" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0001786 ! mesocoxal muscle
@@ -4322,7 +4326,7 @@ relationship: OBO_REL:part_of HAO:0000583 ! mesothorax
 [Term]
 id: HAO:0000558
 name: mesophragma
-def: "The phragma that extends along the ventral (posterior) margin of the ventral mesopostnotal flange." [http://api.hymao.org/api/ref/67791]
+def: "The phragma that extends along the ventral (posterior) margin of the ventral mesopostnotal flange and serves as the site of origin of the prophragmo-mesophragmal and the mesophragmo-metaphragmal muscles." [http://api.hymao.org/api/ref/67791]
 synonym: "second phragma" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36895]
 is_a: HAO:0000716 ! phragma
 relationship: OBO_REL:part_of HAO:0000583 ! mesothorax
@@ -4521,10 +4525,10 @@ relationship: OBO_REL:part_of HAO:0000583 ! mesothorax
 
 [Term]
 id: HAO:0000582
-name: mesothoracic spiracle
+name: anterior thoracic spiracle
 def: "The spiracle that is located on the border of the pronotum and mesopleuron." [http://api.hymao.org/api/ref/68619]
-synonym: "anterior thoracic spiracle" [http://api.hymao.org/api/ref/67864]
 synonym: "first thoracic spiracle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
+synonym: "mesothoracic spiracle" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "prothoracic spiracle" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000950 ! spiracle
 relationship: OBO_REL:part_of HAO:0001015 ! thorax
@@ -4871,6 +4875,7 @@ relationship: OBO_REL:part_of HAO:0000012 ! multi-cellular organism
 id: HAO:0000627
 name: metasomal depression
 def: "The acetabulum that is concave, surrounds the nucha and accomodates the base of the metasoma." [http://api.hymao.org/api/ref/67791]
+synonym: "nuchal area" [http://api.hymao.org/api/ref/43471]
 is_a: HAO:0000082 ! acetabulum
 relationship: OBO_REL:part_of HAO:0000051 ! abdominal tergum 1
 
@@ -5038,7 +5043,7 @@ relationship: OBO_REL:part_of HAO:0000575 ! mesoscutum
 [Term]
 id: HAO:0000648
 name: notch
-def: "The depression that is located on a margin or edge." [http://api.hymao.org/api/ref/67841]
+def: "The depression that is located on a margin, edge or carina." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000241 ! depression
 
 [Term]
@@ -5074,7 +5079,7 @@ relationship: OBO_REL:part_of HAO:0000234 ! cranium
 id: HAO:0000653
 name: occipital carina
 def: "The carina that surrounds dorsolaterally the occiput." [http://api.hymao.org/api/ref/67791]
-synonym: "nuchal carina" [ http://projects.biodiversity.be/ants/    ]
+synonym: "nuchal carina" [ http://projects.biodiversity.be/ants/    , http://api.hymao.org/api/ref/96327, http://api.hymao.org/api/ref/96328]
 synonym: "nuchal collar" [ http://projects.biodiversity.be/ants/    ]
 synonym: "occipital keel" [http://api.hymao.org/api/ref/78438]
 synonym: "preoccipital carina" [http://api.hymao.org/api/ref/43275]
@@ -5264,6 +5269,7 @@ id: HAO:0000679
 name: ovipositor
 def: "The anatomical cluster that is composed of the first valvulae, second valvulae, third valvulae, first valvifers and second valvifers ." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0000041 ! anatomical cluster
+is_a: HAO:0000144 ! appendage
 relationship: OBO_REL:part_of HAO:0001768 ! external female genitalia
 
 [Term]
@@ -5461,7 +5467,7 @@ relationship: OBO_REL:part_of HAO:0000421 ! integument
 [Term]
 id: HAO:0000705
 name: pectus
-def: "The anatomical cluster that is composed of the sternum and the pleuron." [http://api.hymao.org/api/ref/67791]
+def: "The sclerite that is located ventrally of the thoracic segment and bears the furca and the lateral coxal condyle of the pleuron." [http://api.hymao.org/api/ref/67791]
 synonym: "pleurosternum" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: OBO_REL:part_of HAO:0001013 ! thoracic segment
@@ -5560,8 +5566,8 @@ is_a: HAO:0000012 ! multi-cellular organism
 [Term]
 id: HAO:0000716
 name: phragma
-def: "The flange that serves as the site of attachment of the longitudinal flight muscle." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000344 ! flange
+def: "The antecosta that serves as the site of attachment of the dorsal longitudinal muscles in the thorax." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000098 ! antecosta
 relationship: OBO_REL:part_of HAO:0001013 ! thoracic segment
 
 [Term]
@@ -5776,6 +5782,7 @@ def: "The mandibular muscle that arises posterodorsally from the cranium and ins
 synonym: "M. craniomandibularis internus" [DOI:10.1016/j.ode.2006.06.003]
 synonym: "adductor of the mandible" [http://api.hymao.org/api/ref/36927]
 synonym: "anterior cranio-mandibular muscle" [http://api.hymao.org/api/ref/78243]
+synonym: "musculus cranio-intramandibularis" [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0001779 ! mandibular muscle
 relationship: HAO:attached_to HAO:0000234 ! cranium
 relationship: HAO:attached_to HAO:0000506 ! mandible
@@ -6013,6 +6020,7 @@ relationship: OBO_REL:part_of HAO:0000051 ! abdominal tergum 1
 id: HAO:0000776
 name: postgena
 def: "The area that is located on the occiput ventrally of the occipital foramen." [http://api.hymao.org/api/ref/67791]
+synonym: "occiput" [http://api.hymao.org/api/ref/43471]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0000658 ! occiput
 
@@ -6079,7 +6087,7 @@ id: HAO:0000785
 name: postmentum
 def: "The sclerite that is located proximal to the prementum. The postmento-premental muscle originates from the postmentum." [http://api.hymao.org/api/ref/78244]
 synonym: "postlabium" [http://api.hymao.org/api/ref/78244, http://api.hymao.org/api/ref/36917]
-synonym: "submentum" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/36978, http://api.hymao.org/api/ref/36917]
+synonym: "submentum" [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/36978, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000909 ! sclerite
 
 [Term]
@@ -6212,6 +6220,7 @@ id: HAO:0000803
 name: premental retractor
 def: "The labial muscle that is unpaired, arises from the postmentum and inserts on the proximal margin of the prementum." [http://api.hymao.org/api/ref/78244]
 synonym: "postmento-premental muscle" [http://api.hymao.org/api/ref/78243]
+synonym: "prementum-glossa" [http://api.hymao.org/api/ref/68099]
 is_a: HAO:0001551 ! labial muscle
 relationship: HAO:attached_to HAO:0000785 ! postmentum
 relationship: HAO:attached_to HAO:0000804 ! prementum
@@ -6416,7 +6425,7 @@ is_a: HAO:0000822 ! process
 [Term]
 id: HAO:0000830
 name: pronope
-def: "The depression that is median and is located on the pronotum." [http://api.hymao.org/api/ref/67791]
+def: "The depression that is dorsomedian and is located on the pronotum." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000241 ! depression
 relationship: OBO_REL:part_of HAO:0000853 ! pronotum
 
@@ -6457,7 +6466,7 @@ comment: Synonymous with transverse pronotal sulcus.
 [Term]
 id: HAO:0000836
 name: pronotal lobe
-def: "The area that is located dorsally on the posterior margin of the pronotum and overlaps the first thoracic spiracle." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located dorsally on the posterior margin of the pronotum and overlaps the anterior thoracic spiracle." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0000853 ! pronotum
 
@@ -6538,7 +6547,7 @@ id: HAO:0000846
 name: pronoto-mesothoracic spiracle muscle
 def: "The anterior thoracic spiracle occlusor muscle that arises from the pronotum." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001115 ! anterior thoracic spiracle occlusor muscle
-relationship: HAO:attached_to HAO:0000582 ! mesothoracic spiracle
+relationship: HAO:attached_to HAO:0000582 ! anterior thoracic spiracle
 relationship: HAO:attached_to HAO:0000853 ! pronotum
 
 [Term]
@@ -6602,8 +6611,8 @@ relationship: OBO_REL:part_of HAO:0000874 ! prothorax
 [Term]
 id: HAO:0000854
 name: propectus
-def: "The pectus that is located in the prothorax." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000705 ! pectus
+def: "The anatomical cluster that is composed of the prosternum and the propleuron." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000041 ! anatomical cluster
 relationship: OBO_REL:part_of HAO:0000874 ! prothorax
 
 [Term]
@@ -6918,10 +6927,9 @@ is_a: HAO:0000011 ! anatomical system
 id: HAO:0000896
 name: retractor of the epipharynx
 def: "The epipharyngeal muscle that arises from the clypeus and inserts on the epipharyngeal wall." [http://api.hymao.org/api/ref/78244]
-synonym: "clyp-epiph" [http://api.hymao.org/api/ref/68089]
 synonym: "clypeo-epipharyngeal muscle" [http://api.hymao.org/api/ref/78243]
-synonym: "clypeo-epipharyngealis" [http://api.hymao.org/api/ref/68089]
 synonym: "dorsal cibarial dilatator muscle" [http://api.hymao.org/api/ref/78243, http://api.hymao.org/api/ref/36917]
+synonym: "musculus clypeo-epipharyngealis" [http://api.hymao.org/api/ref/68089]
 synonym: "retractor, or levator, of the epipharynx" [http://api.hymao.org/api/ref/36927]
 is_a: HAO:0001766 ! epipharyngeal muscle
 relationship: HAO:attached_to HAO:0000300 ! epipharyngeal wall
@@ -7091,7 +7099,7 @@ relationship: OBO_REL:part_of HAO:0000556 ! mesonotum
 [Term]
 id: HAO:0000919
 name: scutoscutellar sulcus
-def: "The sulcus that extends along the scutoscutellar suture." [http://api.hymao.org/api/ref/67791]
+def: "The line that traverses the mesonotum and origonates from the lateral margin at the postalar process." [http://api.hymao.org/api/ref/67791]
 synonym: "scuto-scutellar groove" [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000978 ! sulcus
 relationship: OBO_REL:part_of HAO:0000556 ! mesonotum
@@ -7099,11 +7107,12 @@ relationship: OBO_REL:part_of HAO:0000556 ! mesonotum
 [Term]
 id: HAO:0000920
 name: scutoscutellar suture
-def: "The line that traverses the alinotum between the postmedian notal wing processes." [http://api.hymao.org/api/ref/67791]
+def: "The line that traverses the mesonotum between the postmedian notal wing processes." [http://api.hymao.org/api/ref/67791]
 synonym: "para-axillary suture" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "scutellar suture" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "scuto-scutellar suture" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36913]
 is_a: HAO:0001586 ! line
+relationship: OBO_REL:part_of HAO:0000556 ! mesonotum
 
 [Term]
 id: HAO:0000921
@@ -7124,7 +7133,7 @@ id: HAO:0000923
 name: second median plate
 def: "The sclerite that is located at the base of the mediocubital field, folding convexly on the outer edge of the first median plate along the plica basalis." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0000909 ! sclerite
-relationship: OBO_REL:part_of HAO:0000402 ! humeral complex
+relationship: OBO_REL:part_of HAO:0000402 ! median complex
 
 [Term]
 id: HAO:0000924
@@ -7726,6 +7735,7 @@ relationship: OBO_REL:part_of HAO:0000234 ! cranium
 id: HAO:0001000
 name: tentorio-antennal muscle
 def: "The muscle that arises from the dorsal surface of the anterior broadened part of the anterior tentorial arm and inserts on the scape." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000641 ! muscle
 relationship: HAO:attached_to HAO:0000908 ! scape
 relationship: HAO:attached_to HAO:0001454 ! anterior tentorial arm
 
@@ -7945,7 +7955,7 @@ relationship: OBO_REL:part_of HAO:0000566 ! mesopleuron
 [Term]
 id: HAO:0001027
 name: transscutal fissure
-def: "The line that traverses the mesoscutum between the antemedian and postmedian wing processes." [http://api.hymao.org/api/ref/67791]
+def: "The line that traverses the mesoscutum and originates from the lateral margin between the antemedian and postmedian notal wing processes." [http://api.hymao.org/api/ref/67791]
 synonym: "transscutal line" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "transscutal suture" [http://api.hymao.org/api/ref/43472]
 is_a: HAO:0001586 ! line
@@ -8186,7 +8196,6 @@ relationship: OBO_REL:part_of HAO:0000862 ! propleuron
 id: HAO:0001059
 name: ventral lamella of the tentorium
 def: "The ridge that extends ventrally on the posterior part of the tentorial arm." [http://api.hymao.org/api/ref/67791]
-synonym: "gular ridge" [http://api.hymao.org/api/ref/36895]
 synonym: "ventral lamella" [http://api.hymao.org/api/ref/68619, ISBN:978-1-86977-13]
 is_a: HAO:0000899 ! ridge
 relationship: OBO_REL:part_of HAO:0000997 ! tentorial arm
@@ -8377,9 +8386,10 @@ relationship: OBO_REL:part_of HAO:0000621 ! metapleuron
 id: HAO:0001084
 name: volsella
 def: "The anatomical cluster that is composed of the parossiculus and gonossiculus." [http://api.hymao.org/api/ref/67791]
-synonym: "innere Haltezang" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67800]
+synonym: "innere Haltezange" [http://api.hymao.org/api/ref/67800]
 synonym: "ossicle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67789]
 synonym: "section 3" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67780]
+synonym: "section 3 of gonocoxite IX" [http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "tenette" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67670]
 synonym: "volselle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67836, http://api.hymao.org/api/ref/67810]
 is_a: HAO:0000041 ! anatomical cluster
@@ -8425,6 +8435,7 @@ id: HAO:0001089
 name: wing
 def: "The area that is located in between the notum and the pleuron and is composed of the wing base and wing blade." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
+is_a: HAO:0000144 ! appendage
 relationship: OBO_REL:part_of HAO:0000883 ! pterothorax
 
 [Term]
@@ -8912,9 +8923,8 @@ relationship: OBO_REL:part_of HAO:0000059 ! abdominal tergum 6
 [Term]
 id: HAO:0001154
 name: acidopore
-def: "The anatomical space situated at the apex of the hypopygium. The orifice of the formic acid projecting system." [http://api.hymao.org/api/ref/78258]
+def: "The anatomical space that is surrounded by the posterior margin of abdominal sternum 7." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000005 ! anatomical space
-relationship: OBO_REL:part_of HAO:0000410 ! hypopygium
 
 [Term]
 id: HAO:0001155
@@ -9066,8 +9076,8 @@ relationship: OBO_REL:part_of HAO:0000339 ! first valvula
 [Term]
 id: HAO:0001174
 name: anepimeron
-def: "The area that is delimited anteroventrally by the anapleural cleft, posteroventrally by the paracoxal suture and posterodorsally by the basalar cleft." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000146 ! area
+is_obsolete: true
+comment: The class definition is of the anepisternum, that is already defined as another class.
 
 [Term]
 id: HAO:0001175
@@ -9291,7 +9301,7 @@ relationship: OBO_REL:part_of HAO:0000605 ! metapectus
 [Term]
 id: HAO:0001204
 name: transscutal articulation
-def: "The line of separation that extends along the transscutal fissure." [http://api.hymao.org/api/ref/67791]
+def: "The line of separation that extends along the transscutal line." [http://api.hymao.org/api/ref/67791]
 synonym: "scutal suture" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0001395 ! line of separation
 
@@ -10340,6 +10350,7 @@ name: posterior metapleuro-metabasalar muscle
 def: "The metapleuro-metabasalar muscle that arises posterior to the paracoxal ridge." [http://api.hymao.org/api/ref/67791]
 synonym: "pl3p-ba3" [http://api.hymao.org/api/ref/67864]
 synonym: "posterior metapleuro-metabasalar" [http://api.hymao.org/api/ref/67864]
+synonym: "posterior metapleuro-metabasalare muscle" [DOI:10.1111/j.1096-0031.2011.00366.x]
 is_a: HAO:0000616 ! metapleuro-metabasalar muscle
 relationship: HAO:attached_to HAO:0000621 ! metapleuron
 relationship: HAO:attached_to HAO:0000586 ! metabasalare
@@ -10641,15 +10652,15 @@ relationship: HAO:attached_to HAO:0001124 ! profemur
 [Term]
 id: HAO:0001380
 name: medial pectal fossa of the metacoxa
-def: "The fossa that is located medially on the proximal margin of the metacoxa and accomodates the medial coxal condyle of the metapectus." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000353 ! fossa
+def: "The medial pectal fossa of the coxa that is located medially on the proximal margin of the metacoxa and accomodates the medial coxal condyle of the metapectus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001916 ! medial pectal fossa of the coxa
 relationship: OBO_REL:part_of HAO:0001263 ! metabasicoxite
 
 [Term]
 id: HAO:0001381
 name: medial pectal fossa of the mesocoxa
-def: "The fossa that is located medially on the proximal margin of the mesocoxa and accomodates the medial coxal condyle of the mesopectus." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000353 ! fossa
+def: "The medial pectal fossa of the coxa that is located medially on the proximal margin of the mesocoxa and accomodates the medial coxal condyle of the mesopectus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001916 ! medial pectal fossa of the coxa
 relationship: OBO_REL:part_of HAO:0001368 ! mesobasicoxite
 
 [Term]
@@ -10682,15 +10693,15 @@ relationship: HAO:attached_to HAO:0001351 ! mesotibia
 [Term]
 id: HAO:0001385
 name: medial coxal condyle of the metapectus
-def: "The condyle that is located on the medial coxal articular process of the metapectus and inserts into the medial metapectal fossa of the metacoxa." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000220 ! condyle
+def: "The medial coxal condyle of the pectus that is located on the medial coxal articular process of the metapectus and inserts into the medial metapectal fossa of the metacoxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001918 ! medial coxal condyle of the pectus
 relationship: OBO_REL:part_of HAO:0001388 ! medial coxal articular process of the metapectus
 
 [Term]
 id: HAO:0001386
 name: medial coxal condyle of the mesopectus
-def: "The condyle that is located on the medial coxal articular process of the mesopectus and inserts into the medial pectal fossa of the mesocoxa." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000220 ! condyle
+def: "The medial coxal condyle that is located on the medial coxal articular process of the mesopectus and inserts into the medial pectal fossa of the mesocoxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001918 ! medial coxal condyle of the pectus
 relationship: OBO_REL:part_of HAO:0001389 ! medial coxal articular process of the mesopectus
 
 [Term]
@@ -10740,7 +10751,7 @@ relationship: OBO_REL:part_of HAO:0000626 ! metasoma
 [Term]
 id: HAO:0001393
 name: malar area
-def: "The area that is extends between the lower (anerior) eye margin and the anterolateral margin of the cranium, and its width is delimited by the width of the mandible." [http://api.hymao.org/api/ref/67791]
+def: "The area that is extends between the lower (anterior) eye margin and the anterolateral margin of the cranium, and its width is delimited by the width of the mandible." [http://api.hymao.org/api/ref/67791]
 synonym: "cheek" [http://api.hymao.org/api/ref/78518]
 synonym: "malar region" [ISBN:978-1-86977-13]
 synonym: "malar space" [http://api.hymao.org/api/ref/43275, http://api.hymao.org/api/ref/78404, http://api.hymao.org/api/ref/78519]
@@ -10800,22 +10811,22 @@ relationship: OBO_REL:part_of HAO:0000234 ! cranium
 [Term]
 id: HAO:0001400
 name: lateral pectal fossa of the procoxa
-def: "The fossa that is located laterally on the probasicoxite and accomodates the lateral coxal condyle of the propleuron." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000353 ! fossa
+def: "The lateral pectal fossa of the coxa that is located laterally on the probasicoxite and accommodates the lateral coxal condyle of the propleuron." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001913 ! lateral pectal fossa of the coxa
 relationship: OBO_REL:part_of HAO:0001318 ! probasicoxite
 
 [Term]
 id: HAO:0001401
 name: lateral pectal fossa of the metacoxa
-def: "The fossa that is located laterally on the proximal margin of the metacoxa and accommodates the lateral coxal articular process of the metapleuron." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000353 ! fossa
+def: "The lateral pectal fossa of the coxa that is located laterally on the proximal margin of the metacoxa and accommodates the lateral coxal articular process of the metapleuron." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001913 ! lateral pectal fossa of the coxa
 relationship: OBO_REL:part_of HAO:0001263 ! metabasicoxite
 
 [Term]
 id: HAO:0001402
 name: lateral pectal fossa of the mesocoxa
-def: "The fossa that is located laterally on the proximal margin of the mesocoxa and accomodates the lateral coxal condyle of the mesopleuron." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000353 ! fossa
+def: "The the lateral pectal fossa of the coxa that is located laterally on the proximal margin of the mesocoxa and accomodates the lateral coxal condyle of the mesopleuron." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001913 ! lateral pectal fossa of the coxa
 relationship: OBO_REL:part_of HAO:0001368 ! mesobasicoxite
 
 [Term]
@@ -10906,22 +10917,22 @@ relationship: OBO_REL:part_of HAO:0000605 ! metapectus
 [Term]
 id: HAO:0001413
 name: lateral coxal condyle of the propleuron
-def: "The condyle that is located distally on the  lateral coxal articular process of the propleuron and inserts into the lateral pectal fossa of the procoxa." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000220 ! condyle
+def: "The lateral coxal condyle of the pleuron that is located distally on the  lateral coxal articular process of the propleuron and inserts into the lateral pectal fossa of the procoxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001914 ! lateral coxal condyle of the pleuron
 relationship: OBO_REL:part_of HAO:0000467 ! lateral articular process
 
 [Term]
 id: HAO:0001414
 name: lateral coxal condyle of the metapleuron
-def: "The condyle that is located on the lateral coxal articular process of the metapleuron and inserts into the lateral pectal fossa of the metacoxa." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000220 ! condyle
+def: "The lateral coxal condyle of the pleuron that is located on the lateral coxal articular process of the metapleuron and inserts into the lateral pectal fossa of the metacoxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001914 ! lateral coxal condyle of the pleuron
 relationship: OBO_REL:part_of HAO:0001416 ! lateral coxal articular process of the metapleuron
 
 [Term]
 id: HAO:0001415
 name: lateral coxal condyle of the mesopleuron
-def: "The condyle that is located on the lateral coxal articular process of the mesopleuron and inserts into the lateral mesopectal fossa of the mesocoxa." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000220 ! condyle
+def: "The lateral coxal condyle of the pleuron that is located on the lateral coxal articular process of the mesopleuron and inserts into the lateral mesopectal fossa of the mesocoxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001914 ! lateral coxal condyle of the pleuron
 relationship: OBO_REL:part_of HAO:0001464 ! lateral coxal articular process of the mesopleuron
 
 [Term]
@@ -11145,6 +11156,7 @@ id: HAO:0001445
 name: anterior metapleuro-metabasalar muscle
 def: "The metapleuro-metabasalar muscle that arises anteriorly of the paracoxal ridge." [http://api.hymao.org/api/ref/67791]
 synonym: "anterior metapleuro-metabasalar" [http://api.hymao.org/api/ref/67864]
+synonym: "anterior metapleuro-metabasalare muscle" [DOI:10.1111/j.1096-0031.2011.00366.x]
 synonym: "pl3a-ba3" [http://api.hymao.org/api/ref/67864]
 is_a: HAO:0000616 ! metapleuro-metabasalar muscle
 relationship: HAO:attached_to HAO:0000621 ! metapleuron
@@ -11750,7 +11762,7 @@ id: HAO:0001524
 name: humeral complex of the fore wing
 def: "The humeral complex that is located on the fore wing." [http://api.hymao.org/api/ref/67791]
 synonym: "humeral complex" [http://api.hymao.org/api/ref/67876]
-is_a: HAO:0000402 ! humeral complex
+is_a: HAO:0000402 ! median complex
 relationship: OBO_REL:part_of HAO:0000351 ! fore wing
 
 [Term]
@@ -12237,8 +12249,9 @@ name: malar carina
 def: "The malar line that is a carina." [http://api.hymao.org/api/ref/67791]
 synonym: "malar keel" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "malar ridge" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-relationship: OBO_REL:part_of HAO:0000234 ! cranium
-relationship: OBO_REL:part_of HAO:0001393 ! malar area
+intersection_of: HAO:0000503 ! malar line
+intersection_of: HAO:0000188 ! carina
+intersection_of: OBO_REL:part_of HAO:0001393 ! malar area
 
 [Term]
 id: HAO:0001591
@@ -12252,7 +12265,6 @@ id: HAO:0001592
 name: occipito-cardinal muscle
 def: "The maxillar muscle that arises medially from the occiput dorsally of the occipital foramen and inserts on the proximolateral part of the cardo." [http://api.hymao.org/api/ref/78244]
 synonym: "M. craniocardinalis externus" [DOI:10.1016/j.ode.2006.06.003]
-synonym: "gena-cardinalis" [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0001114 ! maxillar muscle
 
 [Term]
@@ -12598,7 +12610,6 @@ id: HAO:0001638
 name: tentorio-cardinal muscle
 def: "The maxillar muscle that arises medially on the posteroventral part of the anterior tentorial arm and inserts anterolaterally on the cardo." [http://api.hymao.org/api/ref/78244]
 synonym: "M. tentoriocardinalis" [DOI:10.1016/j.ode.2006.06.003]
-synonym: "tentorio-cardinalis" [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0001114 ! maxillar muscle
 
 [Term]
@@ -12885,7 +12896,7 @@ is_a: HAO:0001118 ! abdominal muscle
 [Term]
 id: HAO:0001676
 name: scutum
-def: "The area that is situated anterior to the scutoscutellar suture." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located on the alinotum and is situated anterior to the scutoscutellar suture." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0000092 ! alinotum
 
@@ -13110,7 +13121,7 @@ id: HAO:0001707
 name: mesopleuro-anterior thoracic spiracle muscle
 def: "The anterior thoracic spiracle occlusor muscle that originates from the mesopleuron and inserts on the mesothoracic spiracle." [http://api.hymao.org/api/ref/78236]
 is_a: HAO:0001115 ! anterior thoracic spiracle occlusor muscle
-relationship: HAO:attached_to HAO:0000582 ! mesothoracic spiracle
+relationship: HAO:attached_to HAO:0000582 ! anterior thoracic spiracle
 relationship: HAO:attached_to HAO:0000566 ! mesopleuron
 
 [Term]
@@ -13277,9 +13288,10 @@ relationship: OBO_REL:part_of HAO:0000342 ! flagellomere
 [Term]
 id: HAO:0001732
 name: nervous system
-def: "All the nerve centers and nerve fibers in the central, visceral and peripheral nervous systems." [http://api.hymao.org/api/ref/68082]
+def: "The organ system that is composed of neurons and glial cells." [http://api.hymao.org/api/ref/67791]
 xref: FBbt:00005093
 is_a: HAO:0001599 ! organ system
+relationship: OBO_REL:part_of HAO:0000012 ! multi-cellular organism
 
 [Term]
 id: HAO:0001733
@@ -13578,6 +13590,10 @@ relationship: OBO_REL:part_of HAO:0000324 ! female genitalia
 id: HAO:0001769
 name: extrinsic muscle of the antenna
 def: "The muscle that arises from the tentorium and inserts proximally on the scape." [http://api.hymao.org/api/ref/67791]
+synonym: "musculus tentorio-scapualis I" [http://api.hymao.org/api/ref/68089]
+synonym: "musculus tentorio-scapualis II" [http://api.hymao.org/api/ref/68089]
+synonym: "musculus tentorio-scapualis III" [http://api.hymao.org/api/ref/68089]
+synonym: "musculus tentorio-scapualis IV" [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0000101 ! antenna
 relationship: HAO:attached_to HAO:0000908 ! scape
 relationship: HAO:attached_to HAO:0000234 ! cranium
@@ -13629,6 +13645,7 @@ def: "The antennal muscle that arises posteromedially on the proximal part of th
 synonym: "M. scapopedicellaris lateralis" [DOI:10.1016/j.ode.2006.06.003]
 synonym: "levator of the antennal flagellum" [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/36875]
 synonym: "muscle 6" [http://api.hymao.org/api/ref/36927]
+synonym: "musculus scapo-pedicularis I" [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0001172 ! antennal muscle
 relationship: HAO:attached_to HAO:0000908 ! scape
 relationship: HAO:attached_to HAO:0000706 ! pedicel
@@ -13685,6 +13702,7 @@ def: "The antennal muscle that arises anterolaterally on the scape and inserts m
 synonym: "M. scapopedicellaris medialis" [DOI:10.1016/j.ode.2006.06.003]
 synonym: "depressor of the antennal flagellum" [http://api.hymao.org/api/ref/36927]
 synonym: "muscle 7" [http://api.hymao.org/api/ref/36927]
+synonym: "musculus scapo-pedicularis II" [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0001172 ! antennal muscle
 relationship: HAO:attached_to HAO:0000908 ! scape
 relationship: HAO:attached_to HAO:0000706 ! pedicel
@@ -13824,7 +13842,7 @@ id: HAO:0001801
 name: prepecto-anterior thoracic spiracle muscle
 def: "The anterior thoracic spiracle occlusor muscle that originates from the prepectus and inserts on the mesothoracic spiracle." [http://api.hymao.org/api/ref/78236]
 is_a: HAO:0001115 ! anterior thoracic spiracle occlusor muscle
-relationship: HAO:attached_to HAO:0000582 ! mesothoracic spiracle
+relationship: HAO:attached_to HAO:0000582 ! anterior thoracic spiracle
 relationship: HAO:attached_to HAO:0000811 ! prepectus
 
 [Term]
@@ -14264,7 +14282,7 @@ relationship: OBO_REL:part_of HAO:0001006 ! tergum
 [Term]
 id: HAO:0001861
 name: laterotergite
-def: "The area that is located laterally on the tergum." [http://api.hymao.org/api/ref/67791]
+def: "The area that is located laterally on the tergum and is delimited by a longitudinal edge." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: OBO_REL:part_of HAO:0001006 ! tergum
 
@@ -14545,6 +14563,124 @@ id: HAO:0001901
 name: eleventh flagellomere
 def: "The flagellomere that is located immediately distal to the tenth flagellomere." [http://api.hymao.org/api/ref/96311]
 is_a: HAO:0000342 ! flagellomere
+
+[Term]
+id: HAO:0001902
+name: notaular ridge
+def: "The ridge that corresponds with the notaulus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000899 ! ridge
+relationship: OBO_REL:part_of HAO:0000575 ! mesoscutum
+
+[Term]
+id: HAO:0001903
+name: mesoscutellar arm
+def: "The area that extends along the posterior margin of the mesoscutellum between the axillary level and the mesoscutellar disc, enclosing the anatomical space connecting the axillary level with the pulsatory organ of the fore wing." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: OBO_REL:part_of HAO:0000572 ! mesoscutellar-axillar complex
+
+[Term]
+id: HAO:0001904
+name: acropleural ridge
+def: "The ridge that delimits anteriorly the acropleuron." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000899 ! ridge
+relationship: OBO_REL:part_of HAO:0000557 ! mesopectus
+
+[Term]
+id: HAO:0001905
+name: posterior rim of the propodeum 
+def: "The rim that extends along the propodeal foramen." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000900 ! rim
+relationship: OBO_REL:part_of HAO:0000604 ! metapectal-propodeal complex
+
+[Term]
+id: HAO:0001906
+name: profurcal bridge
+def: "The area that connects distally the lateral profurcal arms." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: OBO_REL:part_of HAO:0000825 ! profurca
+
+[Term]
+id: HAO:0001907
+name: flexor apodeme
+def: "The apodeme that is located dorsally on the anterior margin of the metapectal-propodeal complex and serves as the site of origin of the metapleuro-third axillary sclerite of the hind wing muscle." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000142 ! apodeme
+relationship: OBO_REL:part_of HAO:0000604 ! metapectal-propodeal complex
+
+[Term]
+id: HAO:0001908
+name: dorsal prepectal inflection
+def: "The inflection that extends along the dorsal margin of the prepectus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000418 ! inflection
+relationship: OBO_REL:part_of HAO:0000811 ! prepectus
+
+[Term]
+id: HAO:0001909
+name: posterior prepectal inflection
+def: "The inflection that extends along the posterior margin of the prepectus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000418 ! inflection
+relationship: OBO_REL:part_of HAO:0000811 ! prepectus
+
+[Term]
+id: HAO:0001910
+name: anus
+def: "The anatomical space that is located between the hypoproct and the epiproct and is continuous with the alimentary canal." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0001911
+name: transverse carina on T2
+def: "The carina that delimits the anterior vertical area of T2 from the posterior horizontal area." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000285 ! edge
+relationship: OBO_REL:part_of HAO:0000053 ! abdominal tergum 2
+
+[Term]
+id: HAO:0001912
+name: mesoscutum length
+def: "The anatomical line that is the longest among lines extending between the anterior and posterior margins of the mesoscutum." [http://api.hymao.org/api/ref/67791]
+synonym: "maximum length of mesoscutum" [http://api.hymao.org/api/ref/96326]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0001913
+name: lateral pectal fossa of the coxa
+def: "The fossa that is located laterally on the proximal margin of the coxa and accommodates the lateral coxal condyle of the pectus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001915 ! pectal fossa of the coxa
+relationship: OBO_REL:part_of HAO:0000228 ! coxa
+
+[Term]
+id: HAO:0001914
+name: lateral coxal condyle of the pleuron
+def: "The condyle that is located distally on the  lateral coxal articular process of the pleuron and inserts into the lateral pectal fossa of the coxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000220 ! condyle
+relationship: OBO_REL:part_of HAO:0000729 ! pleuron
+
+[Term]
+id: HAO:0001915
+name: pectal fossa of the coxa
+def: "The fossa that is located on the coxa and accommodates the coxal condyle of the pleuron." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000353 ! fossa
+relationship: OBO_REL:part_of HAO:0000228 ! coxa
+
+[Term]
+id: HAO:0001916
+name: medial pectal fossa of the coxa
+def: "The pectal fossa of the coxa that accommodates the median coxal condyle of the pleuron." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001915 ! pectal fossa of the coxa
+relationship: OBO_REL:part_of HAO:0000228 ! coxa
+
+[Term]
+id: HAO:0001917
+name: coxal condyle of the pectus
+def: "The condyle that is located on the pectus and inserts into the pectal fossa of the coxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000220 ! condyle
+relationship: OBO_REL:part_of HAO:0000705 ! pectus
+
+[Term]
+id: HAO:0001918
+name: medial coxal condyle of the pectus
+def: "The coxal condyle of the pectus that inserts into the medial pectal fossa of the coxa." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001917 ! coxal condyle of the pectus
+relationship: OBO_REL:part_of HAO:0000705 ! pectus
 
 [Typedef]
 id: HAO:attached_to
