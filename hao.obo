@@ -1,6 +1,7 @@
 format-version: 1.2
-data-version: 2012-11-28
-date: 28:11:2012 13:04
+data-version: 2013-07-17
+date: 17:07:2013 14:23
+saved-by: balhoff
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -155,7 +156,8 @@ is_a: HAO:0000055 ! multi-tissue structure
 [Term]
 id: HAO:0000020
 name: abdominal segment 2
-def: "The abdominal segment that has a sternum and located posterior to the first abdominal spiracle." [http://api.hymao.org/api/ref/67791]
+def: "The abdominal segment that has a sternum and is located posterior to the first abdominal spiracle." [http://api.hymao.org/api/ref/67791]
+synonym: "abdominal petiole" RELATED [http://api.hymao.org/api/ref/96670]
 synonym: "first metasomal segment" RELATED [http://api.hymao.org/api/ref/96581]
 synonym: "petiole" RELATED [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/78442, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://projects.biodiversity.be/ants/]
 is_a: HAO:0000016 ! abdominal segment
@@ -264,6 +266,7 @@ relationship: BFO:0000050 HAO:0000020 ! part_of abdominal segment 2
 id: HAO:0000036
 name: abdominal sternum 3
 def: "The abdominal sternum that is located on abdominal segment 3." [http://api.hymao.org/api/ref/67791]
+synonym: "sternum 3" RELATED [http://api.hymao.org/api/ref/96670]
 is_a: HAO:0001425 ! abdominal sternum
 relationship: BFO:0000050 HAO:0000022 ! part_of abdominal segment 3
 
@@ -393,6 +396,7 @@ name: abdominal tergum 2
 def: "The tergum that is located on abdominal segment 2." [http://api.hymao.org/api/ref/67791]
 synonym: "1st tergite" RELATED [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/68338]
 synonym: "first tergite" RELATED [http://api.hymao.org/api/ref/68338]
+synonym: "T2" RELATED [http://api.hymao.org/api/ref/96670]
 is_a: HAO:0001006 ! tergum
 relationship: BFO:0000050 HAO:0000020 ! part_of abdominal segment 2
 
@@ -440,6 +444,7 @@ id: HAO:0000059
 name: abdominal tergum 6
 def: "The tergum that is located on abdominal segment 6." [http://api.hymao.org/api/ref/67791]
 synonym: "5th tergite" RELATED [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/68338]
+synonym: "T6" RELATED [http://api.hymao.org/api/ref/96670]
 is_a: HAO:0001006 ! tergum
 relationship: BFO:0000050 HAO:0000026 ! part_of abdominal segment 6
 
@@ -457,6 +462,7 @@ def: "The tergum that is located on abdominal segment 8." [http://api.hymao.org/
 synonym: "8. Tergit" RELATED [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/67823]
 synonym: "plaques stigmatiferes" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "stigmenplatten" RELATED [http://api.hymao.org/api/ref/67823]
+synonym: "T8" RELATED [http://api.hymao.org/api/ref/96670]
 synonym: "trachealplatten" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "tracheenplatten" RELATED [http://api.hymao.org/api/ref/67823]
 is_a: HAO:0001006 ! tergum
@@ -554,11 +560,13 @@ is_a: HAO:0000024 ! compound organ
 
 [Term]
 id: HAO:0000075
-name: abdominal tergum 9
-def: "The tergum that accommodates the origins of the muscles that are the primary protractors and retractors of the first valvulae." [http://api.hymao.org/api/ref/78248]
+name: T9
+def: "The tergite that is articulted with the first valvifer and second valvifer and is connected to the second valvifer via muscles." [http://api.hymao.org/api/ref/96758]
+synonym: "abdominal tergum 9" RELATED [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/78442]
 synonym: "afterplatten" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "ecaile anale" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "epipygium" RELATED [http://api.hymao.org/api/ref/78442]
+synonym: "female T9" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "hintere platten" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "hypopygial valves" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "obere hälfte d. seitenwand" RELATED [http://api.hymao.org/api/ref/67823, http://books.google.com/books?id=2ZGVteDRKisC&lpg=PA139&ots=LjhoWCO-yu&dq=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&pg=PA135#v=onepage&q=Anatomie%20und%20Physiologie%20des%20Giftapparates%20bei%20den%20Hymenopteren.&f=]
@@ -758,9 +766,8 @@ relationship: BFO:0000050 HAO:0000575 ! part_of mesoscutum
 [Term]
 id: HAO:0000101
 name: antenna
-def: "The anatomical cluster that is composed of the scape, pedicel and flagellum." [http://api.hymao.org/api/ref/67791]
+def: "The anatomical structure that is composed of ringlike sclerites and the anatomical structures encircled by these sclerites and that is articulated with the cranium." [http://api.hymao.org/api/ref/67791]
 synonym: "Fühler" RELATED [http://api.hymao.org/api/ref/78598]
-is_a: HAO:0000041 ! anatomical cluster
 is_a: HAO:0000144 ! appendage
 relationship: BFO:0000050 HAO:0000397 ! part_of head
 
@@ -787,8 +794,8 @@ relationship: BFO:0000050 HAO:0000397 ! part_of head
 [Term]
 id: HAO:0000104
 name: antennal segment
-def: "The segment that is the part of the antenna." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000929 ! segment
+def: "The antennomere that is musculated." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000107 ! antennomere
 relationship: BFO:0000050 HAO:0000101 ! part_of antenna
 
 [Term]
@@ -814,12 +821,12 @@ relationship: BFO:0000050 HAO:0000101 ! part_of antenna
 
 [Term]
 id: HAO:0000108
-name: anterior cranio-mandibular muscle
+name: posterior cranio-mandibular muscle
 def: "The mandibular muscle that arises posterolaterally from the cranium and inserts on the tendon attached posteroproximal part of the mandible." [http://api.hymao.org/api/ref/78258]
 synonym: "abductor of the mandible" RELATED [http://api.hymao.org/api/ref/36927]
+synonym: "anterior cranio-mandibular muscle" RELATED [ISBN:978-1-86977-13]
 synonym: "M. craniomandibularis externus" RELATED [DOI:10.1016/j.ode.2006.06.003]
 synonym: "musculus cranio-extramandibularis" RELATED [http://api.hymao.org/api/ref/68089]
-synonym: "posterior cranio-mandibular muscle" RELATED [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001779 ! mandibular muscle
 relationship: HAO:attached_to HAO:0000234 ! cranium
 relationship: HAO:attached_to HAO:0000506 ! mandible
@@ -847,7 +854,8 @@ relationship: BFO:0000050 HAO:0000800 ! part_of preaxilla
 [Term]
 id: HAO:0000112
 name: anterior glossal sclerite
-def: "The sclerite that is paired and is located on the proximal lateral margin of the glossa. The premento-glossal muscle inserts on the sclerite." [http://api.hymao.org/api/ref/78243]
+def: "The sclerite of the anterior glossal plate that is lateral to the median conjunctiva of the anterior glossal plate." [http://api.hymao.org/api/ref/96306]
+synonym: "basiglossal sclerite" RELATED [http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000376 ! part_of glossa
 
@@ -1046,11 +1054,11 @@ is_a: HAO:0000342 ! flagellomere
 [Term]
 id: HAO:0000138
 name: apical parossiculal seta
-def: "The seta that is located submedially on the apical margin of the parossiculus." [http://api.hymao.org/api/ref/67766]
+def: "The seta that is located close to the distoventral margin of the gonostyle/volsella complex just laterally of the gonostyle/volsella complex-gonossiculus articulation." [http://api.hymao.org/api/ref/67766]
 synonym: "soie subapicale" RELATED [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
 synonym: "volsellar seta" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000935 ! seta
-relationship: BFO:0000050 HAO:0000703 ! part_of parossiculus
+relationship: BFO:0000050 HAO:0002033 ! part_of gonostyle/volsella complex
 
 [Term]
 id: HAO:0000139
@@ -1089,7 +1097,7 @@ is_a: HAO:0000142 ! apodeme
 [Term]
 id: HAO:0000144
 name: appendage
-def: "The anatomical structure that is connected to the body." [http://api.hymao.org/api/ref/78244]
+def: "The anatomical structure that is encircled by the evagination of the integument and whose integumental components are attached to the body via muscles." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000003 ! anatomical structure
 relationship: BFO:0000050 HAO:0000012 ! part_of multi-cellular organism
 
@@ -1105,6 +1113,7 @@ id: HAO:0000146
 name: area
 def: "The anatomical structure that is delimited by material or immaterial anatomical entities." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000003 ! anatomical structure
+relationship: BFO:0000050 HAO:0000421 ! part_of integument
 
 [Term]
 id: HAO:0000147
@@ -1143,7 +1152,7 @@ is_a: HAO:0000041 ! anatomical cluster
 [Term]
 id: HAO:0000152
 name: aulax
-def: "The impression that extends along the dorsal surface of the dorsal ramus of the first valvula and articulates with the rhachis." [http://api.hymao.org/api/ref/78248]
+def: "The impression that is on the first valvifer-first valvula complex accommodates the rhachis." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0000417 ! impression
 relationship: BFO:0000050 HAO:0001103 ! part_of olistheter
 relationship: BFO:0000050 HAO:0001579 ! part_of dorsal ramus of the first valvula
@@ -1262,8 +1271,9 @@ is_obsolete: true
 
 [Term]
 id: HAO:0000168
-name: basal segment of forceps
-def: "The anatomical cluster that is composed of the gonostipes and volsella." [http://api.hymao.org/api/ref/67791]
+name: gonostipes/volsella complex
+def: "The anatomical cluster that is part of the gonostyle/volsella complex and is composed of the sclerites that are proximal to the harpe." [http://api.hymao.org/api/ref/96550]
+synonym: "basal segment of forceps" RELATED [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/67791]
 synonym: "gonostipes" RELATED [http://api.hymao.org/api/ref/67785]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000312 ! part_of external male genitalia
@@ -1380,8 +1390,8 @@ relationship: BFO:0000050 HAO:0000182 ! part_of body
 [Term]
 id: HAO:0000184
 name: bulla
-def: "The wing region that is located on a wing vein and marks the presence of a wing fold." [http://api.hymao.org/api/ref/67841]
-is_a: HAO:0001094 ! wing region
+def: "The anatomical region of the wing vein that is less melanized and more flexible than surrounding anatomical wing vein regions and corresponds to the intersection of the wing vein with a flexion line." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001980 ! anatomical region
 relationship: BFO:0000050 HAO:0001095 ! part_of wing vein
 
 [Term]
@@ -1401,14 +1411,14 @@ relationship: BFO:0000050 HAO:0000324 ! part_of female genitalia
 [Term]
 id: HAO:0000187
 name: cardo
-def: "The area that is located proximally on the maxilla, proximal to the stipes." [http://api.hymao.org/api/ref/78244]
-is_a: HAO:0000146 ! area
+def: "The sclerite that is articulated with the cranium at the cranio-cardinal articulation, is connected to the stipes distolaterally via the stipitocardinal hinge and receives the site of attachment of the cranio-cardinal muscle." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
 
 [Term]
 id: HAO:0000188
 name: carina
-def: "The process that is linear and external." [http://api.hymao.org/api/ref/67841]
+def: "The process that is elongate and external." [http://api.hymao.org/api/ref/96781]
 synonym: "crest" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "lamella" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "lamina" RELATED [http://api.hymao.org/api/ref/67791]
@@ -1526,13 +1536,16 @@ relationship: BFO:0000050 HAO:0000343 ! part_of flagellum
 id: HAO:0000204
 name: claval fold
 def: "The wing fold that is located on the fore wing, parallels the anal vein, and extends to the claval notch on the wing margin." [http://api.hymao.org/api/ref/67841]
+synonym: "claval flexion line" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "claval furrow" RELATED [http://api.hymao.org/api/ref/36913, http://api.hymao.org/api/ref/78629]
+synonym: "vannal fold" RELATED [http://api.hymao.org/api/ref/36875]
 is_a: HAO:0001092 ! wing fold
 relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
 
 [Term]
 id: HAO:0000205
 name: claval lobe
-def: "The wing region that is posterior to the claval fold and anterior to the jugal fold." [http://api.hymao.org/api/ref/67841]
+def: "The wing region that is posterior to the claval furrow and anterior to the jugal fold." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0001094 ! wing region
 
 [Term]
@@ -1612,7 +1625,7 @@ relationship: BFO:0000050 HAO:0000350 ! part_of fore tibia
 [Term]
 id: HAO:0000216
 name: comb of the spur
-def: "The row that is located on the calcar and is composed of hair-like spines." [http://api.hymao.org/api/ref/67841]
+def: "The row that is located on the calcar and is composed of hairlike spines." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0000901 ! row
 relationship: BFO:0000050 HAO:0000875 ! part_of protibial spur
 
@@ -1759,17 +1772,16 @@ is_obsolete: true
 [Term]
 id: HAO:0000236
 name: crossvein
-def: "The abscissa that connects two longitudinal wing veins." [http://api.hymao.org/api/ref/67791]
+comment: There are no crossveins in Hymenoptera.
 synonym: "cross vein" RELATED [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
-is_a: HAO:0000076 ! abscissa
-relationship: BFO:0000050 HAO:0001191 ! part_of wing blade
+is_obsolete: true
 
 [Term]
 id: HAO:0000237
 name: cubital vein
 def: "The longitudinal vein that is posterior to the marginal vein." [http://api.hymao.org/api/ref/67841]
 synonym: "cubitus" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
-is_a: HAO:0000501 ! longitudinal vein
+is_a: HAO:0001095 ! wing vein
 relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
 
 [Term]
@@ -1805,7 +1817,7 @@ relationship: BFO:0000050 HAO:0000713 ! part_of phallobase
 [Term]
 id: HAO:0000239
 name: cuspis
-def: "The projection that is located apicolaterally on the parossiculus and adjacent to the digitus." [http://api.hymao.org/api/ref/96550]
+def: "The projection that is located apicolaterally on the parossiculus and is adjacent to the digitus." [http://api.hymao.org/api/ref/96550]
 synonym: "cuspis volsellaris" RELATED [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "distivolsella" RELATED [http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0000829 ! projection
@@ -1870,8 +1882,9 @@ relationship: HAO:attached_to HAO:0000395 ! harpe
 [Term]
 id: HAO:0000247
 name: distal gonostipo-parossiculal muscle
-def: "The male genitalia muscle that arises distally of the lateral part of the gonostipes and inserts on the distal part of the parossiculus distally of the site of origin of the proximal gonostipo-parossiculal muscle." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+def: "The gonostyle/parossiculal muscle that arises distally of the lateral part of the gonostipes and inserts on the distal part of the parossiculus distally of the site of origin of the proximal gonostipo-parossiculal muscle." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle o''" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0002041 ! gonostyle-parossiculal muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
 
@@ -1891,7 +1904,7 @@ relationship: BFO:0000050 HAO:0000239 ! part_of cuspis
 [Term]
 id: HAO:0000250
 name: distodorsal gonostyle/volsella complex-penisvalval muscle
-def: "The dorsal gonostyle/volsella complex penisvalval musle that arises distodorsally from the gonostyle volsella complex and inserts on the proximal region of the penisvalva." [http://api.hymao.org/api/ref/96550]
+def: "The dorsal gonostyle/volsella complex-penisvalval muscle that arises distodorsally from the gonostyle volsella complex and inserts on the proximal region of the penisvalva." [http://api.hymao.org/api/ref/96550]
 synonym: "distodorsal gonostipo-penisvalval muscle" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "muscle j" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0001392 ! male genitalia muscle
@@ -1901,10 +1914,10 @@ relationship: HAO:attached_to HAO:0000707 ! penisvalva
 [Term]
 id: HAO:0000251
 name: distoventral gonostyle/volsella complex-penisvalval muscle
-def: "The ventral gonostyle/volsella complex muscle that arises from the proximoventral part of the gonostyle-volsella complex and inserts medially on the penisvalva." [http://api.hymao.org/api/ref/96550]
+def: "The ventral gonostyle/volsella complex-penisvalval muscle that arises from the proximoventral part of the gonostyle/volsella complex, inserts medially on the penisvalva and is oriented distodorsally." [http://api.hymao.org/api/ref/96550]
 synonym: "distoventral gonostipo-penisvalval muscle" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "muscle i" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
-is_a: HAO:0001392 ! male genitalia muscle
+is_a: HAO:0002052 ! ventral gonostyle/volsella complex-penisvalval muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
 
@@ -1998,7 +2011,7 @@ is_obsolete: true
 [Term]
 id: HAO:0000264
 name: dorsal premental adductor
-def: "The tentorio-labial muscle that arises from the tentorial arm and inserts on the distal end of the hypopharyngeal rod or on the proximodorsal corner of the anterior glossal sclerite, lateral to the distal opening of the salivarium." [http://api.hymao.org/api/ref/78244]
+def: "The tentorio-labial muscle that arises from the cranium and inserts distally on the labium adjacent to the level of the salivary orifice." [http://api.hymao.org/api/ref/96306]
 synonym: "posterior tentorio-premental muscle" RELATED [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001001 ! tentorio-labial muscle
 relationship: HAO:attached_to HAO:0000804 ! prementum
@@ -2076,9 +2089,10 @@ relationship: BFO:0000050 HAO:0000091 ! part_of aedeagus
 
 [Term]
 id: HAO:0000274
-name: dorsal salivarial dilatator
-def: "The salivarial muscle that arises from the proximal part of the hypopharyngeal rod or the distal end of the lateral arm of the prementum and inserts on the dorsal salivarial wall." [http://api.hymao.org/api/ref/78244]
-synonym: "dorsal premento-salivarial muscle" RELATED [http://api.hymao.org/api/ref/78243]
+name: dorsal premento-salivarial muscle
+def: "The salivarial muscle that inserts proximodorsally on the salivary duct." [http://api.hymao.org/api/ref/96306]
+synonym: "dorsal salivarial dilatator" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/78243]
+synonym: "muscle 13" RELATED [http://api.hymao.org/api/ref/36917]
 is_a: HAO:0001110 ! salivarial muscle
 relationship: HAO:attached_to HAO:0000804 ! prementum
 relationship: HAO:attached_to HAO:0001573 ! dorsal salivarial wall
@@ -2105,8 +2119,9 @@ relationship: BFO:0000050 HAO:0000929 ! part_of segment
 
 [Term]
 id: HAO:0000278
-name: dorsolateral cupulo-gonostipal muscle
-def: "The cupulo-gonostyle/volsella complex muscle that arises from the dorsolateral part of the cupula, just laterally of the site of origin of the dorsomedian cupulo-gonostipal muscle, and inserts on the dorsolateral part of the gonostipes." [http://api.hymao.org/api/ref/67791]
+name: dorsolateral cupulo-gonostyle/volsella complex muscle
+def: "The cupulo-gonostyle/volsella complex muscle that arises from the dorsolateral part of the cupula, just laterally of the site of origin of the dorsomedian cupulo-gonostipal muscle, and inserts on the dorsolateral part of the gonostipes." [http://api.hymao.org/api/ref/96550]
+synonym: "dorsolateral cupulo-gonostipal muscle" RELATED [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0002038 ! cupulo-gonostyle/volsella complex muscle
 relationship: HAO:attached_to HAO:0000238 ! cupula
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
@@ -2202,7 +2217,7 @@ relationship: BFO:0000050 HAO:0000421 ! part_of integument
 [Term]
 id: HAO:0000291
 name: endophallus
-def: "The conjunctiva that connects the gonopore with the phallotrema." [http://api.hymao.org/api/ref/67791]
+def: "The conjunctiva that connects the gonopore with the penisvalvae." [http://api.hymao.org/api/ref/67791]
 synonym: "penis" RELATED [http://api.hymao.org/api/ref/67832]
 is_a: HAO:0000221 ! conjunctiva
 relationship: BFO:0000050 HAO:0000091 ! part_of aedeagus
@@ -2229,6 +2244,7 @@ name: epicnemium
 def: "The scrobe that is located anteroventrally on the mesopectus and accommodates the procoxa." [http://api.hymao.org/api/ref/67791]
 synonym: "acetabulum" RELATED [http://api.hymao.org/api/ref/39245]
 synonym: "hypocnemium" RELATED [http://api.hymao.org/api/ref/78442]
+synonym: "mesepisternal shelf" RELATED [http://api.hymao.org/api/ref/96584]
 is_a: HAO:0000912 ! scrobe
 relationship: BFO:0000050 HAO:0000557 ! part_of mesopectus
 
@@ -2333,7 +2349,7 @@ relationship: BFO:0000050 HAO:0000853 ! part_of pronotum
 [Term]
 id: HAO:0000308
 name: ergot
-def: "The apodeme that is lateral, located medially on the penisvalva and corresponds to the sites of insertion of the lateral gonostipo-penisvalval, distoventral gonostipo-penisvalval and the parossiculo-penisvalval muscles." [http://api.hymao.org/api/ref/67791]
+def: "The apodeme that is lateral, located medially on the penisvalva and corresponds to the sites of insertion of the lateral and distoventral gonostyle/volsella complex-penisvalval muscle and the parossiculo-penisvalval muscles." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000142 ! apodeme
 relationship: BFO:0000050 HAO:0000707 ! part_of penisvalva
 
@@ -2388,9 +2404,11 @@ relationship: BFO:0000050 HAO:0000312 ! part_of external male genitalia
 
 [Term]
 id: HAO:0000314
-name: extrinsic palpal muscle
-def: "The labial muscle that arises from the prementum lateral to the point of origin of the premento-glossal muscle and inserts on the proximal part of the proximal segments of the labial palp." [http://api.hymao.org/api/ref/78244]
-synonym: "premento-palpal muscle" RELATED [http://api.hymao.org/api/ref/78243]
+name: premento-palpal muscle
+def: "The labial muscle that arises from the prementum and inserts on the first sclerite of the labial palp." [http://api.hymao.org/api/ref/96306]
+synonym: "extrinsic palpal muscle" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/78243]
+synonym: "flexor of the labial palpus" RELATED [http://api.hymao.org/api/ref/67670]
+synonym: "musculus premento-labiopalpualis" RELATED [http://api.hymao.org/api/ref/68089]
 is_a: HAO:0001551 ! labial muscle
 relationship: HAO:attached_to HAO:0000450 ! labial palp
 relationship: HAO:attached_to HAO:0000804 ! prementum
@@ -2567,7 +2585,7 @@ name: distal gonostyle/volsella complex-harpal muscle
 def: "The gonostyle/volsella complex-harpal muscle that inserts on the median wall of the harpe and arises distally of the site of origin of the proximal gonostyle/volsella complex-harpal muscle." [http://api.hymao.org/api/ref/96550]
 synonym: "first proximal gonostipo-harpal muscle" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "muscle t'" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
-is_a: HAO:0001392 ! male genitalia muscle
+is_a: HAO:0002043 ! gonostyle/volsella complex-harpal muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000395 ! harpe
 
@@ -2581,7 +2599,7 @@ relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
 [Term]
 id: HAO:0000338
 name: first valvifer
-def: "The area that is proximal to and is connected with the first valvula via the dorsal ramus of the first valvula. The first valvifer articulates with the abdominal tergum 9 via the tergo-valvifer articulation and with the second valvifer via the intervalvifer articulation." [http://api.hymao.org/api/ref/78248]
+def: "The area of the first valvifer-first valvula complex that is proximal to the aulax, bears the ninth tergal condyle of the first valvifer and the second valviferal condyle of the first valvifer and is connected to the genital membrane by muscle." [http://api.hymao.org/api/ref/96758]
 synonym: "coin" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "crosse" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "fulcral plate" RELATED [http://api.hymao.org/api/ref/67823]
@@ -2596,12 +2614,12 @@ synonym: "winkelplatte" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "winkelstuck" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "écaille du stylet" RELATED [http://api.hymao.org/api/ref/67823]
 is_a: HAO:0000146 ! area
-relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
+relationship: BFO:0000050 HAO:0002158 ! part_of first valvifer-first valvula complex
 
 [Term]
 id: HAO:0000339
 name: first valvula
-def: "The sclerite that is distal to the first valvifer and articulates with the second valvula via the aulax." [http://api.hymao.org/api/ref/78248]
+def: "The area of the first valvifer-first valvula complex that is delimited distally by the proximal margin of the aulax." [http://api.hymao.org/api/ref/96758]
 synonym: "bohrborste" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "first gonapophysis" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "gräte" RELATED [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68574]
@@ -2619,7 +2637,7 @@ synonym: "sägeblatt" RELATED [http://api.hymao.org/api/ref/67800, http://api.hy
 synonym: "sägeplatte" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "vordere gonapophyse" RELATED [http://api.hymao.org/api/ref/67823]
 is_a: HAO:0000146 ! area
-relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
+relationship: BFO:0000050 HAO:0002158 ! part_of first valvifer-first valvula complex
 
 [Term]
 id: HAO:0000340
@@ -2828,7 +2846,8 @@ relationship: BFO:0000050 HAO:0000309 ! part_of eusternum
 [Term]
 id: HAO:0000368
 name: galea
-def: "The lobe that is located on the maxilla distal to the stipes and lateral to the lacinia." [http://api.hymao.org/api/ref/78244]
+def: "The lobe that is located on the stipes at the distal part of the posterior stipital sclerite distolateral to the lacinia." [http://api.hymao.org/api/ref/78244]
+synonym: "galeal lobe" RELATED [http://api.hymao.org/api/ref/96306]
 is_a: HAO:0001587 ! lobe
 relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
 
@@ -2884,16 +2903,18 @@ relationship: BFO:0000050 HAO:0000182 ! part_of body
 [Term]
 id: HAO:0000376
 name: glossa
-def: "The lobe that is median, unpaired and is situated on the labium distally on the salivarial orifice. The glossa is the median labial endite." [http://api.hymao.org/api/ref/78244]
+def: "The lobe of the labium that is limited posteroproximally by the prementum, anteroproximally by the fold traversing the salivary orifice and laterally by the paraglossae." [http://api.hymao.org/api/ref/96306]
+synonym: "alaglossa" RELATED [http://api.hymao.org/api/ref/68127, http://api.hymao.org/api/ref/68148, http://api.hymao.org/api/ref/96750]
+synonym: "lingua" RELATED [http://api.hymao.org/api/ref/36926]
 synonym: "tongue" RELATED [http://api.hymao.org/api/ref/68278]
 is_a: HAO:0001587 ! lobe
 relationship: BFO:0000050 HAO:0000453 ! part_of labium
 
 [Term]
 id: HAO:0000377
-name: glossal flexor
-def: "The labial muscle that arises on the ventral part of the prementum, laterally to the ventral premento-salivarial muscle and inserts on the anterior glossal sclerite." [http://api.hymao.org/api/ref/78244]
-synonym: "premento-glossal muscle" RELATED [http://api.hymao.org/api/ref/78243]
+name: premento-glossal muscle
+def: "The labial muscle that arises on the ventral part of the prementum, laterally to the ventral premento-salivarial muscle and inserts on the anterior glossal plate." [http://api.hymao.org/api/ref/78244]
+synonym: "glossal flexor" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001551 ! labial muscle
 relationship: HAO:attached_to HAO:0000112 ! anterior glossal sclerite
 relationship: HAO:attached_to HAO:0000804 ! prementum
@@ -2915,14 +2936,14 @@ relationship: BFO:0000050 HAO:0000895 ! part_of reproductive system
 [Term]
 id: HAO:0000380
 name: gonocondyle
-def: "The apophysis that is located ventromedially on the basal margin of the cupula. The median and lateral 8th metasomal sterno-cupulal muscles inserts on the gonocondyle." [http://api.hymao.org/api/ref/67791]
+def: "The apophysis that is located ventromedially on the proximal margin of the cupula and is the site of insertion of the lateral S9-cupulal muscle." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000143 ! apophysis
 relationship: BFO:0000050 HAO:0000238 ! part_of cupula
 
 [Term]
 id: HAO:0000381
 name: gonoforceps
-def: "The sclerite that is the apical-most sclerite of the external male genitalia and connected along its basal margin with the cupula." [http://api.hymao.org/api/ref/67791]
+def: "The sclerite that is located distally of the cupula and dorsolaterally of the volsella, surrounds the aedeagus dorsolaterally and does not connected to any sclerite distally." [http://api.hymao.org/api/ref/96550]
 synonym: "gonoforcep" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000312 ! part_of external male genitalia
@@ -2954,10 +2975,10 @@ relationship: HAO:attached_to HAO:0000385 ! gonossiculus
 [Term]
 id: HAO:0000385
 name: gonossiculus
-def: "The sclerite that is located distally on the parossiculus." [http://api.hymao.org/api/ref/67791]
+def: "The sclerite that is located on the distoventral part of the gonostyle/volsella complex, and is articulated with the more proximal sclerites of the gononstyle/volsella complex." [http://api.hymao.org/api/ref/67791]
 synonym: "chelate structure" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "copulatory ossicle" RELATED [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
-synonym: "digitus" RELATED [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/78442, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+synonym: "digitus" RELATED [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/78442, http://api.hymao.org/api/ref/96781, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "digitus volsellaris" RELATED [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "forcipes exteriores" RELATED [http://api.hymao.org/api/ref/67839, http://api.hymao.org/api/ref/68619]
 synonym: "gonolacinia" RELATED [http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/68619]
@@ -2974,7 +2995,7 @@ relationship: BFO:0000050 HAO:0001084 ! part_of volsella
 [Term]
 id: HAO:0000386
 name: gonostipes
-def: "The sclerite that is paired, is connected proximally with the cupula, distally with the harpe, ventromedially with the parossiculus and dorsally with the other gonostipes." [http://api.hymao.org/api/ref/67791]
+def: "The sclerite that is located dorsolaterally on the gonostyle/volsella complex, is connected to the distal margin of the cupula, to the proximal margin of the harpe, and to the lateral margin of the volsella." [http://api.hymao.org/api/ref/96550]
 synonym: "basal part of forceps" RELATED [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "basal part of stipes" RELATED [http://api.hymao.org/api/ref/67779, http://api.hymao.org/api/ref/68619]
 synonym: "basimere" RELATED [http://api.hymao.org/api/ref/67794, http://api.hymao.org/api/ref/68619]
@@ -3008,7 +3029,7 @@ relationship: HAO:attached_to HAO:0001084 ! volsella
 [Term]
 id: HAO:0000389
 name: gonostyle
-def: "The anatomical cluster that is composed of the gonostipes and the harpe." [http://api.hymao.org/api/ref/67791]
+def: "The anatomical cluster that is composed of sclerites located distally of the cupula dorsolaterally of the volsella, and that surround the aedeagus." [http://api.hymao.org/api/ref/96550]
 synonym: "Gonopoden des 9 Segmentes" RELATED [http://api.hymao.org/api/ref/67839, http://api.hymao.org/api/ref/68619]
 synonym: "latimere" RELATED [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "outer or central arm of stipes" RELATED [http://api.hymao.org/api/ref/67840, http://api.hymao.org/api/ref/68619]
@@ -3053,7 +3074,7 @@ relationship: BFO:0000050 HAO:0000400 ! part_of hind wing
 [Term]
 id: HAO:0000395
 name: harpe
-def: "The sclerite that is connected distally to the gonostipes." [http://api.hymao.org/api/ref/67791]
+def: "The sclerite that is located distally on the gonostyle/volsella complex and does not connected to the cupula and to the volsella by conjunctiva or muscles." [http://api.hymao.org/api/ref/96550]
 synonym: "distal segment of gonopod" RELATED [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
 synonym: "dististyle" RELATED [http://api.hymao.org/api/ref/43498, http://api.hymao.org/api/ref/68619]
 synonym: "gonoharpe" RELATED [http://api.hymao.org/api/ref/78429]
@@ -3158,9 +3179,10 @@ relationship: BFO:0000050 HAO:0000670 ! part_of oral foramen
 [Term]
 id: HAO:0000408
 name: hypopharyngeal rod
-def: "The process that is continuous proximally with the anterodistal edge of the lateral part of the prementum and distally with the anterior glossal sclerite." [http://api.hymao.org/api/ref/78243]
-synonym: "ligular arm" RELATED [http://api.hymao.org/api/ref/36975, http://api.hymao.org/api/ref/68619]
-is_a: HAO:0000822 ! process
+def: "The ligament that connects the proximolateral margin of the prementum with the proximal part of the ligula." [http://api.hymao.org/api/ref/96306]
+synonym: "epimental sclerite" RELATED [http://api.hymao.org/api/ref/78436]
+synonym: "ligular arm" RELATED [http://api.hymao.org/api/ref/36975, http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/78461]
+is_a: HAO:0002229 ! ligament
 relationship: BFO:0000050 HAO:0000409 ! part_of hypopharynx
 
 [Term]
@@ -3205,7 +3227,7 @@ relationship: BFO:0000050 HAO:0000411 ! part_of hypostoma
 [Term]
 id: HAO:0000414
 name: hypostomal sulcus
-def: "The sulcus that extends along the posteroventral margin of the cranium between and delimits the hypostoma." [http://api.hymao.org/api/ref/67791]
+def: "The sulcus that extends along the posteroventral margin of the cranium between the pleurostomal fossae and delimits the hypostoma." [http://api.hymao.org/api/ref/67791]
 synonym: "hypostomal suture" RELATED [http://api.hymao.org/api/ref/36875]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000234 ! part_of cranium
@@ -3322,6 +3344,7 @@ id: HAO:0000430
 name: interocellar space
 def: "The area that is limited posteriorly by the posterior ocellar line and laterally by the lateral ocellar line." [http://api.hymao.org/api/ref/67791]
 synonym: "interocellar area" RELATED [http://api.hymao.org/api/ref/96313]
+synonym: "ocellar plate" RELATED [http://api.hymao.org/api/ref/96670]
 synonym: "ocellar triangle" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://www.amentinst.org/GIN/]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001077 ! part_of vertex
@@ -3426,7 +3449,7 @@ relationship: HAO:attached_to HAO:0000386 ! gonostipes
 [Term]
 id: HAO:0000444
 name: intrinsic palpal muscle
-def: "The labial muscle that arises from a palpal segment and inserts on the palpal segment distal to it." [http://api.hymao.org/api/ref/78244]
+def: "The labial muscle that arises from a palpal sclerite and inserts on the palpal sclerite distal to it." [http://api.hymao.org/api/ref/78244]
 synonym: "intrinsic labial palp muscle" RELATED [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001551 ! labial muscle
 relationship: HAO:attached_to HAO:0000450 ! labial palp
@@ -3469,7 +3492,7 @@ relationship: BFO:0000050 HAO:0000397 ! part_of head
 [Term]
 id: HAO:0000450
 name: labial palp
-def: "The palp that is situated on the labium articulating laterally on the prementum." [http://api.hymao.org/api/ref/78244]
+def: "The anatomical structure that is distal to the proximal margin of the first sclerite of the labial palp." [http://api.hymao.org/api/ref/96306]
 synonym: "labial palpus" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm, http://projects.biodiversity.be/ants/]
 synonym: "palpus labialis" RELATED [DOI:10.1016/j.ode.2006.06.003]
 is_a: HAO:0000683 ! palpus
@@ -3478,9 +3501,8 @@ relationship: BFO:0000050 HAO:0000453 ! part_of labium
 [Term]
 id: HAO:0000451
 name: labial suture
-def: "The suture that extends between the prementum and the postmentum." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000982 ! suture
-relationship: BFO:0000050 HAO:0000234 ! part_of cranium
+comment: The concept is misunderstood in this definition. For labial suture see HAO_0002147.
+is_obsolete: true
 
 [Term]
 id: HAO:0000452
@@ -3489,14 +3511,14 @@ def: "The anatomical cluster that is composed of the labium and maxillae." [http
 synonym: "labio-maxillary complex" RELATED [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/68560]
 synonym: "maxillo-labial apparatus" RELATED [http://projects.biodiversity.be/ants/]
 synonym: "maxillo-labial complex" RELATED [http://api.hymao.org/api/ref/67766, http://api.hymao.org/api/ref/68103, http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/78436]
-synonym: "proboscis" RELATED [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/36975]
+synonym: "proboscis" RELATED [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/36975, http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
 
 [Term]
 id: HAO:0000453
 name: labium
-def: "The anatomical cluster that is composed of the unpaired glossa, paraglossae, unpaired prementum, unpaired postmentum, labial palps. The labium is situated between the maxillae and continuous anterodorsally with the hypopharyngeal wall." [http://api.hymao.org/api/ref/67841]
+def: "The appendage that is encircled by the area that is proximally delimited by the lateral margins of the cardo and the posterior stipital sclerite laterally, and the anatomical line that is tangential to the salivary duct and traverses the salivary orifice anteriorly." [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
 
@@ -3527,8 +3549,9 @@ relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
 
 [Term]
 id: HAO:0000457
-name: lacinia
-def: "The lobe that is located on the maxilla, distal to the stipes and median to the galea." [http://api.hymao.org/api/ref/78244]
+name: lacinial lobe
+def: "The lobe that extends proximally on the distal margin of the medial stipital wall, is adjacent to the basal lacinial sclerite, overlaps the proximal part of the galea." [http://api.hymao.org/api/ref/96306]
+synonym: "lacinia" RELATED [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/36895, http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0001587 ! lobe
 relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
 
@@ -3575,20 +3598,21 @@ is_a: HAO:0001015 ! thorax
 
 [Term]
 id: HAO:0000464
-name: lateral 9th sterno-cupulal muscle
-def: "The male genitalia muscle that arises from 9th metasomal sternite laterally of the spiculum and inserts on the gonocondyle." [http://api.hymao.org/api/ref/67791]
+name: lateral S9-cupulal muscle
+def: "The S9-cupulal muscle that arises sublaterally from S9 and inserts medioventrally on the cupula." [http://api.hymao.org/api/ref/96550]
+synonym: "lateral 9th sterno-cupulal muscle" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "muscle 3" RELATED [http://api.hymao.org/api/ref/67670]
 synonym: "muscle c" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0001392 ! male genitalia muscle
-relationship: BFO:0000050 HAO:0000505 ! part_of male genitalia
 relationship: HAO:attached_to HAO:0000047 ! abdominal sternum 9
+relationship: HAO:attached_to HAO:0001873 ! abdominal tergite 9
 
 [Term]
 id: HAO:0000465
 name: lateral apodeme
 def: "The apodeme that is located laterally on the proximal margin of abdominal tergum 9." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000142 ! apodeme
-relationship: BFO:0000050 HAO:0000075 ! part_of abdominal tergum 9
+relationship: BFO:0000050 HAO:0000075 ! part_of T9
 
 [Term]
 id: HAO:0000466
@@ -3650,17 +3674,21 @@ relationship: BFO:0000050 HAO:0000060 ! part_of abdominal tergum 7
 
 [Term]
 id: HAO:0000472
-name: lateral gonostipo-penis valval muscle
-def: "The male genitalia muscle that arises laterally from the gonostipes and inserts laterally on the penisvalva. The site of insertion of the muscle corresponds to the ergot if present." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+name: lateral gonostyle/volsella complex-penisvalval muscle
+def: "The gonostyle/volsella complex-penisvalval muscle that arises anterolaterally of the site of origin of the distodorsal gonostyle/volsella complex-penisvalval muscle and inserts laterally on the penisvalva." [http://api.hymao.org/api/ref/96550]
+synonym: "lateral gonostipo-penis valval muscle" RELATED [http://api.hymao.org/api/ref/67791]
+synonym: "muscle l" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0002044 ! gonostyle/volsella complex-penisvalval muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
 
 [Term]
 id: HAO:0000473
-name: lateral intrinsic muscle of the volsella
-def: "The male genitalia muscle that arises from the proximal apex of the parossiculus laterally of the site of origin of the medial intrinsic muscle of the volsella and inserts laterally of the site of parossiculal site of articulation of the gonossiculus." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+name: median gonostyle/volsella complex-volsella muscle
+def: "The gonostyle/volsella complex-volsellal muscle that arises medially of the submedian conjunctiva on the distoventral margin of gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
+synonym: "lateral intrinsic muscle of the volsella" RELATED [http://api.hymao.org/api/ref/67791]
+synonym: "muscle qr" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0002042 ! gonostyle/volsella complex-volsellal muscle
 relationship: HAO:attached_to HAO:0000385 ! gonossiculus
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
 
@@ -3720,6 +3748,7 @@ def: "The anatomical line that is the shortest between the margins of the  media
 synonym: "lateral ocellar distance" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "lateral ocellar length" RELATED [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
 synonym: "least ocellar length" RELATED [http://api.hymao.org/api/ref/96588]
+synonym: "medio-lateral ocellar distance" RELATED [http://api.hymao.org/api/ref/96735]
 is_a: HAO:0000008 ! anatomical line
 relationship: BFO:0000050 HAO:0000234 ! part_of cranium
 
@@ -3845,8 +3874,9 @@ relationship: BFO:0000050 HAO:0000494 ! part_of leg
 [Term]
 id: HAO:0000496
 name: ligula
-def: "The area that is located distally on the labium and formed from the combined glossae and paraglossae." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000146 ! area
+def: "The anatomical cluster that is composed of the glossa and paraglossae." [http://api.hymao.org/api/ref/67791]
+synonym: "tongue" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000453 ! part_of labium
 
 [Term]
@@ -3977,7 +4007,7 @@ relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
 [Term]
 id: HAO:0000513
 name: maxilla
-def: "The anatomical cluster that consists of cardo, stipes, galea, lacinia and maxillary palps. The maxilla is situated lateral to the labium." [http://api.hymao.org/api/ref/67791]
+def: "The appendage that is encircled by the area that is proximally delimited by the hypostoma posteriorly, the median margin of the mandible laterally, the labrum anterolaterally and the labium medially." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000041 ! anatomical cluster
 is_a: HAO:0000144 ! appendage
 relationship: BFO:0000050 HAO:0000452 ! part_of labiomaxillary complex
@@ -3992,7 +4022,7 @@ relationship: BFO:0000050 HAO:0000397 ! part_of head
 [Term]
 id: HAO:0000515
 name: maxillary palp
-def: "The palp that is located on the maxilla articulating laterally on the stipes." [http://api.hymao.org/api/ref/78244]
+def: "The anatomical structure that is distal to the proximal margin of the first sclerite of the maxillary palp." [http://api.hymao.org/api/ref/96306]
 synonym: "maxillary palpus" RELATED [http://api.hymao.org/api/ref/36909, http://api.hymao.org/api/ref/42367, http://api.hymao.org/api/ref/67791]
 synonym: "palpus maxillaris" RELATED [DOI:10.1016/j.ode.2006.06.003]
 is_a: HAO:0000683 ! palpus
@@ -4010,11 +4040,13 @@ relationship: HAO:attached_to HAO:0000238 ! cupula
 
 [Term]
 id: HAO:0000517
-name: medial intrinsic muscle of the volsella
-def: "The male genitalia muscle that arises medially from along the proximal margin of the parossiculus and inserts medially of parossiculal site of articulation of the gonossiculus." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
-relationship: HAO:attached_to HAO:0000703 ! parossiculus
-relationship: HAO:attached_to HAO:0001084 ! volsella
+name: gonostyle/volsella complex-gonossiculus muscle
+def: "The gonossiculal muscle that arises ventromedially from the gonostyle/volsella complex and inserts laterally on the gonossiculus." [http://api.hymao.org/api/ref/96550]
+synonym: "medial intrinsic muscle of the volsella" RELATED [http://api.hymao.org/api/ref/67791]
+synonym: "muscle s" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0002045 ! gonossiculal muscle
+relationship: HAO:attached_to HAO:0000385 ! gonossiculus
+relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
 
 [Term]
 id: HAO:0000518
@@ -4097,9 +4129,8 @@ is_a: HAO:0000661 ! ocellus
 [Term]
 id: HAO:0000527
 name: median plate
-def: "The sclerite that is located in the humeral complex." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000909 ! sclerite
-relationship: BFO:0000050 HAO:0000402 ! part_of median complex
+comment: Misunderstood concept.
+is_obsolete: true
 
 [Term]
 id: HAO:0000528
@@ -4143,22 +4174,20 @@ relationship: BFO:0000050 HAO:0000777 ! part_of postgenal bridge
 
 [Term]
 id: HAO:0000533
-name: mediolateral 9th sterno-cupulal muscle
-def: "The male genitalia muscle that arises from the spiculum and inserts on the cupula just laterally of the gonocondyle." [http://api.hymao.org/api/ref/67791]
+name: mediolateral S9-cupulal muscle
+def: "The cupulal muscle that arises medially from abdominal sternum 9 and inserts ventrolaterally on the cupula." [http://api.hymao.org/api/ref/96550]
+synonym: "mediolateral 9th sterno-cupulal muscle" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "muscle 2" RELATED [http://api.hymao.org/api/ref/67670]
 synonym: "muscle b" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0001392 ! male genitalia muscle
-relationship: BFO:0000050 HAO:0000505 ! part_of male genitalia
 relationship: HAO:attached_to HAO:0000047 ! abdominal sternum 9
 relationship: HAO:attached_to HAO:0000238 ! cupula
 
 [Term]
 id: HAO:0000534
 name: mentum
-def: "The sclerite that articulates basally with the submentum and apically with the prementum." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000909 ! sclerite
-relationship: BFO:0000050 HAO:0000453 ! part_of labium
-relationship: BFO:0000050 HAO:0000785 ! part_of postmentum
+comment: The mentum and submentum are subdivisions of he postmentum in Coleoptera and Orthopteroidea. These sclerites are absent from Hymenoptera.
+is_obsolete: true
 
 [Term]
 id: HAO:0000535
@@ -4796,6 +4825,7 @@ relationship: BFO:0000050 HAO:0000621 ! part_of metapleuron
 id: HAO:0000614
 name: metapleural sulcus
 def: "The line that corresponds with the metapleural ridge." [http://api.hymao.org/api/ref/67791]
+synonym: "metapleural-propodeal suture" RELATED [http://api.hymao.org/api/ref/68128, http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000725 ! pleural suture
 relationship: BFO:0000050 HAO:0000621 ! part_of metapleuron
 
@@ -5064,8 +5094,9 @@ relationship: BFO:0000050 HAO:0000575 ! part_of mesoscutum
 [Term]
 id: HAO:0000648
 name: notch
-def: "The depression that is located on a margin, edge or carina." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000241 ! depression
+def: "The part of the margin of a sclerite that is concave." [http://api.hymao.org/api/ref/67791]
+relationship: BFO:0000050 HAO:0000510 ! part_of margin
+relationship: BFO:0000050 HAO:0000909 ! part_of sclerite
 
 [Term]
 id: HAO:0000649
@@ -5175,6 +5206,7 @@ def: "The anatomical line that is shortest and connects the compound eye and the
 synonym: "ocellar ocular line" RELATED [http://api.hymao.org/api/ref/68619]
 synonym: "ocellocular line" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "ocular ocellar length" RELATED [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/68619]
+synonym: "OOL" RELATED [http://api.hymao.org/api/ref/96588]
 is_a: HAO:0000008 ! anatomical line
 relationship: BFO:0000050 HAO:0001077 ! part_of vertex
 
@@ -5227,6 +5259,7 @@ id: HAO:0000670
 name: oral foramen
 def: "The foramen that is located anteriorly/ventrally on the cranium in which the mouthparts are positioned." [http://api.hymao.org/api/ref/68619]
 synonym: "buccal cavity" RELATED [http://api.hymao.org/api/ref/36913, http://api.hymao.org/api/ref/67791]
+synonym: "fossa of the proboscis" RELATED [http://api.hymao.org/api/ref/36975]
 synonym: "mouth cavity" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "oral fossa" RELATED [http://api.hymao.org/api/ref/36913, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "proboscidial fossa" RELATED [http://api.hymao.org/api/ref/36916]
@@ -5293,7 +5326,9 @@ relationship: BFO:0000050 HAO:0000324 ! part_of female genitalia
 [Term]
 id: HAO:0000679
 name: ovipositor
-def: "The anatomical cluster that is composed of the first valvulae, second valvulae, third valvulae, first valvifers and second valvifers ." [http://api.hymao.org/api/ref/67841]
+def: "The anatomical cluster that is composed of the first valvulae, second valvulae, third valvulae, first valvifers, second valvifers and female T9." [http://api.hymao.org/api/ref/96758]
+synonym: "sting apparatus" RELATED [http://api.hymao.org/api/ref/96801]
+synonym: "stinger" RELATED [http://api.hymao.org/api/ref/96801]
 is_a: HAO:0000041 ! anatomical cluster
 is_a: HAO:0000144 ! appendage
 relationship: BFO:0000050 HAO:0001768 ! part_of external female genitalia
@@ -5344,15 +5379,20 @@ relationship: BFO:0000050 HAO:0000605 ! part_of metapectus
 [Term]
 id: HAO:0000686
 name: paraglossa
-def: "The lobe that is submedian, paired, and is situated distally on the labium, laterally of the glossa." [http://api.hymao.org/api/ref/78243]
+def: "The lobe that is connected to the distal margin of the prementum posteroproximally, to the premental hypopharynx proximolaterally and anteroproximally, to the glossa proximomedially and bears the basiparaglossal brush and the paraglossal sclerite." [http://api.hymao.org/api/ref/96306]
 is_a: HAO:0001587 ! lobe
 relationship: BFO:0000050 HAO:0000453 ! part_of labium
 
 [Term]
 id: HAO:0000687
-name: paraglossal flexor
-def: "The labial muscle that arises from the ventral part of the prementum, anterior to the origin of the premento-glossal muscle and ventral premento-salivarial muscle and inserts on the posterior glossal sclerite." [http://api.hymao.org/api/ref/78244]
-synonym: "premento-paraglossal muscle" RELATED [http://api.hymao.org/api/ref/78243]
+name: premento-paraglossal muscle
+def: "The labial muscle that arises from the ventral part of the prementum, anterior to the origin of the premento-glossal muscle and ventral premento-salivarial muscle and inserts just distally of the distal margin of the prementum." [http://api.hymao.org/api/ref/78244]
+synonym: "glossal retractor" RELATED [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/78461]
+synonym: "paraglossal flexor" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/78243]
+synonym: "posterior flexor of the ligula" RELATED [http://api.hymao.org/api/ref/36926]
+synonym: "prelabial flexor muscle" RELATED [http://api.hymao.org/api/ref/96767]
+synonym: "retractor ligulae inferior" RELATED [http://api.hymao.org/api/ref/67960]
+synonym: "retractor linguae biceps" RELATED [http://api.hymao.org/api/ref/96662]
 is_a: HAO:0001551 ! labial muscle
 relationship: HAO:attached_to HAO:0000686 ! paraglossa
 relationship: HAO:attached_to HAO:0000804 ! prementum
@@ -5388,7 +5428,7 @@ relationship: BFO:0000050 HAO:0000689 ! part_of paraocular area
 [Term]
 id: HAO:0000692
 name: parapenis
-def: "The area that is the dorsomedian part of the gonostipes and is the site of origin of the distodorsal and proximodorsal gonostipo-penisvalval muscles." [http://api.hymao.org/api/ref/67791]
+def: "The area that is the dorsomedian part of the gonostipes and is the site of origin of the distodorsal and proximodorsal gonostyle/volsella complex-penisvalval muscles." [http://api.hymao.org/api/ref/67791]
 synonym: "dorsal expansion of gonobase" RELATED [http://api.hymao.org/api/ref/68619]
 synonym: "dorsal lamina" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "lobi parapenialis" RELATED [http://api.hymao.org/api/ref/67835, http://api.hymao.org/api/ref/68619]
@@ -5475,7 +5515,7 @@ relationship: HAO:attached_to HAO:0000703 ! parossiculus
 [Term]
 id: HAO:0000703
 name: parossiculus
-def: "The sclerite that is connected distally with the gonossiculus, laterally with gonostipes, proximally with the gonostipital arm." [http://api.hymao.org/api/ref/67766]
+def: "The sclerite that is connected via conjunctiva distomedially to the gonostipes, and articulates with the gonossiculus." [http://api.hymao.org/api/ref/96550]
 synonym: "copulatory sclerite" RELATED [http://api.hymao.org/api/ref/67785, http://api.hymao.org/api/ref/68619]
 synonym: "pièce complèmentaire" RELATED [http://api.hymao.org/api/ref/67784, http://api.hymao.org/api/ref/68619]
 synonym: "plaques volsellaires" RELATED [http://api.hymao.org/api/ref/67767, http://api.hymao.org/api/ref/68619]
@@ -5486,7 +5526,7 @@ relationship: BFO:0000050 HAO:0001084 ! part_of volsella
 [Term]
 id: HAO:0000704
 name: patch
-def: "The area that is rounded and differs from surrounding regions in sculpture, setae, and/or pigmentation." [http://api.hymao.org/api/ref/67791]
+def: "The area that is round and differs from surrounding regions in sculpture, setae, and/or pigmentation." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000421 ! part_of integument
 
@@ -5508,7 +5548,7 @@ is_a: HAO:0000104 ! antennal segment
 [Term]
 id: HAO:0000707
 name: penisvalva
-def: "The sclerite that is paired, located in the middle of the external male genitalia, surrounds the distal part of the ductus ejaculatorius and the endophallus." [http://api.hymao.org/api/ref/67791]
+def: "The sclerite that is in the middle of the external male genitalia, surrounds the distal part of the ductus ejaculatorius and the endophallus." [http://api.hymao.org/api/ref/67791]
 synonym: "aedeagal rod" RELATED [http://api.hymao.org/api/ref/67794, http://api.hymao.org/api/ref/68619]
 synonym: "aedeagal sclerite" RELATED [http://api.hymao.org/api/ref/67670, http://api.hymao.org/api/ref/68619]
 synonym: "baguettes du fourreau" RELATED [http://api.hymao.org/api/ref/67810, http://api.hymao.org/api/ref/68619]
@@ -5537,8 +5577,7 @@ relationship: HAO:attached_to HAO:0000707 ! penisvalva
 [Term]
 id: HAO:0000709
 name: penisvalvo-gonossiculal muscle
-def: "The male genitalia muscle that arises from the proximal apex of the penisvalva and inserts on the apiceps." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+def: "The gonossiculal muscle that arises from the penisvalva." [http://api.hymao.org/api/ref/67791]
 relationship: HAO:attached_to HAO:0000385 ! gonossiculus
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
 
@@ -5546,6 +5585,7 @@ relationship: HAO:attached_to HAO:0000707 ! penisvalva
 id: HAO:0000710
 name: penisvalvo-phallotremal muscle
 def: "The male genitalia muscle that arises from the medial surface of the proximal part of the penisvalva and inserts on the endophallus just around the phallotrema." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle n" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000291 ! endophallus
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
@@ -5576,7 +5616,7 @@ relationship: BFO:0000050 HAO:0000312 ! part_of external male genitalia
 [Term]
 id: HAO:0000714
 name: phallotrema
-def: "The anatomical space that is the opening of the endophallus." [http://api.hymao.org/api/ref/67791]
+def: "The anatomical space that is the distal opening of the endophallus." [http://api.hymao.org/api/ref/67791]
 synonym: "gonotrema" RELATED [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "phallotreme" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "secondary gonopore" RELATED [http://api.hymao.org/api/ref/43470, http://api.hymao.org/api/ref/68619]
@@ -5739,6 +5779,7 @@ def: "The wing fold that is located between the mediocubital field and axillary 
 synonym: "basal fold" RELATED [http://api.hymao.org/api/ref/68619]
 synonym: "basal vein" RELATED [http://api.hymao.org/api/ref/43472, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0001092 ! wing fold
+relationship: BFO:0000050 HAO:0001089 ! part_of wing
 
 [Term]
 id: HAO:0000737
@@ -5749,6 +5790,7 @@ synonym: "anal furrow" RELATED [http://api.hymao.org/api/ref/36875, http://api.h
 synonym: "plica analis" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "vannal fold" RELATED [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0001092 ! wing fold
+relationship: BFO:0000050 HAO:0001089 ! part_of wing
 
 [Term]
 id: HAO:0000738
@@ -5803,12 +5845,12 @@ is_a: HAO:0001095 ! wing vein
 
 [Term]
 id: HAO:0000745
-name: posterior cranio-mandibular muscle
+name: anterior cranio-mandibular muscle
 def: "The mandibular muscle that arises posterodorsally from the cranium and inserts on the tendon attached anteroproximally on the mandible." [http://api.hymao.org/api/ref/78258]
 synonym: "adductor of the mandible" RELATED [http://api.hymao.org/api/ref/36927]
-synonym: "anterior cranio-mandibular muscle" RELATED [http://api.hymao.org/api/ref/78243]
 synonym: "M. craniomandibularis internus" RELATED [DOI:10.1016/j.ode.2006.06.003]
 synonym: "musculus cranio-intramandibularis" RELATED [http://api.hymao.org/api/ref/68089]
+synonym: "posterior cranio-mandibular muscle" RELATED [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001779 ! mandibular muscle
 relationship: HAO:attached_to HAO:0000234 ! cranium
 relationship: HAO:attached_to HAO:0000506 ! mandible
@@ -5823,14 +5865,17 @@ relationship: BFO:0000050 HAO:0000800 ! part_of preaxilla
 [Term]
 id: HAO:0000747
 name: posterior glossal plate
-def: "The sclerite that is located ventrally of the paraglossae and is composed of two fused posterior glossal sclerites." [http://api.hymao.org/api/ref/67841]
+def: "The area that is delimited laterally distally and proximally by the sclerites that are connected to the distal margin of the prementum and receive the site of insertion of the premento-paraglossal muscle." [http://api.hymao.org/api/ref/96306]
+synonym: "posterior lingual plate" RELATED [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/36926]
+synonym: "subligular plate" RELATED [http://api.hymao.org/api/ref/36927]
+synonym: "subligular sclerite" RELATED [http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000452 ! part_of labiomaxillary complex
 
 [Term]
 id: HAO:0000748
 name: posterior glossal sclerite
-def: "The sclerite that is located ventrally on the labium distally of the anterior margin of the prementum at the base of the paraglossa. The premento-paraglossal muscle inserts on the sclerite." [http://api.hymao.org/api/ref/78243]
+def: "The sclerite of the posterior glossal plate that is paired." [http://api.hymao.org/api/ref/67766]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000453 ! part_of labium
 
@@ -5846,9 +5891,8 @@ relationship: HAO:attached_to HAO:0001630 ! torma
 [Term]
 id: HAO:0000750
 name: posterior lingual plate
-def: "The sclerite that is located proximally and medially on the glossa." [http://api.hymao.org/api/ref/67841]
-is_a: HAO:0000909 ! sclerite
-relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+comment: Duplum with posterior glossal plate
+is_obsolete: true
 
 [Term]
 id: HAO:0000751
@@ -5952,6 +5996,7 @@ relationship: BFO:0000050 HAO:0000853 ! part_of pronotum
 id: HAO:0000763
 name: posterior propodeal projection
 def: "The propodeal spine that is located posteromedially of the first abdominal spiracle." [http://api.hymao.org/api/ref/67791]
+synonym: "lateral propodeal projection" RELATED [http://api.hymao.org/api/ref/96759]
 synonym: "posterolateral propodeal process" RELATED [http://api.hymao.org/api/ref/96436]
 is_a: HAO:0001695 ! propodeal spine
 relationship: BFO:0000050 HAO:0001994 ! part_of propodeum
@@ -6116,9 +6161,9 @@ relationship: BFO:0000050 HAO:0000572 ! part_of mesoscutellar-axillar complex
 [Term]
 id: HAO:0000785
 name: postmentum
-def: "The anatomical cluster that is composed of the sclerites that are located between the prementum and the hypostoma." [http://api.hymao.org/api/ref/78244]
-synonym: "postlabium" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/78244]
-synonym: "submentum" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/36978, http://api.hymao.org/api/ref/68619]
+def: "The anatomical cluster that is composed of the sclerites that are on the postmental area." [http://api.hymao.org/api/ref/96306]
+synonym: "postlabium" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/67876, http://api.hymao.org/api/ref/78244]
+synonym: "submentum" RELATED [http://api.hymao.org/api/ref/36901, http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/36978, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000041 ! anatomical cluster
 
 [Term]
@@ -6248,10 +6293,10 @@ is_obsolete: true
 
 [Term]
 id: HAO:0000803
-name: premental retractor
+name: postmento-premental muscle
 def: "The labial muscle that is unpaired, arises from the postmentum and inserts on the proximal margin of the prementum." [http://api.hymao.org/api/ref/78244]
-synonym: "postmento-premental muscle" RELATED [http://api.hymao.org/api/ref/78243]
-synonym: "prementum-glossa" RELATED [http://api.hymao.org/api/ref/68099]
+synonym: "M. submentopraementalis" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "premental retractor" RELATED [http://api.hymao.org/api/ref/36917]
 is_a: HAO:0001551 ! labial muscle
 relationship: HAO:attached_to HAO:0000785 ! postmentum
 relationship: HAO:attached_to HAO:0000804 ! prementum
@@ -6259,8 +6304,12 @@ relationship: HAO:attached_to HAO:0000804 ! prementum
 [Term]
 id: HAO:0000804
 name: prementum
-def: "The sclerite that is unpaired and is situated ventrally on the labium proximal to the endites and palps. The sclerite laterally extends towards the hypopharyngeal wall." [http://api.hymao.org/api/ref/78244]
-synonym: "labiostipides" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+def: "The sclerite that is median, is connected via conjunctiva along its proximolateral margins to the stipites, is articulated with the labial palps, is continuous along its distal margin with the ligula and distolateral margins with the distal hypopharynx and receives the site of attachments of the extrinsic labial palp muscles." [http://api.hymao.org/api/ref/78244]
+synonym: "labiostipides" RELATED [http://api.hymao.org/api/ref/36875]
+synonym: "mentum" RELATED [http://api.hymao.org/api/ref/96752, http://api.hymao.org/api/ref/96753, http://api.hymao.org/api/ref/96755, http://api.hymao.org/api/ref/96756]
+synonym: "premental shield" RELATED [http://api.hymao.org/api/ref/78436]
+synonym: "sternum labial" RELATED [http://api.hymao.org/api/ref/96751]
+synonym: "stipulae" RELATED [http://api.hymao.org/api/ref/36901, http://api.hymao.org/api/ref/96750]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000453 ! part_of labium
 
@@ -6469,7 +6518,7 @@ is_obsolete: true
 [Term]
 id: HAO:0000832
 name: pronotal collar
-def: "The area that is subhorizontal and located posteriorly of the pronotal neck." [http://api.hymao.org/api/ref/67791]
+def: "The area of the pronotum that is subhorizontal and located posteriorly of the pronotal neck." [http://api.hymao.org/api/ref/67791]
 synonym: "collar" RELATED [http://api.hymao.org/api/ref/67863, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000853 ! part_of pronotum
@@ -6485,6 +6534,7 @@ relationship: BFO:0000050 HAO:0000832 ! part_of pronotal collar
 id: HAO:0000834
 name: pronotal flange
 def: "The evagination that extends along the anterior margin of the pronotum and overlaps the head-propectus articulation." [http://api.hymao.org/api/ref/67791]
+synonym: "pronotal collar" RELATED [http://api.hymao.org/api/ref/42367, http://api.hymao.org/api/ref/68128]
 is_a: HAO:0001924 ! cuticular evagination
 relationship: BFO:0000050 HAO:0000853 ! part_of pronotum
 
@@ -6504,9 +6554,10 @@ relationship: BFO:0000050 HAO:0000853 ! part_of pronotum
 [Term]
 id: HAO:0000837
 name: pronotal neck
-def: "The area that is delimited posterodorsally by an edge and that accommodates the posterior surface of the head." [http://api.hymao.org/api/ref/67791]
+def: "The area of the pronotum that is delimited posterodorsally by an edge and that accommodates the posterior surface of the head." [http://api.hymao.org/api/ref/67791]
 synonym: "collum" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "neck" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+synonym: "pronotal collum" RELATED [http://api.hymao.org/api/ref/96584]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000853 ! part_of pronotum
 
@@ -6821,15 +6872,18 @@ relationship: BFO:0000050 HAO:0000349 ! part_of fore leg
 [Term]
 id: HAO:0000876
 name: proximal gonostipo-parossiculal muscle
-def: "The male genitalia muscle that arises proximally from the lateral part of the gonostipes and inserts on the proximal part of the parossiculus." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+def: "The gonostyle-parossiculal muscle that arises proximally from the lateral part of the gonostipes and inserts on the proximal part of the parossiculus." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle o'" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0002041 ! gonostyle-parossiculal muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
 
 [Term]
 id: HAO:0000877
-name: proximodorsal gonostipo-penisvalval muscle
-def: "The male genitalia muscle that arises proximally along the dorsomedial margin of the gonostipes (just proximally of the site of origin of the site of origin of the distodorsal gonostipo-penisvalval muscle) and inserts distally on the penisvalva." [http://api.hymao.org/api/ref/67791]
+name: proximodorsal gonostyle/volsella complex-penisvalval muscle
+def: "The dorsal gonostyle/volsella complex penisvalval muscle that arises proximodorsally from the gonostyle/volsella complex and inserts on the penisvalva distally of the site of insertion of the distodorsal gononstyle/volsella complex-penisvalva muscle." [http://api.hymao.org/api/ref/96550]
+synonym: "muscle k" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "proximodorsal gonostipo-penisvalval muscle" RELATED [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
@@ -6843,9 +6897,10 @@ relationship: BFO:0000050 HAO:0000238 ! part_of cupula
 
 [Term]
 id: HAO:0000879
-name: proximoventral gonostipo-penisvalval muscle
-def: "The male genitalia muscle that arises from the apex gonostipitis (just ventrally of the site of origin of the distoventral gonostipo-penisvalval muscle) and inserts on the distal apex of the penisvalva (valvura)." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+name: proximoventral gonostyle/volsella complex-penisvalval muscle
+def: "The ventral gonostyle/volsella complex-penisvalval muscle that arises ventromedially from the gonostyle/volsella complex, inserts on the proximal end of the penisvalva and is oriented proximodorsally." [http://api.hymao.org/api/ref/96550]
+synonym: "proximoventral gonostipo-penisvalval muscle" RELATED [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002052 ! ventral gonostyle/volsella complex-penisvalval muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
 
@@ -6922,13 +6977,13 @@ relationship: BFO:0000050 HAO:0000908 ! part_of scape
 [Term]
 id: HAO:0000890
 name: radio-medial cross vein
-def: "The crossvein that connects the radial vein with the medial vein." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0000236 ! crossvein
+def: "The wing vein that connects the radial vein with the medial vein." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001095 ! wing vein
 
 [Term]
 id: HAO:0000891
 name: ramal rod
-def: "The process that extends along the ventral margin of the first valvula." [http://api.hymao.org/api/ref/67791]
+def: "The area that extends external to the dorsal ramus of the first valvula." [http://api.hymao.org/api/ref/67791]
 synonym: "ventral ramus of the first valvula" RELATED [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000339 ! part_of first valvula
@@ -7037,9 +7092,9 @@ relationship: BFO:0000050 HAO:0000906 ! part_of salivarium
 [Term]
 id: HAO:0000906
 name: salivarium
-def: "The anatomical space that is situated between the salivarial orifice and the salivarial duct and is delimited ventrally by the salivarial sclerite. The dorsal and ventral premento-salivarial muscles insert on the dorsal salivarial wall and the salivarial sclerite, respectively." [http://api.hymao.org/api/ref/78243]
-is_a: HAO:0000005 ! anatomical space
-relationship: BFO:0000050 HAO:0000809 ! part_of preoral cavity
+def: "The area that is adjacent to the proximal end of the salivary duct and corrseponds to the site of insertion of the dorsal and ventral premento-salvivarial muscles." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002236 ! part_of salivary duct
 
 [Term]
 id: HAO:0000907
@@ -7051,6 +7106,7 @@ is_a: HAO:0000935 ! seta
 id: HAO:0000908
 name: scape
 def: "The antennal segment that is proximal to the pedicel and is connected with the head via the radicle." [http://api.hymao.org/api/ref/67791]
+synonym: "A1" RELATED [http://api.hymao.org/api/ref/96759]
 synonym: "antennal scape" RELATED [http://api.hymao.org/api/ref/96373]
 synonym: "Schaft" RELATED [http://api.hymao.org/api/ref/78598]
 is_a: HAO:0000104 ! antennal segment
@@ -7058,7 +7114,7 @@ is_a: HAO:0000104 ! antennal segment
 [Term]
 id: HAO:0000909
 name: sclerite
-def: "The area of the integument where the cuticle is well sclerotised with thick exocuticle and is surrounded by conjunctivae." [http://api.hymao.org/api/ref/67791]
+def: "The area of the integument that is strongly sclerotised, with thick exocuticle and is surrounded by conjunctivae." [http://api.hymao.org/api/ref/67791]
 synonym: "plate" RELATED [http://api.hymao.org/api/ref/68619]
 synonym: "sclerome" RELATED [http://api.hymao.org/api/ref/78428]
 is_a: HAO:0000146 ! area
@@ -7091,6 +7147,7 @@ relationship: BFO:0000050 HAO:0000909 ! part_of sclerite
 id: HAO:0000913
 name: sculpture
 def: "The area that is located on the sclerite and that is composed of repetitive anatomical structures." [http://api.hymao.org/api/ref/67862]
+synonym: "sculpturing" RELATED [http://api.hymao.org/api/ref/96759]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000909 ! part_of sclerite
 
@@ -7193,17 +7250,17 @@ relationship: BFO:0000050 HAO:0000606 ! part_of metaphragma
 [Term]
 id: HAO:0000926
 name: proximal gonostyle/volsella complex-harpal muscle
-def: "The gonostyle/volsella complex-harpal muscle that inserts on the median wall of the harpe and arises proximally of the site of origin of the proximal gonostyle/volsella complex-harpal muscle." [http://api.hymao.org/api/ref/96550]
+def: "The gonostyle/volsella complex-harpal muscle that inserts on the median wall of the harpe and arises proximally of the site of origin of the distal gonostyle/volsella complex-harpal muscle." [http://api.hymao.org/api/ref/96550]
 synonym: "muscle t''" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "second proximal gonostipo-harpal muscle" RELATED [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+is_a: HAO:0002043 ! gonostyle/volsella complex-harpal muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000395 ! harpe
 
 [Term]
 id: HAO:0000927
 name: second valvifer
-def: "The area that is proximal to the second valvula and is connected to the second valvula via the ventral ramus of the second valvula and the basal articulation." [http://api.hymao.org/api/ref/67791]
+def: "The area of the second valvifer-second valvula-third valvula complex that is proximal to the basal articulation and to the processus musculares and articulates with female T9." [http://api.hymao.org/api/ref/67791]
 synonym: "ecaile laterale" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "inner plate" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "oblong plate" RELATED [http://api.hymao.org/api/ref/67823]
@@ -7218,12 +7275,12 @@ synonym: "vordere platte" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "écaille du gorgeret" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "écaille latérale" RELATED [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68583]
 is_a: HAO:0000146 ! area
-relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
+relationship: BFO:0000050 HAO:0002181 ! part_of second valvifer-third valvula complex
 
 [Term]
 id: HAO:0000928
 name: second valvula
-def: "The area that is continuous proximally with the second valvifer via the ventral ramus of the second valvula, articulates with the second valvifer via the basal articulation and with the first valvula via the olistheters and is delimited posteromedially by the median longitudinal line of the ovipositor." [http://api.hymao.org/api/ref/78248]
+def: "The area of the second valvifer-second valvula-third valvula complex that is distal to the basal articulation and to the processus musculares and is limited medially by the median body axis." [http://api.hymao.org/api/ref/96758]
 synonym: "acus" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "back piece" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "branche et tige" RELATED [http://api.hymao.org/api/ref/67823]
@@ -7243,7 +7300,7 @@ synonym: "stachelschiene" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "stylet" RELATED [http://api.hymao.org/api/ref/67823, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "support" RELATED [http://api.hymao.org/api/ref/67823]
 is_a: HAO:0000146 ! area
-relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
+relationship: BFO:0000050 HAO:0002175 ! part_of second valvifer-second valvula-third valvula complex
 
 [Term]
 id: HAO:0000929
@@ -7291,7 +7348,7 @@ relationship: BFO:0000050 HAO:0000342 ! part_of flagellomere
 [Term]
 id: HAO:0000935
 name: seta
-def: "The sensillum that is multicellular and consists of trichogen, tormogen,  and sense cells and the cuticle secreted by and adjacent with the trichogen cell." [http://api.hymao.org/api/ref/67791]
+def: "The sensillum that is multicellular and consists of trichogen, tormogen,  and sense cells and the cuticle secreted by and adjacent to the trichogen cell." [http://api.hymao.org/api/ref/67791]
 synonym: "bristle" RELATED [http://api.hymao.org/api/ref/37495]
 synonym: "trichoid sensillum" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000933 ! sensillum
@@ -7373,7 +7430,7 @@ relationship: BFO:0000050 HAO:0000324 ! part_of female genitalia
 [Term]
 id: HAO:0000946
 name: spiculum
-def: "The apophysis that is located medially on the anterior margin of the abdominal sternum 9 and corresponds to the site of origin of the median and mediolateral ninth metasomal sterno-cupulal muscles." [http://api.hymao.org/api/ref/67791]
+def: "The apophysis that is located medially on the anterior margin of the abdominal sternum 9 and corresponds to the site of origin of the mediolateral S9-cupulal muscles." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000143 ! apophysis
 relationship: BFO:0000050 HAO:0000047 ! part_of abdominal sternum 9
 
@@ -7394,7 +7451,7 @@ relationship: BFO:0000050 HAO:0001014 ! part_of thoracic sternum
 [Term]
 id: HAO:0000949
 name: spine
-def: "The process that is multicellular, immovable, consists of non-specialized epidermal cells and the cuticle that is sectreted and/or adjacent with them and lacks non-sclerotised ring at the base." [http://api.hymao.org/api/ref/67791]
+def: "The process that lacks non-sclerotised ring at the base." [http://api.hymao.org/api/ref/67791]
 synonym: "aculea" RELATED [http://api.hymao.org/api/ref/43406, http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/67829]
 is_a: HAO:0000822 ! process
 relationship: BFO:0000050 HAO:0000909 ! part_of sclerite
@@ -7452,7 +7509,7 @@ relationship: BFO:0000050 HAO:0000421 ! part_of integument
 [Term]
 id: HAO:0000957
 name: stigma
-def: "The patch on the wing that is sclerotized and is located on the anterior margin of the fore wing." [http://api.hymao.org/api/ref/67791]
+def: "The patch on the wing that is sclerotized and is on the anterior margin of the fore wing." [http://api.hymao.org/api/ref/67791]
 synonym: "pterostigma" RELATED [http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000704 ! patch
 relationship: BFO:0000050 HAO:0001191 ! part_of wing blade
@@ -7460,7 +7517,7 @@ relationship: BFO:0000050 HAO:0001191 ! part_of wing blade
 [Term]
 id: HAO:0000958
 name: stipes
-def: "The sclerite that is located in the maxilla and articulates proximally with the cardo, distally with the galea and lacinia, and laterally with the maxillary palp." [http://api.hymao.org/api/ref/78244]
+def: "The appendage that is connected posteroproximally to the hypostoma, anteroproximally and lateroproximally to the mandible and medioproximally to the labium and the hypopharynx via conjunctiva, is connected to the cranium via muscles and that bears the maxillary palp." [http://api.hymao.org/api/ref/96306]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
 
@@ -7656,7 +7713,7 @@ relationship: BFO:0000050 HAO:0000985 ! part_of synsternum
 [Term]
 id: HAO:0000985
 name: synsternum
-def: "The sclerite that is composed of fused abdominal sterna." [http://api.hymao.org/api/ref/67791]
+def: "The sternite that is at least two times as long as an adjacent sternite." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000626 ! part_of metasoma
 
@@ -7786,7 +7843,8 @@ is_a: HAO:0001551 ! labial muscle
 [Term]
 id: HAO:0001002
 name: tentorio-stipital muscle
-def: "The maxillar muscle that arises on the posteroventral part of the anterior tentorial arm and inserts on the stipes." [http://api.hymao.org/api/ref/78244]
+def: "The maxillar muscle that arises on the posteroventral part of the anterior tentorial arm and inserts on the median wall of the stipes." [http://api.hymao.org/api/ref/96306]
+synonym: "flexor of the stipes" RELATED [http://api.hymao.org/api/ref/36926]
 synonym: "M. tentoriostipitalis" RELATED [DOI:10.1016/j.ode.2006.06.003]
 is_a: HAO:0001114 ! maxillar muscle
 
@@ -7801,6 +7859,7 @@ relationship: BFO:0000050 HAO:0000234 ! part_of cranium
 id: HAO:0001004
 name: terebra
 def: "The anatomical cluster that is composed of the first and second valvulae." [http://api.hymao.org/api/ref/67791]
+synonym: "shaft" RELATED [http://api.hymao.org/api/ref/68018]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
 
@@ -7864,7 +7923,7 @@ relationship: BFO:0000050 HAO:0000015 ! part_of abdomen
 [Term]
 id: HAO:0001012
 name: third valvula
-def: "The area that is located posterior to the second valvifer and is connected to the second valvifer via conjuntiva." [http://api.hymao.org/api/ref/78248]
+def: "The area of the second valvifer-third valvula complex that is posterior to the distal vertical conjunctiva of the second valvifer-third valvula complex." [http://api.hymao.org/api/ref/96758]
 synonym: "beborstete distale enden der scheidenplatten" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "besser: legescheiden" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "fourreau" RELATED [http://api.hymao.org/api/ref/67823]
@@ -7888,6 +7947,7 @@ synonym: "valves de la gaine du gorgeret" RELATED [http://api.hymao.org/api/ref/
 synonym: "valves du fourreau" RELATED [http://api.hymao.org/api/ref/67823, http://api.hymao.org/api/ref/68583]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000680 ! part_of ovipositor sheath
+relationship: BFO:0000050 HAO:0002181 ! part_of second valvifer-third valvula complex
 
 [Term]
 id: HAO:0001013
@@ -8086,8 +8146,10 @@ relationship: BFO:0000050 HAO:0000343 ! part_of flagellum
 [Term]
 id: HAO:0001039
 name: type II sensillum trichodea
-def: "The sensillum that is aporous and that is tapered distally and that has a straight shaft." [http://api.hymao.org/api/ref/67862]
-is_a: HAO:0000933 ! sensillum
+def: "The aporous sensillum that has a hairlike cuticular component." [http://api.hymao.org/api/ref/67791]
+synonym: "mechanosensory hair" RELATED [http://api.hymao.org/api/ref/78589, http://api.hymao.org/api/ref/96306]
+is_a: HAO:0001964 ! aporous sensillum
+relationship: BFO:0000050 HAO:0000421 ! part_of integument
 
 [Term]
 id: HAO:0001040
@@ -8177,6 +8239,7 @@ relationship: BFO:0000050 HAO:0000707 ! part_of penisvalva
 id: HAO:0001051
 name: vannal region
 def: "The area that is delimited by the vannal veins, or veins that articulates with the third axillary sclerite." [http://api.hymao.org/api/ref/67791]
+synonym: "clavus" RELATED [http://api.hymao.org/api/ref/78629]
 synonym: "vannal lobe" RELATED [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619]
 synonym: "vannus" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000146 ! area
@@ -8185,7 +8248,7 @@ relationship: BFO:0000050 HAO:0001191 ! part_of wing blade
 [Term]
 id: HAO:0001052
 name: vas deferens
-def: "The duct that connect the testis with the vas ejaculatory duct and is mesodermal in origin." [http://api.hymao.org/api/ref/67791]
+def: "The duct that connect the testis with the vas ejaculatory duct." [http://api.hymao.org/api/ref/67791]
 synonym: "deferent duct" RELATED [http://api.hymao.org/api/ref/67828, http://api.hymao.org/api/ref/68619]
 is_a: HAO:0000282 ! duct
 relationship: BFO:0000050 HAO:0000427 ! part_of internal male genitalia
@@ -8274,12 +8337,20 @@ relationship: HAO:attached_to HAO:0001739 ! pharyngeal wall
 
 [Term]
 id: HAO:0001064
-name: ventral premental adductor
-def: "The tentorio-labial muscle that arises from the tentorial arm and inserts on the proximolateral corner of the ventral part of the prementum." [http://api.hymao.org/api/ref/78244]
-synonym: "anterior tentorio-premental muscle" RELATED [http://api.hymao.org/api/ref/78243]
+name: anterior tentorio-premental muscle
+def: "The muscle that arises anteriorly from the cranium and inserts on the posterior margin of the prementum." [http://api.hymao.org/api/ref/96306]
+synonym: "adductor of the labium" RELATED [http://api.hymao.org/api/ref/68103]
+synonym: "muscle 18" RELATED [http://api.hymao.org/api/ref/67670]
+synonym: "muscle 20" RELATED [http://api.hymao.org/api/ref/36917]
+synonym: "musculus tentorio-prementualis" RELATED [http://api.hymao.org/api/ref/68089]
+synonym: "posterior adductor" RELATED [http://api.hymao.org/api/ref/67778]
+synonym: "posterior adductor of the labium" RELATED [http://api.hymao.org/api/ref/67670]
+synonym: "posterior labial adductor" RELATED [http://api.hymao.org/api/ref/36926]
+synonym: "protractor of the labium" RELATED [http://api.hymao.org/api/ref/67670]
+synonym: "ventral premental adductor" RELATED [http://api.hymao.org/api/ref/36917, http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001001 ! tentorio-labial muscle
+relationship: HAO:attached_to HAO:0000234 ! cranium
 relationship: HAO:attached_to HAO:0000804 ! prementum
-relationship: HAO:attached_to HAO:0000997 ! tentorial arm
 
 [Term]
 id: HAO:0001065
@@ -8350,19 +8421,21 @@ relationship: BFO:0000050 HAO:0000862 ! part_of propleuron
 
 [Term]
 id: HAO:0001074
-name: ventrolateral cupulo-gonostipal muscle
-def: "The male genitalia muscle that arises from the lateral part of the cupula and inserts medially on the gonostipital arm." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+name: ventrolateral cupolo-gonostyle/volsella complex
+def: "The cupulo-gonostyle/volsella complex muscle that inserts ventrolaterally on the gonostyle/volsella complex between the site of insertion of the ventromedial and dorsolateral cupulo-gonostyle/volsella complex muscles." [http://api.hymao.org/api/ref/96550]
+synonym: "ventrolateral cupulo-gonostipal muscle" RELATED [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002038 ! cupulo-gonostyle/volsella complex muscle
 relationship: HAO:attached_to HAO:0000238 ! cupula
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 
 [Term]
 id: HAO:0001075
-name: ventromedial cupulo-gonostipal muscle
-def: "The male genitalia muscle that arises ventromedially from the cupula and inserts submedially on the gonostipal arm just laterally of the site of insertion of the ventrolateral cupulo-gonostipal muscle." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
+name: ventromedial cupulo-gonostyle/volsella complex muscle
+def: "The cupulo-gonostyle/volsella complex muscle that inserts medially on the ventral region of the gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
+synonym: "muscle e" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "ventromedial cupulo-gonostipal muscle" RELATED [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002038 ! cupulo-gonostyle/volsella complex muscle
 relationship: BFO:0000050 HAO:0000505 ! part_of male genitalia
-relationship: HAO:attached_to HAO:0000238 ! cupula
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 
 [Term]
@@ -8427,7 +8500,7 @@ relationship: BFO:0000050 HAO:0000621 ! part_of metapleuron
 [Term]
 id: HAO:0001084
 name: volsella
-def: "The anatomical cluster that is composed of the parossiculus and gonossiculus." [http://api.hymao.org/api/ref/67791]
+def: "The anatomical cluster that is composed of the sclerites on the ventral part of the male genitalia that are not connected to the cupula via muscles." [http://api.hymao.org/api/ref/96550]
 synonym: "innere Haltezange" RELATED [http://api.hymao.org/api/ref/67800]
 synonym: "ossicle" RELATED [http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/68619]
 synonym: "section 3" RELATED [http://api.hymao.org/api/ref/67780, http://api.hymao.org/api/ref/68619]
@@ -8441,7 +8514,7 @@ relationship: BFO:0000050 HAO:0000713 ! part_of phallobase
 id: HAO:0001085
 name: volsellar plate
 def: "The area that is located on the parossiculus ventromedially of the cuspis." [http://api.hymao.org/api/ref/67791]
-synonym: "basivolsella" RELATED [http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "basivolsella" RELATED [http://api.hymao.org/api/ref/67787, http://api.hymao.org/api/ref/67789, http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/96781, http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "lamina volsellaris" RELATED [http://api.hymao.org/api/ref/67670]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000703 ! part_of parossiculus
@@ -8622,7 +8695,7 @@ relationship: BFO:0000050 HAO:0001125 ! part_of protarsus
 [Term]
 id: HAO:0001107
 name: ventral ramus of the second valvula
-def: "The area that is proximally fused with the anterior margin of the second valvifer and bears the rhachis." [http://api.hymao.org/api/ref/78248]
+def: "The area of the second valvifer-second vavula-third valvifer complex that bears the rhachis." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000928 ! part_of second valvula
 
@@ -8703,6 +8776,7 @@ is_a: HAO:0001922 ! skeletal muscle
 id: HAO:0001120
 name: mesotibial spur
 def: "The tibial spur that is located on the mesotibia." [http://api.hymao.org/api/ref/67791]
+synonym: "mid tibial spur" RELATED [http://api.hymao.org/api/ref/96759]
 is_a: HAO:0001018 ! tibial spur
 
 [Term]
@@ -8710,6 +8784,7 @@ id: HAO:0001121
 name: metatibial spur
 def: "The tibial spur that is located on the metatibia." [http://api.hymao.org/api/ref/68082]
 synonym: "distal metatibial spur" RELATED [http://api.hymao.org/api/ref/96437]
+synonym: "hind tibial spur" RELATED [http://api.hymao.org/api/ref/96759]
 is_a: HAO:0001018 ! tibial spur
 
 [Term]
@@ -8923,9 +8998,10 @@ relationship: BFO:0000050 HAO:0000056 ! part_of abdominal tergum 3
 [Term]
 id: HAO:0001148
 name: first flagellomere
-def: "The flagellomere that is proximally attached to the pedicel." [http://api.hymao.org/api/ref/68619]
+def: "The flagellomere that is proximally attached to the pedicel." [http://api.hymao.org/api/ref/67791]
 synonym: "1st flagellomere" RELATED [http://api.hymao.org/api/ref/68082]
 synonym: "A3" RELATED [http://api.hymao.org/api/ref/96540]
+synonym: "F1" RELATED [http://api.hymao.org/api/ref/96670]
 is_a: HAO:0000342 ! flagellomere
 relationship: BFO:0000050 HAO:0000343 ! part_of flagellum
 
@@ -9058,7 +9134,7 @@ relationship: HAO:attached_to HAO:0001454 ! anterior tentorial arm
 [Term]
 id: HAO:0001165
 name: anterior stipito-palpal muscle
-def: "The maxillar muscle that arises medially on the proximal part of the stipes and inserts anteroproximally on the first maxillary palpal segment." [http://api.hymao.org/api/ref/78244]
+def: "The stipito-palpal muscle that arises medially on the proximal part of the stipes and inserts anteroproximally on the first maxillary sclerite." [http://api.hymao.org/api/ref/78244]
 synonym: "M. stipitopalpalis internus" RELATED [DOI:10.1016/j.ode.2006.06.003]
 is_a: HAO:0001114 ! maxillar muscle
 
@@ -9099,18 +9175,21 @@ relationship: HAO:attached_to HAO:0000603 ! metanotum
 [Term]
 id: HAO:0001170
 name: anterior glossal plate
-def: "The anatomical cluster that is composed of the anterior glossal sclerites." [http://api.hymao.org/api/ref/78244]
-is_a: HAO:0000041 ! anatomical cluster
+def: "The area that is delimited by the proximal, distal and lateral margins of the sclerites on the anteroproximal part of the glossa." [http://api.hymao.org/api/ref/67791]
+synonym: "basal plate of tongue" RELATED [http://api.hymao.org/api/ref/36927]
+synonym: "basiglossal sclerite" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "glossal basis" RELATED [http://api.hymao.org/api/ref/96721]
+is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000376 ! part_of glossa
 
 [Term]
 id: HAO:0001171
 name: anterior flange of abdominal tergum nine
-def: "The flange that extends along the anterolateral margin of the abdominal tergum 9." [http://api.hymao.org/api/ref/78248]
+def: "The flange that extends along the anterolateral margin of female T9." [http://api.hymao.org/api/ref/78248]
 synonym: "anterior flange" RELATED [http://api.hymao.org/api/ref/67869, http://api.hymao.org/api/ref/68116]
 synonym: "anterior flange of abdominal tergum 9" RELATED [http://api.hymao.org/api/ref/68116]
 is_a: HAO:0000344 ! flange
-relationship: BFO:0000050 HAO:0000075 ! part_of abdominal tergum 9
+relationship: BFO:0000050 HAO:0000075 ! part_of T9
 
 [Term]
 id: HAO:0001172
@@ -9121,7 +9200,7 @@ is_a: HAO:0001922 ! skeletal muscle
 [Term]
 id: HAO:0001173
 name: annulus
-def: "The carina that is transverse and extends across the lateral wall of the first valvula or the second valvula." [http://api.hymao.org/api/ref/78248]
+def: "The carina that is transverse and extends across the lateral wall of the terebra." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000339 ! part_of first valvula
 relationship: BFO:0000050 HAO:0000928 ! part_of second valvula
@@ -9148,7 +9227,7 @@ is_a: HAO:0000041 ! anatomical cluster
 [Term]
 id: HAO:0001177
 name: basal articulation
-def: "The articulation that is located between the proximal region of the second valvula and the second valvifer." [http://api.hymao.org/api/ref/78248]
+def: "The articulation that is part of the second valvifer-second valvula-third valvula complex and adjacent to the rhachis." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000151 ! articulation
 relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
 
@@ -9469,6 +9548,7 @@ id: HAO:0001219
 name: subapical tooth
 def: "The projection that is located on the distal half of the tarsal claw and proximal to the apex." [http://api.hymao.org/api/ref/78427]
 synonym: "accessory tooth" RELATED [http://api.hymao.org/api/ref/78440]
+synonym: "lobe at the base of the tarsal claws" RELATED [http://api.hymao.org/api/ref/96670]
 is_a: HAO:0000829 ! projection
 relationship: BFO:0000050 HAO:0000989 ! part_of tarsal claw
 
@@ -9931,7 +10011,7 @@ relationship: HAO:attached_to HAO:0001351 ! mesotibia
 [Term]
 id: HAO:0001283
 name: ninth abdominal tergal muscle
-def: "The tergal muscle that inserts on the abdominal tergum 9." [http://api.hymao.org/api/ref/67791]
+def: "The tergal muscle that inserts on female T9." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001215 ! tergal muscle
 
 [Term]
@@ -11349,7 +11429,7 @@ id: HAO:0001462
 name: abdominal laterotergite 9
 def: "The laterotergite that is located on abdominal tergum 9." [http://api.hymao.org/api/ref/68082]
 is_a: HAO:0000493 ! laterotergite
-relationship: BFO:0000050 HAO:0000075 ! part_of abdominal tergum 9
+relationship: BFO:0000050 HAO:0000075 ! part_of T9
 
 [Term]
 id: HAO:0001463
@@ -11405,7 +11485,7 @@ id: HAO:0001470
 name: abdominal mediotergite 9
 def: "The mediotergite that is located on abdominal tergum 9." [http://api.hymao.org/api/ref/68082]
 is_a: HAO:0001783 ! mediotergite
-relationship: BFO:0000050 HAO:0000075 ! part_of abdominal tergum 9
+relationship: BFO:0000050 HAO:0000075 ! part_of T9
 
 [Term]
 id: HAO:0001471
@@ -11815,7 +11895,7 @@ is_a: HAO:0000146 ! area
 [Term]
 id: HAO:0001523
 name: frons
-def: "The area that is situated between the epistomal line and the anterior ocellus and limited laterally by the inner margin of compound eye." [http://api.hymao.org/api/ref/67791]
+def: "The area that is between the epistomal line and the anterior ocellus and limited laterally by the inner margin of compound eye." [http://api.hymao.org/api/ref/67791]
 synonym: "face" RELATED [http://api.hymao.org/api/ref/78442]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000234 ! part_of cranium
@@ -12069,8 +12149,7 @@ relationship: HAO:attached_to HAO:0000395 ! harpe
 [Term]
 id: HAO:0001557
 name: intrinsic maxillary palp muscle
-def: "The maxillar muscle that arises from a maxillary palpal segment and inserts on the palpal segment distal to it." [http://api.hymao.org/api/ref/78244]
-synonym: "M. palpopalpalis maxillae primus" RELATED [DOI:10.1016/j.ode.2006.06.003]
+def: "The maxillar muscle that connects two maxillary sclerites." [http://api.hymao.org/api/ref/78244]
 synonym: "M. palpopalpalis maxillae quartus" RELATED [DOI:10.1016/j.ode.2006.06.003]
 synonym: "M. palpopalpalis maxillae secundus" RELATED [DOI:10.1016/j.ode.2006.06.003]
 synonym: "M. palpopalpalis maxillae tertius" RELATED [DOI:10.1016/j.ode.2006.06.003]
@@ -12153,9 +12232,9 @@ relationship: BFO:0000050 HAO:0000307 ! part_of epomial carina
 [Term]
 id: HAO:0001569
 name: dorsal T9-second valvifer muscle
-def: "The ovipositor muscle that arises along the posterodorsal part of the anterior margin and from the anterior flange of abdominal tergum 9 and inserts on the anterior part of the dorsal flanges of the second valvifer." [http://api.hymao.org/api/ref/78248]
+def: "The ovipositor muscle that arises along the posterodorsal part of the anterior margin of female T9 and inserts on the anterior section of the dorsal flanges of the second valvifer." [http://api.hymao.org/api/ref/96758]
 is_a: HAO:0001290 ! ovipositor muscle
-relationship: HAO:attached_to HAO:0000075 ! abdominal tergum 9
+relationship: HAO:attached_to HAO:0000075 ! T9
 relationship: HAO:attached_to HAO:0000927 ! second valvifer
 
 [Term]
@@ -12167,10 +12246,8 @@ is_a: HAO:0001587 ! lobe
 [Term]
 id: HAO:0001571
 name: dorsal T8-T9 muscle
-def: "The abdominal muscle that arises from the anteromedian margin of the abdominal tergum 8 and inserts on the anteromedian margin of the abdominal tergum 9." [http://api.hymao.org/api/ref/78243]
+def: "The abdominal muscle that arises from the anteromedian margin of female T8 and inserts on the anteromedian margin of the female T9." [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001118 ! abdominal muscle
-relationship: HAO:attached_to HAO:0000061 ! abdominal tergum 8
-relationship: HAO:attached_to HAO:0000075 ! abdominal tergum 9
 
 [Term]
 id: HAO:0001572
@@ -12190,13 +12267,15 @@ relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
 id: HAO:0001574
 name: digital spine
 def: "The projection that is located apically on the gonossiculus." [http://api.hymao.org/api/ref/96550]
-is_a: HAO:0000951 ! spur
+synonym: "digital tooth" RELATED [http://api.hymao.org/api/ref/96759]
+is_a: HAO:0000829 ! projection
 relationship: BFO:0000050 HAO:0000385 ! part_of gonossiculus
 
 [Term]
 id: HAO:0001575
 name: distal hypopharynx
 def: "The area that is located on the anterior surface of the hypopharyngeal wall and is delimited proximally by the infrabuccal pouch or the distal margin of the sitophore, distally by the salivarial orifice and laterally by the lateral parts of the prementum and the hypopharyngeal rods." [http://api.hymao.org/api/ref/78244]
+synonym: "labial portion of the hypopharynx" RELATED [http://api.hymao.org/api/ref/78461]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000409 ! part_of hypopharynx
 
@@ -12226,7 +12305,7 @@ relationship: HAO:attached_to HAO:0001122 ! procoxa
 [Term]
 id: HAO:0001579
 name: dorsal ramus of the first valvula
-def: "The area that extends along the dorsal margin of the first valvula and proximally is fused to the first valvifer and forms the aulax." [http://api.hymao.org/api/ref/78248]
+def: "The region that extends along the dorsal margin of the first valvula and bears the aulax." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
 
@@ -12276,9 +12355,9 @@ relationship: BFO:0000050 HAO:0000012 ! part_of multi-cellular organism
 [Term]
 id: HAO:0001585
 name: cordate apodeme
-def: "The apodeme on the anterior margin of the abdominal tergum 9. The ventral T9-second valvifer muscle attaches partly on the apodeme." [http://api.hymao.org/api/ref/78248]
+def: "The apodeme on the anterior margin of female T9. The ventral T9-second valvifer muscle attaches partly on the apodeme." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0000142 ! apodeme
-relationship: BFO:0000050 HAO:0000075 ! part_of abdominal tergum 9
+relationship: BFO:0000050 HAO:0000075 ! part_of T9
 
 [Term]
 id: HAO:0001586
@@ -12290,7 +12369,7 @@ relationship: BFO:0000050 HAO:0000421 ! part_of integument
 [Term]
 id: HAO:0001587
 name: lobe
-def: "The area that is located on the conjunctiva and is evaginated." [http://api.hymao.org/api/ref/78244]
+def: "The evagination that is mostly membraneous." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 
 [Term]
@@ -12310,7 +12389,7 @@ relationship: BFO:0000050 HAO:0000626 ! part_of metasoma
 [Term]
 id: HAO:0001590
 name: malar carina
-def: "The malar line that is a carina." [http://api.hymao.org/api/ref/67791]
+def: "The malar distance that is a carina." [http://api.hymao.org/api/ref/67791]
 synonym: "malar keel" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "malar ridge" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000188 ! carina
@@ -12331,13 +12410,18 @@ relationship: BFO:0000050 HAO:0000729 ! part_of pleuron
 id: HAO:0001592
 name: occipito-cardinal muscle
 def: "The maxillar muscle that arises medially from the occiput dorsally of the occipital foramen and inserts on the proximolateral part of the cardo." [http://api.hymao.org/api/ref/78244]
+synonym: "cardinal protractor of the proboscis" RELATED [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/78461]
+synonym: "first protractor of the maxilla" RELATED [http://api.hymao.org/api/ref/43519]
 synonym: "M. craniocardinalis externus" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "muscle 15" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "productor of the cardo" RELATED [http://api.hymao.org/api/ref/36926]
 is_a: HAO:0001114 ! maxillar muscle
 
 [Term]
 id: HAO:0001593
 name: occipito-lacinial muscle
-def: "The maxillar muscle that arises from the occiput and inserts on the proximal part of the lacinia." [http://api.hymao.org/api/ref/78244]
+def: "The maxillar muscle that arises from the occiput and inserts on the proximal part of the lacinial lobe." [http://api.hymao.org/api/ref/78244]
+synonym: "cranio-lacinial muscle" RELATED [http://api.hymao.org/api/ref/96306]
 synonym: "M. craniolacinialis" RELATED [DOI:10.1016/j.ode.2006.06.003]
 is_a: HAO:0001114 ! maxillar muscle
 
@@ -12436,9 +12520,9 @@ relationship: BFO:0000050 HAO:0001248 ! part_of propodeum
 [Term]
 id: HAO:0001606
 name: pars articulares
-def: "The area that is situated on the anteriorly on the ventral margin of the second valvifer and forms the lateral part of the basal articulation." [http://api.hymao.org/api/ref/78243]
+def: "The articular surface that is situated on the anteriorly on the ventral margin of the second valvifer and forms the lateral part of the basal articulation." [http://api.hymao.org/api/ref/78243]
 synonym: "pars articularis" RELATED [http://api.hymao.org/api/ref/67869, http://api.hymao.org/api/ref/78243]
-is_a: HAO:0000146 ! area
+is_a: HAO:0001485 ! articular surface
 relationship: BFO:0000050 HAO:0000927 ! part_of second valvifer
 
 [Term]
@@ -12510,9 +12594,9 @@ relationship: HAO:attached_to HAO:0001122 ! procoxa
 [Term]
 id: HAO:0001616
 name: ventral T9-second valvifer muscle
-def: "The ovipositor muscle that arises from the cordate apodeme and from the lateral part of T9 and inserts along the posterior part of the dorsal flange of the second valvifer." [http://api.hymao.org/api/ref/78248]
+def: "The ovipositor muscle that arises from the lateral region of female T9 and inserts along the posterior part of the dorsal flange of the second valvifer." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0001290 ! ovipositor muscle
-relationship: HAO:attached_to HAO:0000075 ! abdominal tergum 9
+relationship: HAO:attached_to HAO:0000075 ! T9
 relationship: HAO:attached_to HAO:0000927 ! second valvifer
 
 [Term]
@@ -12661,7 +12745,7 @@ relationship: BFO:0000050 HAO:0000626 ! part_of metasoma
 [Term]
 id: HAO:0001636
 name: tergo-valvifer articulation
-def: "The articulation that is located between the abdominal tergum 9 and the first valvifer." [http://api.hymao.org/api/ref/78248]
+def: "The articulation that is located between the female T9 and the first valvifer and is composed of the ninth tergal condyle of the first valvifer and the first valviferal fossa of the ninth tergite." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0000151 ! articulation
 relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
 
@@ -12677,8 +12761,10 @@ relationship: HAO:attached_to HAO:0000506 ! mandible
 [Term]
 id: HAO:0001638
 name: tentorio-cardinal muscle
-def: "The maxillar muscle that arises medially on the posteroventral part of the anterior tentorial arm and inserts anterolaterally on the cardo." [http://api.hymao.org/api/ref/78244]
+def: "The maxillary muscle that arises from the anterior region of the cranium and inserts adjacent to the cardino-stipital hinge." [http://api.hymao.org/api/ref/96306]
+synonym: "extensor of the maxilla" RELATED [http://api.hymao.org/api/ref/36926]
 synonym: "M. tentoriocardinalis" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "muscle 11" RELATED [http://api.hymao.org/api/ref/36927]
 is_a: HAO:0001114 ! maxillar muscle
 relationship: HAO:attached_to HAO:0000187 ! cardo
 relationship: HAO:attached_to HAO:0001003 ! tentorium
@@ -12688,16 +12774,16 @@ id: HAO:0001639
 name: T9-genital membrane muscle
 def: "The ovipositor muscle that arises from the cordate apodeme and inserts dorsally on the proximal part of the genital membrane and on the opposite cordate apodeme." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0001290 ! ovipositor muscle
-relationship: HAO:attached_to HAO:0000075 ! abdominal tergum 9
+relationship: HAO:attached_to HAO:0000075 ! T9
 relationship: HAO:attached_to HAO:0001757 ! genital membrane
 
 [Term]
 id: HAO:0001640
 name: T8-first valvifer muscle
-def: "The ovipositor muscle that originates from the lateral part of the abdominal tergum 8 and inserts on the dorsal margin of the first valvifer." [http://api.hymao.org/api/ref/78243]
+def: "The ovipositor muscle that originates from the lateral part of female T8 and inserts on the dorsal margin of the first valvifer." [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001290 ! ovipositor muscle
-relationship: HAO:attached_to HAO:0000061 ! abdominal tergum 8
 relationship: HAO:attached_to HAO:0000338 ! first valvifer
+relationship: HAO:attached_to HAO:0002188 ! female T8
 
 [Term]
 id: HAO:0001641
@@ -12835,7 +12921,7 @@ relationship: BFO:0000050 HAO:0001012 ! part_of third valvula
 [Term]
 id: HAO:0001658
 name: dorsal valve
-def: "The anatomical cluster that is composed of the second valvulae." [http://api.hymao.org/api/ref/68116]
+def: "The area that is articulated with the right and left second valvifers at the basal articulation and bears the rhachises." [http://api.hymao.org/api/ref/68116]
 synonym: "stylet sheath" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "upper valve" RELATED [http://api.hymao.org/api/ref/67966]
 is_a: HAO:0000041 ! anatomical cluster
@@ -12851,14 +12937,19 @@ relationship: BFO:0000050 HAO:0000626 ! part_of metasoma
 [Term]
 id: HAO:0001660
 name: stipito-lacinial muscle
-def: "The maxillar muscle that arises laterally from the stipes and inserts proximally on the lacinia." [http://api.hymao.org/api/ref/78244]
+def: "The maxillar muscle that arises along the lateral margin of the posterior stipital sclerite and inserts proximally on the median wall of the stipes just proximal to the lacinal lobe." [http://api.hymao.org/api/ref/96306]
+synonym: "flexor of the lacinia" RELATED [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/78461]
 synonym: "M. stipitolacinialis" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "musculus stipiti-laciniaris" RELATED [http://api.hymao.org/api/ref/68089]
+synonym: "tensor of the lacinial lobe" RELATED [http://api.hymao.org/api/ref/36927]
 is_a: HAO:0001114 ! maxillar muscle
 
 [Term]
 id: HAO:0001661
 name: stipito-galeal muscle
-def: "The maxillar muscle that arises proximally on the stipes and inserts proximally on the galea." [http://api.hymao.org/api/ref/78244]
+def: "The maxillar muscle that arises from the posterior sclerite of the stipes medial to the site of origin of the stipito-lacinial muscle and inserts on the median wall of the galeo-lacinial complex distal to the stipito-lacinial muscle." [http://api.hymao.org/api/ref/96306]
+synonym: "flexor muscle of the galea" RELATED [http://api.hymao.org/api/ref/36926]
+synonym: "flexor of the galea" RELATED [http://api.hymao.org/api/ref/67778, http://api.hymao.org/api/ref/68103]
 synonym: "M. stipitogalealis" RELATED [DOI:10.1016/j.ode.2006.06.003]
 is_a: HAO:0001114 ! maxillar muscle
 
@@ -12902,14 +12993,14 @@ relationship: BFO:0000050 HAO:0000604 ! part_of metapectal-propodeal complex
 [Term]
 id: HAO:0001667
 name: speculum
-def: "The area that is smooth and located laterally of the frontal carina." [http://api.hymao.org/api/ref/67791]
+def: "The area that is smooth, located laterally of the frontal carina and is surrounded by sculptured regions of the upper face." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001044 ! part_of upper face
 
 [Term]
 id: HAO:0001668
 name: S7-first valvula muscle
-def: "The muscle that originates from the abdominal sternum 7 and inserts on ventral ramus of the first valvula." [http://api.hymao.org/api/ref/78243]
+def: "The muscle that originates from the abdominal sternum 7 and inserts on the first valvula." [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0001290 ! ovipositor muscle
 relationship: HAO:attached_to HAO:0000044 ! abdominal sternum 7
 relationship: HAO:attached_to HAO:0000339 ! first valvula
@@ -12932,7 +13023,7 @@ relationship: BFO:0000050 HAO:0001681 ! part_of sawtooth
 [Term]
 id: HAO:0001671
 name: sensillar patch of the second valvifer
-def: "The sensillar patch that is located anteriorly on the lateral wall of the second valvifer." [http://api.hymao.org/api/ref/78248]
+def: "The patch that is composed of placoid sensilla adjacent to the intervalvifer articulation." [http://api.hymao.org/api/ref/96758]
 synonym: "sensillar patch" RELATED [http://api.hymao.org/api/ref/67869, http://api.hymao.org/api/ref/78248]
 is_a: HAO:0000931 ! sensillar patch
 relationship: BFO:0000050 HAO:0000927 ! part_of second valvifer
@@ -13107,8 +13198,9 @@ relationship: BFO:0000050 HAO:0000874 ! part_of prothorax
 [Term]
 id: HAO:0001695
 name: propodeal spine
-def: "The spine that is paired and located medially of the propodeal spiracle." [http://api.hymao.org/api/ref/67791]
-relationship: BFO:0000050 HAO:0001994 ! part_of propodeum
+def: "The spine on the metapectal-propodeal complex that is paired and is medial to the propodeal spiracle." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000949 ! spine
+relationship: BFO:0000050 HAO:0000604 ! part_of metapectal-propodeal complex
 
 [Term]
 id: HAO:0001696
@@ -13163,8 +13255,8 @@ is_obsolete: true
 [Term]
 id: HAO:0001703
 name: processus musculares
-def: "The process that extends dorsally from the proximal part of the second valvula to the genital membrane. The posterior second valvifer-second valvula muscle attaches on the process." [http://api.hymao.org/api/ref/78243]
-is_a: HAO:0000822 ! process
+def: "The apodeme that extends dorsally from the proximal part of the second valvula to the genital membrane and receives  the site of attachment of the posterior second valvifer-second valvula muscle." [http://api.hymao.org/api/ref/78243]
+is_a: HAO:0000142 ! apodeme
 relationship: BFO:0000050 HAO:0000928 ! part_of second valvula
 
 [Term]
@@ -13173,6 +13265,7 @@ name: processus articularis
 def: "The process that extends laterally from the proximal part of the second valvula and forms the median part of the basal articulation, and corresponds to the site of attachment for the anterior second valvifer-second valvula muscle." [http://api.hymao.org/api/ref/78243]
 is_a: HAO:0000822 ! process
 relationship: BFO:0000050 HAO:0000928 ! part_of second valvula
+relationship: BFO:0000050 HAO:0002190 ! part_of dorsal ramus of the second valvula
 
 [Term]
 id: HAO:0001705
@@ -13726,10 +13819,10 @@ relationship: HAO:attached_to HAO:0000908 ! scape
 [Term]
 id: HAO:0001776
 name: lateral T8-T9 muscle
-def: "The ninth abdominal tergal muscle that arises from the anterolateral margin of the abdominal tergum 8 and inserts on the anterolateral margin of the abdominal tergum 9." [http://api.hymao.org/api/ref/78248]
+def: "The ninth abdominal tergal muscle that arises from the anterolateral margin of female T8 and inserts on the anterolateral margin of female T9." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0001283 ! ninth abdominal tergal muscle
-relationship: HAO:attached_to HAO:0000061 ! abdominal tergum 8
-relationship: HAO:attached_to HAO:0000075 ! abdominal tergum 9
+relationship: HAO:attached_to HAO:0000075 ! T9
+relationship: HAO:attached_to HAO:0002188 ! female T8
 
 [Term]
 id: HAO:0001777
@@ -13758,8 +13851,9 @@ is_a: HAO:0001099 ! head muscle
 id: HAO:0001780
 name: median bridge of the second valvifers
 def: "The area that connects posterodorsally the second valvifers and is the site of attachment for the posterior T9-second valvifer muscle." [http://api.hymao.org/api/ref/78248]
+synonym: "bridge of second valvifer" RELATED [http://api.hymao.org/api/ref/96584]
 is_a: HAO:0000146 ! area
-relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
+relationship: BFO:0000050 HAO:0002181 ! part_of second valvifer-third valvula complex
 
 [Term]
 id: HAO:0001781
@@ -14012,15 +14106,15 @@ relationship: HAO:attached_to HAO:0001454 ! anterior tentorial arm
 [Term]
 id: HAO:0001813
 name: posterior T9-second valvifer muscle
-def: "The ovipositor muscle that arises medially from the posterodorsal part of abdominal tergum 9 and inserts on the median bridge of the second valvifers." [http://api.hymao.org/api/ref/78248]
+def: "The ovipositor muscle that arises medially from the posterodorsal part of female T9 and inserts on the median bridge of the second valvifers." [http://api.hymao.org/api/ref/78248]
 is_a: HAO:0001290 ! ovipositor muscle
-relationship: HAO:attached_to HAO:0000075 ! abdominal tergum 9
+relationship: HAO:attached_to HAO:0000075 ! T9
 relationship: HAO:attached_to HAO:0000927 ! second valvifer
 
 [Term]
 id: HAO:0001814
 name: posterior stipito-palpal muscle
-def: "The maxillar muscle that arises medially on the proximal part of the stipes and inserts posteroproximally on the first maxillary palpal segment." [http://api.hymao.org/api/ref/78244]
+def: "The stipito-palpal muscle that arises medially on the proximal part of the stipes and inserts posteroproximally on the first maxillary palpal segment." [http://api.hymao.org/api/ref/78244]
 synonym: "M. stipitopalpalis externus" RELATED [DOI:10.1016/j.ode.2006.06.003]
 is_a: HAO:0001114 ! maxillar muscle
 
@@ -14395,9 +14489,10 @@ is_a: HAO:0000991 ! tarsomere
 [Term]
 id: HAO:0001866
 name: palpomere
-def: "The segment that is part of the palp." [http://api.hymao.org/api/ref/68082]
+def: "The sclerite that is part of the palp." [http://api.hymao.org/api/ref/68082]
+synonym: "palpal sclerite" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "palpal segment" RELATED [http://api.hymao.org/api/ref/68082]
-is_a: HAO:0000929 ! segment
+is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000683 ! part_of palpus
 
 [Term]
@@ -14446,7 +14541,7 @@ id: HAO:0001873
 name: abdominal tergite 9
 def: "The tergite that is located on the abdominal segment 9" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001005 ! tergite
-relationship: BFO:0000050 HAO:0000075 ! part_of abdominal tergum 9
+relationship: BFO:0000050 HAO:0000075 ! part_of T9
 
 [Term]
 id: HAO:0001874
@@ -14518,7 +14613,8 @@ relationship: BFO:0000050 HAO:0000020 ! part_of abdominal segment 2
 [Term]
 id: HAO:0001883
 name: second flagellomere
-def: "The flagellomere that is located distal to the first flagellomere." [http://api.hymao.org/api/ref/67791]
+def: "The flagellomere that is located immediately distal to the first flagellomere." [http://api.hymao.org/api/ref/67791]
+synonym: "F2" RELATED [http://api.hymao.org/api/ref/96670]
 is_a: HAO:0000342 ! flagellomere
 relationship: BFO:0000050 HAO:0000343 ! part_of flagellum
 
@@ -14938,8 +15034,8 @@ relationship: BFO:0000050 HAO:0000020 ! part_of abdominal segment 2
 [Term]
 id: HAO:0001941
 name: anterior metatibial spur
-def: "The metatibial spur that is located at the anterior edge of the metatibia." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001121 ! metatibial spur
+def: "The spur that is located at the anterior edge of the metatibia." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000951 ! spur
 relationship: BFO:0000050 HAO:0000631 ! part_of metatibia
 
 [Term]
@@ -15095,6 +15191,7 @@ relationship: BFO:0000050 HAO:0000020 ! part_of abdominal segment 2
 id: HAO:0001963
 name: occipital margin
 def: "The edge that separates the occiput from the vertex." [http://api.hymao.org/api/ref/96444]
+synonym: "posterior cephalic margin" RELATED [http://projects.biodiversity.be/ants/]
 is_a: HAO:0000285 ! edge
 relationship: BFO:0000050 HAO:0000234 ! part_of cranium
 
@@ -15130,6 +15227,7 @@ relationship: BFO:0000050 HAO:0000572 ! part_of mesoscutellar-axillar complex
 id: HAO:0001968
 name: anterior propodeal projection
 def: "The projection that is located submedially on the anterior margin of the propodeum." [http://api.hymao.org/api/ref/67791]
+synonym: "submedian propodeal projection" RELATED [http://api.hymao.org/api/ref/96813]
 is_a: HAO:0000829 ! projection
 relationship: BFO:0000050 HAO:0001249 ! part_of propodeum
 
@@ -15206,7 +15304,6 @@ id: HAO:0001979
 name: cardo
 def: "The cardo that is a sclerite." [http://api.hymao.org/api/ref/96306]
 is_a: HAO:0000187 ! cardo
-is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
 
 [Term]
@@ -15223,7 +15320,7 @@ is_a: HAO:0001980 ! anatomical region
 [Term]
 id: HAO:0001982
 name: dorsal area of the metapectal-propodeal complex
-def: "The area that is part of the metapectal-propodeal complex and is located medially of the plicae." [http://api.hymao.org/api/ref/78754]
+def: "The area of the metapectal-propodeal complex that is located medially of the plicae and anteriorly of the propodeal foramen." [http://api.hymao.org/api/ref/78754]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000604 ! part_of metapectal-propodeal complex
 
@@ -15326,6 +15423,8 @@ def: "The sulcus that corresponds to the transepisternal line." [http://api.hyma
 synonym: "mesopleural oblique line" RELATED [http://api.hymao.org/api/ref/43471, http://api.hymao.org/api/ref/43472]
 synonym: "precoxal suture" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "sternopleural suture" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+is_a: HAO:0000978 ! sulcus
+relationship: BFO:0000050 HAO:0000557 ! part_of mesopectus
 
 [Term]
 id: HAO:0001997
@@ -15547,6 +15646,7 @@ relationship: BFO:0000050 HAO:0001150 ! part_of abdominal mediotergite 2
 id: HAO:0002027
 name: mid ocellar diameter
 def: "The diameter of the median ocellus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000008 ! anatomical line
 
 [Term]
 id: HAO:0002028
@@ -15607,7 +15707,7 @@ relationship: BFO:0000050 HAO:0000395 ! part_of harpe
 [Term]
 id: HAO:0002036
 name: dorsal apodeme of penisvalva
-def: "The apodeme that is located proximodorsally on the aedeagus and is the site of insertion of the distodorsal gonostipo-penisvalval muscle." [http://api.hymao.org/api/ref/96550]
+def: "The apodeme that is located proximodorsally on the aedeagus and is the site of insertion of the distodorsal gonostyle/volsella complex-penisvalval muscle." [http://api.hymao.org/api/ref/96550]
 is_a: HAO:0000142 ! apodeme
 relationship: BFO:0000050 HAO:0000091 ! part_of aedeagus
 
@@ -15639,6 +15739,1653 @@ name: dorsomedian conjunctiva of the gonostyle/volsella complex
 def: "The conjunctiva that is linear and extends medially on the dorsal region of the gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
 is_a: HAO:0000221 ! conjunctiva
 relationship: BFO:0000050 HAO:0002033 ! part_of gonostyle/volsella complex
+
+[Term]
+id: HAO:0002041
+name: gonostyle-parossiculal muscle
+def: "The muscle that arises ventromedially from the gonostyle, is proximomedially oriented, and inserts on the proximalmost sclerite of the volsella." [http://api.hymao.org/api/ref/96550]
+synonym: "muscle o" RELATED [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0001392 ! male genitalia muscle
+relationship: HAO:attached_to HAO:0000389 ! gonostyle
+relationship: HAO:attached_to HAO:0001084 ! volsella
+
+[Term]
+id: HAO:0002042
+name: gonostyle/volsella complex-volsellal muscle
+def: "The male genitalia muscle that arises proximoventrally from the gonostyle/volsella complex and inserts nearby the gonossiculal articulation." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
+
+[Term]
+id: HAO:0002043
+name: gonostyle/volsella complex-harpal muscle
+def: "The male genitalia muscle that arises from the gonostyle/volsella complex and inserts on the harpe." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0001392 ! male genitalia muscle
+relationship: HAO:attached_to HAO:0000395 ! harpe
+relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
+
+[Term]
+id: HAO:0002044
+name: gonostyle/volsella complex-penisvalval muscle
+def: "The male genitalia muscle that arises from the gonostyle/volsella complex and inserts on the penisvalva." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001392 ! male genitalia muscle
+relationship: HAO:attached_to HAO:0000707 ! penisvalva
+relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
+
+[Term]
+id: HAO:0002045
+name: gonossiculal muscle
+def: "The male genitalia muscle that inserts on the gonossiculus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001392 ! male genitalia muscle
+relationship: HAO:attached_to HAO:0000385 ! gonossiculus
+
+[Term]
+id: HAO:0002046
+name: medioventral conjunctiva of the gonostyle/volsella complex
+def: "The conjunctiva that is linear and extends medially on the ventral region of the gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0002033 ! part_of gonostyle/volsella complex
+
+[Term]
+id: HAO:0002047
+name: proximal lobe of vas deferens
+def: "The lobe that is connected to the vas deferens." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0001587 ! lobe
+relationship: BFO:0000050 HAO:0000427 ! part_of internal male genitalia
+
+[Term]
+id: HAO:0002048
+name: proximodorsal notch of cupula
+def: "The notch that is medially on the proximodorsal margin of the cupula and is delimited laterally by the site of origins of the dorsomedial cupulo-gonostipal muscles." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0000238 ! part_of cupula
+
+[Term]
+id: HAO:0002049
+name: proximodorsal notch of harpe
+def: "The notch that is located proximodorsally on the harpe that accommodates the gonossiculus if it is pivoted proximodorsally." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0000395 ! part_of harpe
+
+[Term]
+id: HAO:0002050
+name: proximomedian apodeme of the harpe
+def: "The apodeme that is on the proximomedian margin of the harpe that is the site of insertion of the proximal and distal gonostyle/volsella complex-harpal muscles." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000142 ! apodeme
+relationship: BFO:0000050 HAO:0000395 ! part_of harpe
+
+[Term]
+id: HAO:0002051
+name: penisvalval muscle
+def: "The male genitalia muscle that inserts on the penisvalva." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001392 ! male genitalia muscle
+relationship: HAO:attached_to HAO:0000707 ! penisvalva
+
+[Term]
+id: HAO:0002052
+name: ventral gonostyle/volsella complex-penisvalval muscle
+def: "The penisvalval muscle that arises ventrally from the gonostyle/volsella complex." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002051 ! penisvalval muscle
+relationship: HAO:attached_to HAO:0000707 ! penisvalva
+relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
+
+[Term]
+id: HAO:0002053
+name: S9
+def: "The sternite that is connected posteriorly to the cupula via muscles." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000955 ! sternite
+relationship: BFO:0000050 HAO:0000015 ! part_of abdomen
+
+[Term]
+id: HAO:0002054
+name: semen
+def: "The portion of tissue that is produced by the gland cells of the internal male genitalia." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000043 ! portion of tissue
+
+[Term]
+id: HAO:0002055
+name: submedial notch on distoventral margin of gonostyle/volsella complex
+def: "The notch that is on the distoventral margin of the gonostyle/volsella complex laterally of the gonostyle/volsella complex-gonossiculus articulation." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000648 ! notch
+
+[Term]
+id: HAO:0002056
+name: submedian conjunctiva on the distoventral margin of gonostyle/volsella complex
+def: "The conjunctiva that is elongate, is on the distoventral margin of the gonostyle/volsella complex and delimits laterally the site of origin of the gonostyle/volsella complex-gonossiculus muscle." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0002033 ! part_of gonostyle/volsella complex
+
+[Term]
+id: HAO:0002057
+name: T10
+def: "The tergite that is connected posteriorly to T9 via conjunctiva and muscles." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000015 ! part_of abdomen
+
+[Term]
+id: HAO:0002058
+name: T8
+def: "The tergite that is connected posteriorly to T9 via muscles." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0001006 ! tergum
+relationship: BFO:0000050 HAO:0000015 ! part_of abdomen
+
+[Term]
+id: HAO:0002059
+name: T9
+def: "The tergite that is connected to S9 via muscles ." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0001005 ! tergite
+relationship: BFO:0000050 HAO:0000015 ! part_of abdomen
+
+[Term]
+id: HAO:0002060
+name: T9-T10 muscle
+def: "The abdominal muscle that connects T9 with T10." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0001118 ! abdominal muscle
+relationship: HAO:attached_to HAO:0002057 ! T10
+relationship: HAO:attached_to HAO:0002059 ! T9
+
+[Term]
+id: HAO:0002061
+name: ventral rod of aedeagus
+def: "The apodeme that arises distoventrally from the aedeagus and is continuous with the ventromedian conjunctiva of the gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000142 ! apodeme
+relationship: BFO:0000050 HAO:0000091 ! part_of aedeagus
+
+[Term]
+id: HAO:0002062
+name: dorsalmost digital spine
+def: "The apodeme that corresponds to the site of insertion of the gonostyle/volsella complex-volsellal muscles." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000142 ! apodeme
+relationship: BFO:0000050 HAO:0000385 ! part_of gonossiculus
+
+[Term]
+id: HAO:0002063
+name: gonostyle/volsella complex-gonossiculus articulation
+def: "The articulation that is composed of the parossiculal articular surface of the gonossiculus and the gonossiculal articular surface of the parossiculus." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000151 ! articulation
+relationship: BFO:0000050 HAO:0000312 ! part_of external male genitalia
+
+[Term]
+id: HAO:0002064
+name: ventromedian apodeme of the aedeagus
+def: "The apodeme that arises distoventrally from the aedeagus and is not continuous with the ventromedian conjunctiva of the gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
+is_a: HAO:0000142 ! apodeme
+relationship: BFO:0000050 HAO:0000091 ! part_of aedeagus
+
+[Term]
+id: HAO:0002065
+name: sternite
+def: "The sternite that is located on the abdominal sternum." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000955 ! sternite
+relationship: BFO:0000050 HAO:0001425 ! part_of abdominal sternum
+
+[Term]
+id: HAO:0002066
+name: fore wing vein
+def: "The wing vein that is on the fore wing." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001095 ! wing vein
+relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
+
+[Term]
+id: HAO:0002067
+name: flagellomere 14
+def: "The flagellomere that is located immediately distal to flagellomere 13." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000342 ! flagellomere
+relationship: BFO:0000050 HAO:0000343 ! part_of flagellum
+
+[Term]
+id: HAO:0002068
+name: inner spur
+def: "The mesotibial spur that is located anteriorly on the distal margin of the mesotibia." [http://api.hymao.org/api/ref/96670]
+is_a: HAO:0001120 ! mesotibial spur
+relationship: BFO:0000050 HAO:0001351 ! part_of mesotibia
+
+[Term]
+id: HAO:0002069
+name: mesotibial outer spur
+def: "The mesotibial spur that is located posteriorly on the distal margin of the mesotibia." [http://api.hymao.org/api/ref/96670]
+is_a: HAO:0001120 ! mesotibial spur
+relationship: BFO:0000050 HAO:0001351 ! part_of mesotibia
+
+[Term]
+id: HAO:0002070
+name: metatarsomere
+def: "The tarsomere that is located in the metatarsus." [http://api.hymao.org/api/ref/96670]
+is_a: HAO:0000991 ! tarsomere
+relationship: BFO:0000050 HAO:0001141 ! part_of metatarsus
+
+[Term]
+id: HAO:0002071
+name: anterior plate of pronotum
+def: "The area that is medial to the lateral pronotal carina and posterior to the anterior rim of pronotum." [http://api.hymao.org/api/ref/96670]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000853 ! part_of pronotum
+
+[Term]
+id: HAO:0002072
+name: anterior conjunctival thickening
+def: "The sclerite that is elongate and extends from the lateral margin of the prementum and the base of the lacinia towards the anteromedial margin of the mandible and the and the proximal margin of the labrum." [http://api.hymao.org/api/ref/67791]
+synonym: "hypopharyngeal rod" RELATED [http://api.hymao.org/api/ref/36927]
+synonym: "interlorae" RELATED [http://api.hymao.org/api/ref/68164]
+synonym: "labral tractor" RELATED [http://api.hymao.org/api/ref/36926]
+synonym: "suspensor" RELATED [http://api.hymao.org/api/ref/96721]
+synonym: "suspensory rod of the hypopharynx" RELATED [http://api.hymao.org/api/ref/36927]
+synonym: "suspensory thickening" RELATED [http://api.hymao.org/api/ref/96719]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
+
+[Term]
+id: HAO:0002073
+name: maxillary process of the hypostoma
+def: "The articular process that bears the cardinal condyle of the cranium." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000150 ! articular process
+relationship: BFO:0000050 HAO:0000234 ! part_of cranium
+
+[Term]
+id: HAO:0002074
+name: cardinal articular condyle of the cranium
+def: "The condyle that is located on the cranium and articulates with the cranial fossa of the cardo." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000220 ! condyle
+relationship: BFO:0000050 HAO:0000234 ! part_of cranium
+
+[Term]
+id: HAO:0002075
+name: cardinal lever
+def: "The process that receives the site of attachment of the cranio-cardinal muscle." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0001341 ! prora
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002076
+name: cardino-stipital hinge
+def: "The conjunctiva that is between the stipes and cardo." [http://api.hymao.org/api/ref/78258]
+synonym: "cardinal-stipital hinge" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "stipitocardinal hinge" RELATED [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
+
+[Term]
+id: HAO:0002077
+name: outer cardinal process
+def: "The articular process that is located distolaterally on the cardo and articulates with the stipes." [http://api.hymao.org/api/ref/96719]
+is_a: HAO:0000150 ! articular process
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002078
+name: inner cardinal process
+def: "The articular process that is located distomedially on the cardo and articulates with the stipes." [http://api.hymao.org/api/ref/96719]
+is_a: HAO:0000150 ! articular process
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002079
+name: fragmental articulation
+def: "The articulation that is composed of the cardinal condyle of the lorum and the loral fossal of the cardo." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000151 ! articulation
+relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
+
+[Term]
+id: HAO:0002080
+name: loral fossa of cardo
+def: "The fossa that is on the cardo and articulates with the cardinal condyle of the lorum." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000353 ! fossa
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002081
+name: cardinal condyle of lorum
+def: "The condyle that is located on the lorum and articulates with the loral fossa of the cardo." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000220 ! condyle
+relationship: BFO:0000050 HAO:0002105 ! part_of cardinal fragmentum
+
+[Term]
+id: HAO:0002082
+name: cardinal ridge
+def: "The carina that is on the cardo." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002083
+name: basal cardinal ridge
+def: "The cardinal ridge that is median." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002082 ! cardinal ridge
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002084
+name: laterodistal cardinal ridge
+def: "The cardinal ridge that arises distally from the basal cardinal ridge and is oriented distolaterally." [http://api.hymao.org/api/ref/67791]
+synonym: "outer cardinal thickening" RELATED [http://api.hymao.org/api/ref/96365]
+is_a: HAO:0002082 ! cardinal ridge
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002085
+name: mediodistal cardinal ridge
+def: "The cardinal ridge that arises distally from the basal cardinal ridge and is oriented distomedially." [http://api.hymao.org/api/ref/67791]
+synonym: "inner cardinal thickening" RELATED [http://api.hymao.org/api/ref/96365]
+is_a: HAO:0002082 ! cardinal ridge
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002086
+name: distal cardinal cavity
+def: "The area that is limited posterolaterally by the mediodistal and laterodistal cardinal ridges." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002087
+name: median cardinal cavity
+def: "The area that is limited laterally by the mediodistal and basal cardinal ridges." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002088
+name: lateral cardinal cavity
+def: "The area that is limited medially by the laterodistal and basal cardinal ridges." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002089
+name: cardinal macula
+def: "The anatomical space that is located on the distal cardinal cavity." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000005 ! anatomical space
+
+[Term]
+id: HAO:0002090
+name: basistipital process
+def: "The articular porcess that bears the cardinal condyle of the stipes and receives the site of attachment of the cranio-cardinal muscle." [http://api.hymao.org/api/ref/67791]
+synonym: "basistipital apodeme" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000220 ! condyle
+relationship: BFO:0000050 HAO:0000958 ! part_of stipes
+
+[Term]
+id: HAO:0002091
+name: stipital fossa of the cardo
+def: "The fossa that articulates with the basistipital process." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000353 ! fossa
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002092
+name: medial stipital wall
+def: "The area that lays parallell with the lateral wall of the prementum." [http://api.hymao.org/api/ref/96306]
+synonym: "inner face" RELATED [http://api.hymao.org/api/ref/36926]
+synonym: "Stipesinnenwand" RELATED [http://api.hymao.org/api/ref/96718]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000958 ! part_of stipes
+
+[Term]
+id: HAO:0002093
+name: basal lacinial sclerite
+def: "The sclerite that is on the medial stipital wall, connected to the lacinial lobe and receives the site of insertion of the stipito-lacinial muscle." [http://api.hymao.org/api/ref/96306]
+synonym: "lacinial lever" RELATED [http://api.hymao.org/api/ref/36927, http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/96306]
+synonym: "lacinial pivot" RELATED [http://api.hymao.org/api/ref/36926]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002092 ! part_of medial stipital wall
+
+[Term]
+id: HAO:0002094
+name: stipital thickening
+def: "The rim that extends along the anterior (dorsal) margin of the medial stipital wall." [http://api.hymao.org/api/ref/67791]
+synonym: "epistipes" RELATED [http://api.hymao.org/api/ref/78436]
+is_a: HAO:0000900 ! rim
+relationship: BFO:0000050 HAO:0002092 ! part_of medial stipital wall
+
+[Term]
+id: HAO:0002095
+name: medial dististipital process
+def: "The rim that is continuous proximally with the stipital thickening, is located distal to the cardino-stipital hinge and articulates distally with tha basal lacinial sclerite." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000822 ! process
+relationship: BFO:0000050 HAO:0002094 ! part_of stipital thickening
+
+[Term]
+id: HAO:0002096
+name: stipital sclerite
+def: "The sclerite that is on the medial stipital wall and bears the medial stipital process." [http://api.hymao.org/api/ref/96306]
+synonym: "basigaleal sclerite" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "subgaleal sclerite" RELATED [http://api.hymao.org/api/ref/96733]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002092 ! part_of medial stipital wall
+
+[Term]
+id: HAO:0002097
+name: posterior stipital wall
+def: "The area that is limited medially by the medial stipital wall and proximaolaterally by the margin of the posterior stipital sclerite." [http://api.hymao.org/api/ref/96306]
+synonym: "lateral stipital wall" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "posterior face of the sipes" RELATED [http://api.hymao.org/api/ref/36926]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000958 ! part_of stipes
+
+[Term]
+id: HAO:0002098
+name: posterior stipital sclerite
+def: "The sclerite that is located on the posterior stipital wall, articulates with the cardo and with the labial palp, is connected by conjunctiva distolaterally to the galeo-lacinial complex, proximally to the hypostoma and the cardo and proximolaterally to the mandible." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002097 ! part_of posterior stipital wall
+
+[Term]
+id: HAO:0002099
+name: principal carina of stipes
+def: "The flange that extends along the margin of the posterior stipital wall." [http://api.hymao.org/api/ref/96306]
+synonym: "stipital carina" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0002097 ! part_of posterior stipital wall
+
+[Term]
+id: HAO:0002100
+name: maxillary palpal socket
+def: "The margin of the posterior stipital sclerite that is concave and accommodates the base of the maxillary palp." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001981 ! margin
+relationship: BFO:0000050 HAO:0002098 ! part_of posterior stipital sclerite
+
+[Term]
+id: HAO:0002101
+name: cardinal condyle of the stipes
+def: "The condyle that articulates with the stipital fossa of the cardo." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000220 ! condyle
+relationship: BFO:0000050 HAO:0002098 ! part_of posterior stipital sclerite
+
+[Term]
+id: HAO:0002102
+name: ventral dististipital process
+def: "The projection that is located distally on the posterior stipital sclerite and encircles the base of the maxillary palp." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0002098 ! part_of posterior stipital sclerite
+
+[Term]
+id: HAO:0002103
+name: anterior tentorio-stipital muscle
+def: "The tentorio-stipital muscle that is anterior to the posterior tentorio-stipital muscle." [http://api.hymao.org/api/ref/67791]
+synonym: "adductors of the maxilla" RELATED [http://api.hymao.org/api/ref/36927]
+synonym: "muscle 12" RELATED [http://api.hymao.org/api/ref/36927]
+is_a: HAO:0001002 ! tentorio-stipital muscle
+
+[Term]
+id: HAO:0002104
+name: posterior tentorio-stipital muscle
+def: "The tentorio-stipital muscle that is posterior to the anterior tentorio-stipital muscle." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle 13" RELATED [http://api.hymao.org/api/ref/36927]
+synonym: "stipital protractors of the proboscis" RELATED [http://api.hymao.org/api/ref/36927]
+is_a: HAO:0001002 ! tentorio-stipital muscle
+
+[Term]
+id: HAO:0002105
+name: cardinal fragmentum
+def: "The sclerite that is elongate, paired, is lateral to the cardo and is articulated with the cardo and with the stipes." [http://api.hymao.org/api/ref/67791]
+synonym: "cardinal flap" RELATED [http://api.hymao.org/api/ref/96365]
+synonym: "lorum" RELATED [http://api.hymao.org/api/ref/96723, http://api.hymao.org/api/ref/96724]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
+
+[Term]
+id: HAO:0002106
+name: medial stipital groove
+def: "The depression that extends medially and adjacent to the medial portion of the principal carina of stipes." [http://api.hymao.org/api/ref/96306]
+synonym: "stipital depression" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0001525 ! groove
+relationship: BFO:0000050 HAO:0002098 ! part_of posterior stipital sclerite
+
+[Term]
+id: HAO:0002107
+name: ocellar diameter
+def: "The diameter of the ocellus." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002108
+name: palpal formula
+def: "The ratio of the number of the maxillary sclerites and labial sclerites." [http://api.hymao.org/api/ref/67791]
+
+[Term]
+id: HAO:0002109
+name: first sclerite of the maxillary palp
+def: "The sclerite that is ringlike and is connected distolaterally to the posterior stipital sclerite via conjunctiva and muscle." [http://api.hymao.org/api/ref/96306]
+synonym: "palpomere 1" RELATED [DOI:10.1016/j.ode.2006.06.003]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000515 ! part_of maxillary palp
+
+[Term]
+id: HAO:0002110
+name: stipito-palpal muscle
+def: "The maxillary muscle that arises from the posterior stipital sclerite and inserts on the first sclerite of the maxillary palp." [http://api.hymao.org/api/ref/96306]
+synonym: "flexor of the maxillary palpus" RELATED [http://api.hymao.org/api/ref/36927]
+is_a: HAO:0001114 ! maxillar muscle
+relationship: HAO:attached_to HAO:0002098 ! posterior stipital sclerite
+relationship: HAO:attached_to HAO:0002109 ! first sclerite of the maxillary palp
+
+[Term]
+id: HAO:0002111
+name: second sclerite of the maxillary palp
+def: "The sclerite that is ringlike and is connected distally to the first sclerite of the maxillary palp via conjunctiva and muscle." [http://api.hymao.org/api/ref/96306]
+synonym: "palpomere 2" RELATED [DOI:10.1016/j.ode.2006.06.003]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000515 ! part_of maxillary palp
+
+[Term]
+id: HAO:0002112
+name: third sclerite of the maxillary palp
+def: "The sclerite that is ringlike and is connected distally to the second sclerite of the maxillary palp via conjunctiva." [http://api.hymao.org/api/ref/96306]
+synonym: "palpomere 3" RELATED [DOI:10.1016/j.ode.2006.06.003]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000515 ! part_of maxillary palp
+
+[Term]
+id: HAO:0002113
+name: fourth sclerite of the maxillary palp
+def: "The sclerite that is ringlike and is connected distally to the third sclerite of the maxillary palp via conjunctiva." [http://api.hymao.org/api/ref/96306]
+synonym: "palpomere 4" RELATED [DOI:10.1016/j.ode.2006.06.003]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000515 ! part_of maxillary palp
+
+[Term]
+id: HAO:0002114
+name: first intrinsic muscle of the maxillary palp
+def: "The muscle that arises from the first sclerite of the maxillary palp and inserts on the second sclerite of the maxillary palp." [http://api.hymao.org/api/ref/96306]
+synonym: "M. palpopalpalis maxillae primus" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "muscle 19a" RELATED [http://api.hymao.org/api/ref/68103]
+synonym: "muscle a" RELATED [http://api.hymao.org/api/ref/43519]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0002109 ! first sclerite of the maxillary palp
+relationship: HAO:attached_to HAO:0002111 ! second sclerite of the maxillary palp
+
+[Term]
+id: HAO:0002115
+name: second intrinsic muscle of the maxillary palp
+def: "The muscle that arises from the first sclerite of the maxillary palp and inserts on the third sclerite of the maxillary palp." [http://api.hymao.org/api/ref/96306]
+synonym: "M. palpopalpalis maxillae secundus" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "muscle 19b2" RELATED [http://api.hymao.org/api/ref/68103]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0002109 ! first sclerite of the maxillary palp
+relationship: HAO:attached_to HAO:0002112 ! third sclerite of the maxillary palp
+
+[Term]
+id: HAO:0002116
+name: third intrinsic muscle of the maxillary palp
+def: "The muscle that arises from the second sclerite of the maxillary palp and inserts on the third sclerite of the maxillary palp." [http://api.hymao.org/api/ref/96306]
+synonym: "M. palpopalpalis maxillae tertius" RELATED [DOI:10.1016/j.ode.2006.06.003]
+synonym: "muscle 19b1" RELATED [http://api.hymao.org/api/ref/68103]
+synonym: "muscle b" RELATED [http://api.hymao.org/api/ref/43519]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0002109 ! first sclerite of the maxillary palp
+relationship: HAO:attached_to HAO:0002111 ! second sclerite of the maxillary palp
+
+[Term]
+id: HAO:0002117
+name: lacinial bar
+def: "The sclerite that is located on the lateral wall of the lacinial lobe." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000457 ! part_of lacinial lobe
+
+[Term]
+id: HAO:0002118
+name: occipital margin
+def: "The margin of the cranium that is dorsal in frontal view." [http://api.hymao.org/api/ref/67791]
+synonym: "posterior cephalic margin" RELATED [http://projects.biodiversity.be/ants/]
+is_a: HAO:0000510 ! margin
+
+[Term]
+id: HAO:0002119
+name: acantha
+def: "The process that corresponds to a single epidermal cell." [http://api.hymao.org/api/ref/96306]
+synonym: "spicule" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000949 ! spine
+relationship: BFO:0000050 HAO:0000240 ! part_of cuticle
+
+[Term]
+id: HAO:0002120
+name: outer lobe of the lacinia
+def: "The lacinial lobe that is lateral to the inner lobe of the lacinia." [http://api.hymao.org/api/ref/67791]
+synonym: "Aussenlappen der Lacinia" RELATED [http://api.hymao.org/api/ref/96718]
+is_a: HAO:0000457 ! lacinial lobe
+relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
+
+[Term]
+id: HAO:0002121
+name: inner lobe of the lacinia
+def: "The lacinial lobe that is medial to the outer lobe of the lacinia." [http://api.hymao.org/api/ref/67791]
+synonym: "Innenlappen der Lacinia" RELATED [http://api.hymao.org/api/ref/96718]
+is_a: HAO:0000457 ! lacinial lobe
+relationship: BFO:0000050 HAO:0000513 ! part_of maxilla
+
+[Term]
+id: HAO:0002122
+name: anterior lacinial fimbriae
+def: "The row of setae that traverses the lacinia along its anterior margin." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0000457 ! part_of lacinial lobe
+
+[Term]
+id: HAO:0002123
+name: posterior lacinial fimbriae
+def: "The row of setae that traverses the lacinia along its posterior margin." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0000457 ! part_of lacinial lobe
+
+[Term]
+id: HAO:0002124
+name: lacinial comb
+def: "The row of setae on the lacinial lobe that is marginal." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0000457 ! part_of lacinial lobe
+
+[Term]
+id: HAO:0002125
+name: stipito-premental conjunctiva
+def: "The conjunctiva that extends along the posterior (dorsal) margin of the premental arm and the proximal margin of the medial stipital wall." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000639 ! part_of mouthparts
+relationship: HAO:attached_to HAO:0002092 ! medial stipital wall
+
+[Term]
+id: HAO:0002126
+name: galeo-lacinial complex
+def: "The area of the stipes that is delimited proximomedially by the stipito-premental conjunctiva, proximolaterally by the stipito-mandibular conjunctiva and posteroproximally by the margin of the posterior stipital sclerite." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000958 ! part_of stipes
+
+[Term]
+id: HAO:0002127
+name: distolateral galeal sclerite
+def: "The sclerite that is located distolaterally on the lateral wall of the galeo-lacinial complex and bears the distolateral galeal setiferous patch." [http://api.hymao.org/api/ref/96306]
+synonym: "apical transverse sclerotized part of galea" RELATED [http://api.hymao.org/api/ref/36895]
+synonym: "apicolateral galeal plate" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002128
+name: distolateral galeal setiferous patch
+def: "The setiferous patch that is located distolaterally on the galeo-lacinial complex." [http://api.hymao.org/api/ref/96306]
+synonym: "apicolateral galeal setae" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000936 ! setiferous patch
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002129
+name: proximolateral galeal setiferous patch
+def: "The setiferous patch that is located on the lateral wall of the galeo-lacinial complex proximally of the distolateral setiferous patch." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000936 ! setiferous patch
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002130
+name: proximolateral galeal sclerite
+def: "The sclerite that is located on the lateral wall of the galeo-lacinial complex and bears the proximolateral galeal setiferous patch." [http://api.hymao.org/api/ref/96306]
+synonym: "basal elongate sclerotized part of galea" RELATED [http://api.hymao.org/api/ref/36895]
+synonym: "basilateral galeal plate" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002131
+name: lateral galeal crease
+def: "The conjunctiva that is between the distolateral and proximolateral galeal sclerites." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002132
+name: galeal crown
+def: "The galeal fringe that extends along the distal margin of the distal galeal plate." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002133 ! galeal fringe
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002133
+name: galeal fringe
+def: "The row of setae that extends along the margin of the galeo-lacinial complex, distal to the lacinial lobe." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0002127 ! part_of distolateral galeal sclerite
+
+[Term]
+id: HAO:0002134
+name: galeal comb
+def: "The galeal fringe that is on the lateral margin of the apicolateral galeal plate." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0002133 ! galeal fringe
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002135
+name: proximal galeal brush
+def: "The row of setae that is on the distal margin of the proximolateral galeal sclerite." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0002130 ! part_of proximolateral galeal sclerite
+
+[Term]
+id: HAO:0002136
+name: galeal lamina
+def: "The lobe that is located medially on the internal wall of the galeo-lacinial complex and margined by the galeal comb." [http://api.hymao.org/api/ref/96306]
+synonym: "freier Endlappen" RELATED [http://api.hymao.org/api/ref/96718]
+is_a: HAO:0001587 ! lobe
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002137
+name: galeal midrib
+def: "The carina that extends medially along the medial wall of the galeo-lacinial complex and that is longitudinal." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002138
+name: spiculate patch of lacinia
+def: "The area on the lacinial lobe that is covered with acanthae." [http://api.hymao.org/api/ref/96306]
+synonym: "Laciniaborstenfeld" RELATED [http://api.hymao.org/api/ref/96718]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000457 ! part_of lacinial lobe
+
+[Term]
+id: HAO:0002139
+name: spiculate patch of the galea
+def: "The area on the galeo-lacinial complex distal to the lacinial lobe that is covered with acanthae." [http://api.hymao.org/api/ref/96306]
+synonym: "Galeaborstenfeld" RELATED [http://api.hymao.org/api/ref/96718]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002140
+name: velum
+def: "The flange that is transparent, and extends along the anterodistal margin of the galeo-lacinial complex distal to the lacinial lobe." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+
+[Term]
+id: HAO:0002141
+name: coeloconic sensillum of the galea
+def: "The coeloconic sensillum that is located on the medial surface of the galeo-lacinial complex distal to the base of the lacinial lobe." [http://api.hymao.org/api/ref/96306]
+synonym: "Geschmackskegel" RELATED [http://api.hymao.org/api/ref/96718]
+synonym: "gustatory papillae" RELATED [http://api.hymao.org/api/ref/96745]
+synonym: "sensilla basiconica" RELATED [http://api.hymao.org/api/ref/36926]
+is_a: HAO:0002001 ! coeloconic sensillum
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002142
+name: apicomedial galeal plate
+def: "The sclerite that is located on the medial surface of the galeo-lacinial complex and bears the coeloconic sensillum of galea." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002143
+name: basal galeal sclerite
+def: "The sclerite that receives the site of insertion of the stipito-galeal muscle." [http://api.hymao.org/api/ref/96306]
+synonym: "basimedial galeal plate" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002144
+name: postmental area
+def: "The area that is limited distally by the posterior margin of the prementum and laterally by the median margins of the cardines and the stipites." [http://api.hymao.org/api/ref/96306]
+synonym: "postmentum" RELATED [http://api.hymao.org/api/ref/68174]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000453 ! part_of labium
+
+[Term]
+id: HAO:0002145
+name: intercardinal area
+def: "The area that is located between the cardines and limited proximally and distally by the anatomical line that extends between the proximal and distal ends of the left and right cardines." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002144 ! part_of postmental area
+
+[Term]
+id: HAO:0002146
+name: interstipital area
+def: "The area of the postmental area that is limited laterally by the median margins of the stipites, proximally by the anterior margin of the intercardinal area and distally by the proximal margin of the prementum." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002144 ! part_of postmental area
+
+[Term]
+id: HAO:0002147
+name: postmental articular zone
+def: "The region that corresponds to the distal margin of the intercardinal area." [http://api.hymao.org/api/ref/67791]
+synonym: "labial suture" RELATED [http://api.hymao.org/api/ref/36875]
+is_a: HAO:0001980 ! anatomical region
+relationship: BFO:0000050 HAO:0002144 ! part_of postmental area
+
+[Term]
+id: HAO:0002148
+name: intercardinal sclerite
+def: "The sclerite on the intercardinal area that is not paired." [http://api.hymao.org/api/ref/67791]
+synonym: "intercardinal postmentum" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "prearticular postmentum" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002145 ! part_of intercardinal area
+
+[Term]
+id: HAO:0002149
+name: postarticular portion of the postmentum
+def: "The intercardinal sclerite that is connected distally to the prearticular portion of the postmentum." [http://api.hymao.org/api/ref/67791]
+synonym: "mental extension" RELATED [http://api.hymao.org/api/ref/96365]
+synonym: "mentum" RELATED [http://api.hymao.org/api/ref/36874, http://api.hymao.org/api/ref/96365, http://api.hymao.org/api/ref/96747]
+synonym: "postmentum" RELATED [http://api.hymao.org/api/ref/36975]
+is_a: HAO:0002148 ! intercardinal sclerite
+relationship: BFO:0000050 HAO:0002146 ! part_of interstipital area
+
+[Term]
+id: HAO:0002150
+name: prearticular portion of the postmentum
+def: "The interstipital sclerite that is connected proximally to the postarticular portion of the postmentum." [http://api.hymao.org/api/ref/67791]
+synonym: "apron of the lorum" RELATED [http://api.hymao.org/api/ref/96747]
+synonym: "loral apron" RELATED [http://api.hymao.org/api/ref/96747]
+synonym: "lorum" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/96365]
+synonym: "postmental apron" RELATED [http://api.hymao.org/api/ref/96365]
+synonym: "submentum" RELATED [http://api.hymao.org/api/ref/36874]
+is_a: HAO:0002223 ! interstipital sclerite
+relationship: BFO:0000050 HAO:0002145 ! part_of intercardinal area
+
+[Term]
+id: HAO:0002151
+name: basal process of the prementum
+def: "The articular process that bears the postmental articular surface of the prementum." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000150 ! articular process
+relationship: BFO:0000050 HAO:0000804 ! part_of prementum
+
+[Term]
+id: HAO:0002152
+name: lateral premental face
+def: "The area of the prementum, that lays parallel and connected via conjunctiva to the medial stipital vall." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000804 ! part_of prementum
+
+[Term]
+id: HAO:0002153
+name: labial palpal excision
+def: "The notch that is located distolaterally on the prementum and receives the base of the labial palp." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000648 ! notch
+
+[Term]
+id: HAO:0002154
+name: subligular process
+def: "The area of the prementum that is located between the labial palpal excisions and is limited posteriorly by the anatomical line extending between the proximalmost points of the excisions." [http://api.hymao.org/api/ref/96719]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000804 ! part_of prementum
+
+[Term]
+id: HAO:0002155
+name: premental arm
+def: "The area of the lateral premental face that receives the sit of origin of the dorsal premento-salivarial muscle." [http://api.hymao.org/api/ref/96306]
+synonym: "spatulate process of the prementum" RELATED [http://api.hymao.org/api/ref/36926, http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000804 ! part_of prementum
+
+[Term]
+id: HAO:0002156
+name: ventral premental face
+def: "The area of the prementum that is delimited laterally by the lateral premental face." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000804 ! part_of prementum
+
+[Term]
+id: HAO:0002157
+name: premental carina
+def: "The flange that is adjacent to the border between the ventral and lateral premental faces and that overlaps externally the median part of the posterior stipital sclerite." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000344 ! flange
+
+[Term]
+id: HAO:0002158
+name: first valvifer-first valvula complex
+def: "The anatomical cluster that is composed of the sclerites that articulates with the nine abdominal tergite and the second valvifer." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0001600 ! part_of ovipositor apparatus
+
+[Term]
+id: HAO:0002159
+name: posterior margin of the first valvifer
+def: "The margin of the first valvifer that is posterior and extends between the intervalvifer articulation and the anterior angle of the first valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000510 ! margin
+
+[Term]
+id: HAO:0002160
+name: ninth tergal condyle of the first valvifer
+def: "The condyle that is located on the first valvifer and articulates with the first valviferal fossa of T9." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000220 ! condyle
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+relationship: BFO:0000050 HAO:0001636 ! part_of tergo-valvifer articulation
+
+[Term]
+id: HAO:0002161
+name: first valviferal fossa of the ninth tergite
+def: "The fossa of the ninth abdominal tergite that is adjacent to the condyle of the ninth tergal condyle of the first valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000353 ! fossa
+relationship: BFO:0000050 HAO:0001636 ! part_of tergo-valvifer articulation
+relationship: BFO:0000050 HAO:0001873 ! part_of abdominal tergite 9
+
+[Term]
+id: HAO:0002162
+name: transvalviferal conjunctiva
+def: "The conjunctiva that traverses the first valvifer and separates the dorsal and ventral sclerites of the first valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002163
+name: dorsal sclerite of the first valvifer
+def: "The sclerite of the first valvifer that is located dorsally of the transvalviferal conjunctiva." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002164
+name: ventral sclerite of the first valvifer
+def: "The sclerite of the first valvifer that is ventral to the transvalviferal conjunctiva." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002165
+name: intravalvifer articulation
+def: "The articulation between the dorsal sclerite of the first valvifer and the ventral sclerite of the first valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000151 ! articulation
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002166
+name: anterior flange of the first valvifer
+def: "The flange that extends anteriorly on the first valvifer and overlaps with the posterior margin of the anterior area of the second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002167
+name: second valviferal condyle of the first valvifer
+def: "The condyle that is located on the first valvifer and articulates with the first valviferal fossa of the second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000220 ! condyle
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002168
+name: anterior angle of the first valvifer
+def: "The corner on the first valvifer that marks the posterior end of the first valvula." [http://api.hymao.org/api/ref/96758]
+synonym: "anterior angle" RELATED [http://api.hymao.org/api/ref/78461]
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002169
+name: anterior area of the second valvifer
+def: "The area of the second valvifer which is anterior to the anatomical line that is the shortest distance from the first valviferal fossa of the second valvifer and the ventral margin of the second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000927 ! part_of second valvifer
+
+[Term]
+id: HAO:0002170
+name: posterior area of the second valvifer
+def: "the area of the second valvifer that is posterior to the anatomical line that is the shortest distance from the first valviferal fossa of the second valvifer to the ventral margin of the second valvifer" [http://api.hymao.org/api/ref/68116]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000927 ! part_of second valvifer
+
+[Term]
+id: HAO:0002171
+name: basal line of the second valvifer
+def: "The line on the second valvifer that extends between the pars articularis and the dorsal flange of second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000008 ! anatomical line
+relationship: BFO:0000050 HAO:0000927 ! part_of second valvifer
+
+[Term]
+id: HAO:0002172
+name: dorsal projection of the second valvifer
+def: "The projection that is located on the second valvifer and corresponds to the proximal end of the rachis." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0000927 ! part_of second valvifer
+
+[Term]
+id: HAO:0002173
+name: anterior section of dorsal flange of second valvifer
+def: "The area of the dorsal flange of the second valvifer that is anterior to the site of origin of the basal line." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001577 ! part_of dorsal flange of the second valvifer
+
+[Term]
+id: HAO:0002174
+name: posterior section of dorsal flange of second valvifer
+def: "The area of the dorsal flange of the second valvifer that is posterior to the to the site of origin of the basal line." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001577 ! part_of dorsal flange of the second valvifer
+
+[Term]
+id: HAO:0002175
+name: second valvifer-second valvula-third valvula complex
+def: "The area that is connected to the ninth tergite and the first valvifer via conjunctiva, is articulated to the first tergite, and bears the aulax." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
+
+[Term]
+id: HAO:0002176
+name: venom gland reservoir of the second valvifer
+def: "The gland reservoir that is between the second valvifers." [http://api.hymao.org/api/ref/96758]
+relationship: BFO:0000050 HAO:0000324 ! part_of female genitalia
+
+[Term]
+id: HAO:0002177
+name: bulb
+def: "The anterior area of the dorsal valve that is bulbous." [http://api.hymao.org/api/ref/68116]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0002190 ! part_of dorsal ramus of the second valvula
+
+[Term]
+id: HAO:0002178
+name: anterior notch of the dorsal valve
+def: "The notch that is on the anterior region of the dorsal valve and accommodates the ventral ramus of the second valvula and the first valvula." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0002190 ! part_of dorsal ramus of the second valvula
+
+[Term]
+id: HAO:0002179
+name: distal notch of the dorsal valve
+def: "The notch that is distal on the dorsal valve." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0001658 ! part_of dorsal valve
+
+[Term]
+id: HAO:0002180
+name: distal vertical conjunctiva of the second valvifer-third valvula complex
+def: "The conjunctiva that traverses the second valvifer-third valvula complex and is located distal to the median bridge of the second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0002180 ! part_of distal vertical conjunctiva of the second valvifer-third valvula complex
+
+[Term]
+id: HAO:0002181
+name: second valvifer-third valvula complex
+def: "The area of the second valvifer-second valvula-third valvula complex that is proximal to the basal articulation." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000679 ! part_of ovipositor
+
+[Term]
+id: HAO:0002182
+name: anterior ridge of T9
+def: "The ridge that extends along the anterior margin of female T9 and receives the site of origin of the ventral and the dorsal T9-second valvifer muscles." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000899 ! ridge
+
+[Term]
+id: HAO:0002183
+name: sclerite of the maxillary palp
+def: "The sclerite that is part of the maxillary palp." [http://api.hymao.org/api/ref/67791]
+synonym: "maxillary palpal sclerite" RELATED [http://api.hymao.org/api/ref/96306]
+synonym: "palpomere" RELATED [http://api.hymao.org/api/ref/96759]
+synonym: "palpomere of maxillary palpus" RELATED [http://api.hymao.org/api/ref/96759]
+synonym: "segment of the maxillary palp" RELATED [http://api.hymao.org/api/ref/96759]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000515 ! part_of maxillary palp
+
+[Term]
+id: HAO:0002184
+name: muscle attachment site
+def: "The area of the integument where muscles are attached to epidermal cells." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000421 ! part_of integument
+
+[Term]
+id: HAO:0002185
+name: S7
+def: "The sternite that is connected to the first valvula via muscles." [http://api.hymao.org/api/ref/96758]
+synonym: "female S7" RELATED [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000955 ! sternite
+relationship: BFO:0000050 HAO:0000015 ! part_of abdomen
+
+[Term]
+id: HAO:0002186
+name: T9
+comment: Duplicate.
+is_obsolete: true
+
+[Term]
+id: HAO:0002187
+name: lateral T9-second valvifer muscle
+def: "The muscle that arises from the posteroventral parts of the female T9 and inserts on the median bridge." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0000075 ! T9
+relationship: HAO:attached_to HAO:0000927 ! second valvifer
+
+[Term]
+id: HAO:0002188
+name: female T8
+def: "The tergite that is connected to female T9 by muscles." [http://api.hymao.org/api/ref/67791]
+synonym: "T9" RELATED [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0001005 ! tergite
+relationship: BFO:0000050 HAO:0000015 ! part_of abdomen
+
+[Term]
+id: HAO:0002189
+name: first valvifer-second valvifer muscle
+def: "The ovipositor muscle that arises from the interarticular ridge of the first valvifer and inserts on the second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0001290 ! ovipositor muscle
+relationship: HAO:attached_to HAO:0000338 ! first valvifer
+relationship: HAO:attached_to HAO:0000927 ! second valvifer
+
+[Term]
+id: HAO:0002190
+name: dorsal ramus of the second valvula
+def: "The area that extends along the dorsal margin of the second valvula, bears the processus articularis anteriorly and the processus musculares on the antero-dorsal region and articulates anteriorly with the second valvifer via the basal articulation." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000928 ! part_of second valvula
+
+[Term]
+id: HAO:0002191
+name: egg canal
+def: "The anatomical space that is between the left and right olistheters." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000005 ! anatomical space
+
+[Term]
+id: HAO:0002192
+name: medial conjunctiva of the first valvula
+def: "The conjunctiva that extends medially along the first valvula." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000339 ! part_of first valvula
+
+[Term]
+id: HAO:0002193
+name: length of dorsal projection
+def: "The anatomical line that is parallel with the longitudinal body axis and the shortest among the anatomical line that extends between the anterior and posterior margins of the dorsal projection of the second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002194
+name: first sclerite of the labial palp
+def: "The sclerite that is ringlike and is connected distolaterally to the prementum via conjunctiva and muscle." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000450 ! part_of labial palp
+
+[Term]
+id: HAO:0002195
+name: second sclerite of the labial palp
+def: "The sclerite that is ringlike and is connected distally to the first sclerite of the labial palp via conjunctiva and muscle." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000450 ! part_of labial palp
+
+[Term]
+id: HAO:0002196
+name: third sclerite of the labial palp
+def: "The sclerite that is ringlike and is connected distally to the second sclerite of the labial palp via conjunctiva and muscle." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000450 ! part_of labial palp
+
+[Term]
+id: HAO:0002197
+name: ligula
+def: "The anatomical cluster that is composed of the glossa, paraglossae and labial palps." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0000453 ! part_of labium
+
+[Term]
+id: HAO:0002198
+name: basiparaglossa
+def: "The proximal area of the paraglossa that is adjacent to the basiparaglossal brush." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000686 ! part_of paraglossa
+
+[Term]
+id: HAO:0002199
+name: basiparaglossal brush
+def: "The anteroproximal area of the paraglossa that is covered with long acanthae and corresponds to the ligament connecting the hypopharyngeal button with the basiparaglossal sclerite." [http://api.hymao.org/api/ref/96306]
+synonym: "subglossal brush" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000686 ! part_of paraglossa
+
+[Term]
+id: HAO:0002200
+name: paraglossal sclerite
+def: "The anteroproximal sclerite of the paraglossa that bears the basiparaglossal brush." [http://api.hymao.org/api/ref/96306]
+synonym: "paraglossal suspensorium" RELATED [http://api.hymao.org/api/ref/96719]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000686 ! part_of paraglossa
+
+[Term]
+id: HAO:0002201
+name: basiparaglossal sclerite
+def: "The sclerite that is located medially on the paraglossa and articulates with the anterior glossal plate and is continuous with the hypopharyngeal rod.." [http://api.hymao.org/api/ref/96306]
+synonym: "paraglossal triangle" RELATED [http://api.hymao.org/api/ref/36926]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002198 ! part_of basiparaglossa
+
+[Term]
+id: HAO:0002202
+name: ventrolateral basiglossal arm
+def: "The projection that is located proximolaterally on the anterior glossal plate and articulates with the basiparaglossal sclerite." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0001170 ! part_of anterior glossal plate
+
+[Term]
+id: HAO:0002203
+name: median conjunctiva of the anterior glossal plate
+def: "The median conjunctiva of the anterior glossal plate that is parallel with the anteroposterior body axis." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0001170 ! part_of anterior glossal plate
+
+[Term]
+id: HAO:0002204
+name: glossal annulus
+def: "The anatomical cluster of the glossa that is composed of connected annular hairs." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+
+[Term]
+id: HAO:0002205
+name: annular hair
+def: "The spine on the distal parts of ligula that is connected proximolaterally to the neighboring glossal hair by a carina." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000949 ! spine
+relationship: BFO:0000050 HAO:0000496 ! part_of ligula
+
+[Term]
+id: HAO:0002206
+name: distal glossal edge
+def: "The transverse edge that extends distally on the glossa." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000285 ! edge
+relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+
+[Term]
+id: HAO:0002207
+name: posterior surface of the glossa
+def: "The area of the glossa that is between the distal margin of the prementum and the distal glossal edge." [http://api.hymao.org/api/ref/96306]
+synonym: "aboral surface" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "posterior surface" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+
+[Term]
+id: HAO:0002208
+name: anterior surface of the glossa
+def: "The area of the glossa that is between the distal glossal edge and the anterior glossal plate." [http://api.hymao.org/api/ref/96306]
+synonym: "anterior surface" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "oral surface" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+
+[Term]
+id: HAO:0002209
+name: apical glossal hairs
+def: "The row of spines that is on the distal glossal edge." [http://api.hymao.org/api/ref/96306]
+synonym: "apical glossal hair" RELATED [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/78461]
+relationship: BFO:0000050 HAO:0002206 ! part_of distal glossal edge
+
+[Term]
+id: HAO:0002210
+name: apical glossal setae
+def: "The row of setae of the glossa that is adjacent to the distal glossal edge." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+
+[Term]
+id: HAO:0002211
+name: styloconic sensillum
+def: "The seta that is on a process." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000935 ! seta
+relationship: BFO:0000050 HAO:0000421 ! part_of integument
+
+[Term]
+id: HAO:0002212
+name: campaniform sensillum of the glossa
+def: "The campaniform sensillum of the anteriro surface of the glossa that is located proximal to the glossal annuli." [http://api.hymao.org/api/ref/96306]
+synonym: "basiglossal sensillum" RELATED [http://api.hymao.org/api/ref/78461, http://api.hymao.org/api/ref/96764]
+synonym: "gustatory papilla" RELATED [http://api.hymao.org/api/ref/96745]
+is_a: HAO:0000933 ! sensillum
+relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+
+[Term]
+id: HAO:0002213
+name: distal hypopharyngeal invagination
+def: "The invagination on the distal hypopharynx that id adjacent to the concavities of the hypopharyngeal rods." [http://api.hymao.org/api/ref/96306]
+synonym: "ligular arm kink" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0001575 ! part_of distal hypopharynx
+
+[Term]
+id: HAO:0002214
+name: hypopharyngeal pecten
+def: "The anteriolateral area of the distal hypopharynx that is adjacent with the proximal part of the hypopharyngeal rod proximal to the hypopharyngeal button and is covered with acanthae." [http://api.hymao.org/api/ref/96306]
+synonym: "spiculate patch of the hypopharynx" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001575 ! part_of distal hypopharynx
+
+[Term]
+id: HAO:0002215
+name: anterolateral wall of the stipes
+def: "The area that extends between anterior margin of the median wall of the stipes and the lateral margin of the posterior wall of the stipes and the base of the mandible and the labrum." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000958 ! part_of stipes
+
+[Term]
+id: HAO:0002216
+name: marginal fringe of the stipes
+def: "The anatomical cluster that is composed of the spines on the distal margin of the distolateral portion of the principal carimna of the stipes." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0002099 ! part_of principal carina of stipes
+
+[Term]
+id: HAO:0002217
+name: distomedial stipital flange
+def: "The medial part of the principal carina of the stipes that is overlapped by the premental carina and overlaps the lateral premental face." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0002099 ! part_of principal carina of stipes
+
+[Term]
+id: HAO:0002218
+name: proximomedial stipital flange
+def: "The medial part of the principal carina of the stipes that is overlapped distally by the distomedial stipital carina and overlaps the lateral premental face and the proximal part of the prementum." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000344 ! flange
+relationship: BFO:0000050 HAO:0002099 ! part_of principal carina of stipes
+
+[Term]
+id: HAO:0002219
+name: cranial fossa of the cardo
+def: "The fossa that is located on the cardo and articulates with the cardinal condyle of the cranium." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000353 ! fossa
+relationship: BFO:0000050 HAO:0000187 ! part_of cardo
+
+[Term]
+id: HAO:0002220
+name: fifth sclerite of the maxillary palp
+def: "The sclerite that is ringlike and is connected distally to the fourth sclerite of the maxillary palp via conjunctiva." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000515 ! part_of maxillary palp
+
+[Term]
+id: HAO:0002221
+name: uniporous sensillum
+def: "The sensillum whose cuticular component has one cuticular pore." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000933 ! sensillum
+relationship: BFO:0000050 HAO:0000421 ! part_of integument
+
+[Term]
+id: HAO:0002222
+name: fourth intrinsic muscle of the maxillary palp
+def: "The muscle that arises from the third sclerite of the maxillary palp and inserts on the fourth sclerite of the maxillary palp." [http://api.hymao.org/api/ref/96306]
+synonym: "muscle 19c" RELATED [http://api.hymao.org/api/ref/68103]
+synonym: "muscle c" RELATED [http://api.hymao.org/api/ref/43519]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0002112 ! third sclerite of the maxillary palp
+relationship: HAO:attached_to HAO:0002113 ! fourth sclerite of the maxillary palp
+
+[Term]
+id: HAO:0002223
+name: interstipital sclerite
+def: "The sclerite that is located on the interstipital area and is connected to the prementum via conjunctiva." [http://api.hymao.org/api/ref/67791]
+synonym: "interstipital postmentum" RELATED [http://api.hymao.org/api/ref/78461]
+synonym: "postarticular postmentum" RELATED [http://api.hymao.org/api/ref/78461]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0002146 ! part_of interstipital area
+
+[Term]
+id: HAO:0002224
+name: Stipital articular surface of the postmentum
+def: "The articular surface that articulates with the madial margin of the stipes." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001485 ! articular surface
+relationship: BFO:0000050 HAO:0000785 ! part_of postmentum
+
+[Term]
+id: HAO:0002225
+name: median postmental ridge
+def: "The ridge that is limited laterally by the stipital articular surfaces of the postmentum." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000899 ! ridge
+relationship: BFO:0000050 HAO:0000785 ! part_of postmentum
+
+[Term]
+id: HAO:0002226
+name: postmento-premental hinge
+def: "The conjunctiva that is between the postmentum and prementum." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000453 ! part_of labium
+
+[Term]
+id: HAO:0002227
+name: premental ditch
+def: "The scrobe of the prementum that is adjacent to and extends lateral to the premental carina and accommodates the medial part of the posterior stipital sclerite." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000912 ! scrobe
+relationship: BFO:0000050 HAO:0000804 ! part_of prementum
+
+[Term]
+id: HAO:0002228
+name: distal hypopharyngeal sclerite
+def: "The sclerite that receives the site of insertions of the dorsal and ventral premento-salivarial muscles and is continuous with the hypopharyngeal rod." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0001575 ! part_of distal hypopharynx
+
+[Term]
+id: HAO:0002229
+name: ligament
+def: "The area of the cuticle that is resilin rich." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000421 ! part_of integument
+
+[Term]
+id: HAO:0002230
+name: ventral glossal lines
+def: "The carinae that radiates from the posterior glossal plate towards the apical glossal setae." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0002207 ! part_of posterior surface of the glossa
+
+[Term]
+id: HAO:0002231
+name: basal glossal invagination
+def: "The anterior invagination of the labium that is adjacent with the distal end of the salivarium and separates the glossa proximally from the distal hypopharynx and the paraglossae." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0000453 ! part_of labium
+
+[Term]
+id: HAO:0002232
+name: paraglossal acroglossal button
+def: "The sclerite that is located distally on the paraglossa." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000686 ! part_of paraglossa
+
+[Term]
+id: HAO:0002233
+name: paraglossal annulus
+def: "The anatomical cluster of the paraglossa that is composed of connected annular hairs." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0000686 ! part_of paraglossa
+
+[Term]
+id: HAO:0002234
+name: hypopharyngeal button
+def: "The bent area of the hypopharyngeal rod that recieves the site of insertion of the posterior tentorio-premental muscle." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000408 ! part_of hypopharyngeal rod
+
+[Term]
+id: HAO:0002235
+name: salivary gland
+def: "The gland that empties anterior to the prementum." [http://api.hymao.org/api/ref/96440]
+is_a: HAO:0000375 ! gland
+relationship: BFO:0000050 HAO:0000809 ! part_of preoral cavity
+
+[Term]
+id: HAO:0002236
+name: salivary duct
+def: "The duct that leads from the salivary gland." [http://api.hymao.org/api/ref/96440]
+is_a: HAO:0000282 ! duct
+relationship: BFO:0000050 HAO:0002235 ! part_of salivary gland
+
+[Term]
+id: HAO:0002237
+name: first intrinsic muscle of the labial palp
+def: "The muscle that arises from the first sclerite of the labial palp and inserts on the second sclerite of the labial palp." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0002194 ! first sclerite of the labial palp
+relationship: HAO:attached_to HAO:0002195 ! second sclerite of the labial palp
+
+[Term]
+id: HAO:0002238
+name: second intrinsic muscle of the labial palp
+def: "The muscle that arises from the second sclerite of the labial palp and inserts on the third sclerite of the labial palp." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0002195 ! second sclerite of the labial palp
+relationship: HAO:attached_to HAO:0002196 ! third sclerite of the labial palp
+
+[Term]
+id: HAO:0002239
+name: posteroventral corner of the first valvifer
+def: "The corner of the first valvifer that is adjacent to the intervalvifer articulation." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000223 ! corner
+relationship: BFO:0000050 HAO:0000338 ! part_of first valvifer
+
+[Term]
+id: HAO:0002240
+name: length of anterior area of second valvifer
+def: "The anatomical line that is parallel with the longitudinal body axis and the shortest among the anatomical lines that extend between the anterior and posterior margins of the anterior area of the second valvifer." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002241
+name: length of female T9
+def: "The anatomical line that is parallel with the longitudinal body axis and the shortest among the anatomical lines that extend between the anterior and posterior margins of female T9." [http://api.hymao.org/api/ref/96758]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002242
+name: mandibular dentition
+def: "The anatomical cluster that is composed of the mandibular teeth." [http://api.hymao.org/api/ref/96759]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0000506 ! part_of mandible
+
+[Term]
+id: HAO:0002243
+name: galeal comb
+def: "The row of setae that is located on the medial wall of the galeo-lacinial complex proximal to the coeloconic sensilla of galea." [http://api.hymao.org/api/ref/96306]
+synonym: "Borstenkamm" RELATED [http://api.hymao.org/api/ref/96718]
+synonym: "comb of galea" RELATED [http://api.hymao.org/api/ref/67876]
+synonym: "galeal pecten" RELATED [http://api.hymao.org/api/ref/36926]
+synonym: "inner comb" RELATED [http://api.hymao.org/api/ref/96743]
+synonym: "maxillary comb" RELATED [http://api.hymao.org/api/ref/78436]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0002126 ! part_of galeo-lacinial complex
+
+[Term]
+id: HAO:0002244
+name: campaniform sensillum of the premenum
+def: "The campaniform sensillum that is on the ventral premental face." [http://api.hymao.org/api/ref/96306]
+is_a: HAO:0001973 ! campaniform sensillum
+relationship: BFO:0000050 HAO:0002156 ! part_of ventral premental face
+
+[Term]
+id: HAO:0002245
+name: distolateral premental incision
+def: "The concavity on the distal margin of the prementum delimiting medially the site of attachment of the labial palp." [http://api.hymao.org/api/ref/96759]
+is_a: HAO:0000510 ! margin
+relationship: BFO:0000050 HAO:0000804 ! part_of prementum
+
+[Term]
+id: HAO:0002246
+name: labial palpomere
+def: "The sclerite that is part of the labial palp." [http://api.hymao.org/api/ref/96759]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000450 ! part_of labial palp
+
+[Term]
+id: HAO:0002247
+name: glossal styloconic sensillum
+def: "The styloconic sensillum that is located apically on the glossa." [http://api.hymao.org/api/ref/96759]
+is_a: HAO:0002211 ! styloconic sensillum
+relationship: BFO:0000050 HAO:0000376 ! part_of glossa
+
+[Term]
+id: HAO:0002248
+name: medial apodeme of female S7
+def: "The apophysis that is located proximomedially on the female S7." [http://api.hymao.org/api/ref/96759]
+synonym: "medial apodeme" RELATED [http://api.hymao.org/api/ref/68155]
+is_a: HAO:0000142 ! apodeme
+relationship: BFO:0000050 HAO:0002185 ! part_of S7
+
+[Term]
+id: HAO:0002249
+name: tubular A9
+def: "The conjunctiva that connects the female T8 with female T9 and is tubular." [http://api.hymao.org/api/ref/96759]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000626 ! part_of metasoma
+
+[Term]
+id: HAO:0002250
+name: metapleural sulcus
+def: "The sulcus that corresponds to the ridge that is continuous with the third phragma and extends between the metapleural apodeme." [http://api.hymao.org/api/ref/68128]
+synonym: "metapleural apodeme" RELATED [http://api.hymao.org/api/ref/68128]
+is_a: HAO:0000978 ! sulcus
+relationship: BFO:0000050 HAO:0000604 ! part_of metapectal-propodeal complex
+
+[Term]
+id: HAO:0002251
+name: mesosoma height
+def: "The anatomical line that is the shortest between the dorsal margin of the mesonotum and the ventral margin of the mesopectus in lateral view." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002252
+name: posterior tooth of the mandible
+def: "The tooth tooth that is located on the posterior surface of the lower tooth." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0001019 ! tooth
+relationship: BFO:0000050 HAO:0000506 ! part_of mandible
+
+[Term]
+id: HAO:0002253
+name: clypeo-compound eye distance
+def: "The distance that is the shortest between the compound eye and the anterior tentorial pit and the compound eye." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002254
+name: eye height
+def: "The anatomical line that is the longest vertical diameter of the compound eye in frontal view." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002255
+name: cranial scrobe of mesoscutum
+def: "The scrobe on the mesonotum that accommodates the posterior surface of the cranium." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000912 ! scrobe
+relationship: BFO:0000050 HAO:0000556 ! part_of mesonotum
+
+[Term]
+id: HAO:0002256
+name: scrobal carina of the mesoscutum
+def: "The carina that delimits laterally the cranial scrobe of the mesoscutum." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0000575 ! part_of mesoscutum
+
+[Term]
+id: HAO:0002257
+name: metanoto-metapectal-propodeal conjunctiva
+def: "The conjunctiva that extends between the metanotum and the metapectal-propodeal complex." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000576 ! part_of mesosoma
+
+[Term]
+id: HAO:0002258
+name: profemoral scrobe of the mesopectus
+def: "The scrobe that is on the mesopectus and accommodates the profemur." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000912 ! scrobe
+relationship: BFO:0000050 HAO:0000557 ! part_of mesopectus
+
+[Term]
+id: HAO:0002259
+name: dorsolateral setal patch of propodeum
+def: "The setal patch that is elongate, is adjacent and extends just lateral to the plica and is composed of posteriorly directed and apressed setae that inserts into the retinaculum when the fore wing is in a flexed position." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000936 ! setiferous patch
+relationship: BFO:0000050 HAO:0000604 ! part_of metapectal-propodeal complex
+
+[Term]
+id: HAO:0002260
+name: anterodistal notch of the fore wing
+def: "The notch that is on the anterior wing margin, is adacent to the anterior end of the poststigmal fold line." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
+
+[Term]
+id: HAO:0002261
+name: posterodistal notch of the fore wing
+def: "The notch on the posterior wing margin that is adjacent to the posterior end of the discal fold." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
+
+[Term]
+id: HAO:0002262
+name: petiole length
+def: "The anatomical line that is median and extends between the transverse carina on petiole and the posterior margin of the petiole measured in dorsal view." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000188 ! carina
+relationship: BFO:0000050 HAO:0000020 ! part_of abdominal segment 2
 
 [Typedef]
 id: BFO:0000050
