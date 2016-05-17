@@ -1,7 +1,6 @@
 format-version: 1.2
-data-version: 2013-07-17
-date: 17:07:2013 14:23
-saved-by: balhoff
+data-version: 2013-10-25
+date: 25:10:2013 09:05
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -1112,8 +1111,9 @@ is_obsolete: true
 id: HAO:0000146
 name: area
 def: "The anatomical structure that is delimited by material or immaterial anatomical entities." [http://api.hymao.org/api/ref/67791]
+synonym: "portion of cuticle" RELATED [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000003 ! anatomical structure
-relationship: BFO:0000050 HAO:0000421 ! part_of integument
+relationship: BFO:0000050 HAO:0000240 ! part_of cuticle
 
 [Term]
 id: HAO:0000147
@@ -1539,7 +1539,7 @@ def: "The wing fold that is located on the fore wing, parallels the anal vein, a
 synonym: "claval flexion line" RELATED [http://api.hymao.org/api/ref/78461]
 synonym: "claval furrow" RELATED [http://api.hymao.org/api/ref/36913, http://api.hymao.org/api/ref/78629]
 synonym: "vannal fold" RELATED [http://api.hymao.org/api/ref/36875]
-is_a: HAO:0001092 ! wing fold
+is_a: HAO:0001092 ! wing crease
 relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
 
 [Term]
@@ -1835,7 +1835,7 @@ relationship: BFO:0000050 HAO:0000421 ! part_of integument
 [Term]
 id: HAO:0000241
 name: depression
-def: "The area that is external, concave, and does not correspond to an apodeme." [http://api.hymao.org/api/ref/67841]
+def: "The area that is external, concave, point-like and does not correspond to an apodeme." [http://api.hymao.org/api/ref/67791]
 synonym: "fovea" RELATED [http://api.hymao.org/api/ref/68619]
 synonym: "pit" RELATED [http://api.hymao.org/api/ref/67791]
 synonym: "trough" RELATED [http://api.hymao.org/api/ref/67791]
@@ -3406,7 +3406,7 @@ relationship: BFO:0000050 HAO:0001015 ! part_of thorax
 [Term]
 id: HAO:0000438
 name: interstice
-def: "The area that is unsculptured and is delimited by striae or punctures." [http://api.hymao.org/api/ref/67841]
+def: "The area that is unsculptured and is delimited by striae or punctures." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000909 ! part_of sclerite
 
@@ -4069,6 +4069,7 @@ name: median area of the mesoscutum
 def: "The area that is located between the notauli." [http://api.hymao.org/api/ref/67791]
 synonym: "medial lobe of mesoscutum" RELATED [http://api.hymao.org/api/ref/78599]
 synonym: "median mesonotal lobe" RELATED [http://api.hymao.org/api/ref/36876, http://api.hymao.org/api/ref/68619, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+synonym: "median mesoscutal lobe" RELATED [http://api.hymao.org/api/ref/78442]
 synonym: "mesopraescutum" RELATED [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "mesoscutal midlobe" RELATED [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "midlobe" RELATED [http://api.hymao.org/api/ref/67863, http://api.hymao.org/api/ref/68619]
@@ -5732,7 +5733,7 @@ relationship: BFO:0000050 HAO:0001013 ! part_of thoracic segment
 [Term]
 id: HAO:0000730
 name: pleurostoma
-def: "The area that extends on the ventral (anterior) margin of the cranium along the site of origin of the conjunctiva connecting the mandible with the cranium and is delimited posteriorly (ventrally) by the posterior (ventral) margin of the pleurostomal fossa and anteriorly (dorsally) by the anterior (dorsal) margin of the pleurostomal condyle." [http://api.hymao.org/api/ref/67791]
+def: "The area that extends on the ventral (anterior) margin of the cranium along the site of origin of the conjunctiva connecting the mandible with the cranium and is delimited posteriorly (ventrally) by the posterior (ventral) margin of the pleurostomal fossa and anteriorly (dorsally) by the anterior (dorsal) margin of the pleurostomal condyle and laterally by the mouth margin." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000234 ! part_of cranium
 
@@ -5777,8 +5778,7 @@ id: HAO:0000736
 name: plica basalis
 def: "The wing fold that is located between the mediocubital field and axillary region." [http://api.hymao.org/api/ref/67841]
 synonym: "basal fold" RELATED [http://api.hymao.org/api/ref/68619]
-synonym: "basal vein" RELATED [http://api.hymao.org/api/ref/43472, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-is_a: HAO:0001092 ! wing fold
+is_a: HAO:0001092 ! wing crease
 relationship: BFO:0000050 HAO:0001089 ! part_of wing
 
 [Term]
@@ -5789,7 +5789,7 @@ synonym: "anal fold" RELATED [http://api.hymao.org/api/ref/36875, http://api.hym
 synonym: "anal furrow" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "plica analis" RELATED [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
 synonym: "vannal fold" RELATED [http://api.hymao.org/api/ref/68619]
-is_a: HAO:0001092 ! wing fold
+is_a: HAO:0001092 ! wing crease
 relationship: BFO:0000050 HAO:0001089 ! part_of wing
 
 [Term]
@@ -7262,6 +7262,7 @@ id: HAO:0000927
 name: second valvifer
 def: "The area of the second valvifer-second valvula-third valvula complex that is proximal to the basal articulation and to the processus musculares and articulates with female T9." [http://api.hymao.org/api/ref/67791]
 synonym: "ecaile laterale" RELATED [http://api.hymao.org/api/ref/67823]
+synonym: "gonocoxite 9" RELATED [http://api.hymao.org/api/ref/96998]
 synonym: "inner plate" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "oblong plate" RELATED [http://api.hymao.org/api/ref/67823]
 synonym: "oblonge platte" RELATED [http://api.hymao.org/api/ref/67823]
@@ -8573,8 +8574,10 @@ is_a: HAO:0001093 ! wing membrane
 
 [Term]
 id: HAO:0001092
-name: wing fold
-def: "The line that is located on the wing and delimits flexion." [http://api.hymao.org/api/ref/67791]
+name: wing crease
+def: "The line along which the wing is creased." [http://api.hymao.org/api/ref/67791]
+synonym: "longitudinal line of bending" RELATED [http://api.hymao.org/api/ref/78629]
+synonym: "wing fold" RELATED [http://api.hymao.org/api/ref/67841]
 is_a: HAO:0001586 ! line
 relationship: BFO:0000050 HAO:0001191 ! part_of wing blade
 
@@ -12483,9 +12486,9 @@ relationship: BFO:0000050 HAO:0001768 ! part_of external female genitalia
 [Term]
 id: HAO:0001601
 name: paraclypeal margin
-def: "The edge that extends externally of the pleurostoma." [http://api.hymao.org/api/ref/67791]
+def: "The edge that extends laterally of the pleurostoma." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000285 ! edge
-relationship: BFO:0000050 HAO:0000234 ! part_of cranium
+relationship: BFO:0000050 HAO:0001727 ! part_of mouth margin
 
 [Term]
 id: HAO:0001602
@@ -14804,7 +14807,6 @@ id: HAO:0001910
 name: anus
 def: "The anatomical space that is located between the hypoproct and the epiproct and is continuous with the alimentary canal." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000005 ! anatomical space
-is_a: HAO:0000008 ! anatomical line
 
 [Term]
 id: HAO:0001911
@@ -14901,7 +14903,7 @@ is_a: HAO:0000641 ! muscle
 [Term]
 id: HAO:0001924
 name: cuticular evagination
-def: "The evagination that is part of the integument." [http://api.hymao.org/api/ref/67791]
+def: "The area that is evaginated." [http://api.hymao.org/api/ref/67791]
 synonym: "integumentary evagination" RELATED [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000421 ! part_of integument
@@ -16631,7 +16633,7 @@ is_a: HAO:0000344 ! flange
 [Term]
 id: HAO:0002158
 name: first valvifer-first valvula complex
-def: "The anatomical cluster that is composed of the sclerites that articulates with the nine abdominal tergite and the second valvifer." [http://api.hymao.org/api/ref/67791]
+def: "The anatomical cluster that is composed of the sclerites that articulate with the ninth abdominal tergite and the second valvifer." [http://api.hymao.org/api/ref/97009]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0001600 ! part_of ovipositor apparatus
 
@@ -16816,7 +16818,7 @@ relationship: BFO:0000050 HAO:0000515 ! part_of maxillary palp
 [Term]
 id: HAO:0002184
 name: muscle attachment site
-def: "The area of the integument where muscles are attached to epidermal cells." [http://api.hymao.org/api/ref/67791]
+def: "The are of muscle attachment." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000421 ! part_of integument
 
@@ -17052,7 +17054,7 @@ relationship: BFO:0000050 HAO:0000958 ! part_of stipes
 [Term]
 id: HAO:0002216
 name: marginal fringe of the stipes
-def: "The anatomical cluster that is composed of the spines on the distal margin of the distolateral portion of the principal carimna of the stipes." [http://api.hymao.org/api/ref/96306]
+def: "The anatomical cluster that is composed of the spines on the distal margin of the distolateral portion of the principal carina of the stipes." [http://api.hymao.org/api/ref/96306]
 is_a: HAO:0000041 ! anatomical cluster
 relationship: BFO:0000050 HAO:0002099 ! part_of principal carina of stipes
 
@@ -17148,7 +17150,7 @@ relationship: BFO:0000050 HAO:0001575 ! part_of distal hypopharynx
 [Term]
 id: HAO:0002229
 name: ligament
-def: "The area of the cuticle that is resilin rich." [http://api.hymao.org/api/ref/67791]
+def: "The area that is resilin rich." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000421 ! part_of integument
 
@@ -17309,8 +17311,8 @@ relationship: BFO:0000050 HAO:0000604 ! part_of metapectal-propodeal complex
 [Term]
 id: HAO:0002251
 name: mesosoma height
-def: "The anatomical line that is the shortest between the dorsal margin of the mesonotum and the ventral margin of the mesopectus in lateral view." [http://api.hymao.org/api/ref/96811]
-is_a: HAO:0000008 ! anatomical line
+comment: Incorrect definition.
+is_obsolete: true
 
 [Term]
 id: HAO:0002252
@@ -17383,9 +17385,94 @@ relationship: BFO:0000050 HAO:0000351 ! part_of fore wing
 [Term]
 id: HAO:0002262
 name: petiole length
-def: "The anatomical line that is median and extends between the transverse carina on petiole and the posterior margin of the petiole measured in dorsal view." [http://api.hymao.org/api/ref/96811]
+def: "The median anatomical line that extends between the transverse carina on petiole and the posterior margin of the petiole." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0002272 ! median anatomical line
+
+[Term]
+id: HAO:0002263
+name: epistomal distance
+def: "The anatomical line that is the shortest between the anterior tentorial pits." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002264
+name: anterolateral mesopectal projection
+def: "The projection that is located anterolaterally on the epicnemial carina." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0000557 ! part_of mesopectus
+
+[Term]
+id: HAO:0002265
+name: petiolar scrobe
+def: "The scrobe that is located ventrally of the propodeal foramen and accommodates the proximal area of the petiole." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000912 ! scrobe
+relationship: BFO:0000050 HAO:0000604 ! part_of metapectal-propodeal complex
+
+[Term]
+id: HAO:0002266
+name: lateroventral carina of the petiole
+def: "The carina that is longitudinal and extends lateroventrally on the abdominal segment 2." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000020 ! part_of abdominal segment 2
+
+[Term]
+id: HAO:0002267
+name: median conjunctiva of abdominal tergum 9
+def: "The conjunctiva of abdominal tergum 9 that is median and longitudinal." [http://api.hymao.org/api/ref/96811]
+
+[Term]
+id: HAO:0002268
+name: head width
+def: "The anatomical line that is the longest horizontal diameter of the cranium in frontal view." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002269
+name: facet
+def: "The portion of cuticle that covers externally the cellular components of the ommatidium." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000666 ! part_of ommatidium
+
+[Term]
+id: HAO:0002270
+name: ventral margin of the mesopectus
+def: "The median anatomical line that extends between the acetabular carina and the medial coxal articulations." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0002272 ! median anatomical line
+
+[Term]
+id: HAO:0002271
+name: ventral margin of the metapectus
+def: "The median anatomical line that extends between the anterior margin of the ventral region of the metapectus and the distal end of the projection bearing the medial coxal condyle of the metapectus." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0002272 ! median anatomical line
+
+[Term]
+id: HAO:0002272
+name: median anatomical line
+def: "The anatomical line that extends in the median axis of the organism." [http://api.hymao.org/api/ref/96811]
+
+[Term]
+id: HAO:0002273
+name: proximodistal anatomical line
+def: "The anatomical line that extends between the proximal and distal margins of an anatomical structure." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000008 ! anatomical line
+
+[Term]
+id: HAO:0002274
+name: head+mesosoma length
+comment: Incorrect definition
+is_obsolete: true
+
+[Term]
+id: HAO:0002275
+name: head+mesosoma length
+def: "The median anatomical line that is the longest between the anterior margin of the head and the propodeal foramen in dorsal view." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0002272 ! median anatomical line
+
+[Term]
+id: HAO:0002276
+name: mesosoma height
+def: "The anatomical line that is parallel with the posterior margin of the metapectal-propodeal complex, is adjacent to the anterior margin of the mesocoxa and extends between the dorsal and ventral margins of the mesosoma." [http://api.hymao.org/api/ref/96811]
+is_a: HAO:0000008 ! anatomical line
 
 [Typedef]
 id: BFO:0000050
