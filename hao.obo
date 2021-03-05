@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: hao
-date: 26:04:2018 16:19
+date: 05:03:2021 14:37
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -1033,7 +1033,6 @@ relationship: BFO:0000050 HAO:0000183 ! body segment
 id: HAO:0000099
 name: antecostal sulcus
 def: "The sulcus that corresponds to the antecosta." [http://api.hymao.org/api/ref/67791]
-synonym: "cinctus" [http://api.hymao.org/api/ref/78441]
 is_a: HAO:0000978 ! sulcus
 relationship: BFO:0000050 HAO:0000183 ! body segment
 
@@ -1352,7 +1351,7 @@ name: apical parossiculal seta
 def: "The seta that is located close to the distoventral margin of the gonostyle/volsella complex just laterally of the gonostyle/volsella complex-gonossiculus articulation." [http://api.hymao.org/api/ref/67766]
 synonym: "soie subapicale" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67767]
 synonym: "volsellar seta" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0002033 ! gonostyle/volsella complex
 
 [Term]
@@ -1716,7 +1715,7 @@ relationship: BFO:0000050 HAO:0000324 ! female genitalia
 [Term]
 id: HAO:0000187
 name: cardo
-def: "The sclerite that is articulated with the cranium at the cranio-cardinal articulation, is connected to the stipes distolaterally via the stipitocardinal hinge and receives the site of attachment of the cranio-cardinal muscle." [http://api.hymao.org/api/ref/96306]
+def: "The sclerite that is articulated with the cranium at the cranio-cardinal articulation, is connected to the stipes distolaterally via the stipitocardinal hinge and receives the site of attachment of the occipito-cardinal muscle." [http://api.hymao.org/api/ref/96306]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000513 ! maxilla
 
@@ -1802,7 +1801,7 @@ relationship: BFO:0000050 HAO:0001017 ! tibia
 id: HAO:0000198
 name: chalaza
 def: "The seta that is located on a process." [http://api.hymao.org/api/ref/67841]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000421 ! integument
 
 [Term]
@@ -1821,7 +1820,7 @@ relationship: BFO:0000050 HAO:0000234 ! cranium
 [Term]
 id: HAO:0000201
 name: cibarium
-def: "The anatomical space that is the anteriormost part of the alimentary canal and is delimited proximally by the proximomedian margin of the sitophore and distally by the functional mouth." [http://api.hymao.org/api/ref/67841]
+def: "The anatomical space that is the anteriormost part of the alimentary canal and is delimited proximally by the proximomedian margin of the sitophore and distally by the functional mouth." [http://api.hymao.org/api/ref/78243]
 synonym: "sucking pump" [http://api.hymao.org/api/ref/36875]
 is_a: HAO:0000005 ! anatomical space
 
@@ -1987,7 +1986,7 @@ relationship: BFO:0000050 HAO:0000909 ! sclerite
 [Term]
 id: HAO:0000221
 name: conjunctiva
-def: "The area of the cuticle that is weakly sclerotized, with thin exocuticle." [http://api.hymao.org/api/ref/67791]
+def: "The area of the cuticle that is more flexible than adjacent sclerites." [http://api.hymao.org/api/ref/67791]
 synonym: "arthrodial membrane" [http://api.hymao.org/api/ref/67791, ISBN:0521578906]
 synonym: "corium" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
 is_a: HAO:0000146 ! area
@@ -2464,8 +2463,9 @@ relationship: BFO:0000050 HAO:0001454 ! anterior tentorial arm
 
 [Term]
 id: HAO:0000276
-name: dorsal tooth of mandible
+name: dorsal tooth
 def: "The apical tooth of mandible that is located closest to the clypeus." [http://api.hymao.org/api/ref/67791]
+synonym: "dorsal tooth of mandible" [http://api.hymao.org/api/ref/41396, http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001972 ! apical tooth of mandible
 
 [Term]
@@ -2519,7 +2519,7 @@ relationship: BFO:0000050 HAO:0000182 ! body
 [Term]
 id: HAO:0000283
 name: ductus ejaculatorius
-def: "The duct(s) that is(are) connect vasa deferentia with endophallus and is(are) ectodermal in origin." [http://api.hymao.org/api/ref/67791]
+def: "The duct that connects the vas deferens with the endophallus and is ectodermal in origin." [http://api.hymao.org/api/ref/67791]
 synonym: "ejaculatory duct" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
 is_a: HAO:0000282 ! duct
 relationship: BFO:0000050 HAO:0000427 ! internal male genitalia
@@ -3491,13 +3491,13 @@ def: "The seta that is located on the anterior margin of the hind wing and inter
 synonym: "apical hamulus" [http://api.hymao.org/api/ref/42670]
 synonym: "distal hamulus" [http://api.hymao.org/api/ref/67852]
 synonym: "frenal hook" [http://api.hymao.org/api/ref/37511]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000400 ! hind wing
 
 [Term]
 id: HAO:0000395
 name: harpe
-def: "The sclerite that is located distally on the gonostyle/volsella complex and does not connected to the cupula and to the volsella by conjunctiva or muscles." [http://api.hymao.org/api/ref/96550]
+def: "The sclerite that is located distally on the gonostyle/volsella complex and does not connect to the cupula, and does not connect to the volsella by conjunctiva or muscles." [http://api.hymao.org/api/ref/96550]
 synonym: "distal segment of gonopod" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67785]
 synonym: "dististyle" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/43498]
 synonym: "gonoharpe" [http://api.hymao.org/api/ref/78429]
@@ -3723,11 +3723,11 @@ is_a: HAO:0000011 ! anatomical system
 
 [Term]
 id: HAO:0000422
-name: interantennal process
+name: interantennal prominence
 def: "The area that is elevated and extends between the antennal rims." [http://api.hymao.org/api/ref/67791]
 synonym: "interantennal crest" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 synonym: "interantennal flange" [http://api.hymao.org/api/ref/67791]
-synonym: "interantennal prominence" [http://api.hymao.org/api/ref/67791, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+synonym: "interantennal process" [http://api.hymao.org/api/ref/67791, http://api.hymao.org/api/ref/37495]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001044 ! upper face
 
@@ -3798,7 +3798,7 @@ relationship: BFO:0000050 HAO:0001077 ! vertex
 id: HAO:0000431
 name: interommatidial seta
 def: "The seta that is located at the intersection of the margins of three ommatidiae." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000217 ! compound eye
 
 [Term]
@@ -3969,7 +3969,7 @@ relationship: BFO:0000050 HAO:0000639 ! mouthparts
 [Term]
 id: HAO:0000453
 name: labium
-def: "The appendage that is encircled by the area that is proximally delimited by the lateral margins of the cardo and the posterior stipital sclerite laterally, and the anatomical line that is tangential to the salivary duct and traverses the salivary orifice anteriorly." [http://api.hymao.org/api/ref/67841]
+def: "The appendage that is encircled by the area that is proximally delimited by the lateral margins of the cardo and the posterior stipital sclerite laterally, and the anatomical line that is tangential to the salivary duct and traverses the salivary orifice anteriorly." [http://api.hymao.org/api/ref/67791]
 synonym: "ectolabium" [http://api.hymao.org/api/ref/43470]
 synonym: "second maxillae" [http://api.hymao.org/api/ref/43470]
 is_a: HAO:0000041 ! anatomical cluster
@@ -3989,7 +3989,7 @@ id: HAO:0000455
 name: labral seta
 def: "The seta that is located on the labrum." [http://api.hymao.org/api/ref/67841]
 synonym: "anterior labral seta" [http://api.hymao.org/api/ref/43471]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000456 ! labrum
 
 [Term]
@@ -4792,7 +4792,7 @@ id: HAO:0000545
 name: mesodiscrimen
 def: "The discrimen that is located in the mesothorax and corresponds with the mesodiscrimenal lamella." [http://api.hymao.org/api/ref/67791]
 synonym: "discrimen" [http://api.hymao.org/api/ref/67791]
-synonym: "median sternal groove" [http://api.hymao.org/api/ref/36916]
+synonym: "median sternal groove" [http://api.hymao.org/api/ref/36916, http://api.hymao.org/api/ref/99173]
 synonym: "mesodiscrimenal line" [DOI:10.1071/IS06012]
 synonym: "mesolcus" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000244 ! discrimen
@@ -5352,9 +5352,6 @@ relationship: BFO:0000050 HAO:0000621 ! metapleuron
 id: HAO:0000609
 name: metapleural carina
 def: "The carina that delimits the metapleuron dorsally from the propodeum, extends from just ventral of the metapleural arm to the metacoxal articulation and passes anteroventral to the propodeal spiracle." [http://api.hymao.org/api/ref/67791]
-synonym: "lateral carina" [http://api.hymao.org/api/ref/98063]
-synonym: "lateral propodeal carina" [http://api.hymao.org/api/ref/43498]
-synonym: "longitudinal lateral carina" [http://api.hymao.org/api/ref/98125]
 synonym: "pleural carina" [http://api.hymao.org/api/ref/36934]
 is_a: HAO:0000188 ! carina
 relationship: BFO:0000050 HAO:0000621 ! metapleuron
@@ -7815,7 +7812,7 @@ is_a: HAO:0000104 ! antennal segment
 [Term]
 id: HAO:0000909
 name: sclerite
-def: "The area of the cuticle that is strongly sclerotised, with thick exocuticle and is surrounded by conjunctivae." [http://api.hymao.org/api/ref/67791]
+def: "The area of the cuticle that is less flexible than adjacent conjunctivae." [http://api.hymao.org/api/ref/67791]
 synonym: "plate" [http://api.hymao.org/api/ref/68619]
 synonym: "sclerome" [http://api.hymao.org/api/ref/78428]
 is_a: HAO:0000146 ! area
@@ -8547,7 +8544,7 @@ relationship: BFO:0000050 HAO:0000371 ! gena
 [Term]
 id: HAO:0000996
 name: tendon
-def: "The portion of tissue that is fibrous, strong, composed of tendon cells and connects the muscle to the integument." [http://api.hymao.org/api/ref/67791]
+def: "The cuticular invagination on which a muscle is attached." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000043 ! portion of tissue
 relationship: BFO:0000050 HAO:0000182 ! body
 
@@ -8904,7 +8901,7 @@ is_a: HAO:0001076 ! verricule
 id: HAO:0001038
 name: type I sensillum trichodea
 def: "Sensilla trichodea type I occur on the distal ends [...] of the antennal flagellum.  They have small conical basal sockets with slender and strongly bent shafts." [http://api.hymao.org/api/ref/67693]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000343 ! flagellum
 
 [Term]
@@ -8912,7 +8909,7 @@ id: HAO:0001039
 name: mechanosensory hair
 def: "The aporous sensillum that has a hairlike cuticular component." [http://api.hymao.org/api/ref/67791]
 synonym: "type II sensillum trichodea" [http://api.hymao.org/api/ref/67693, http://api.hymao.org/api/ref/67862]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 is_a: HAO:0001964 ! aporous sensillum
 relationship: BFO:0000050 HAO:0000421 ! integument
 
@@ -9021,7 +9018,7 @@ relationship: BFO:0000050 HAO:0001191 ! wing blade
 [Term]
 id: HAO:0001052
 name: vas deferens
-def: "The duct that connect the testis with the vas ejaculatory duct." [http://api.hymao.org/api/ref/67791]
+def: "The duct that connect the testis with the ejaculatory duct." [http://api.hymao.org/api/ref/67791]
 synonym: "deferent duct" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/67828]
 is_a: HAO:0000282 ! duct
 relationship: BFO:0000050 HAO:0000427 ! internal male genitalia
@@ -10923,7 +10920,7 @@ is_a: HAO:0001118 ! abdominal muscle
 id: HAO:0001291
 name: parameral seta
 def: "The seta that is located apically on the gonstyle." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000389 ! gonostyle
 
 [Term]
@@ -12817,7 +12814,7 @@ relationship: BFO:0000050 HAO:0000349 ! fore leg
 [Term]
 id: HAO:0001529
 name: genuflexor plate
-def: "The sclerite that is located posteriorly along the proximal margin of the tibia and corresponds to the site of insertion of the posterior femoro-tibial muscle." [http://api.hymao.org/api/ref/67791]
+def: "The sclerite that is located posteriorly along the proximal margin of the tibia and corresponds to the site of insertion of the medial femoro-tibial muscle." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000494 ! leg
 
@@ -13989,7 +13986,7 @@ relationship: BFO:0000050 HAO:0000339 ! first valvula
 [Term]
 id: HAO:0001682
 name: salivarial sclerite
-def: "The sclerite that is located in the ventral wall of the salivarium and corresponds to the site of insertion of the ventral premento-salivarial muscle." [http://api.hymao.org/api/ref/78243]
+def: "The sclerite that is located on wall of the salivarium and corresponds to the site of insertion of the ventral premento-salivarial muscle." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000909 ! sclerite
 relationship: BFO:0000050 HAO:0000639 ! mouthparts
 
@@ -16595,7 +16592,7 @@ id: HAO:0002031
 name: cercal seta
 def: "The seta that is on the cercus." [http://api.hymao.org/api/ref/96550]
 synonym: "cercal bristle" [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000191 ! cercus
 
 [Term]
@@ -17942,7 +17939,7 @@ relationship: BFO:0000050 HAO:0000376 ! glossa
 id: HAO:0002211
 name: styloconic sensillum
 def: "The seta that is on a process." [http://api.hymao.org/api/ref/96306]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000421 ! integument
 
 [Term]
@@ -18564,12 +18561,12 @@ relationship: BFO:0000050 HAO:0000604 ! metapectal-propodeal complex
 
 [Term]
 id: HAO:0002299
-name: sensillum trichodeum
+name: seta
 def: "The sensillum with a hair-like cuticular component." [http://api.hymao.org/api/ref/67791]
 synonym: "bristle" [http://api.hymao.org/api/ref/37495, http://api.hymao.org/api/ref/97743]
 synonym: "hair sensillum" [http://api.hymao.org/api/ref/97739]
 synonym: "hairlike sensillum" [http://api.hymao.org/api/ref/67791]
-synonym: "seta" [http://api.hymao.org/api/ref/67874, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+synonym: "sensillum trichodeum" [http://api.hymao.org/api/ref/97740]
 synonym: "trichoid sensillum" [http://api.hymao.org/api/ref/97741, http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
 is_a: HAO:0000933 ! sensillum
 relationship: BFO:0000050 HAO:0000421 ! integument
@@ -18579,14 +18576,14 @@ id: HAO:0002300
 name: sensillum basiconicum
 def: "The trichoid sensillum that is apically rounded." [http://api.hymao.org/api/ref/67791]
 synonym: "basiconic sensillum" [http://api.hymao.org/api/ref/97972]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000421 ! integument
 
 [Term]
 id: HAO:0002301
 name: lateral clypeal seta
 def: "The seta that is located laterally on the clypeus." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0000212 ! clypeus
 
 [Term]
@@ -19566,7 +19563,7 @@ relationship: BFO:0000050 HAO:0000368 ! galea
 id: HAO:0002446
 name: trichoid sensillum of the glossa
 def: "The trichoid sensillum that is on the posterior surface of the glossa." [http://api.hymao.org/api/ref/98002]
-is_a: HAO:0002299 ! sensillum trichodeum
+is_a: HAO:0002299 ! seta
 relationship: BFO:0000050 HAO:0002207 ! posterior surface of the glossa
 
 [Term]
@@ -20164,11 +20161,113 @@ def: "The sclerite that is ringlike and is connected via conjunctiva distally to
 id: HAO:0002532
 name: horizontal plate
 def: "The flange that extends dorsolaterally from the mesodiscrimenal lamella." [http://api.hymao.org/api/ref/98260]
-synonym: "horizontal plate of mesofurca" [http://api.hymao.org/api/ref/98260, http://api.hymao.org/api/ref/68060, http://api.hymao.org/api/ref/36895]
+synonym: "horizontal plate of mesofurca" [http://api.hymao.org/api/ref/98260]
 synonym: "horizontal plate of the mesosternal apophysis" [http://api.hymao.org/api/ref/36926]
 is_a: HAO:0000344 ! flange
 relationship: RO:0002220 HAO:0000475 ! lateral mesofurcal arm
 relationship: BFO:0000050 HAO:0000546 ! mesodiscrimenal lamella
+
+[Term]
+id: HAO:0002533
+name: labio-hypopharyngeal lobe
+def: "The anatomical cluster that is composed of the labium and the hypopharynx." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0000639 ! mouthparts
+
+[Term]
+id: HAO:0002534
+name: palpiger
+def: "The sclerite that is between the basal segment of the labial palp and the prementum." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000909 ! sclerite
+relationship: BFO:0000050 HAO:0000452 ! labiomaxillary complex
+
+[Term]
+id: HAO:0002535
+name: second lateral area
+def: "The area of propodeal-metapectal complex that is posterior to the first lateral area and medial to the lateral longitudinal carina." [http://api.hymao.org/api/ref/36934]
+synonym: "area dentipara" [http://api.hymao.org/api/ref/99173]
+synonym: "propodeal second lateral area" [http://api.hymao.org/api/ref/78243]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000604 ! metapectal-propodeal complex
+
+[Term]
+id: HAO:0002536
+name: Heitler's lump
+def: "The distal invagination of the ventral femoral wall that is in contact with the tibial flexor sclerite or with the genuflexor sclerite when the tibial flexor muscle is fully contracted and the femoro-tibial joint is fully flexed." [http://api.hymao.org/api/ref/99174]
+
+[Term]
+id: HAO:0002537
+name: tibial flexor sclerite
+def: "The proximal sclerite of the tibial flexor tendon." [http://api.hymao.org/api/ref/99174]
+
+[Term]
+id: HAO:0002538
+name: tibial flexor muscle
+def: "The intrinsic leg muscle that arises medially (ventrally) of the femur and inserts on the genuflexor plate." [http://api.hymao.org/api/ref/99174]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0000327 ! femur
+relationship: HAO:attached_to HAO:0001529 ! genuflexor plate
+
+[Term]
+id: HAO:0002539
+name: lock
+def: "The anatomical cluster that is composed of two sclerite surfaces, that are adjacent to each other and that prevent the movement of a joint." [http://api.hymao.org/api/ref/99174]
+is_a: HAO:0000041 ! anatomical cluster
+
+[Term]
+id: HAO:0002540
+name: ventral lock of the femoro-tibial joint
+def: "The lock between a sclerite that is on or continuous with the tibial flexor tendon and the ventral femoral wall." [http://api.hymao.org/api/ref/99174]
+is_a: HAO:0002539 ! lock
+relationship: BFO:0000050 HAO:0001517 ! femoro-tibial joint
+
+[Term]
+id: HAO:0002541
+name: tibial flexor tendon
+def: "The tendon that is connected to the distal end of the tibial flexor muscle." [http://api.hymao.org/api/ref/99174]
+is_a: HAO:0000996 ! tendon
+relationship: BFO:0000050 HAO:0001517 ! femoro-tibial joint
+
+[Term]
+id: HAO:0002542
+name: genuflexor apodeme
+def: "The cuticular invagination at the distal end of the genuflexor sclerite that is adjacent to (articulates with) the outerwall of the tibia." [http://api.hymao.org/api/ref/99174]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0001517 ! femoro-tibial joint
+
+[Term]
+id: HAO:0002543
+name: proximodorsal process of the tibia
+def: "The process that is located laterally (dorsally) on the proximal margin of the tibia and corresponds to the site of insertion of the tibial extensor muscle." [http://api.hymao.org/api/ref/99174]
+is_a: HAO:0000822 ! process
+relationship: BFO:0000050 HAO:0001517 ! femoro-tibial joint
+
+[Term]
+id: HAO:0002544
+name: tibial extensor muscle
+def: "The intrinsic leg muscle that arises laterally (dorsally) of the femur and inserts on the dorsal process of the tibia." [http://api.hymao.org/api/ref/99174]
+relationship: HAO:attached_to HAO:0000327 ! femur
+relationship: HAO:attached_to HAO:0002543 ! proximodorsal process of the tibia
+
+[Term]
+id: HAO:0002545
+name: internal protrusion
+def: "The rim that extends along the distal margin of the ventral femoral wall." [http://api.hymao.org/api/ref/99174]
+intersection_of: HAO:0000900 ! rim
+relationship: BFO:0000050 HAO:0000327 ! femur
+
+[Term]
+id: HAO:0002546
+name: medial tooth of the mandible
+def: "The apical tooth of mandible that is between the dorsal tooth of mandible and the lower tooth." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0001972 ! apical tooth of mandible
+
+[Term]
+id: HAO:0002547
+name: acrosternal calyx
+def: "The paired and concave area on the acrostenite 7 that bears the orifice of type III exocrine glands." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001612 ! acrosternite 7
 
 [Typedef]
 id: RO:0002220
