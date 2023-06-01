@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: hao
-date: 05:03:2021 14:37
+date: 01:06:2023 13:30
 auto-generated-by: mx, see http://purl.oclc.org/NET/mx-database
 default-namespace: HAO
 namespace-id-rule: * HAO:$sequence(7,0,9999999)$
@@ -1656,7 +1656,7 @@ relationship: BFO:0000050 HAO:0000992 ! tarsus
 [Term]
 id: HAO:0000179
 name: basiura
-def: "The area that is the proximal part of the gonossiculus and corresponds to the site of insertion of median parossiculo-gonossiculal muscle." [http://api.hymao.org/api/ref/67791]
+def: "The area that is the proximal part of the gonossiculus and corresponds to the site of insertion of medial penisvalvo-gonossiculal muscle." [http://api.hymao.org/api/ref/67791]
 synonym: "digiura" [http://api.hymao.org/api/ref/68619, http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000385 ! gonossiculus
@@ -1707,8 +1707,9 @@ is_obsolete: true
 [Term]
 id: HAO:0000186
 name: calyx
-def: "The anatomical space that is located anteriorly in the lateral oviduct and which receives the ovariole pedicels." [http://api.hymao.org/api/ref/67841]
+def: "The broadened portion of the lateral oviduct is enlarged and contains virus particles (characterized by bluish autofluorescence)." [http://api.hymao.org/api/ref/99199]
 synonym: "Eierkelch" [http://api.hymao.org/api/ref/36875, http://api.hymao.org/api/ref/68619]
+synonym: "calyx gland" [http://api.hymao.org/api/ref/99201]
 is_a: HAO:0000005 ! anatomical space
 relationship: BFO:0000050 HAO:0000324 ! female genitalia
 
@@ -2043,7 +2044,7 @@ relationship: BFO:0000050 HAO:0001191 ! wing blade
 [Term]
 id: HAO:0000227
 name: costal notch
-def: "The wing membrane that is located between the costal vein and the pterostigma." [http://api.hymao.org/api/ref/67841]
+def: "The short conjunctiva that is located on a wing vein at the anterior wing margin." [http://api.hymao.org/api/ref/67791]
 synonym: "stigmal break" [http://api.hymao.org/api/ref/78461]
 is_a: HAO:0001093 ! wing membrane
 
@@ -2241,7 +2242,7 @@ id: HAO:0000247
 name: distal gonostipo-parossiculal muscle
 def: "The gonostyle/parossiculal muscle that arises distally of the lateral part of the gonostipes and inserts on the distal part of the parossiculus distally of the site of origin of the proximal gonostipo-parossiculal muscle." [http://api.hymao.org/api/ref/67791]
 synonym: "muscle o''" [http://www.schulmeister.us/malereproductivesystem.html]
-is_a: HAO:0002041 ! gonostyle-parossiculal muscle
+is_a: HAO:0002041 ! gonostyle/volsella complex-parossiculal muscle
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 
@@ -2480,6 +2481,7 @@ id: HAO:0000278
 name: dorsolateral cupulo-gonostyle/volsella complex muscle
 def: "The cupulo-gonostyle/volsella complex muscle that arises from the dorsolateral part of the cupula, just laterally of the site of origin of the dorsomedian cupulo-gonostipal muscle, and inserts on the dorsolateral part of the gonostipes." [http://api.hymao.org/api/ref/96550]
 synonym: "dorsolateral cupulo-gonostipal muscle" [http://api.hymao.org/api/ref/67791]
+synonym: "muscle f" [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0002038 ! cupulo-gonostyle/volsella complex muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 relationship: HAO:attached_to HAO:0000238 ! cupula
@@ -2975,6 +2977,7 @@ relationship: BFO:0000050 HAO:0000351 ! fore wing
 id: HAO:0000338
 name: first valvifer
 def: "The area of the first valvifer-first valvula complex that is proximal to the aulax, bears the ninth tergal condyle of the first valvifer and the second valviferal condyle of the first valvifer and is connected to the genital membrane by muscle." [http://api.hymao.org/api/ref/96758]
+synonym: "1. Valvifer" [http://api.hymao.org/api/ref/67823]
 synonym: "coin" [http://api.hymao.org/api/ref/67823]
 synonym: "crosse" [http://api.hymao.org/api/ref/67823]
 synonym: "fulcral plate" [http://api.hymao.org/api/ref/67823]
@@ -3518,6 +3521,7 @@ relationship: BFO:0000050 HAO:0000312 ! external male genitalia
 id: HAO:0000396
 name: harpo-gonomaculal muscle
 def: "The male genitalia muscle that arises form the harpe and inserts on the gonomacula." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle v" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000395 ! harpe
 relationship: HAO:attached_to HAO:0000382 ! gonomacula
@@ -3816,6 +3820,7 @@ is_a: HAO:0001938 ! interocular distance
 id: HAO:0000433
 name: interpenisvalval muscle
 def: "The male genitalia muscle that connects the valvurae." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle x" [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
 
@@ -3875,6 +3880,7 @@ relationship: BFO:0000050 HAO:0000047 ! abdominal sternum 9
 id: HAO:0000441
 name: intervolsellal muscle
 def: "The male genitalia muscle that connects the proximal part of parossiculi." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle y" [http://api.hymao.org/api/ref/67845]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
 
@@ -4444,6 +4450,7 @@ name: mandibular condyle
 def: "The condyle that is located ventrally (posteriorly) on the proximolateral edge of the mandible and inserts into the pleurostomal fossa." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000220 ! condyle
 relationship: BFO:0000050 HAO:0000506 ! mandible
+relationship: BFO:0000050 HAO:0002567 ! posterior cranio-mandibular articulation
 
 [Term]
 id: HAO:0000509
@@ -4507,7 +4514,7 @@ relationship: BFO:0000050 HAO:0000513 ! maxilla
 
 [Term]
 id: HAO:0000516
-name: medial 9th sterno-cupulal muscle
+name: medial S9-cupulal muscle
 def: "The male genitalia muscle that arises from the spiculum and inserts on the gonocondyle." [http://api.hymao.org/api/ref/67791]
 synonym: "muscle 1" [http://api.hymao.org/api/ref/67784, http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "muscle a" [http://api.hymao.org/api/ref/67670]
@@ -6120,7 +6127,8 @@ relationship: BFO:0000050 HAO:0000461 ! larval head
 [Term]
 id: HAO:0000701
 name: parossiculo-penisvalval muscle
-def: "The male genitalia muscle that arises from the proximal apex of the parossiculus and inserts on the medially on the penisvalva. The muscle inserts on the ergot if present." [http://api.hymao.org/api/ref/67791]
+def: "The male genitalia muscle that arises from the proximal apex of the parossiculus and inserts medially on the penisvalva. The muscle inserts on the ergot if present." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle si" [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
@@ -6129,6 +6137,7 @@ relationship: HAO:attached_to HAO:0000703 ! parossiculus
 id: HAO:0000702
 name: parossiculo-phallotremal muscle
 def: "The male genitalia muscle that originates from the parossiculus and inserts on the endophallic membrane around the phallotrema." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle nl" [http://api.hymao.org/api/ref/67845]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
 relationship: HAO:attached_to HAO:0000291 ! endophallus
@@ -6193,10 +6202,9 @@ relationship: BFO:0000050 HAO:0000091 ! aedeagus
 [Term]
 id: HAO:0000708
 name: penisvalvo-endophallal muscle
-def: "The male genitalia muscle that arises from the median surface of the proximal apex of the penisvalva and inserts on the endophallus." [http://api.hymao.org/api/ref/67791]
-is_a: HAO:0001392 ! male genitalia muscle
-relationship: HAO:attached_to HAO:0000707 ! penisvalva
-relationship: HAO:attached_to HAO:0000291 ! endophallus
+synonym: "muscle nb" [http://api.hymao.org/api/ref/67845]
+is_obsolete: true
+comment: synonym to penisvalvo-phallotremal muscle
 
 [Term]
 id: HAO:0000709
@@ -6209,7 +6217,7 @@ relationship: HAO:attached_to HAO:0000707 ! penisvalva
 id: HAO:0000710
 name: penisvalvo-phallotremal muscle
 def: "The male genitalia muscle that arises from the medial surface of the proximal part of the penisvalva and inserts on the endophallus just around the phallotrema." [http://api.hymao.org/api/ref/67791]
-synonym: "muscle n" [http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "muscle nb" [http://api.hymao.org/api/ref/67845]
 is_a: HAO:0001392 ! male genitalia muscle
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
 relationship: HAO:attached_to HAO:0000291 ! endophallus
@@ -6366,6 +6374,7 @@ name: pleurostomal condyle
 def: "The condyle that is located on the anterior (dorsal) margin of the pleurostoma and inserts into the mandibular acetabulum." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000220 ! condyle
 relationship: BFO:0000050 HAO:0000730 ! pleurostoma
+relationship: BFO:0000050 HAO:0001939 ! anterior cranio-mandibular articulation
 
 [Term]
 id: HAO:0000732
@@ -6373,6 +6382,7 @@ name: pleurostomal fossa
 def: "The fossa that is located postero- (ventro-) medially on the pleurostoma and accommodates the mandibular condyle." [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0000353 ! fossa
 relationship: BFO:0000050 HAO:0000234 ! cranium
+relationship: BFO:0000050 HAO:0002567 ! posterior cranio-mandibular articulation
 
 [Term]
 id: HAO:0000733
@@ -7564,7 +7574,7 @@ id: HAO:0000876
 name: proximal gonostipo-parossiculal muscle
 def: "The gonostyle-parossiculal muscle that arises proximally from the lateral part of the gonostipes and inserts on the proximal part of the parossiculus." [http://api.hymao.org/api/ref/67791]
 synonym: "muscle o'" [http://www.schulmeister.us/malereproductivesystem.html]
-is_a: HAO:0002041 ! gonostyle-parossiculal muscle
+is_a: HAO:0002041 ! gonostyle/volsella complex-parossiculal muscle
 relationship: HAO:attached_to HAO:0000703 ! parossiculus
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
 
@@ -7589,6 +7599,7 @@ relationship: BFO:0000050 HAO:0000238 ! cupula
 id: HAO:0000879
 name: proximoventral gonostyle/volsella complex-penisvalval muscle
 def: "The ventral gonostyle/volsella complex-penisvalval muscle that arises ventromedially from the gonostyle/volsella complex, inserts on the proximal end of the penisvalva and is oriented proximodorsally." [http://api.hymao.org/api/ref/96550]
+synonym: "muscle h" [http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "proximoventral gonostipo-penisvalval muscle" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0002052 ! ventral gonostyle/volsella complex-penisvalval muscle
 relationship: HAO:attached_to HAO:0000707 ! penisvalva
@@ -8130,7 +8141,7 @@ relationship: BFO:0000050 HAO:0000566 ! mesopleuron
 [Term]
 id: HAO:0000945
 name: spermatheca
-def: "The pouch that accommodates the sperm." [http://api.hymao.org/api/ref/67791]
+def: "The invagination just proximal to the vagina that accommodates sperms." [http://api.hymao.org/api/ref/67791]
 synonym: "receptaculum seminis" [http://api.hymao.org/api/ref/68619, http://api.hymao.org/api/ref/36875]
 is_a: HAO:0001808 ! pouch
 relationship: BFO:0000050 HAO:0000324 ! female genitalia
@@ -9039,7 +9050,7 @@ is_a: HAO:0000142 ! apodeme
 [Term]
 id: HAO:0001055
 name: ventral bridge of the pronotum
-def: "The area that extends between the ventral ends of the netrion on opposite sides of the pronotum." [http://api.hymao.org/api/ref/67791]
+def: "The area that connects ventrally the left and right halves of the pronotum." [http://api.hymao.org/api/ref/67791]
 synonym: "venter" [http://api.hymao.org/api/ref/36885]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0000853 ! pronotum
@@ -9194,6 +9205,7 @@ relationship: BFO:0000050 HAO:0000862 ! propleuron
 id: HAO:0001074
 name: ventrolateral cupolo-gonostyle/volsella complex
 def: "The cupulo-gonostyle/volsella complex muscle that inserts ventrolaterally on the gonostyle/volsella complex between the site of insertion of the ventromedial and dorsolateral cupulo-gonostyle/volsella complex muscles." [http://api.hymao.org/api/ref/96550]
+synonym: "muscle e" [http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "ventrolateral cupulo-gonostipal muscle" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0002038 ! cupulo-gonostyle/volsella complex muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
@@ -9203,7 +9215,7 @@ relationship: HAO:attached_to HAO:0000238 ! cupula
 id: HAO:0001075
 name: ventromedial cupulo-gonostyle/volsella complex muscle
 def: "The cupulo-gonostyle/volsella complex muscle that inserts medially on the ventral region of the gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
-synonym: "muscle e" [http://www.schulmeister.us/malereproductivesystem.html]
+synonym: "muscle d" [http://www.schulmeister.us/malereproductivesystem.html]
 synonym: "ventromedial cupulo-gonostipal muscle" [http://api.hymao.org/api/ref/67791]
 is_a: HAO:0002038 ! cupulo-gonostyle/volsella complex muscle
 relationship: HAO:attached_to HAO:0000386 ! gonostipes
@@ -11743,6 +11755,7 @@ synonym: "acetabulum" [http://api.hymao.org/api/ref/43275]
 synonym: "mandibular ginglymus" [http://api.hymao.org/api/ref/68560]
 is_a: HAO:0000353 ! fossa
 relationship: BFO:0000050 HAO:0000506 ! mandible
+relationship: BFO:0000050 HAO:0001939 ! anterior cranio-mandibular articulation
 
 [Term]
 id: HAO:0001392
@@ -13477,6 +13490,9 @@ relationship: HAO:attached_to HAO:0001122 ! procoxa
 id: HAO:0001616
 name: ventral T9-second valvifer muscle
 def: "The ovipositor muscle that arises from the lateral region of female T9 and inserts along the posterior part of the dorsal flange of the second valvifer." [http://api.hymao.org/api/ref/78248]
+synonym: "Gonapophysis 8 retractor" [http://api.hymao.org/api/ref/99211]
+synonym: "Posterior tergal muscle of the 2nd valvifer" [http://api.hymao.org/api/ref/67822]
+synonym: "Posterior tergogonocoxal muscle" [http://api.hymao.org/api/ref/99210, http://api.hymao.org/api/ref/67781]
 is_a: HAO:0001290 ! ovipositor muscle
 relationship: HAO:attached_to HAO:0000075 ! T9
 relationship: HAO:attached_to HAO:0000927 ! second valvifer
@@ -15019,6 +15035,8 @@ is_a: HAO:0001114 ! maxillar muscle
 id: HAO:0001815
 name: posterior second valvifer-second valvula muscle
 def: "The ovipositor muscle that arises posteroventrally from the second valvifer and inserts on the processus musculares of the second valvula." [http://api.hymao.org/api/ref/78248]
+synonym: "Posterior gonocoxapophyseal muscle" [http://api.hymao.org/api/ref/67781]
+synonym: "muscle of the furcula" [http://api.hymao.org/api/ref/67822]
 is_a: HAO:0001290 ! ovipositor muscle
 relationship: HAO:attached_to HAO:0000927 ! second valvifer
 relationship: HAO:attached_to HAO:0000928 ! second valvula
@@ -16664,7 +16682,7 @@ relationship: BFO:0000050 HAO:0002033 ! gonostyle/volsella complex
 
 [Term]
 id: HAO:0002041
-name: gonostyle-parossiculal muscle
+name: gonostyle/volsella complex-parossiculal muscle
 def: "The muscle that arises ventromedially from the gonostyle, is proximomedially oriented, and inserts on the proximalmost sclerite of the volsella." [http://api.hymao.org/api/ref/96550]
 synonym: "muscle o" [http://www.schulmeister.us/malereproductivesystem.html]
 is_a: HAO:0001392 ! male genitalia muscle
@@ -17661,7 +17679,7 @@ relationship: BFO:0000050 HAO:0000927 ! second valvifer
 [Term]
 id: HAO:0002173
 name: anterior section of dorsal flange of second valvifer
-def: "The area of the dorsal flange of the second valvifer that is anterior to the site of origin of the basal line." [http://api.hymao.org/api/ref/96758]
+def: "The area of the anterior area of the second valvifer that is anterior to the site of origin of the basal line, continuous with the dorsal flange of the second valvifer and marks the site of origin of the dorsal T9-2nd valvifer muscle part b." [http://api.hymao.org/api/ref/99199]
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001577 ! dorsal flange of the second valvifer
 
@@ -19103,6 +19121,7 @@ name: reticulate
 def: "The sculpture that is composed of scutes." [http://api.hymao.org/api/ref/67791]
 synonym: "alutaceous" [http://api.hymao.org/api/ref/78631]
 synonym: "coriaceous" [http://api.hymao.org/api/ref/36877]
+synonym: "leather-like microsculpture" [http://api.hymao.org/api/ref/97939]
 synonym: "microreticulate" [http://api.hymao.org/api/ref/97914]
 is_a: HAO:0000913 ! sculpture
 
@@ -20269,11 +20288,368 @@ def: "The paired and concave area on the acrostenite 7 that bears the orifice of
 is_a: HAO:0000146 ! area
 relationship: BFO:0000050 HAO:0001612 ! acrosternite 7
 
+[Term]
+id: HAO:0002548
+name: acrotergal calyx
+def: "The concave area on the acrotergite on abdominal tergite 7 that bears the orifice of type III exocrine glands." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000060 ! abdominal tergum 7
+
+[Term]
+id: HAO:0002549
+name: medio-ventral concavity of T6
+def: "The posterior, concave area on the ventral side of the cuticle surface of abdominal tergite 6 corresponds to the acroteral calyx on abdominal tergite 7 when the abdomen is in a retracted position." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001468 ! abdominal mediotergite 7
+
+[Term]
+id: HAO:0002550
+name: tergal apodeme
+def: "The projection on the anterior margin on the abdominal tergite that serves as the site of insertion of lateral intertergal retractor muscle and for the the intertergal extensor muscle." [http://api.hymao.org/api/ref/99175]
+
+[Term]
+id: HAO:0002551
+name: intertergal extensor muscle
+def: "The abdominal muscle that attaches to the tergal apodeme of the abdominal tergite and attaches posterior to the antecostal ridge of the subsequent tergite." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0001118 ! abdominal muscle
+relationship: HAO:attached_to HAO:0002550 ! tergal apodeme
+
+[Term]
+id: HAO:0002552
+name: dorsal intertergal retractor
+def: "The abdominal muscle that attaches to the antecosta of two subsequent abdominal tergites." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0001118 ! abdominal muscle
+relationship: HAO:attached_to HAO:0000098 ! antecosta
+relationship: HAO:attached_to HAO:0001860 ! mediotergite
+
+[Term]
+id: HAO:0002553
+name: lateral intertergal retractor muscle
+def: "The abdominal muscle that attaches to the tergal apodeme of an abdominal tergite and the antecosta of the subsequent tergite." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0001118 ! abdominal muscle
+relationship: HAO:attached_to HAO:0001286 ! occlusor of the propodeal spiracle muscle
+relationship: HAO:attached_to HAO:0000098 ! antecosta
+
+[Term]
+id: HAO:0002554
+name: bulla of the Waterston's evaporatorium
+def: "The smooth, median area on the anterior part of the Waterston's evaportatorium posterior to the antecosta." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0001468 ! abdominal mediotergite 7
+
+[Term]
+id: HAO:0002555
+name: caudal setal row on T7
+def: "The transverse row of setae on the posterior region of abdominal T7." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0000903 ! row of setae
+relationship: BFO:0000050 HAO:0001468 ! abdominal mediotergite 7
+
+[Term]
+id: HAO:0002556
+name: distal crenulate carina
+def: "The transverse carina on the posterior abdominal T7 extending parallel to the caudal setal row on T7." [http://api.hymao.org/api/ref/99175]
+relationship: BFO:0000050 HAO:0001468 ! abdominal mediotergite 7
+
+[Term]
+id: HAO:0002557
+name: submedian patch on abdominal T7
+def: "The patch that is defined by leather-like microsculpture on the anterior region of abdominal T7 lateral to the Waterston's evaporatorium." [http://api.hymao.org/api/ref/99175]
+is_a: HAO:0000704 ! patch
+relationship: BFO:0000050 HAO:0001468 ! abdominal mediotergite 7
+
+[Term]
+id: HAO:0002558
+name: proximomedian lamella of the Waterston's evaporatorium
+def: "The flattened conjunctival invagination at the posterior margin of the Waterston's evaporatorium that folds over the posterior region of the evaporatorium." [http://api.hymao.org/api/ref/99175]
+relationship: BFO:0000050 HAO:0001468 ! abdominal mediotergite 7
+relationship: BFO:0000050 HAO:0002021 ! cuticular invagination
+
+[Term]
+id: HAO:0002559
+name: anterior mesofurcal pit
+def: "The pit that corresponds to the anterior mesofurcal invagination." [http://api.hymao.org/api/ref/99176]
+is_a: HAO:0000718 ! pit
+
+[Term]
+id: HAO:0002560
+name: anterior mesofurcal invagination
+def: "The invagination that arises medioventrally from the mespectus, anterior to the mesofucal pit and is continuous with the invagination of the mesofurca." [http://api.hymao.org/api/ref/99176]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0000557 ! mesopectus
+
+[Term]
+id: HAO:0002561
+name: mesofurcal invagination
+def: "The invagination that forms the mesofurca." [http://api.hymao.org/api/ref/99176]
+is_a: HAO:0002021 ! cuticular invagination
+relationship: BFO:0000050 HAO:0000557 ! mesopectus
+
+[Term]
+id: HAO:0002562
+name: postacetabular pits
+def: "Paired submedian pits located just posterior to the acetabular carina." [http://api.hymao.org/api/ref/99176]
+is_a: HAO:0000718 ! pit
+relationship: BFO:0000050 HAO:0000557 ! mesopectus
+
+[Term]
+id: HAO:0002563
+name: labral digit
+def: "The styloconic sensilla on the apical margin of the labrum." [http://api.hymao.org/api/ref/36922]
+synonym: "labral digits" [http://api.hymao.org/api/ref/36922]
+is_a: HAO:0002211 ! styloconic sensillum
+relationship: BFO:0000050 HAO:0000456 ! labrum
+
+[Term]
+id: HAO:0002564
+name: pleated membrane
+def: "The accordion-like conjunctiva separates the occiput from the rest of the head capsule. The structure arises laterally at the base of the mandible." [http://api.hymao.org/api/ref/36884]
+is_a: HAO:0000221 ! conjunctiva
+relationship: BFO:0000050 HAO:0000398 ! head capsule
+
+[Term]
+id: HAO:0002565
+name: subapical genal tooth
+def: "The projection at the ventral end of the genal carina." [http://api.hymao.org/api/ref/99191]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0001755 ! genal carina
+
+[Term]
+id: HAO:0002566
+name: socketed spine peg
+def: "The flattened mechanosensory hair on the ventral margin of the mandible." [http://api.hymao.org/api/ref/99192]
+is_a: HAO:0001039 ! mechanosensory hair
+relationship: BFO:0000050 HAO:0000506 ! mandible
+
+[Term]
+id: HAO:0002567
+name: posterior cranio-mandibular articulation
+def: "The cranio-mandibular articulation that is composed of the mandibular condyle and the pleurostomal fossa." [http://api.hymao.org/api/ref/96325]
+is_a: HAO:0000151 ! articulation
+relationship: BFO:0000050 HAO:0000234 ! cranium
+
+[Term]
+id: HAO:0002568
+name: median pronotal line
+def: "The line that is located in the anteroposterior median line of the pronotum." [http://api.hymao.org/api/ref/99193]
+is_a: HAO:0001586 ! line
+relationship: BFO:0000050 HAO:0000853 ! pronotum
+
+[Term]
+id: HAO:0002569
+name: posteroventral mesal projection of pronotum
+def: "The projection at the ventromedian margin of the pronotum." [http://api.hymao.org/api/ref/99194]
+is_a: HAO:0000829 ! projection
+relationship: BFO:0000050 HAO:0000853 ! pronotum
+
+[Term]
+id: HAO:0002570
+name: pronotal fossa of the mesopectus
+def: "The fossa that articulates with the posteroventral mesal projection of pronotum." [http://api.hymao.org/api/ref/99195]
+is_a: HAO:0000353 ! fossa
+relationship: BFO:0000050 HAO:0000557 ! mesopectus
+relationship: BFO:0000050 HAO:0002571 ! ventral pronoto-mesopectal articulation
+
+[Term]
+id: HAO:0002571
+name: ventral pronoto-mesopectal articulation
+def: "The articulation between the posteroventral mesal projection of the pronotum and the pronotal fossa of the mesopectus." [http://api.hymao.org/api/ref/99195]
+is_a: HAO:0000151 ! articulation
+relationship: BFO:0000050 HAO:0000576 ! mesosoma
+
+[Term]
+id: HAO:0002572
+name: submedian lines of scutellum
+def: "The submedial anteroposterior sulcus on the mesoscutellar axillar complex that is paired." [http://api.hymao.org/api/ref/99196]
+is_a: HAO:0000978 ! sulcus
+relationship: BFO:0000050 HAO:0000572 ! mesoscutellar-axillar complex
+
+[Term]
+id: HAO:0002573
+name: Membranous region anterior to each mesocoxa
+def: "The notch of the ventral mesopectus on the anterior margin of the mesocoxal foramen." [DOI:10.1071/IS06012]
+is_a: HAO:0000648 ! notch
+relationship: BFO:0000050 HAO:0000557 ! mesopectus
+
+[Term]
+id: HAO:0002574
+name: hyaline break
+def: "The costal notch that is on the submarginal vein near the parastigma." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000227 ! costal notch
+relationship: BFO:0000050 HAO:0000972 ! submarginal vein
+
+[Term]
+id: HAO:0002575
+name: hypochaeta
+def: "The mechanosensory hair that projects backward from the anterior margin of the ventral surface of the forewing." [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+is_a: HAO:0001039 ! mechanosensory hair
+relationship: BFO:0000050 HAO:0000351 ! fore wing
+
+[Term]
+id: HAO:0002576
+name: hairless streak
+def: "A bare region of the forewing immediately beyond the basal setal line behind the parastigma." [http://canacoll.org/Hym/Staff/Gibson/apss/chalglos.htm]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000351 ! fore wing
+
+[Term]
+id: HAO:0002577
+name: muscle nd
+def: "The muscle that arises from the gonossiculus and inserts on the phalloterama." [http://api.hymao.org/api/ref/67791]
+synonym: "gonossiculo-phallotremal muscle" [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0000714 ! phallotrema
+relationship: HAO:attached_to HAO:0000385 ! gonossiculus
+
+[Term]
+id: HAO:0002578
+name: medial penisvalvo-gonossiculal muscle
+def: "The penisvalvo-gonossiculal muscle that is medial to the lateral penisvalvo-gonossiculal muscle and attaches to the basiura." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle n" [http://www.schulmeister.us/malereproductivesystem.html]
+relationship: HAO:attached_to HAO:0000179 ! basiura
+relationship: HAO:attached_to HAO:0000707 ! penisvalva
+
+[Term]
+id: HAO:0002579
+name: lateral penisvalvo-gonossiculal muscle
+def: "The penisvalvo gonossiculal muscle that is lateral to the medial penisvalvo-gonossiculal muscle and attaches to the digiceps" [http://api.hymao.org/api/ref/67791]
+synonym: "muscle m" [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0000641 ! muscle
+is_a: HAO:0000709 ! penisvalvo-gonossiculal muscle
+relationship: HAO:attached_to HAO:0000141 ! apiceps
+relationship: HAO:attached_to HAO:0000707 ! penisvalva
+
+[Term]
+id: HAO:0002580
+name: lateral gonostyle/volsella complex-volsella muscle
+def: "The gonostyle/volsella complex-volsellal muscle that arises laterally of the submedian conjunctiva on the distoventral margin of gonostyle/volsella complex." [http://api.hymao.org/api/ref/96550]
+synonym: "muscle p" [http://www.schulmeister.us/malereproductivesystem.html]
+relationship: HAO:attached_to HAO:0000385 ! gonossiculus
+relationship: HAO:attached_to HAO:0002033 ! gonostyle/volsella complex
+
+[Term]
+id: HAO:0002581
+name: intragonostyle muscle
+def: "The muscle that connects the ventral and dorsal walls of the gonostyle basally." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle w" [http://api.hymao.org/api/ref/67845]
+relationship: HAO:attached_to HAO:0000389 ! gonostyle
+
+[Term]
+id: HAO:0002582
+name: penisvalvo-median sclerotized style muscle
+def: "The muscle that attaches to the median sclerotized style and to the valvura." [http://api.hymao.org/api/ref/67791]
+synonym: "muscle z" [http://www.schulmeister.us/malereproductivesystem.html]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0001050 ! valvura
+relationship: HAO:attached_to HAO:0000531 ! median sclerotized style
+
+[Term]
+id: HAO:0002583
+name: carina mandibularis
+def: "The edge that separates the external and insternal surfaces of the mandible." [http://api.hymao.org/api/ref/99197]
+synonym: "mandibular carina" [http://api.hymao.org/api/ref/99198]
+is_a: HAO:0000285 ! edge
+relationship: BFO:0000050 HAO:0000506 ! mandible
+
+[Term]
+id: HAO:0002584
+name: intertegular distance
+def: "The anatomical line that connects the inner margins of the right and left tegula." [http://api.hymao.org/api/ref/67791]
+is_a: HAO:0000008 ! anatomical line
+relationship: BFO:0000050 HAO:0000576 ! mesosoma
+
+[Term]
+id: HAO:0002585
+name: venom gland
+def: "The accessory gland that is not paired and that empties into the female reproductive duct and that is of class I gland." [http://api.hymao.org/api/ref/99199]
+is_a: HAO:0000078 ! accessory gland
+relationship: BFO:0000050 HAO:0000324 ! female genitalia
+
+[Term]
+id: HAO:0002586
+name: vagina
+def: "The distalmost region of the female genital duct." [http://api.hymao.org/api/ref/99199]
+is_a: HAO:0000893 ! region
+relationship: BFO:0000050 HAO:0000324 ! female genitalia
+
+[Term]
+id: HAO:0002587
+name: 2nd valvifer-vagina muscle
+def: "The muscle that arises from the second valvifer and inserts on the vagina." [http://api.hymao.org/api/ref/99199]
+relationship: HAO:attached_to HAO:0000927 ! second valvifer
+relationship: HAO:attached_to HAO:0002586 ! vagina
+
+[Term]
+id: HAO:0002588
+name: 2nd valvifer-venom gland reservoir muscle
+def: "The muscle that arises from the second valvifer and inserts on the venom gland reservoir." [http://api.hymao.org/api/ref/99199]
+relationship: HAO:attached_to HAO:0000927 ! second valvifer
+relationship: HAO:attached_to HAO:0002176 ! venom gland reservoir of the second valvifer
+
+[Term]
+id: HAO:0002589
+name: ventral wall of the second valvulae
+def: "The ventral, usually weakly sclerotized region of the second valvulae, that is medially continuous with the rachises." [http://api.hymao.org/api/ref/99199]
+is_a: HAO:0000893 ! region
+relationship: BFO:0000050 HAO:0001004 ! terebra
+
+[Term]
+id: HAO:0002590
+name: sperone
+def: "The longitudinal ridge on medially on the internal surface of the distal region of the second valvula. second valvula." [http://api.hymao.org/api/ref/99202]
+is_a: HAO:0000899 ! ridge
+relationship: BFO:0000050 HAO:0000928 ! second valvula
+
+[Term]
+id: HAO:0002591
+name: Dufour's gland
+def: "The accessory gland that is not paired and that empties into the female reproductive duct and that is of class III gland." [http://api.hymao.org/api/ref/99199]
+synonym: "alkaline gland" [http://api.hymao.org/api/ref/99204]
+is_a: HAO:0000078 ! accessory gland
+relationship: BFO:0000050 HAO:0001600 ! ovipositor apparatus
+
+[Term]
+id: HAO:0002592
+name: sensillar row of the 2nd valvifer
+def: "The row of styloconic sensilla along the proximal margin of the anterior area of the second valvifer." [http://api.hymao.org/api/ref/99199]
+synonym: "ramus spines" [http://api.hymao.org/api/ref/99207]
+synonym: "sensilla on edge of the second valvifers" [http://api.hymao.org/api/ref/99206]
+is_a: HAO:0000041 ! anatomical cluster
+relationship: BFO:0000050 HAO:0002169 ! anterior area of the second valvifer
+
+[Term]
+id: HAO:0002593
+name: post-ramus flap
+def: "The distal area of the dorsal projection of the second valvifer that is widened and is flexibly connected to the proximal region of the dorsal projection of the second valvifer." [http://api.hymao.org/api/ref/99199]
+is_a: HAO:0000146 ! area
+relationship: BFO:0000050 HAO:0000927 ! second valvifer
+
+[Term]
+id: HAO:0002594
+name: Medial ridge of the 2nd valvifer
+def: "The ridge that is on the anterior section of the dorsal flange and serves as the site of insertion of T9-2nd valvifer muscle part b." [http://api.hymao.org/api/ref/99199]
+is_a: HAO:0000899 ! ridge
+relationship: BFO:0000050 HAO:0002173 ! anterior section of dorsal flange of second valvifer
+
+[Term]
+id: HAO:0002595
+name: 7th abdominal sternum-vagina muscle
+def: "The muscle that is attached to vagina and to the 7th abdominal sternum." [http://api.hymao.org/api/ref/99199]
+synonym: "vaginal muscle" [http://api.hymao.org/api/ref/68137]
+is_a: HAO:0000641 ! muscle
+relationship: HAO:attached_to HAO:0000044 ! abdominal sternum 7
+relationship: HAO:attached_to HAO:0002586 ! vagina
+
+[Term]
+id: HAO:0002596
+name: Medial 2nd valvifer-2nd valvula muscle
+def: "The muscle that arises anteromedially from the second valvifer and inserts inside the lumen of second valvula." [http://api.hymao.org/api/ref/99199]
+relationship: HAO:attached_to HAO:0000928 ! second valvula
+relationship: HAO:attached_to HAO:0000927 ! second valvifer
+
 [Typedef]
 id: RO:0002220
 name: adjacent to
 is_transitive: true
-is_reflexive: true
 
 [Typedef]
 id: HAO:attached_to
@@ -20296,6 +20672,5 @@ is_anti_symmetric: true
 id: BFO:0000050
 name: part_of
 is_transitive: true
-is_reflexive: true
 is_anti_symmetric: true
 
